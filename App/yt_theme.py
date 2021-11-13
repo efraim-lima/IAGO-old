@@ -21,6 +21,7 @@ import saving
 #git branch <nome da funcionalidade nova> ####para criar projetos paralelos
 #git checkout <nome da funcionalidade nova> ####muda para a branch
 #git merge <nome da funcionalidade nova> ####para unir as branches
+#git branch -D <nome da funcionalidade nova>
 #sudo apt-get install pyhton3
 #sudo apt install python3-virtualenv
 #virtualenv iago

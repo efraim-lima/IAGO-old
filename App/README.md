@@ -1,16 +1,20 @@
-Para iniciar a usar os arquivos do IAGO precisamos, as vezes, instalar coisas e alterar coisas.
+//Para iniciar a usar os arquivos do IAGO precisamos, as vezes, instalar coisas e alterar coisas.
 Para tal criei este guia pra eu mesmo não me perder rsrrs
 
-Segue alguns apontamentos e comandos simples para que eu não esqueça
+//Segue alguns apontamentos e comandos simples para que eu não esqueça
 
 //configurar o git
 //git config --global user.email "efraim.alima@gmail.com"
 //git config --global user.name "Efraim"
 //git add .
+//git remote add origin https://github.com/efraim-lima/IAGO.git
+//git push -u origin master
 //git init
+//git remote -v //para ver os repositórios remotos
 //dir
 //dir <pasta>
 //touch <file.extensão> // para criar um arquivo
+//git push //sobe o repositório local para o online
 //git add <path>
 //git commit -m "sua mensagem" //para salvar um determinado ponto de alteração
 //git log //para mostrar o historico de produção
