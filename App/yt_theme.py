@@ -4,6 +4,14 @@ import layout
 import processing
 import saving
 
+
+####configurar o git
+#git config --global user.email "efraim.alima@gmail.com"
+#git config --global user.name "Efraim"
+#git add .
+#git commit -m "sua mensagem" ###para salvar um determinado ponto de alteração
+#git log ###para mostrar o historico de produção
+#git status ###mostra como está o projeto agora
 #sudo apt-get install pyhton3
 #sudo apt install python3-virtualenv
 #virtualenv iago
