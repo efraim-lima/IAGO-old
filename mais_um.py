@@ -1,7 +1,8 @@
 import datetime
 import pandas as pd
+import numpy as np
 import os.path
-import re
+import re, sys
 from selenium import webdriver
 import os.path
 from bs4 import BeautifulSoup
@@ -9,9 +10,8 @@ from selenium.webdriver.chrome.options import Options
 import PySimpleGUI as sg
 from selenium.webdriver import Chrome
 from webdriver_manager.chrome import ChromeDriverManager
+from tqdm import tqdm
 from time import sleep
-from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver.common.keys import Keys
 
 
 #python -m venv __YT__
@@ -41,7 +41,7 @@ janela = sg.Window('IA5').layout(layout) #### abre a janela de acordo com o Layo
 event, values = janela.read()
 YT_Category = values[0].lower() #### captura o texto dentro da caixa de Texto
 #print = sg.Print
-#print(YT_Category)
+print(YT_Category)
 janela.close()
 
 
@@ -69,9 +69,9 @@ class IA5:
     ]
     # browser = webdriver.Chrome('C:/Users/efrai/Downloads/chromedriver88_win32/chromedriver.exe') #precisa ser onde está instalado o Chromedriver
     chrome_options = Options()
-    chrome_options.add_argument(
-        "-headless"
-    )
+    #chrome_options.add_argument(
+    #    "-headless"
+    #)
     browser = Chrome
     driver = webdriver.Chrome(
             ChromeDriverManager().install(),
@@ -83,14 +83,16 @@ class IA5:
             '{}&sp=CAASAhAC'.format(url)
         )
 
-        #for i in range(1,100):
-        #    sg.one_line_progress_meter(
-        #        'Theme Analysis', 
-        #        i+1, 
-        #        100, 
-        #        'Better Channels',
-        #        'Decrypting Channels\n and Data'
-        #    )
+        parent_handle = driver.window_handles[0]
+
+        for i in range(len(urls)):
+            sg.one_line_progress_meter(
+                'Theme Analysis',
+                i+1,
+                100,
+                'Better Channels',
+                'Decrypting Channels\n and Data'
+            )
 
         driver.maximize_window() # For maximizing window
         driver.execute_script(
@@ -99,6 +101,7 @@ class IA5:
         driver.execute_script(
             "window.scrollTo(0, window.scrollY + 5000)"
         )
+        driver.delete_all_cookies()
 
         content = driver.page_source.encode(
             'utf-8'
@@ -118,18 +121,21 @@ class IA5:
         driver.execute_script(
             "window.scrollTo(0, window.scrollY + 2000)"
         )
-
-        content = soup.find_all(
-            'div',
-            id='text-container'
-        )  # puxa o nome do canal
+        driver.delete_all_cookies()
+        
 
         theme_in = []
-
         channel_name = []
+
         names = driver.find_elements_by_xpath(
             '//*[@id="text"]'
-        )  # puxa o nome do canal
+        )
+        # puxa o nome do canal
+
+        #names = soup.find_all(
+        #    'div',
+        #    id='text-container'
+        #)  # puxa o nome do canal
         for names in names:
             names = names.text
             names = re.sub(
@@ -138,7 +144,8 @@ class IA5:
                 names
             )
             channel_name.append(names)
-            theme_in.append(YT_Category)
+        
+        theme_in.append(YT_Category)
 
         channel_subs = []
         subscribers = soup.find_all(
@@ -194,7 +201,7 @@ class IA5:
             )
 
         theme_data = []
-        for YT_Category, name, subscribers, videos, URL in zip(
+        for YT_Category, names, subscribers, videos, URL in zip(
             theme_in,
             channel_name,
             channel_subs,
@@ -204,7 +211,7 @@ class IA5:
             theme_data.append(
                 {
                 'Category':YT_Category,
-                'Channel': name,
+                'Channel': names,
                 'Inscritos':subscribers,
                 'Videos': videos,
                 'Ch_URL': URL
@@ -227,16 +234,16 @@ class IA5:
                 index=False
             )
 
-            #print(f'\n\n{df1}\n\n')
+            print(f'\n\n{df1}\n\n')
         elif os.path.exists(f'{YT_Category}') and not os.path.exists(f'{YT_Category}/{YT_Category}.csv'):
             #YT.to_csv(f'{YT_Category}/{YT_Category}_data_leitura.csv')
             df1.to_csv(
                 f'{YT_Category}/{YT_Category}.csv',
                 index=False
             )
-            #print('\n\nTema já existe\n Resumo não existe \n\n')
+            print('\n\nTema já existe\n Resumo não existe \n\n')
 
-            #print(f'\n\n{df1}\n\n')
+            print(f'\n\n{df1}\n\n')
         else:
             YT = pd.read_csv(f'{YT_Category}/{YT_Category}.csv')
             for row in YT:
@@ -250,17 +257,17 @@ class IA5:
                 f'{YT_Category}/{YT_Category}.csv', 
                 index=False
             )
-            #print('\nTema já existe')
-            #print(f'\n{YT}\n\n')
+            print('\nTema já existe')
+            print(f'\n{YT}\n\n')
 
 #####################################################################################################################################
 #####################################################################################################################################
 #####################################################################################################################################
 #####################################################################################################################################
-        df1 = pd.DataFrame(theme_data)
-        links = df1['Ch_URL']
-        ch_name = df1['Channel'][1].split('\n')
-        YT_Theme = YT_Category
+        #df1 = pd.DataFrame(theme_data)
+        #links = df1['Ch_URL']
+        #ch_name = df1['Channel'][1].split('\n')
+        #YT_Theme = YT_Category
 
         #def canais_dados(self):
         #    ch_dados = {}
@@ -268,20 +275,23 @@ class IA5:
         #    #browser = webdriver.Chrome('C:/Users/efrai/Downloads/chromedriver88_win32/chromedriver.exe') #precisa ser onde está instalado o Chromedriver
 
         pontuacao = ['(',')',';',':','[',']',',', '"', '|', '"', '/', '\\n']
-        for links in links:
+        for URL in channel_URL:
             driver.get(
-                '{}/videos?view=0&sort=p&flow=grid'.format(links)
+                '{}/videos?view=0&sort=p&flow=grid'.format(URL)
             )
+            if(URL!=len(channel_URL)-1):
+                driver.execute_script("window.open('');")
+                chwd = driver.window_handles
+                driver.switch_to.window(chwd[-1])
             content = driver.page_source.encode ('utf-8').strip()
             soup = BeautifulSoup (
                 content,
                 'lxml'
             )
-
-            driver.maximize_window()
+            driver.delete_all_cookies()
 
             Links = []
-            Links.append(links)
+            Links.append(i in URL)
 
             #for i in range(1,100):
             #    sg.one_line_progress_meter(
@@ -292,7 +302,7 @@ class IA5:
             CH = driver.find_element_by_xpath(
                 "//div[@id='inner-header-container']//div[@id='meta']//ytd-channel-name[@id='channel-name']//div[@id='container']//div[@id='text-container']//yt-formatted-string[@id='text']"
                 ).text
-            #print(f'\n{CH}\n')
+            print(f'\n{CH}\n')
             CH = re.sub('[0-9]|,|\.|/|$|\(|\)|-|\+|:|•\\n', ' ', CH)
             pontuacao = ['(',')',';',':','[',']',',', '"', '|', '"','/', '\\n']
             for i in CH:
@@ -307,7 +317,7 @@ class IA5:
             subscribers = re.sub(' mi de inscritos', ' ', subscribers)
             subscribers = re.sub(' inscritos', ' ', subscribers)
 
-            #print (subscribers)
+            print (subscribers)
 
             video_titles = []
             titles = soup.findAll('a', id='video-title')
@@ -378,7 +388,7 @@ class IA5:
             #print(channels)
 
             df2 = pd.DataFrame(channels)
-            #print(df2)
+            print(df2)
 
             if not os.path.exists(f'{YT_Theme}/canais_{YT_Theme}'):
                 os.mkdir(f'{YT_Theme}/canais_{YT_Theme}')
@@ -421,8 +431,8 @@ class IA5:
                     YT = YT.drop_duplicates()
                     #YT.to_csv(f'{YT_Theme}/canais_{YT_Theme}'_data_leitura.csv')
                     YT.to_csv(f'{YT_Theme}/canais_{YT_Theme}/{CH}.csv', index=False)
-                    #print('\n\nCanal já existe')
-                    #print(f'\n{YT}\n\n')
+                    print('\n\nCanal já existe')
+                    print(f'\n{YT}\n\n')
                 except:
                     os.path.exists(f'{YT_Theme}/canais_{YT_Theme}/{CH}.csv')
                     next
@@ -431,8 +441,8 @@ class IA5:
                 df2.to_csv(f'{YT_Theme}/canais_{YT_Theme}/{CH}.csv', index=False)
                 #df2[f'Subs{today}'] = subscribers
                 #df2[f'View{today}'] = views
-                #print('\n\nTema já existe\n Canal não existe \n')
-                #print(f'{df2}\n\n')
+                print('\n\nTema já existe\n Canal não existe \n')
+                print(f'{df2}\n\n')
 
             #df2.to_csv(f'{YT_Theme}/canais_{YT_Theme}/{CH}_df_l.csv')
             #print(f'\n\n {df2} \n\n')
@@ -460,22 +470,24 @@ class IA5:
             videos = []
             for links in links:
 
-                driver.get(
-                    f'{links}'
-                ) ## estudando 
+                driver.get(f'{links}') ## estudando
                 content = driver.page_source.encode ('utf-8').strip()
-                soup = BeautifulSoup (
-                    content, 
-                'lxml'
-                )
-                action = ActionChains(driver)
-                action.key_down(Keys.CONTROL).send_keys('K').key_up(Keys.CONTROL).perform()
+                soup = BeautifulSoup (content, 'lxml')
+
+                for i in range(1,100):
+                    sg.one_line_progress_meter(
+                        'Videos',
+                        i+6,
+                        100,
+                        'Better Videos',
+                        'Decrypting the metadata\n of each video'
+                    )
 
                 title = []
                 try:
                     ti =  driver.find_element_by_xpath(
                         '//[@id="container"]/h1/yt-formatted-string'
-                                                        ).text
+                        ).text
                     title.append(ti)
                     #print(title)
                 except:
@@ -492,39 +504,13 @@ class IA5:
                     "//div[@id='count']/ytd-video-view-count-renderer/span"
                     ).text
                 vie = vi.replace(
-                    ' visualização',''
+                    ' visualização', 
+                    ''
                     )
-                vie = vie.replace(
-                    '.', ''
-                )
-                view = vie.replace(
-                    ' visualizações', ''
-                ) #soup.find('span', {'class':'view-count style-scope ytd-video-view-count-renderer'})
+                vie = vie.replace('.', '')
+                view = vie.replace(' visualizações', '') #soup.find('span', {'class':'view-count style-scope ytd-video-view-count-renderer'})
                 views.append(view)
                 #print(views)
-
-                captions = []
-                try:
-                    driver.find_element_by_xpath(
-                        "//div[3]/div/ytd-menu-renderer/yt-icon-button/button/yt-icon" #este caminho está TOTALMENTE certo
-                        ).click()
-                    icon = driver.find_element_by_xpath(
-                        "/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-menu-popup-renderer/tp-yt-paper-listbox"
-                        )
-                    icon = icon.find_element_by_xpath(
-                        "//yt-formatted-string[contains(text(),'Abrir transcrição')]"
-                    ).click()
-
-                    #ESPERANDO APARECER A JANELA DE LEGENDA
-                    #box = WebDriverWait(driver, 2).until(
-                    #EC.presence_of_element_located((By.XPATH, '//*[@id="body"]/ytd-transcript-body-renderer')))
-                    sleep(1)
-                    transcriptions = driver.find_element_by_xpath(
-                        '//*[@id="body"]/ytd-transcript-body-renderer'
-                    )
-                    captions.append(transcriptions.text)
-                except:
-                    captions.append('No captions')
 
                 comments = []
                 driver.maximize_window() # For maximizing window
@@ -534,7 +520,9 @@ class IA5:
                 driver.execute_script(
                     "window.scrollTo(0, window.scrollY + 500)"
                     )
-                driver.implicitly_wait(1)
+                driver.implicitly_wait(5)
+                driver.delete_all_cookies()
+
                 try:
                     comment = driver.find_element_by_css_selector(
                         'ytd-comments div h2 yt-formatted-string > span'
@@ -545,9 +533,7 @@ class IA5:
                 finally:
                     pass
 
-                comment = comment.replace(
-                    '.', ''
-                )
+                comment = comment.replace('.', '')
                 comments.append(comment)
 
                 #print(comments)
@@ -570,8 +556,9 @@ class IA5:
                 else:
                     like = driver.find_element_by_css_selector(
                         '.ytd-video-primary-info-renderer > #top-level-buttons-computed > .style-scope:nth-child(1) #button > #button > .style-scope'
-                    )
+                        )
                     likes.append(like.text)
+
 
                 descriptions = []
                 description = driver.find_element_by_xpath(
@@ -579,18 +566,6 @@ class IA5:
                 ).text
                 #for items in description:
                 descriptions.append(description)
-                #print(f'Descr.: {description}')
-
-                #icon = driver.find_element_by_css_selector('div.style-scope.ytd-app:nth-child(12) ytd-page-manager.style-scope.ytd-app:nth-child(4) ytd-watch-flexy.style-scope.ytd-page-manager.hide-skeleton div.style-scope.ytd-watch-flexy:nth-child(8) div.style-scope.ytd-watch-flexy:nth-child(1) div.style-scope.ytd-watch-flexy div.style-scope.ytd-watch-flexy:nth-child(11) div.style-scope.ytd-watch-flexy ytd-video-primary-info-renderer.style-scope.ytd-watch-flexy div.style-scope.ytd-video-primary-info-renderer:nth-child(3) div.style-scope.ytd-video-primary-info-renderer:nth-child(6) div.style-scope.ytd-video-primary-info-renderer:nth-child(4) div.style-scope.ytd-video-primary-info-renderer:nth-child(1) ytd-menu-renderer.style-scope.ytd-video-primary-info-renderer yt-icon-button.dropdown-trigger.style-scope.ytd-menu-renderer button.style-scope.yt-icon-button > yt-icon.style-scope.ytd-menu-renderer')
-                #icon.click()
-                #try:
-                #    views = soup.findAll('s%pan', class_='view-count style-scope ytd-video-view-count-renderer')
-                #    print(views)
-                #except:
-
-                #final = video_titles.append([video_views, video_urls])
-                #print(final)
-                #videos = []
 
                 keywords = []
                 key = driver.find_element_by_xpath(
@@ -601,8 +576,13 @@ class IA5:
                 keywords.append(key)
                 #print(keywords)
 
-                for title, views, comments, likes, descriptions, transcriptions, keywords in zip(
-                    title, views, comments, likes, descriptions, captions, keywords
+                for title, views, comments, likes, descriptions, keywords in zip(
+                    title,
+                    views,
+                    comments,
+                    likes,
+                    descriptions,
+                    keywords
                 ):
                     videos.append(
                         {
@@ -611,30 +591,91 @@ class IA5:
                         'Comments': comment,
                         'Likes': likes,
                         'Description': descriptions,
-                        'Captions': transcriptions,
                         'Tags': keywords
-                        }
-                        )
+                    }
+                    )
 
                 df2 = pd.DataFrame(videos)
-                #print(f'\n\n {df2} \n\n')
-
-                if not os.path.exists(f'{YT_Theme}/descricoes_{YT_Theme}'):
-                    os.mkdir(f'{YT_Theme}/descricoes_{YT_Theme}')
-                else:
-                    print('\n Canal já existe \n')
-
-                df2 = pd.DataFrame(videos)
-                pontuacao = ['(',')',';',':','[',']',',', '"', '|', '"']
-                for i in name:
-                    if i in pontuacao in name:
-                        name.replace(i in pontuacao, ' ')
-
-                df2.to_csv(f'{YT_Theme}/descricoes_{YT_Theme}/{name}', index=False)
-                #df2.to_csv(f'{YT_Theme}/descricoes_{YT_Theme}/{Canal}_df_l.csv')
                 print(f'\n\n {df2} \n\n')
 
-        driver.quit()
+
+            #for title, views, comments, likes, descriptions, keywords in zip(title, views, comments, likes, descriptions, keywords):
+            #    videos.append({'Title': title, 'Views': views, 'Comments': comment, 'Likes': likes, 'Description': descriptions, 'Tags': keywords})
+
+            if not os.path.exists(f'{YT_Theme}/descricoes_{YT_Theme}'):
+                os.mkdir(f'{YT_Theme}/descricoes_{YT_Theme}')
+            else:
+                print('')
+
+            df2 = pd.DataFrame(videos)
+            pontuacao = ['(',')',';',':','[',']',',', '"', '|', '"', '/', '\\n']
+
+            name = re.sub(
+                '[0-9]|,|\.|/|$|\(|\)|-|\+|:|•',
+                ' ',
+
+                name
+            )
+            for i in name:
+                if i in name in pontuacao:
+                    name.replace(i in pontuacao, '')
+
+            df2.to_csv(f'{YT_Theme}/descricoes_{YT_Theme}/{name}.csv', index=False)
+            #df2.to_csv(f'{YT_Theme}/descricoes_{YT_Theme}/{Canal}_df_l.csv')
+            print(f'\n\n {df2} \n\n')
+
+
+        theme_full = []
+        for YT_Theme, subscribers, URL, title, date, views, comments, likes, descriptions, keywords in zip(
+            YT_Theme,
+            channel_URL,
+            subscribers,
+            title,
+            video_date,
+            views,
+            comments,
+            likes,
+            descriptions,
+            keywords
+
+            ):
+            theme_full.append(
+                {
+                'Theme': YT_Theme,
+                'URL': URL,
+                'Subscribers': subscribers,
+                'Title': title,
+                'Date':video_date,
+                'Views': views,
+                'Comments': comments,
+                'Likes': likes,
+                'Description': descriptions,
+                'Tags': keywords
+                }
+            )
+        #print(theme_full)
+
+        if not os.path.exists(f'{YT_Theme}/series_{YT_Theme}'):
+            os.mkdir(f'{YT_Theme}/series_{YT_Theme}')
+        else:
+            pass
+
+        df_series = pd.DataFrame(theme_full)
+        pontuacao = ['(',')',';',':','[',']',',', '"', '|', '"', '/', '\\n']
+
+        name = re.sub('[0-9]|,|\.|/|$|\(|\)|-|\+|:|•', ' ', name)
+        for i in name:
+            if i in name in pontuacao:
+                name.replace(i in pontuacao, ' ')
+
+        df_series.to_csv(f'{YT_Theme}/series_{YT_Theme}/{name}.csv', index=False)
+        #df2.to_csv(f'{YT_Theme}/descricoes_{YT_Theme}/{Canal}_df_l.csv')
+        print(f'\n\n {df_series} \n\n')
+
+        #for i in range(1,100):
+        #   sg.one_line_progress_meter('Saving', i+6, 100, 'Saving Data','Saving the data in \n X:/ folder')
+
+    driver.quit()
     theme()
 sg.popup_ok(
     'Your datasets are in Instalation File'
