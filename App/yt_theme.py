@@ -9,6 +9,10 @@ import saving
 #git config --global user.email "efraim.alima@gmail.com"
 #git config --global user.name "Efraim"
 #git add .
+#git init
+#dir
+#dir <pasta>
+#git add <path>
 #git commit -m "sua mensagem" ###para salvar um determinado ponto de alteração
 #git log ###para mostrar o historico de produção
 #git status ###mostra como está o projeto agora
