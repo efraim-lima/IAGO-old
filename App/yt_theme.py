@@ -12,10 +12,15 @@ import saving
 #git init
 #dir
 #dir <pasta>
+#touch <file.extensão> #### para criar um arquivo
 #git add <path>
 #git commit -m "sua mensagem" ###para salvar um determinado ponto de alteração
 #git log ###para mostrar o historico de produção
 #git status ###mostra como está o projeto agora
+#git show <codigo do git log> ####para mostrar as alterações
+#git branch <nome da funcionalidade nova> ####para criar projetos paralelos
+#git checkout <nome da funcionalidade nova> ####muda para a branch
+#git merge <nome da funcionalidade nova> ####para unir as branches
 #sudo apt-get install pyhton3
 #sudo apt install python3-virtualenv
 #virtualenv iago
