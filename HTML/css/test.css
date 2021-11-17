@@ -1,0 +1,79 @@
+/* # = id . = class */
+
+body {
+    background:rgb(235, 235, 235);
+    max-height: auto;
+    max-width: auto;
+    margin: auto;
+    background-image: url(
+        background_body.jpg
+    );
+    background-size: cover;
+    text-align: center justify;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    /*background-image: url(student.jpg);*/
+    background-size: cover;
+    text-orientation: center;
+    text-align: center justify;
+}
+
+#logo {
+    transform: translate(-50%, -50%);
+}
+#title, aside  {
+    color:rgb(40, 173, 250);
+    font-size: 100;
+    font-style: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center justify;
+    margin: 0;
+}
+
+.paragraph, subtitle {
+    color: rgb(0, 34, 54);
+    font-style: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    font-variant-position: super;
+    text-align: center justify;
+    margin: 0;
+}
+
+.subtitle {
+    background:rgb(255, 255, 255);
+    border-radius: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    /*background-image: url(blog-gd0c48dc3a_1920.jpg);*/
+    text-align: center justify;
+    padding: 15px 10px 5px 0;
+    border-top: 3px solid rgb(11, 196, 5);
+    border-right: 3px solid rgb(11, 196, 5);
+    border-left: 3px solid rgba(247, 22, 255, 0.753);
+    border-bottom: 3px solid rgb(240, 13, 248);
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.eta {
+    color:rgb(1, 82, 129);
+    margin: 0;
+}
+
+footer {
+    background: rgb(0, 34, 54);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-orientation: inherit;
+    text-align: center justify;
+    margin: auto;
+    max-width: auto;
+    max-height: auto;
+}
+
+#list {
+    list-style-type: none;
+    margin: 50;
+}
