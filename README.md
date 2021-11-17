@@ -24,6 +24,11 @@ ssh -T git@github.com
 //Após todas as configurações basta fazer o clone.
 git clone <URL do projeto>
 
+//os comandos que serão mais utilizados:
+//git add <path>
+//git commit -m "sua mensagem" //para salvar um determinado ponto de alteração
+//git push //sobe o repositório local para o online
+
 //configurar o git
 //git config --global user.email "efraim.alima@gmail.com"
 //git config --global user.name "Efraim"
@@ -35,9 +40,9 @@ git clone <URL do projeto>
 //dir
 //dir <pasta>
 //touch <file.extensão> // para criar um arquivo
-//git push //sobe o repositório local para o online
 //git add <path>
 //git commit -m "sua mensagem" //para salvar um determinado ponto de alteração
+//git push //sobe o repositório local para o online
 //git log //para mostrar o historico de produção
 //git status //mostra como está o projeto agora
 //git show <codigo do git log> //para mostrar as alterações
@@ -45,6 +50,9 @@ git clone <URL do projeto>
 //git checkout <nome da funcionalidade nova> //muda para a branch
 //git merge <nome da funcionalidade nova> //para unir as branches
 //git branch -D <nome da funcionalidade nova>
+
+//Confgurando o ambiente Python pra o crowler
+
 //sudo apt-get install pyhton3
 //sudo apt install python3-virtualenv
 //virtualenv iago
