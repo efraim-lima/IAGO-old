@@ -26,6 +26,7 @@ git clone <URL do projeto>
 
 //os comandos que serão mais utilizados:
 //git add <path>
+//git add * //para adicionar tudo dos arquivos
 //git commit -m "sua mensagem" //para salvar um determinado ponto de alteração
 //git push //sobe o repositório local para o online
 
