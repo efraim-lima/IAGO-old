@@ -137,4 +137,4 @@ def channel(name, df, *args, **kwargs):
 
         #print(canais_1)
         #print(name)
-channel('pastel', pd.read_csv('/home/efraim/Documentos/IAGO/IAGO/pastel/pastel.csv'))
+#channel('pastel', pd.read_csv('/home/efraim/Documentos/IAGO/IAGO/pastel/pastel.csv'))
