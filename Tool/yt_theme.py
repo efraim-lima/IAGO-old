@@ -3,6 +3,7 @@ import config
 import layout
 import processing
 import saving
+from selenium.webdriver.common.by import By
 
 #sudo apt-get install pyhton3
 #sudo apt install python3-virtualenv
@@ -10,7 +11,8 @@ import saving
 #source iago/bin/activate
 #sudo pip install
 #sudo apt-get install python3-tk
-#BeautifulSoup
+#bs4
+#selenium
 #webdriver-manager
 #PySimpleGUI
 #lxml
@@ -23,6 +25,7 @@ def theme():
     # browser = webdriver.Chrome('C:/Users/efrai/Downloads/chromedriver88_win32/chromedriver.exe') #precisa ser onde está instalado o Chromedriver
 
     driver = config.webDriver()
+    #By = config.modBy()
 
     for url in urls:
         driver.get(
@@ -34,12 +37,14 @@ def theme():
         theme_in = []
 
         channel_name = []
-        names = driver.find_elements_by_css_selector(
+        names = driver.find_elements(
+            By.CSS_SELECTOR,
             '#channel-title'
         )  # puxa o nome do canal
 
         for names in names:
-            names = names.find_element_by_css_selector(
+            names = names.find_element(
+                By.CSS_SELECTOR,
                 '#text'
             )
             names = names.text
@@ -48,7 +53,8 @@ def theme():
             name = channel_name.append(processing.processing(names))
 
         channel_subs = []
-        subscribers = driver.find_elements_by_xpath(
+        subscribers = driver.find_elements(
+            By.XPATH, 
             '//*[@id="subscribers"]'
         )
         for subscribers in subscribers:
@@ -56,7 +62,8 @@ def theme():
             subscribers = channel_subs.append(processing.processing(v))
 
         channel_videos = []
-        video_count = driver.find_elements_by_xpath(
+        video_count = driver.find_elements(
+            By.XPATH,
             '//*[@id="video-count"]'
             )
         for video_count in video_count:
@@ -64,7 +71,8 @@ def theme():
             videos = channel_videos.append(processing.processing(v))
 
         channel_URL = []
-        channel_urls = driver.find_elements_by_xpath(
+        channel_urls = driver.find_elements(
+            By.XPATH,
             '//*[@id="main-link"]'
         )
         for channel_urls in channel_urls:
@@ -98,5 +106,4 @@ def theme():
 
         saving.save_theme(YT_Category, df)
         return YT_Category, df
-theme()
 

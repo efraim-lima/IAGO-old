@@ -2,6 +2,7 @@ import pandas as pd
 import config
 import processing
 import datetime
+import saving
 
 def channel(name, df, *args, **kwargs):
     #if not os.path.exists(f'{name}/{name}.csv'):
@@ -17,16 +18,17 @@ def channel(name, df, *args, **kwargs):
     #    links = df['Ch_URL']
     #    print(links)
 
-    
-    YT_Theme = name
+    #pd.read_csv(f'{name}/{name}.csv')
 
-    #pd.read_csv(f'{YT_Theme}/{YT_Theme}.csv')
     links = df['Ch_URL']
+    print(links)
 
-    driver = config.webDriver()
 
-    pontuacao = ['(',')',';',':','[',']',',', '"', '|', '"', '/', '\\n']
+    #pontuacao = ['(',')',';',':','[',']',',', '"', '|', '"', '/', '\\n']
     for links in links:
+        driver = config.webDriver()
+        By = config.modBy()
+        
         driver.get(
             '{}/videos?view=0&sort=p&flow=grid'.format(links)
         )
@@ -35,7 +37,7 @@ def channel(name, df, *args, **kwargs):
 
         theme_in = []
         for i in links:
-            theme_in.append(YT_Category)
+            theme_in.append(name)
         Links = []
         Links.append(links)
 
@@ -44,39 +46,45 @@ def channel(name, df, *args, **kwargs):
         #        'Channels', i+2, 100, 'Better Videos','Decrypting the better\n videos in the Channels'
         #        ) #apenas um progress bar genérico (ainda não sei fazer um progress bar realmente útil)
 
-        content = driver.page_source.encode(
-            'utf-8'
-        ).strip()
-
-        CH = driver.find_element_by_xpath(
+        CH = driver.find_element(
+            By.XPATH,
             "//div[@id='inner-header-container']//div[@id='meta']//ytd-channel-name[@id='channel-name']//div[@id='container']//div[@id='text-container']//yt-formatted-string[@id='text']"
             ).text
         #print(f'\n{CH}\n')
         CH = processing.processing(CH)
         
-        subscribers = driver.find_element_by_xpath(
+        subscribers = driver.find_element(
+            By.XPATH,
             "//yt-formatted-string[@id='subscriber-count']"
             ).text
         subscribers = processing.processing(subscribers)
         #channel_videos.append(subscribers)
 
         video_titles = []
-        titles = driver.find_elements_by_css_selector(
+        titles = driver.find_elements(
+            By.CSS_SELECTOR,
             '#video-title'
         )
         for titles in titles:
-            video_titles.append(titles.get('title'))
+            video_titles.append(titles.get_attribute('title'))
         #video_titles = pd.DataFrame({'Title':video_titles})
         #print(video_titles)
 
         video_views = []
-        views = driver.find_elements_by_xpath('//*[@id="metadata-line"]/span[1]')    
-        v = views.text
-        view = processing.processing(v)
-        video_views.append(view)
+        views = driver.find_elements(
+            By.XPATH,
+            '//*[@id="metadata-line"]/span[1]'
+            )
+        for view in views:    
+            v = view.text
+            view = processing.processing(v)
+            video_views.append(view)
 
         video_date = []
-        dates = driver.find_elements_by_xpath('//*[@id="metadata-line"]/span[2]')
+        dates = driver.find_elements(
+            By.XPATH,
+            '//*[@id="metadata-line"]/span[2]'
+            )
         for dates in dates:
             d = dates.text
             video_date.append(d)
@@ -84,7 +92,8 @@ def channel(name, df, *args, **kwargs):
         #video_views = pd.DataFrame(video_views)
 
         video_urls = []
-        URLs = driver.find_elements_by_css_selector(
+        URLs = driver.find_elements(
+            By.CSS_SELECTOR,
             '#video-title'
         )
         for URLs in URLs:
@@ -98,7 +107,7 @@ def channel(name, df, *args, **kwargs):
         today = str(today)
 
         channels = []
-        for YT_Category, titles, views, dates, urls in zip(
+        for name, titles, views, dates, urls in zip(
             theme_in,
             video_titles,
             video_views,
@@ -107,7 +116,7 @@ def channel(name, df, *args, **kwargs):
         ):#titles, views, URLs, tags, keywords
             channels.append(
                 {
-                    'Category':YT_Category,
+                    'Category':name,
                     'Channel': CH,
                     'Ch_URL': links,
                     'Titles': titles,
@@ -120,11 +129,12 @@ def channel(name, df, *args, **kwargs):
                 )
         #print(channels)
 
-        df2 = pd.DataFrame(channels)
-        
+        df = pd.DataFrame(channels)
+        saving.channel(name, df, CH)
 
-        return df2, YT_Category, CH
+        return name, df, CH
 
 
         #print(canais_1)
-        #print(YT_Theme)
+        #print(name)
+channel('pastel', pd.read_csv('/home/efraim/Documentos/IAGO/IAGO/pastel/pastel.csv'))
