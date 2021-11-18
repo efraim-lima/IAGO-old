@@ -54,7 +54,7 @@ def channel(YT_Theme, df, CH, *args, **kwargs):
                 df,
                 how='outer',
 
-                left_on=[
+                on=[
                     'Category',
                     'Channel',
                     'Ch_URL',
@@ -62,14 +62,14 @@ def channel(YT_Theme, df, CH, *args, **kwargs):
                     'Videos',
                     'Date'
                 ],
-                right_on=[
-                    'Category',
-                    'Channel',
-                    'Ch_URL',
-                    'Video_URL',
-                    'Videos',
-                    'Date'
-                ],
+                # right_on=[
+                #     'Category',
+                #     'Channel',
+                #     'Ch_URL',
+                #     'Video_URL',
+                #     'Videos',
+                #     'Date'
+                # ],
                 suffixes=(
                     '',
                     '_drop'
