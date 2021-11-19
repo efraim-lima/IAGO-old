@@ -4,9 +4,7 @@ body {
     background:rgb(235, 235, 235);
     max-height: auto;
     max-width: auto;
-    background-image: url(
-        background_body.jpg
-    );
+    background-image: src="../img/background_body.jpg";
     background-size: cover;
     text-align: center justify;
 }
