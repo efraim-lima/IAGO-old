@@ -4,7 +4,6 @@ body {
     background:rgb(235, 235, 235);
     max-height: auto;
     max-width: auto;
-    margin: auto;
     background-image: url(
         background_body.jpg
     );
@@ -14,15 +13,17 @@ body {
 
 header {
     background-color: rgb(255, 255, 255);
-    margin: 0;
     /*background-image: url(student.jpg);*/
     background-size: cover;
     text-orientation: center;
     text-align: center justify;
+    outline: none;
 }
 
 #logo {
+    position: fixed;
     transform: translate(-50%, -50%);
+    image-orientation: center;
 }
 #title, aside  {
     color:rgb(40, 173, 250);
@@ -30,7 +31,6 @@ header {
     font-style: bold;
     font-family:Arial, Helvetica, sans-serif;
     text-align: center justify;
-    margin: 0;
 }
 
 .paragraph, subtitle {
@@ -39,7 +39,6 @@ header {
     font-family:Arial, Helvetica, sans-serif;
     font-variant-position: super;
     text-align: center justify;
-    margin: 0;
 }
 
 .subtitle {
@@ -53,13 +52,10 @@ header {
     border-right: 3px solid rgb(11, 196, 5);
     border-left: 3px solid rgba(247, 22, 255, 0.753);
     border-bottom: 3px solid rgb(240, 13, 248);
-    margin: 0;
-    margin-bottom: 15px;
 }
 
 .eta {
     color:rgb(1, 82, 129);
-    margin: 0;
 }
 
 footer {
@@ -68,12 +64,10 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     text-orientation: inherit;
     text-align: center justify;
-    margin: auto;
     max-width: auto;
     max-height: auto;
 }
 
 #list {
     list-style-type: none;
-    margin: 50;
 }

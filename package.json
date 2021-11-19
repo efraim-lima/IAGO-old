@@ -1,0 +1,48 @@
+{
+  "name": "iago",
+  "version": "1.0.0",
+  "description": "iago is an artificial inteligence that increases your content analysis and content creation. In simple words IAGO is your mean lean content machine.",
+  "main": "index.js",
+  "dependencies": {
+    "time-stamp": "^2.2.0"
+  },
+  "devDependencies": {
+    "gltf-webpack-loader": "^1.0.6",
+    "three": "^0.134.0",
+    "webpack": "^5.64.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/efraim-lima/IAGO.git"
+  },
+  "keywords": [
+    "content",
+    "machine",
+    "artificial",
+    "inteligence",
+    "content",
+    "analyser",
+    "web",
+    "scrape",
+    "website",
+    "creation",
+    "python",
+    "javascript",
+    "css",
+    "html",
+    "webgl",
+    "gltf",
+    "three.js",
+    "3D",
+    "models"
+  ],
+  "author": "Efraim Lima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/efraim-lima/IAGO/issues"
+  },
+  "homepage": "https://github.com/efraim-lima/IAGO#readme"
+}

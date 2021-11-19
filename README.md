@@ -64,3 +64,35 @@ git clone <URL do projeto>
 //webdriver-manager
 //PySimpleGUI
 //lxml
+
+
+//PARA TRABALHAR COM WEBGJ E THREE.JS
+
+//criar uma pasta para receber os arquivos do clone
+git clone https://github.com/designcourse/threejs-webpack-starter.git
+cd ./<pasta onde criamos o clone>
+npm i
+npm run dev //abre o servidor onde está a imagem ja criada
+
+
+
+
+
+
+
+
+//cancelei esse caminho abaixo
+
+//Instalando o npm
+//sudo apt-get install npm
+//npm install --save three
+//npm init
+//npm install time-stamp
+
+//depois basta ir no site direcionado pelo link a seguir:
+https://www.npmjs.com/package/gltf-webpack-loader
+
+//instalar o webpack
+sudo apt install cmdtest
+yarn add gltf-webpack-loader -D
+npm install --save-dev webpack

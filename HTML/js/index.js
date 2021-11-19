@@ -1,0 +1,1 @@
+import * as THREE from 'HTML/three/build/three.module.js'
