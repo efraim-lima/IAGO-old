@@ -8,7 +8,7 @@ import {OrbitControls} from './three/examples/jsm/controls/OrbitControls.js'
     scene.background = new THREE.Color(0xdddddd);
 
     const loader = new GLTFLoader();
-    loader.load('./assets/skateboard.gltf', function(gltf){
+    loader.load('./assets/wraith.glb', function(gltf){
         console.log(gltf);
         scene.add(gltf.scene);
         const root = gltf.scene;

@@ -1,0 +1,13 @@
+.images{
+    display: flex;
+    flex-flow: row wrap;
+    padding:10px;
+  }
+
+.ppl-33 {
+    width: 33%;
+}
+
+.ppl-50 {
+    width: 50%;
+}

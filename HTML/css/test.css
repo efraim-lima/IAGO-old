@@ -4,23 +4,22 @@ body {
     background:rgb(235, 235, 235);
     max-height: auto;
     max-width: auto;
-    background-image: src="../img/background_body.jpg";
-    background-size: cover;
-    text-align: center justify;
 }
 
 header {
     background-color: rgb(255, 255, 255);
     /*background-image: url(student.jpg);*/
-    background-size: cover;
     text-orientation: center;
-    text-align: center justify;
     outline: none;
+}
+
+nav {
+    position: fixed;
 }
 
 #logo {
     position: fixed;
-    transform: translate(-50%, -50%);
+    transform: translate(0, -50%);
     image-orientation: center;
 }
 #title, aside  {
@@ -46,8 +45,8 @@ header {
     /*background-image: url(blog-gd0c48dc3a_1920.jpg);*/
     text-align: center justify;
     padding: 15px 10px 5px 0;
-    border-top: 3px solid rgb(11, 196, 5);
-    border-right: 3px solid rgb(11, 196, 5);
+    border-top: 3px solid rgb(6, 141, 182);
+    border-right: 3px solid rgb(6, 141, 182);
     border-left: 3px solid rgba(247, 22, 255, 0.753);
     border-bottom: 3px solid rgb(240, 13, 248);
 }
@@ -61,9 +60,6 @@ footer {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-orientation: inherit;
-    text-align: center justify;
-    max-width: auto;
-    max-height: auto;
 }
 
 #list {
