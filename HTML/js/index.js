@@ -36,7 +36,7 @@ scene.add( canvas );
 camera.position.z = 5;
 
 const loader = new GLTFLoader();
-loader.load('./asse.gltf', function(gltf){
+loader.load('./assets/skateboard.gltf', function(gltf){
     console.log(gltf);
     scene.add(gltf.scene);
     const root = gltf.scene;
@@ -65,3 +65,7 @@ function animate() {
     //canvas.rotation.y += 0.01;
 }
 animate();
+
+// const modelDiv = document.getElementsByClassName('webgl');
+// modelDiv.appendChild(renderer);
+// renderer.setSize(modelDiv.offsetWidth, modelDiv.offsetHeight);
