@@ -16,6 +16,8 @@ renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
 renderer.shadowMap.enabled = true
 renderer.gammaOutput = true
 document.body.appendChild( renderer.domElement );
+//document.addEventListener('mousemove', onDocumentMouseMove, false);
+
 
 const geometry = new THREE.BoxBufferGeometry(2,2,2);
 const material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
@@ -34,11 +36,14 @@ scene.add( canvas );
 camera.position.z = 5;
 
 const loader = new GLTFLoader();
-loader.load('./assets/skateboard.gltf', function(gltf){
+loader.load('./assets/adamHead/', function(gltf){
     console.log(gltf);
     scene.add(gltf.scene);
     const root = gltf.scene;
-    root.scale.set(0.1, 0.1, 0.1)
+    root.scale.set(0.1, 0.1, 0.1);
+    gltf.scene.position.set(1,1,1);
+    scene.add( gltf.scene );
+    console.log(gltf.scene.children[0])
 }, function(xhr){
     console.log((xhr.loaded/xhr.total * 100) + '% loaded')
 }, function(error){
@@ -47,16 +52,20 @@ loader.load('./assets/skateboard.gltf', function(gltf){
 
 const dlight = new THREE.DirectionalLight(0xffffff, 1);
 const hlight = new THREE.AmbientLight (0x404040,3);
-scene.add(hlight)
-scene.add(dlight)
+scene.add(hlight);
+scene.add(dlight);
 
-// const controls = new OrbitControls(camera, cube);
-// controls.update();
+const controls = new OrbitControls(camera, canvas);
+controls.update();
 
 function animate() {
 	requestAnimationFrame( animate );
 	renderer.render( scene, camera );
-    canvas.rotation.x += 0.01;
-    canvas.rotation.y += 0.01;
+    //canvas.rotation.x += 0.01;
+    //canvas.rotation.y += 0.01;
 }
 animate();
+
+const modelDiv = document.getElementsByClassName('webgl');
+modelDiv.appendChild(renderer);
+renderer.setSize(modelDiv.offsetWidth, modelDiv.offsetHeight);
