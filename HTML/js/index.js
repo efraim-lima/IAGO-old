@@ -21,7 +21,7 @@ renderer.setSize( window.innerWidth, window.innerHeight );
 renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
 renderer.shadowMap.enabled = true
 renderer.gammaOutput = true
-document.body.appendChild( renderer.domElement );
+//document.body.appendChild( renderer.domElement );
 //document.addEventListener('mousemove', onDocumentMouseMove, false);
 
 

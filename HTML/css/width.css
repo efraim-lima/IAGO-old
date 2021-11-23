@@ -1,3 +1,7 @@
+.webgl{
+    width:50%
+}
+
 .images{
     display: flex;
     flex-flow: row wrap;
