@@ -17,11 +17,55 @@ nav {
     position: fixed;
 }
 
+#webgl {
+    width: 100%;
+    height: 100%;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#container {
+    position: relative; 
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#labels {
+    position: absolute;  
+    left: 0;             
+    top: 0;
+    color: white;
+}
+
+#labels>div {
+    position: absolute;  
+    left: 0;             
+    top: 0;
+    cursor: pointer;     
+    font-size: large;
+    user-select: none;   
+    text-shadow:        
+      -1px -1px 0 #000,
+       0   -1px 0 #000,
+       1px -1px 0 #000,
+       1px  0   0 #000,
+       1px  1px 0 #000,
+       0    1px 0 #000,
+      -1px  1px 0 #000,
+      -1px  0   0 #000;
+  }
+  #labels>div:hover {
+    color: red;
+  }
+
 #logo {
     position: fixed;
     transform: translate(0, -50%);
     image-orientation: center;
 }
+
 #title, aside  {
     color:rgb(40, 173, 250);
     font-size: 100;
