@@ -17,16 +17,12 @@ nav {
     position: fixed;
 }
 
-#container {
-    width: 50%;
-    height: 50%;
-    display: block;
-}
 
 #logo {
     position: fixed;
     transform: translate(0, -50%);
     image-orientation: center;
+    place-items: center;
 }
 
 #title, aside  {
@@ -60,6 +56,10 @@ nav {
 
 .eta {
     color:rgb(1, 82, 129);
+}
+
+.container {
+    position: fixed;
 }
 
 footer {

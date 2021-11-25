@@ -71,7 +71,7 @@ scene.add(dlight);
 
   const loaderTexture = new THREE.TextureLoader();
   const texture = loaderTexture.load(
-    './img/space2.jpg',
+    './img/space3.jpg',
     () => {
       const rt = new THREE.WebGLCubeRenderTarget(texture.image.height);
       rt.fromEquirectangularTexture(renderer, texture);
@@ -82,11 +82,13 @@ const controls = new OrbitControls(camera, canvas);
 controls.target.set(0,0,0)
 controls.update();
 
+//window.addEventListener()
+
 function animate() {
 	requestAnimationFrame( animate );
 	renderer.render( scene, camera );
     //canvas.rotation.x += 0.01;
-    //canvas.rotation.y += 0.01;
+    scene.rotation.y += 0.005;
 }
 animate();
 
