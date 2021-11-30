@@ -96,3 +96,16 @@ https://www.npmjs.com/package/gltf-webpack-loader
 sudo apt install cmdtest
 yarn add gltf-webpack-loader -D
 npm install --save-dev webpack
+
+//para a API
+//pip install flask
+
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+//creditos do criador da lua do site:
+"Moon" (https://skfb.ly/6TwGU) by Akshat is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
