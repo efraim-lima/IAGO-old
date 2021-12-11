@@ -35,10 +35,54 @@
         justify-content: center;
     }
 
+    #new-logo {
+        align-items: center;
+        margin: 3em, 3em, 3em, 3em;
+        size-adjust: 30%;
+    }
+
     #about {
         height: 250px;
         height: 30vh;
         justify-content: center;
         min-height: 250px;
+    }
+
+    #what {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: 1000px;
+        margin: 0 auto;
+        border-radius: 10px;
+        }
+
+    #what h2 {
+        text-align: center;
+        width: 100%;
+    }
+
+    #what p {
+        text-align:justify;
+        width: 100%;
+        margin-left: 3em;
+    }
+
+    #what li {
+        flex-grow: 1;
+        flex-basis: 150px;
+        padding: 0 10px;
+        margin-left: 3em;
+    }
+
+    #what .did-you-like-this {
+        flex-direction: column;
+        margin-bottom: 3em;
+    }
+
+    #what .button {
+        flex-direction: column;
+        align-items:center;
+        margin-left: 3em;
     }
 }

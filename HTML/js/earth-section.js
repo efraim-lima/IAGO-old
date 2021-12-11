@@ -5,9 +5,9 @@ import {OrbitControls} from './three/examples/jsm/controls/OrbitControls.js'
 const canvas = document.querySelector("canvas");
 const scene = new THREE.Scene();
 const fov = 85;
-const aspect = 2;  // the canvas default
+const aspect = 1; //estica ou desestica a imagem
 const near = 1;
-const far = 400;
+const far = 400; //ajuda a alterar a cena no eixo y
 const camera = new THREE.PerspectiveCamera(fov, aspect, near, far);
 //const camera = new THREE.PerspectiveCamera( 70, window.innerWidth / window.innerHeight, 1,400);
 const renderer = new THREE.WebGLRenderer({
@@ -37,8 +37,8 @@ scene.add( canvas );
 
 //camera.position.set(1,1,1);
 //camera.rotation.y = 45/180*Math.PI;
-// camera.position.x = 1;
-// camera.position.y = 1;
+camera.position.x = 1;
+camera.position.y = 1;
 camera.position.z = 24;
 
 const loader = new GLTFLoader();
@@ -47,7 +47,7 @@ loader.load('./assets/earth/scene.gltf', function(gltf){
     scene.add(gltf.scene);
     const root = gltf.scene;
     root.scale.set(34,34,34);
-    gltf.scene.position.set(1,1,3);
+    gltf.scene.position.set(1,1,1);
     scene.add( gltf.scene );
     console.log(gltf.scene.children[0])
 }, function(xhr){

@@ -136,6 +136,14 @@ canvas {
     margin-bottom: 3em;
 }
 
+#bordon {
+    margin-bottom: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(1, 98, 189);
+}
+
 #what p ul li {
     display: block;
     flex-direction: column-reverse;
@@ -251,7 +259,6 @@ canvas {
 }
 
 #new-logo {
-    max-width: 20%;
     display: flex;
     align-items: center;
     flex-direction: column;

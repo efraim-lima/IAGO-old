@@ -30,8 +30,6 @@ ou dar Alt + L | Alt + O> -->
         </ul>
     </nav>
 
-
-
     <header id="top" class="header">
         <!-- <!img class="backgroud" src="student.jpg" alt="background image"
         <!aqui podemos ir ao site 'tinypng.com' para reduzir dados desnecessários da imagem> -->
@@ -45,17 +43,13 @@ ou dar Alt + L | Alt + O> -->
         <a class="button" href="#functionality">More</a>
     </header>
 
-    <canvas class="webgl2"></canvas>
-    <section></section>
-
-    <canvas class="webgl"></canvas>
-    <section></section>
-
     <section id="new-logo">
+        <canvas class="webgl"></canvas>
+        <canvas class="webgl2"></canvas>
+        
         <div>
             <img class="logo" src="./img/icons/IAGO.png" alt="ASTRO Company Logo">
         </div>
-
     </section>
 
     <section id="about">
@@ -72,14 +66,13 @@ ou dar Alt + L | Alt + O> -->
 
             Contact us for more...
         </p>
-        <a class="button" href="#contact">Contact</a>
-        <div>
-            <div>
-                <h2 class="subtitle"> The simple theme is, 
-                    The simple you job will be </h2>
-            </div>
-        </div> 
+        <a class="button" href="#contact">Contact</a>     
     </section>
+
+    <div id="bordon">
+        <h2 class="subtitle"> The simple theme is, <br>
+                The simple you job will be </h2>
+    </div>
 
     <section id="what" href="what">
         <h2> What you can do with IAGO </h2>
@@ -94,10 +87,13 @@ ou dar Alt + L | Alt + O> -->
                 <li>Kind of description people make in their posts </li>
                 <li>Kind of words people says in the content </li>
             </ul>
-            Did you like this? <br>
-            Contact us..
+            <div class="did-you-like-this">
+                <p>Did you like this? <br>
+                        Contact us..<br>
+                </p>
+                <a class="button" href="#contact">Contact</a>
+            </div>
         </p>
-        <a class="button" href="#contact">Contact</a>
     </section>
 
     <section id="images">
@@ -161,16 +157,16 @@ ou dar Alt + L | Alt + O> -->
                         <li> 
                             <img class="icon-bottom" src="img/icons/smartphone-1132677_640.png" alt="mail icon">
                             <a href="tel:+5511959972318">+55 (11) 9XXXX-XXXX</a>
-                        </li>
-                        <script src="./js/pagina1.js"></script>
+                        </li>           
                     </ul>
                 </h6>
             </P>
     </footer>
-
+    <script type="module" src="./js/imports_document_windows_manipulation.js"></script>
     <script id = "webgl" type="module" src="./js/earth-section.js"></script>
-    <!-- "Moon" (https://skfb.ly/6TwGU) by Akshat is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/). -->
-    <!-- <script id = "webgl2" type="module" src="./js/moon-section.js"></script> -->
+    <!-- "Space Engineers Astronaut" (https://skfb.ly/Bpxu) by Keen Software House is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/). 
+    "Sun" (https://skfb.ly/6yGSx) by SebastianSosnowski is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).--> -->
+    <!-- <script id = "webgl2" type="module" src="./js/sun-section.js"></script> -->
     
 </body>
 </html>

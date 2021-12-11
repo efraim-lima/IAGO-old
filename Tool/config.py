@@ -1,25 +1,25 @@
 from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from webdriver_manager.chrome import ChromeDriverManager
+from webdriver_manager.firefox import GeckoDriverManager
 from selenium.common.exceptions import WebDriverException
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
+from selenium.webdriver.firefox.options import Options
 from time import sleep
 
 
 def webDriver():
-    chrome_options = Options()
-    chrome_options.add_argument(
-        "-headless"
-    )
-    chrome_options.add_argument(
-        '--disable-gpu'
+    options = Options()
+    #options.headless = True
+    options.add_argument("--headless")
+    options.add_argument(
+        'disable-gpu'
     )
     global driver
-    driver = webdriver.Chrome(
-                ChromeDriverManager().install(),
-                options = chrome_options
+
+    driver = webdriver.Firefox(
+        executable_path=GeckoDriverManager().install(),
+        options=options
         )
     return driver
 
@@ -33,10 +33,6 @@ def inChrome():
             "window.scrollTo(0, window.scrollY + 5000)"
         )
         
-        
-        # print (driver) #para ver qual o driver utilizado
-        # print (content) #mostra o java script do site
-        # executar um python main.py
         # exec. pip install chromedriver
 
         driver.execute_script(
@@ -54,6 +50,6 @@ def pauseVideo():
     sleep(3)
     action.key_down(Keys.CONTROL).send_keys('K').key_up(Keys.CONTROL).perform()
     
-def modBy():
-    By
-    return By
+def quit():
+    quit = driver.quit()
+    return quit

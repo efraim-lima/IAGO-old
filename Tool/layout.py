@@ -1,6 +1,6 @@
 import PySimpleGUI as sg
 
-def sgLayout():
+def call():
         #python -m venv __YT__
     #### para acionar o virtual env
     #__YT__\Scripts\activate.bat

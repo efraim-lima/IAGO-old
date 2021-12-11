@@ -4,6 +4,8 @@ import layout
 import processing
 import saving
 from selenium.webdriver.common.by import By
+from multiprocessing import Process
+
 
 #sudo apt-get install pyhton3
 #sudo apt install python3-virtualenv
@@ -17,19 +19,21 @@ from selenium.webdriver.common.by import By
 #PySimpleGUI
 #lxml
 
-def theme():
-    YT_Category = layout.sgLayout()
-    urls = [
-        f'https://www.youtube.com/results?search_query={YT_Category}'
-    ]
-    # browser = webdriver.Chrome('C:/Users/efrai/Downloads/chromedriver88_win32/chromedriver.exe') #precisa ser onde está instalado o Chromedriver
+# YT_Category = layout.sgLayout()
+# links = [
+#     f'https://www.youtube.com/results?search_query={YT_Category}&sp=CAASAhAC',
+#     f'https://www.youtube.com/results?search_query={YT_Category}&sp=CAISAhAC'
+    
+# ]
+# quant = len(links)
+# i = 0
 
-    driver = config.webDriver()
-    #By = config.modBy()
-
-    for url in urls:
+def theme(link):
+        YT_Category = link
+        print(f'OLHA O LINK!!!!\n\n\n{link}\n\n\n')
+        driver = config.webDriver()
         driver.get(
-            '{}&sp=CAASAhAC'.format(url)
+            f'https://www.youtube.com/results?search_query={link}&sp=CAASAhAC'
         )
 
         config.inChrome()
@@ -81,6 +85,8 @@ def theme():
                 channel_urls.get_attribute('href')
                 )
             )
+            
+        config.quit()
 
         theme_data = []
         for YT_Category, name, subscribers, videos, URL in zip(
@@ -100,10 +106,7 @@ def theme():
             }
             )
 
-        #for i in tqdm(urls):
-
         df = pd.DataFrame(theme_data)
 
         saving.save_theme(YT_Category, df)
         return YT_Category, df
-
