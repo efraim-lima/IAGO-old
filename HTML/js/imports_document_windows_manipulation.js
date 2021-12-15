@@ -16,8 +16,17 @@ function variablesSum(views, likes){
 //in arrow function
 var sum = (views, likes) => views + likes
 
-variablesSum(views, likes)
-sum(views, likes)
+//using random variable for cluster in future
+function randomVar(){
+    return Math.random() * 10
+}
+
+//clustering variables (mantaining 'b' randomize variable as backup) and calculating some variable that we can need in future
+var calculating = (views, va = randomVar()) => (views * va) * 0.1
+console.log(calculating)
+
+console.log(variablesSum(views, likes))
+console.log(sum(views, likes))
 
 document.onload(`<h2>Your Theme analysis <br> </h2>`)
 document.onload(`<p>Your theme is <b>${theme.toString().toUpperCase()}</b> <br></p>`)

@@ -1348,3 +1348,29 @@ DevTools listening on ws://localhost:60219/devtools/browser/fcfcd268-833d-48bc-a
 1638907425165	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1638907426886	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
 1638907428892	Marionette	INFO	Stopped listening on port 41457
+1639534461487	geckodriver	INFO	Listening on 127.0.0.1:48455
+1639534461995	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "disable-gpu" "--remote-debugging-port" "43563" "-no-remote" "-profile" "/tmp/rust_mozprofileEq4wcr"
+*** You are running in headless mode.
+1639534462556	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEq4wcr/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:43563/devtools/browser/f65112da-e3df-45da-a7cb-fb71f3b713c5
+1639534464394	Marionette	INFO	Listening on port 39567
+1639534464532	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639534466349	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1639534468692	Marionette	INFO	Stopped listening on port 39567
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

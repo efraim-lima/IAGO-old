@@ -2,27 +2,30 @@ import pandas as pd
 import os.path
 import os.path
 
+if not os.path.exists('./content'):
+        os.mkdir('./content')
+
 def save_theme(name, df, *args, **kwargs):
-    if not os.path.exists(f'{name}'):
-        os.mkdir(f'{name}')
+    if not os.path.exists(f'./content/{name}'):
+        os.mkdir(f'./content/{name}')
         #df.to_csv(f'{name}/{name}_data_leitura.csv')
         df.to_csv(
-            f'{name}/{name}.csv',
+            f'./content/{name}/{name}.csv',
             index=False
         )
 
         print(f'\n\n{df}\n\n')
-    elif os.path.exists(f'{name}') and not os.path.exists(f'{name}/{name}.csv'):
+    elif os.path.exists(f'./content/{name}') and not os.path.exists(f'./content/{name}/{name}.csv'):
         #YT.to_csv(f'{name}/{name}_data_leitura.csv')
         df.to_csv(
-            f'{name}/{name}.csv',
+            f'./content/{name}/{name}.csv',
             index=False
         )
         print('\n\nTema já existe\n Resumo não existe \n\n')
 
         print(f'\n\n{df}\n\n')
-    if os.path.exists(f'{name}') & os.path.exists(f'{name}/{name}.csv'):
-        YT = pd.read_csv(f'{name}/{name}.csv')
+    if os.path.exists(f'./content/{name}') & os.path.exists(f'./content/{name}/{name}.csv'):
+        YT = pd.read_csv(f'./content/{name}/{name}.csv')
         # for row in YT:
         #     if row == row in df:
         #         pass
@@ -31,18 +34,18 @@ def save_theme(name, df, *args, **kwargs):
         df = pd.merge(YT, df,how = "left", on = ["Channel","Ch_URL"])
         #YT.to_csv(f'{name}/{name}_data_leitura.csv')
         YT.to_csv(
-            f'{name}/{name}.csv',
+            f'./content/{name}/{name}.csv',
             index=False
         )
         print('\nTema já existe')
         print(f'\n{YT}\n\n')
         
 def channel(YT_Theme, df, CH, *args, **kwargs):
-    if not os.path.exists(f'{YT_Theme}/canais_{YT_Theme}'):
-        os.mkdir(f'{YT_Theme}/canais_{YT_Theme}')
-    elif os.path.exists(f'{YT_Theme}/canais_{YT_Theme}/{CH}.csv'):
+    if not os.path.exists(f'./content/{YT_Theme}/canais_{YT_Theme}'):
+        os.mkdir(f'./content/{YT_Theme}/canais_{YT_Theme}')
+    elif os.path.exists(f'./content/{YT_Theme}/canais_{YT_Theme}/{CH}.csv'):
         try:
-            YT = pd.read_csv(f'{YT_Theme}/canais_{YT_Theme}/{CH}.csv')
+            YT = pd.read_csv(f'./content/{YT_Theme}/canais_{YT_Theme}/{CH}.csv')
             #df2 = df2.astype(str)
             #YT = YT.astype(str)
             #df2 = YT.merge(df2, how = 'outer')
@@ -78,15 +81,15 @@ def channel(YT_Theme, df, CH, *args, **kwargs):
             YT.drop([col for col in YT if 'drop' in col], axis=1, inplace=True)
             YT = YT.drop_duplicates()
             #YT.to_csv(f'{YT_Theme}/canais_{YT_Theme}'_data_leitura.csv')
-            YT.to_csv(f'{YT_Theme}/canais_{YT_Theme}/{CH}.csv', index=False)
+            YT.to_csv(f'./content/{YT_Theme}/canais_{YT_Theme}/{CH}.csv', index=False)
             print('\n\nCanal já existe')
             print(f'\n{YT}\n\n')
         except:
-            os.path.exists(f'{YT_Theme}/canais_{YT_Theme}/{CH}.csv')
+            os.path.exists(f'./content/{YT_Theme}/canais_{YT_Theme}/{CH}.csv')
             next
     else:
         #df.to_csv(f'{YT_Theme}/canais_{YT_Theme}'_data_leitura.csv')
-        df.to_csv(f'{YT_Theme}/canais_{YT_Theme}/{CH}.csv', index=False)
+        df.to_csv(f'./content/{YT_Theme}/canais_{YT_Theme}/{CH}.csv', index=False)
         #df[f'Subs{today}'] = subscribers
         #df[f'View{today}'] = views
         print('\n\nTema já existe\n Canal não existe \n')

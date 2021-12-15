@@ -2,6 +2,8 @@ import pandas as pd
 import config
 import processing
 import datetime
+from time import sleep
+import urllib
 
 # print('\n\nTemas disponíveis: \n \n')
 # arquivos = os.listdir('.')
@@ -188,8 +190,8 @@ def video_details(df, name, CH, *args, **kwargs):
             df2 = pd.DataFrame(videos)
             print(f'\n\n {df2} \n\n')
 
-            if not os.path.exists(f'{YT_Theme}/descricoes_{YT_Theme}'):
-                os.mkdir(f'{YT_Theme}/descricoes_{YT_Theme}')
+            if not os.path.exists(f'./content/{YT_Theme}/descricoes_{YT_Theme}'):
+                os.mkdir(f'./content/{YT_Theme}/descricoes_{YT_Theme}')
             else:
                 print('\n Canal já existe \n')
 
@@ -199,7 +201,7 @@ def video_details(df, name, CH, *args, **kwargs):
                 if i in pontuacao in name:
                     name.replace(i in pontuacao, ' ')
             
-            df2.to_csv(f'{YT_Theme}/descricoes_{YT_Theme}/{name}', index=False)
+            df2.to_csv(f'./content/{YT_Theme}/descricoes_{YT_Theme}/{name}', index=False)
             #df2.to_csv(f'{YT_Theme}/descricoes_{YT_Theme}/{Canal}_df_l.csv')
             print(f'\n\n {df2} \n\n')
 
