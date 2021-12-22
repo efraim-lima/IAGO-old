@@ -14,9 +14,10 @@ import os
 #matplotlib
 #tesseract
 #opencv-python
+#-U scikit-learn
 
-image_name = 'thumbnail.jpg'
-image = cv2.imread(f'{image_name}')
+image_name = '/oplab.jpg'
+image = cv2.imread(sys.path[0]+f'{image_name}',1)
 image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 #plt.imshow(image)
 
@@ -172,5 +173,3 @@ modified_image = prep_image(image)
 text_image = text_extractor(image)
 a,b = face_detection(image)
 color_analysis(modified_image, b)
-
-

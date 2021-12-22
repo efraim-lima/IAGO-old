@@ -1,6 +1,5 @@
 import pandas as pd
 import config
-import layout
 import processing
 import saving
 from selenium.webdriver.common.by import By
@@ -107,5 +106,5 @@ def theme(link):
 
         df = pd.DataFrame(theme_data)
 
-        saving.save_theme(YT_Category, df)
+        saving.theme(YT_Category, df)
         return YT_Category, df

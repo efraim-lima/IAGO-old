@@ -5,13 +5,17 @@ import os.path
 if not os.path.exists('./content'):
         os.mkdir('./content')
 
-def save_theme(name, df, *args, **kwargs):
+def theme(name, df, *args, **kwargs):
     if not os.path.exists(f'./content/{name}'):
         os.mkdir(f'./content/{name}')
         #df.to_csv(f'{name}/{name}_data_leitura.csv')
         df.to_csv(
             f'./content/{name}/{name}.csv',
             index=False
+        )
+        df.to_json(
+            f'./content/{name}/{name}.json',
+            index=True
         )
 
         print(f'\n\n{df}\n\n')
@@ -20,6 +24,10 @@ def save_theme(name, df, *args, **kwargs):
         df.to_csv(
             f'./content/{name}/{name}.csv',
             index=False
+        )
+        df.to_json(
+            f'./content/{name}/{name}.json',
+            index=True
         )
         print('\n\nTema já existe\n Resumo não existe \n\n')
 
@@ -36,6 +44,10 @@ def save_theme(name, df, *args, **kwargs):
         YT.to_csv(
             f'./content/{name}/{name}.csv',
             index=False
+        )
+        YT.to_json(
+            f'./content/{name}/{name}.jsonto_json',
+            index=True
         )
         print('\nTema já existe')
         print(f'\n{YT}\n\n')
@@ -81,7 +93,14 @@ def channel(YT_Theme, df, CH, *args, **kwargs):
             YT.drop([col for col in YT if 'drop' in col], axis=1, inplace=True)
             YT = YT.drop_duplicates()
             #YT.to_csv(f'{YT_Theme}/canais_{YT_Theme}'_data_leitura.csv')
-            YT.to_csv(f'./content/{YT_Theme}/canais_{YT_Theme}/{CH}.csv', index=False)
+            YT.to_csv(
+                f'./content/{YT_Theme}/canais_{YT_Theme}/{CH}.csv', 
+                index=False
+                )
+            YT.to_json(
+                f'./content/{YT_Theme}/canais_{YT_Theme}/{CH}.json', 
+                index=True
+                       )
             print('\n\nCanal já existe')
             print(f'\n{YT}\n\n')
         except:
@@ -89,7 +108,14 @@ def channel(YT_Theme, df, CH, *args, **kwargs):
             next
     else:
         #df.to_csv(f'{YT_Theme}/canais_{YT_Theme}'_data_leitura.csv')
-        df.to_csv(f'./content/{YT_Theme}/canais_{YT_Theme}/{CH}.csv', index=False)
+        df.to_csv(
+            f'./content/{YT_Theme}/canais_{YT_Theme}/{CH}.csv', 
+            index=False
+            )
+        df.to_json(
+            f'./content/{YT_Theme}/canais_{YT_Theme}/{CH}.json', 
+            index=True
+            )
         #df[f'Subs{today}'] = subscribers
         #df[f'View{today}'] = views
         print('\n\nTema já existe\n Canal não existe \n')

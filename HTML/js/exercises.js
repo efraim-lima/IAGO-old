@@ -17,6 +17,7 @@ const data = {
     videos
 }
 console.log(data)
+export{data};
 
 
 //total sum without rest operator
@@ -108,10 +109,10 @@ for (let value of arrayo){
     console.log(value)
 }
 
-//using Symbols in a object
+//using Symbols am Generators in a object
 const data3 = {
     followers: [10, 20, 40, 10],
-    [Symbol.iterator](){
+    *[Symbol.iterator](){
         let i = 0
 
         return{
@@ -130,7 +131,7 @@ const it2 = data3[Symbol.iterator]()
 console.log(it2.next())
 console.log(it2.next())
 console.log(it2.next())
-console.log(it2.next())
+console.log(it2.next()) 
 
 //using "for of"
 for (let newValue in data3.values){
@@ -198,18 +199,68 @@ function variablesSum(views, likes){
 }
 
 
-//in arrow function
-var sum = (views, likes) => views + likes
+//Promisses 
+const doSomething = () => new Promise((resolve, reject) => {
+    //throw new Error('Ooops')
+    setTimeout(function(){
+        //did something
+        function suma(views, likes, videos) {
+            var soma = (views + likes)*videos
+            return soma
+        }
+        resolve(suma(views, likes, videos))
+        // document.getElementsByClassName("sum-analisys").innerHTML = `The sum reason is ${doSomething.sumando()}`
+    }, 10000)
+})
 
-console.log(variablesSum(views, likes))
+const doSomethingElse = () => new Promise((resolve, reject) => {
+    setTimeout(function() {
+        //did somethingelse
+        var reason = (views, likes, videos) => (likes * videos) / (views/likes)
+        resolve(reason(views, likes, videos))
+        // document.getElementsByClassName("multiply-analisys").innerHTML = `The multiply reason is ${multiplicando}`
+    }, 1000)
+})
+
+//with run in paralelism
+Promise.all([doSomething(), doSomethingElse()])
+    .then(data => {
+        console.log(data)
+    })
+    .catch(error => console.log(error))
+
+//with race the first os all functions
+Promise.race([doSomething(), doSomethingElse()])
+    .then(data => {
+        console.log(data)
+    })
+    .catch(error => console.log(error))
+
+doSomething()
+    .then(data => {
+        console.log(data);
+        document.getElementsByClassName("sum-analisys").innerHTML = `The sum reason is ${data}`;
+        return doSomethingElse();
+
+    })
+    .then(data2 => {
+        console.log(data2);
+        document.getElementsByClassName("multiply-analisys").innerHTML = `The multiply reason is ${data2}`
+    })
+    .catch(error => console.log(error))
+
+
+// sum in arrow function
+var sum = (views, likes) => views + likes
+var variableIs = console.log(variablesSum(views, likes))
 console.log(sum(views, likes))
 
 //tying to log elements in html (I now that this is the wrong way rsrsrs)
-// document.onload(`<h2>Your Theme analysis <br> </h2>`)
-// document.onload(`<p>Your theme is <b>${theme.toString().toUpperCase()}</b> <br></p>`)
-// document.onload(`<p>You have ${views} views<br></p>`)
-// document.onload(`<p>You have ${likes} likes</p>`)
-// document.onload(`Your variable sum is ${variablesSum}`)
+document.getElementById("intro-theme-analisys").innerHTML = `Your Theme analysis`
+document.getElementById("theme-theme-analisys").innerHTML = `Your theme is ${theme.toString().toUpperCase()}`
+document.getElementById("views-theme-analisys").innerHTML = `You have ${views} views`
+document.getElementById("likes-theme-analisys").innerHTML = `You have ${likes} likes`
+document.getElementById("sum-theme-analisys").innerHTML = `Your variable percentage is ${variablesSum(views, likes)}`
 console.log(theme)
 window.confirm('Im doing a research') //aparece outro popup, só que pode cancelar
 
