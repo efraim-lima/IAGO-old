@@ -12,6 +12,7 @@ Projeto do Robô que tenho trabalhado
 ls -al ~/.ssh
 ### Depois criamos o par de chaves:
 ssh-keygen -t ed25519 -C "efraim.alima@gmail.com"
+
 ssh-keygen -t rsa -b 4096 -C "efraim.alima@gmail.com"
 ### aparentemente a chave ficará salva no caminho: /home/efraim/.ssh/id_rsa
 eval $(ssh-agent -s)
