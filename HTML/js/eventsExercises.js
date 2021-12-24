@@ -1,8 +1,20 @@
 //EventEmitter
 const EventEmitter = require('events');
-const emitter = new EventEmitter();
+class Users extends EventEmitter {
+    userLogged(data) {
+        this.emit('User Logged', data)
+    }
+}
+const users = new Users();
 
-emitter.on('user Logged', data => {
+users.on('user Logged', data => {
     console.log(data)
 })
-emitter.emit('User Logged', {user: 'pastel'})
+
+const data ={
+    user: 'pastel'
+}
+
+users.userLogged({
+    user: 'pastel'
+})
