@@ -26,9 +26,12 @@ git clone <URL do projeto>
 
 ##os comandos que serão mais utilizados:
 git add <path>
-git add * ###para adicionar tudo dos arquivos
-git commit -m "sua mensagem" ###para salvar um determinado ponto de alteração
-git push ###sobe o repositório local para o online
+###para adicionar tudo dos arquivos
+git add * 
+###para salvar um determinado ponto de alteração
+git commit -m "sua mensagem"
+###sobe o repositório local para o online
+git push 
 
 ##configurar o git
 git config --global user.email "efraim.alima@gmail.com"
@@ -37,19 +40,29 @@ git add .
 git remote add origin https://github.com/efraim-lima/IAGO.git
 git push -u origin master
 git init
-git remote -v ###para ver os repositórios remotos
+###para ver os repositórios remotos
+git remote -v 
 dir
 dir <pasta>
-touch <file.extensão> ### para criar um arquivo
+### para criar um arquivo
+touch <file.extensão> 
 git add <path>
-git commit -m "sua mensagem" ###para salvar um determinado ponto de alteração
-git push ###sobe o repositório local para o online
-git log ###para mostrar o historico de produção
-git status ###mostra como está o projeto agora
-git show <codigo do git log> ###para mostrar as alterações
-git branch <nome da funcionalidade nova> ###para criar projetos paralelos
-git checkout <nome da funcionalidade nova> ###muda para a branch
-git merge <nome da funcionalidade nova> ###para unir as branches
+###para salvar um determinado ponto de alteração
+git commit -m "sua mensagem" 
+###sobe o repositório local para o online
+git push 
+###para mostrar o historico de produção
+git log 
+###mostra como está o projeto agora
+git status 
+###para mostrar as alterações
+git show <codigo do git log> 
+###para criar projetos paralelos
+git branch <nome da funcionalidade nova> 
+###muda para a branch
+git checkout <nome da funcionalidade nova> 
+###para unir as branches
+git merge <nome da funcionalidade nova> 
 git branch -D <nome da funcionalidade nova>
 
 ##Confgurando o ambiente Python pra o crowler
@@ -72,7 +85,8 @@ sudo apt-get install python3-tk
 git clone https://github.com/designcourse/threejs-webpack-starter.git
 cd ./<pasta onde criamos o clone>
 npm i
-npm run dev ###abre o servidor onde está a imagem ja criada
+###abre o servidor onde está a imagem ja criada
+npm run dev 
 
 
 
