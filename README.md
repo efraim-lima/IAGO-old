@@ -18,6 +18,10 @@ ls -al ~/.ssh
 
 ssh-keygen -t ed25519 -C "efraim.alima@gmail.com"
 
+### Este abaixo deu MAIS CERTO
+
+ssh-keygen -t rsa -C efraim.alima@gmail.com
+
 ssh-keygen -t rsa -b 4096 -C "efraim.alima@gmail.com"
 
 ### aparentemente a chave ficará salva no caminho: /home/efraim/.ssh/id_rsa
