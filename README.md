@@ -135,6 +135,10 @@ source iago/bin/activate
 sudo pip install
   
 sudo apt-get install python3-tk
+
+### Caso haja algum conflito de permissões
+
+sudo chown -R efraim ~/Documentos/IAGO/IAGO
   
 ### BeautifulSoup
 ### webdriver-manager

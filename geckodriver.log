@@ -2484,3 +2484,121 @@ console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1640544682877	geckodriver	INFO	Listening on 127.0.0.1:48305
+1640544683373	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "disable-gpu" "--remote-debugging-port" "55311" "-no-remote" "-profile" "/tmp/rust_mozprofile1FnCa5"
+*** You are running in headless mode.
+1640544683945	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is BR
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is BR
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1FnCa5/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4097: TypeError: invalid assignment to const 'dialogReason'
+DevTools listening on ws://localhost:55311/devtools/browser/df561a85-0af0-40b8-8873-11c5aaf5d957
+1640544685615	Marionette	INFO	Listening on port 37245
+1640544685697	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640544687503	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640544689710	Marionette	INFO	Stopped listening on port 37245
+[Parent 20581, IPC I/O Parent] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /PROJECT/firefox-95.0.1+linuxmint1.1+una/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1640545154635	geckodriver	INFO	Listening on 127.0.0.1:55231
+1640545155137	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "disable-gpu" "--remote-debugging-port" "35693" "-no-remote" "-profile" "/tmp/rust_mozprofileABSuUz"
+*** You are running in headless mode.
+1640545155722	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is BR
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is BR
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileABSuUz/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4097: TypeError: invalid assignment to const 'dialogReason'
+DevTools listening on ws://localhost:35693/devtools/browser/2e505b48-2eaa-41dd-b5db-9ae0b9a61e15
+1640545157543	Marionette	INFO	Listening on port 36729
+1640545157569	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640545159196	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640545161357	Marionette	INFO	Stopped listening on port 36729
+[Parent 21353, IPC I/O Parent] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /PROJECT/firefox-95.0.1+linuxmint1.1+una/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+1640545162065	geckodriver	INFO	Listening on 127.0.0.1:35899
+1640545162578	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "disable-gpu" "--remote-debugging-port" "47459" "-no-remote" "-profile" "/tmp/rust_mozprofilei04MyS"
+*** You are running in headless mode.
+1640545163058	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is BR
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is BR
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilei04MyS/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4097: TypeError: invalid assignment to const 'dialogReason'
+DevTools listening on ws://localhost:47459/devtools/browser/1e44da0b-b08b-41d7-b22d-c2f6333daeed
+1640545164294	Marionette	INFO	Listening on port 45045
+1640545164425	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640545166402	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640545170377	geckodriver	INFO	Listening on 127.0.0.1:46515
+1640545170890	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "disable-gpu" "--remote-debugging-port" "33251" "-no-remote" "-profile" "/tmp/rust_mozprofileoVoLeQ"
+*** You are running in headless mode.
+1640545171437	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is BR
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is BR
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileoVoLeQ/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4097: TypeError: invalid assignment to const 'dialogReason'
+DevTools listening on ws://localhost:33251/devtools/browser/fd96bcba-fa06-4bdc-8a45-1e6b83d4521e
+1640545172864	Marionette	INFO	Listening on port 42103
+1640545172912	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640545174806	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640545178950	geckodriver	INFO	Listening on 127.0.0.1:47151
+1640545179456	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "disable-gpu" "--remote-debugging-port" "48211" "-no-remote" "-profile" "/tmp/rust_mozprofiledHacZ1"
+*** You are running in headless mode.
+1640545180066	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is BR
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is BR
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiledHacZ1/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4097: TypeError: invalid assignment to const 'dialogReason'
+DevTools listening on ws://localhost:48211/devtools/browser/d083be55-921a-40aa-b343-a6beeb590f3c
+1640545181695	Marionette	INFO	Listening on port 37621
+1640545181779	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640545183832	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640545188256	geckodriver	INFO	Listening on 127.0.0.1:45057
+1640545188765	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "disable-gpu" "--remote-debugging-port" "41745" "-no-remote" "-profile" "/tmp/rust_mozprofilevkxxrT"
+*** You are running in headless mode.
+1640545189849	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is BR
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is BR
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevkxxrT/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4097: TypeError: invalid assignment to const 'dialogReason'
+DevTools listening on ws://localhost:41745/devtools/browser/1a226f4d-dedc-48a6-8f8e-189282dcc44f
+1640545192515	Marionette	INFO	Listening on port 35383
+1640545193058	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640545212311	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640545263885	geckodriver	INFO	Listening on 127.0.0.1:51145
+1640545264395	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "disable-gpu" "--remote-debugging-port" "45771" "-no-remote" "-profile" "/tmp/rust_mozprofileSqMl1H"
+*** You are running in headless mode.
+1640545265715	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is BR
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is BR

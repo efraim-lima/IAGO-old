@@ -1,4 +1,6 @@
 //EventEmitter
+
+console.log("inicio da aplicação")
 const EventEmitter = require('events');
 class Users extends EventEmitter {
     userLogged(data) {
@@ -18,3 +20,7 @@ const data ={
 users.userLogged({
     user: 'pastel'
 })
+
+console.log(setTimeout(() => {
+    console.log("parece que não iniciou nada rsrsrs")
+}, 1000))

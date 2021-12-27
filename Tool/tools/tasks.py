@@ -5,6 +5,9 @@ import yt_theme
 import yt_channel
 import yt_video
 
+# word = layout.call()
+# yt = yt_theme.theme()
+
 app = Celery(
     broker = 'amqp://guest@localhost//'
 )
