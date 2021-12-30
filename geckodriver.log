@@ -2602,3 +2602,1399 @@ console.info: MINT: Trying to use the system region (based on LANG).
 console.info: MINT: System region is BR
 console.info: MINT: Trying to use the system region (based on LANG).
 console.info: MINT: System region is BR
+1640712162988	geckodriver	INFO	Listening on 127.0.0.1:12445
+1640712270492	geckodriver	INFO	Listening on 127.0.0.1:12559
+1640786286927	geckodriver	INFO	Listening on 127.0.0.1:1115
+1640800916301	geckodriver	INFO	Listening on 127.0.0.1:1441
+1640800919403	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "disable-gpu" "--remote-debugging-port" "1442" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilezYbJ8N"
+*** You are running in headless mode.
+1640800924210	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilezYbJ8N\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+DevTools listening on ws://localhost:1442/devtools/browser/b8473908-5b7e-4b33-8a7c-703aef6cc9f7
+1640800935532	Marionette	INFO	Listening on port 1449
+1640800937196	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640809879271	geckodriver	INFO	Listening on 127.0.0.1:23834
+1640809886510	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "disable-gpu" "--remote-debugging-port" "23835" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileTlLwYH"
+*** You are running in headless mode.
+1640809933975	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileTlLwYH\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+DevTools listening on ws://localhost:23835/devtools/browser/2358d29a-e791-4f92-8131-71bd34f91569
+1640809972582	Marionette	INFO	Listening on port 23847
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+s\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilen3OsUS\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+DevTools listening on ws://localhost:1078/devtools/browser/06a0471f-5e4f-41b4-9adb-a3915128d075
+1640810091257	Marionette	INFO	Listening on port 1096
+1640810093151	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640810116382	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640810598548	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+ot open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileqDsiFO\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+DevTools listening on ws://localhost:6292/devtools/browser/aa0f621f-9c9a-4ee8-80a9-7fd3c37ba48d
+1640810236560	Marionette	INFO	Listening on port 6300
+1640810239648	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640810255632	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+ers\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile5I8yoG\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:18849/devtools/browser/733e7338-177d-41d2-80f3-be61aedb2e40
+1640810424695	Marionette	INFO	Listening on port 18861
+1640810425720	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640810433657	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1640814787086	geckodriver	INFO	Listening on 127.0.0.1:22151
+1640814790411	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "disable-gpu" "--remote-debugging-port" "22152" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileXdUy6B"
+*** You are running in headless mode.
+1640814800512	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileXdUy6B\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+DevTools listening on ws://localhost:22152/devtools/browser/5498a165-b551-4090-93f3-65e5c1856daa
+1640814816280	Marionette	INFO	Listening on port 22177
+1640814818140	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640814837247	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1640867307940	geckodriver	INFO	Listening on 127.0.0.1:1186
+1640867310726	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "disable-gpu" "--remote-debugging-port" "1187" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileKDPxY9"
+*** You are running in headless mode.
+1640867313835	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileKDPxY9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1187/devtools/browser/2777c392-0638-4c5c-b5b7-ceaf95dd8c48
+1640867323736	Marionette	INFO	Listening on port 1194
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1640867327391	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640867346057	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640867599195	geckodriver	INFO	Listening on 127.0.0.1:31751
+1640867602191	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "disable-gpu" "--remote-debugging-port" "31752" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileWl7mJl"
+*** You are running in headless mode.
+1640867604246	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileWl7mJl\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:31752/devtools/browser/9586f519-c08a-4818-9bdb-e44e3ea1a7a6
+1640867612095	Marionette	INFO	Listening on port 31758
+1640867613304	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640867767016	geckodriver	INFO	Listening on 127.0.0.1:1064
+1640867770059	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "disable-gpu" "--remote-debugging-port" "1065" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileBx8fpS"
+*** You are running in headless mode.
+1640867771068	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileBx8fpS\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1065/devtools/browser/06cb8f3c-d026-4bf8-a9c5-0d6c3790d419
+1640867778842	Marionette	INFO	Listening on port 1072
+1640867780008	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640867787796	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640867854035	geckodriver	INFO	Listening on 127.0.0.1:1246
+1640867857121	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "1247" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileJa9lT5"
+1640867857871	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileJa9lT5\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1247/devtools/browser/1c317a70-d212-4ea0-9610-ed6ee13ae644
+1640867865217	Marionette	INFO	Listening on port 1254
+1640867865668	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640867873884	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640867878168	Marionette	INFO	Stopped listening on port 1254
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  TypeError
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39014F,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39014F,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1640867902013	geckodriver	INFO	Listening on 127.0.0.1:1343
+1640867905080	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "1344" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileyvGAzx"
+1640867906078	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileyvGAzx\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1344/devtools/browser/4427db93-6472-42de-bd83-65555bcdede0
+1640867913885	Marionette	INFO	Listening on port 1351
+1640867914479	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640867922735	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640867924726	Marionette	INFO	Stopped listening on port 1351
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1640867931574	geckodriver	INFO	Listening on 127.0.0.1:1415
+1640867934575	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "1416" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileD5WhWD"
+1640867935513	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileD5WhWD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1416/devtools/browser/8a25135a-1c9e-4bd9-a44f-dc7ae9af5024
+1640867943408	Marionette	INFO	Listening on port 1424
+1640867944245	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640867951154	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640867954113	Marionette	INFO	Stopped listening on port 1424
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39014F,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39014F,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390147,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1640867961582	geckodriver	INFO	Listening on 127.0.0.1:1490
+1640867964669	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "1491" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileYqeqxk"
+1640867965577	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileYqeqxk\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1491/devtools/browser/e6d50ba7-3f7f-40ea-9df2-419886eab37b
+1640867972845	Marionette	INFO	Listening on port 1498
+1640867974416	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640867982108	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640867984883	Marionette	INFO	Stopped listening on port 1498
+JavaScript error: https://www.youtube.com/s/desktop/18069be1/jsbin/spf.vflset/spf.js, line 28: NS_ERROR_NOT_INITIALIZED: 
+1640867991615	geckodriver	INFO	Listening on 127.0.0.1:1571
+1640867994670	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "1572" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilekN8YDN"
+1640867995539	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilekN8YDN\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1572/devtools/browser/457292c2-bf48-4227-94a3-52907dd94786
+1640868003628	Marionette	INFO	Listening on port 1579
+1640868004527	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1640868552656	geckodriver	INFO	Listening on 127.0.0.1:30689
+1640868555724	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "30690" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileBbpeeK"
+1640868556348	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileBbpeeK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:30690/devtools/browser/fc3ddb2b-615a-454c-b89d-656bafe6dc10
+1640868563226	Marionette	INFO	Listening on port 30697
+1640868563908	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640868572416	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640868855448	geckodriver	INFO	Listening on 127.0.0.1:1279
+1640868858464	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "1280" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofiletCHTtK"
+1640868859730	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofiletCHTtK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1280/devtools/browser/30a31efc-e6f3-4c1b-a42b-77ea7022a973
+1640868867943	Marionette	INFO	Listening on port 1287
+1640868868393	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640868879570	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640869153880	geckodriver	INFO	Listening on 127.0.0.1:1030
+1640869156906	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "1031" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilee8s8Eq"
+1640869158119	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilee8s8Eq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1031/devtools/browser/690b3421-5dfd-4e94-b6b6-c6a500219d43
+1640869165216	Marionette	INFO	Listening on port 1041
+1640869166258	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640869174590	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640869287405	geckodriver	INFO	Listening on 127.0.0.1:1242
+1640869290500	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "1243" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilef67aFa"
+1640869291190	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilef67aFa\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1243/devtools/browser/5a111965-a819-48ba-9bb8-d38683e6ed6a
+1640869298678	Marionette	INFO	Listening on port 1250
+1640869299618	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640869308394	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640869321501	Marionette	INFO	Stopped listening on port 1250
+1640869326238	geckodriver	INFO	Listening on 127.0.0.1:1028
+1640869329316	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "1029" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileLd4Ks2"
+1640869329930	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileLd4Ks2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1029/devtools/browser/51448934-5d2f-4e16-bd63-be91ec5c5a67
+1640869336546	Marionette	INFO	Listening on port 1036
+1640869337699	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640869346436	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640869415681	geckodriver	INFO	Listening on 127.0.0.1:1217
+1640869418753	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "1218" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile8FqZXP"
+1640869419391	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile8FqZXP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1218/devtools/browser/88ea9fe2-e000-4f91-8dc9-d11ad3e56c6b
+1640869426252	Marionette	INFO	Listening on port 1223
+1640869427032	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640869435435	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640869448295	Marionette	INFO	Stopped listening on port 1223
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: IOUtils: Shutting down and refusing additional I/O tasks
+1640869452885	geckodriver	INFO	Listening on 127.0.0.1:1307
+1640869455970	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "1308" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileDEXmP9"
+1640869457137	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileDEXmP9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1308/devtools/browser/054c50a5-97a2-42d8-ac2c-9e76a33d50f2
+1640869464431	Marionette	INFO	Listening on port 1315
+1640869466184	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640869474036	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJJxUQpsgwPL9Z0aaC7WTcRMFE.js line 1 > eval line 2696 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 35684, MediaDecoderStateMachine #1] WARNING: 1d08f28cc80 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJJxUQpsgwPL9Z0aaC7WTcRMFE.js line 1 > eval line 6590 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1640869489439	Marionette	INFO	Stopped listening on port 1315
+1640869499489	geckodriver	INFO	Listening on 127.0.0.1:1410
+1640869502549	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "1411" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile2ZFzCy"
+1640869503910	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile2ZFzCy\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1411/devtools/browser/641cf889-3e28-449f-9938-f618989170ae
+1640869512009	Marionette	INFO	Listening on port 1419
+1640869512159	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640869683573	geckodriver	INFO	Listening on 127.0.0.1:1089
+1640869686657	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "1090" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilearNC61"
+1640869687214	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilearNC61\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1090/devtools/browser/d0705d9c-bc6a-497d-9449-84cf031b72a8
+1640869695049	Marionette	INFO	Listening on port 1097
+1640869696103	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640869750416	geckodriver	INFO	Listening on 127.0.0.1:1217
+1640869753496	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "1218" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileplpJyp"
+1640869754132	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileplpJyp\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1218/devtools/browser/db6fcda0-a342-4042-a4b3-812fb1050d55
+1640869761423	Marionette	INFO	Listening on port 1225
+1640869761830	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640869770838	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640869781793	Marionette	INFO	Stopped listening on port 1225
+1640869789569	geckodriver	INFO	Listening on 127.0.0.1:1304
+1640869792688	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "1305" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileAW5Wl1"
+1640869793288	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileAW5Wl1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1305/devtools/browser/518cebda-bb0f-4f05-9627-e206bc701040
+1640869799976	Marionette	INFO	Listening on port 1312
+1640869800830	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640869809905	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640869826025	Marionette	INFO	Stopped listening on port 1312
+1640869834535	geckodriver	INFO	Listening on 127.0.0.1:1392
+1640869837594	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "1393" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilefM6bpB"
+1640869839667	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilefM6bpB\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1393/devtools/browser/0f5d9d85-d15e-4705-a878-fff770bcc2af
+1640869849443	Marionette	INFO	Listening on port 1400
+1640869849822	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1640869858065	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640869868214	Marionette	INFO	Stopped listening on port 1400
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6A0023,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x230030,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+1640869872550	geckodriver	INFO	Listening on 127.0.0.1:1484
+1640869875630	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "1485" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileNiX4du"
+1640869876329	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileNiX4du\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1485/devtools/browser/7534c9f3-76f0-460a-a975-09137ccb0468
+1640869883607	Marionette	INFO	Listening on port 1490
+1640869884932	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640869892968	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640869903755	Marionette	INFO	Stopped listening on port 1490
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6A0023,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x230030,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1640869908024	geckodriver	INFO	Listening on 127.0.0.1:1577
+1640869911100	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "1578" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileYZagx9"
+1640869911726	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileYZagx9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1578/devtools/browser/06175023-3e86-4c11-b633-f751101a9355
+1640869919087	Marionette	INFO	Listening on port 1584
+1640869920441	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1640869928289	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640869939888	Marionette	INFO	Stopped listening on port 1584
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1640869944919	geckodriver	INFO	Listening on 127.0.0.1:1671
+1640869948008	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "1672" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileU18tU4"
+1640869948773	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileU18tU4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1672/devtools/browser/22ea8962-70c0-43d3-b45b-26349a80083e
+1640869955198	Marionette	INFO	Listening on port 1679
+1640869956130	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640869964525	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640869974049	Marionette	INFO	Stopped listening on port 1679
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1640869980333	geckodriver	INFO	Listening on 127.0.0.1:1766
+1640869983395	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "1767" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilelS2Wwz"
+1640869984039	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilelS2Wwz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1767/devtools/browser/09ccff3d-9ff2-49c3-8d1f-49344d3d4897
+1640869991103	Marionette	INFO	Listening on port 1774
+1640869992578	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640870001145	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640870011182	Marionette	INFO	Stopped listening on port 1774
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1640870017362	geckodriver	INFO	Listening on 127.0.0.1:1860
+1640870020434	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "1861" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileOgQwXm"
+1640870021094	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileOgQwXm\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1861/devtools/browser/80e587fd-07ac-4aa7-910f-2d3ab019fd9e
+1640870029588	Marionette	INFO	Listening on port 1866
+1640870030159	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640870037720	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJJxUQpsgwPL9Z0aaC7WTcRMFE.js line 1 > eval line 696 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 33908, MediaDecoderStateMachine #1] WARNING: 24d8f9ef660 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJJxUQpsgwPL9Z0aaC7WTcRMFE.js line 1 > eval line 5764 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1640870050063	Marionette	INFO	Stopped listening on port 1866
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1640870054369	geckodriver	INFO	Listening on 127.0.0.1:1961
+1640870057441	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "1962" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileEMkAH8"
+1640870057973	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileEMkAH8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1962/devtools/browser/9ad6d95e-2eb6-4375-9431-e7a6e0aad5cf
+1640870064990	Marionette	INFO	Listening on port 1969
+1640870065576	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640870072952	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640870087341	Marionette	INFO	Stopped listening on port 1969
+1640870091729	geckodriver	INFO	Listening on 127.0.0.1:2045
+1640870094827	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "2046" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileWnmK4c"
+1640870095601	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileWnmK4c\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:2046/devtools/browser/105538e0-8fcf-4a0b-a9a2-674a28412e6a
+1640870102971	Marionette	INFO	Listening on port 2051
+1640870104092	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640870112311	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640870123774	Marionette	INFO	Stopped listening on port 2051
+!!! error running onStopped callback: TypeError: callback is not a function
+1640870129905	geckodriver	INFO	Listening on 127.0.0.1:2126
+1640870132964	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "2127" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile0pV778"
+1640870133565	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile0pV778\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:2127/devtools/browser/fc4161cc-fe85-48c9-a940-946e8ffe66eb
+1640870140632	Marionette	INFO	Listening on port 2134
+1640870141390	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640870150657	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640870160534	Marionette	INFO	Stopped listening on port 2134
+1640870163839	geckodriver	INFO	Listening on 127.0.0.1:2210
+1640870166903	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "2211" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilerQ0DIr"
+1640870167466	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilerQ0DIr\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:2211/devtools/browser/d9c0bc20-c7ef-4832-b1b4-8c5b46dbb386
+1640870175775	Marionette	INFO	Listening on port 2218
+1640870175984	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640870186585	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640870194387	Marionette	INFO	Stopped listening on port 2218
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  Message: Error: Data is not ready.
+  Stack:
+    get data@resource://gre/modules/JSONFile.jsm:186:13
+getListeners@resource://gre/modules/PushBroadcastService.jsm:66:5
+observe@resource://gre/modules/AsyncShutdown.jsm:575:16
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1640870201577	geckodriver	INFO	Listening on 127.0.0.1:2304
+1640870204662	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "2305" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile4MBzDi"
+1640870205282	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile4MBzDi\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:2305/devtools/browser/57064e53-5a11-4520-b513-d4cfd641c106
+1640870212821	Marionette	INFO	Listening on port 2312
+1640870213331	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640870221506	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640870231635	Marionette	INFO	Stopped listening on port 2312
+1640870236440	geckodriver	INFO	Listening on 127.0.0.1:2384
+1640870239515	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "2385" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilenaV18j"
+1640870240124	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilenaV18j\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:2385/devtools/browser/1ca17d46-48b7-4634-8381-21c5a633cc8a
+1640870247041	Marionette	INFO	Listening on port 2392
+1640870248787	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640870257904	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJJxUQpsgwPL9Z0aaC7WTcRMFE.js line 1 > eval line 6738 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 19496, MediaDecoderStateMachine #1] WARNING: 16aad2c8820 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+1640870268953	Marionette	INFO	Stopped listening on port 2392
+JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJJxUQpsgwPL9Z0aaC7WTcRMFE.js line 1 > eval line 5713 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1640870275153	geckodriver	INFO	Listening on 127.0.0.1:2496
+1640870278207	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "2497" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileiopzaQ"
+1640870279114	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileiopzaQ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:2497/devtools/browser/a4524116-5cfe-4c94-8f54-abc7df3ed447
+1640870285390	Marionette	INFO	Listening on port 2504
+1640870286036	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640870296419	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJJxUQpsgwPL9Z0aaC7WTcRMFE.js line 1 > eval line 5200 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 26572, MediaDecoderStateMachine #1] WARNING: 19f02e9bc80 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJJxUQpsgwPL9Z0aaC7WTcRMFE.js line 1 > eval line 2616 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 26572, MediaDecoderStateMachine #1] WARNING: 19f062f34a0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+[Child 26572, MediaDecoderStateMachine #1] WARNING: 19f025e5ba0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJJxUQpsgwPL9Z0aaC7WTcRMFE.js line 1 > eval line 537 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 26572, MediaDecoderStateMachine #1] WARNING: 19f08071200 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJJxUQpsgwPL9Z0aaC7WTcRMFE.js line 1 > eval line 6214 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 26572, MediaDecoderStateMachine #1] WARNING: 19f0691e820 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 26572, MediaDecoderStateMachine #1] WARNING: 19f06b4bd60 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJJxUQpsgwPL9Z0aaC7WTcRMFE.js line 1 > eval line 5692 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 26572, MediaDecoderStateMachine #1] WARNING: 19f026f2660 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+1640871597946	geckodriver	INFO	Listening on 127.0.0.1:1076
+1640871601027	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "1077" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileJ3JnOW"
+1640871602690	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileJ3JnOW\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1077/devtools/browser/1b6c7d6d-29cc-4719-90b2-680753de3840
+1640871610501	Marionette	INFO	Listening on port 1084
+1640871611150	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640871619052	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640871713707	geckodriver	INFO	Listening on 127.0.0.1:1205
+1640871716781	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "1206" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile32Ribz"
+1640871718859	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile32Ribz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1206/devtools/browser/b139dbc3-d980-4850-ba1c-3eff46ae0849
+1640871726283	Marionette	INFO	Listening on port 1214
+1640871727776	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640871735122	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640871755953	Marionette	INFO	Stopped listening on port 1214
+1640871762664	geckodriver	INFO	Listening on 127.0.0.1:1296
+1640871765682	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "1297" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofiletFSkn5"
+1640871767344	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofiletFSkn5\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1297/devtools/browser/6629d974-c6e1-4b19-80f6-3c03ca18a4c6
+1640871773955	Marionette	INFO	Listening on port 1304
+1640871775292	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640871783045	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640871803775	Marionette	INFO	Stopped listening on port 1304
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1640871810982	geckodriver	INFO	Listening on 127.0.0.1:1392
+1640871814020	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "1393" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileXnzARD"
+1640871815306	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileXnzARD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1393/devtools/browser/c1145e66-d076-4eca-a0f4-685d8043fbdd
+1640871823332	Marionette	INFO	Listening on port 1399
+1640871823829	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1640871831842	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640871842982	Marionette	INFO	Stopped listening on port 1399
+1640871851306	geckodriver	INFO	Listening on 127.0.0.1:1476
+1640871854319	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "1477" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile8qML7b"
+1640871855014	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile8qML7b\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1477/devtools/browser/0bbd13c3-ae9e-4781-a925-93127c7dca08
+1640871861891	Marionette	INFO	Listening on port 1482
+1640871862652	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640871871422	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJJxUQpsgwPL9Z0aaC7WTcRMFE.js line 1 > eval line 1180 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1640871882620	Marionette	INFO	Stopped listening on port 1482
+[Child 13572, MediaDecoderStateMachine #1] WARNING: 1c104ad8ac0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+1640871892032	geckodriver	INFO	Listening on 127.0.0.1:1574
+1640871895079	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "1575" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile02Q9bv"
+1640871896226	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile02Q9bv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1575/devtools/browser/2ff5a30e-4607-4d43-8994-f8a5d6dfb1ab
+1640871902878	Marionette	INFO	Listening on port 1582
+1640871904208	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640871912630	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640871925841	Marionette	INFO	Stopped listening on port 1582
+1640871940451	geckodriver	INFO	Listening on 127.0.0.1:1665
+1640871943522	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "1666" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileyJLWWt"
+1640871944282	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileyJLWWt\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1666/devtools/browser/3a54a913-9510-426c-acdf-b3739010da9e
+1640871951681	Marionette	INFO	Listening on port 1675
+1640871953657	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640871961218	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640871970721	Marionette	INFO	Stopped listening on port 1675
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1640871975165	geckodriver	INFO	Listening on 127.0.0.1:1755
+1640871978249	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "1756" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileHltL9r"
+1640871979364	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileHltL9r\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1756/devtools/browser/bc8fa0ee-eb6c-4699-98f5-7ecd191850dd
+1640871986920	Marionette	INFO	Listening on port 1761
+1640871987474	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640871995091	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640872008923	Marionette	INFO	Stopped listening on port 1761
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: IOUtils: Shutting down and refusing additional I/O tasks
+1640872016779	geckodriver	INFO	Listening on 127.0.0.1:1841
+1640872019873	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "1842" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile7d84d4"
+1640872020736	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile7d84d4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1842/devtools/browser/4c265884-3a4a-4aa5-b01e-0f48da499c94
+1640872027316	Marionette	INFO	Listening on port 1849
+1640872028711	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640872037143	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJJxUQpsgwPL9Z0aaC7WTcRMFE.js line 1 > eval line 4390 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 33984, MediaDecoderStateMachine #1] WARNING: 1e7c7bf7900 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+1640872048401	Marionette	INFO	Stopped listening on port 1849
+JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJJxUQpsgwPL9Z0aaC7WTcRMFE.js line 1 > eval line 2321 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 33984, MediaDecoderStateMachine #1] WARNING: 1e7be2b7900 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1640872057614	geckodriver	INFO	Listening on 127.0.0.1:1941
+1640872060664	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "1942" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilebqPE05"
+1640872061816	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilebqPE05\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1942/devtools/browser/ec2ea343-0a73-4aba-bb2a-005a6f412ae9
+1640872068355	Marionette	INFO	Listening on port 1949
+1640872069733	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640872078574	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640872105895	Marionette	INFO	Stopped listening on port 1949
+1640872116694	geckodriver	INFO	Listening on 127.0.0.1:2039
+1640872119669	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "2040" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileaxdCDz"
+1640872120945	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileaxdCDz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:2040/devtools/browser/edf16bd4-20ff-4fa4-95d8-569cc51d3e49
+1640872127241	Marionette	INFO	Listening on port 2045
+1640872127924	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1640875272831	geckodriver	INFO	Listening on 127.0.0.1:6287
+1640875275950	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "6288" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilezODdEz"
+1640875279088	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilezODdEz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:6288/devtools/browser/8b728fc8-bf6e-4746-8ef3-a805d01f28b0
+1640875288379	Marionette	INFO	Listening on port 6295
+1640875289198	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640875297705	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640875315988	Marionette	INFO	Stopped listening on port 6295
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1640875324421	geckodriver	INFO	Listening on 127.0.0.1:6375
+1640875327476	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "6376" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileblxzgN"
+1640875328549	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileblxzgN\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:6376/devtools/browser/20a77660-adb5-41b6-9fc9-b455e26e7ab4
+1640875337093	Marionette	INFO	Listening on port 6381
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1640875339256	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640875346666	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640875359956	Marionette	INFO	Stopped listening on port 6381
+1640875370747	geckodriver	INFO	Listening on 127.0.0.1:6461
+1640875373799	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "6462" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileFrEM6i"
+1640875375463	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileFrEM6i\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:6462/devtools/browser/ff4e326e-457a-4db6-ba91-45340c242de3
+1640875383140	Marionette	INFO	Listening on port 6469
+1640875383941	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640875392850	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640875405830	Marionette	INFO	Stopped listening on port 6469
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 446))
+1640875426467	geckodriver	INFO	Listening on 127.0.0.1:6555
+1640875429559	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "6556" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile4Xqvpr"
+1640875430781	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile4Xqvpr\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:6556/devtools/browser/ffdb7e01-2274-4a20-9a82-9c292699719a
+1640875439115	Marionette	INFO	Listening on port 6563
+1640875439696	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640875447978	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640875460331	Marionette	INFO	Stopped listening on port 6563
+1640875469568	geckodriver	INFO	Listening on 127.0.0.1:6644
+1640875472601	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "6645" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofiletqgTs6"
+1640875473891	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofiletqgTs6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:6645/devtools/browser/1f017d1c-e57a-4abb-9470-8683ed09052d
+1640875480755	Marionette	INFO	Listening on port 6650
+1640875481861	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640875490612	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640875505912	Marionette	INFO	Stopped listening on port 6650
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1640875515844	geckodriver	INFO	Listening on 127.0.0.1:6730
+1640875518941	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "6731" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileZeGJw0"
+1640875520651	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileZeGJw0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:6731/devtools/browser/16c8ff29-a893-4e8b-84e2-0f46a5188248
+1640875528869	Marionette	INFO	Listening on port 6738
+1640875529842	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1640875537697	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640875550070	Marionette	INFO	Stopped listening on port 6738
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1640875558871	geckodriver	INFO	Listening on 127.0.0.1:6817
+1640875562004	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "6818" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileqM5pfg"
+1640875563084	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileqM5pfg\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:6818/devtools/browser/f3ab5926-bc37-483c-8144-0d3a26e35a88
+1640875570277	Marionette	INFO	Listening on port 6823
+1640875571119	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640875578937	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJJxUQpsgwPL9Z0aaC7WTcRMFE.js line 1 > eval line 6847 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 30464, MediaDecoderStateMachine #1] WARNING: 297a2d05820 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJJxUQpsgwPL9Z0aaC7WTcRMFE.js line 1 > eval line 5597 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1640875593007	Marionette	INFO	Stopped listening on port 6823
+[Child 30464, MediaDecoderStateMachine #1] WARNING: 2979dd5b120 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1640875609630	geckodriver	INFO	Listening on 127.0.0.1:6913
+1640875612694	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "6914" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileICqlBk"
+1640875613620	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileICqlBk\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:6914/devtools/browser/b2f167ea-4dd6-4e27-8323-e4559ba8a650
+1640875621033	Marionette	INFO	Listening on port 6920
+1640875621795	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640875629005	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJJxUQpsgwPL9Z0aaC7WTcRMFE.js line 1 > eval line 5119 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 19076, MediaDecoderStateMachine #1] WARNING: 24af8457740 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJJxUQpsgwPL9Z0aaC7WTcRMFE.js line 1 > eval line 968 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1640875648588	Marionette	INFO	Stopped listening on port 6920
+1640875658321	geckodriver	INFO	Listening on 127.0.0.1:7011
+1640875661381	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "disable-gpu" "--remote-debugging-port" "7012" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilewcqfN7"
+1640875662233	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilewcqfN7\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:7012/devtools/browser/00eb4568-03ed-4ef9-a542-b10a248f37eb
+1640875670555	Marionette	INFO	Listening on port 7019
+1640875671417	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1640876720750	geckodriver	INFO	Listening on 127.0.0.1:1272
+1640876723798	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "1273" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilebzPv6e"
+1640876724920	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilebzPv6e\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1273/devtools/browser/3cf893d7-af2c-413c-a21f-6dc336331598
+1640876734370	Marionette	INFO	Listening on port 1278
+1640876735297	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1640876739488	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640876756980	Marionette	INFO	Stopped listening on port 1278
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 31144, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1640876773179	geckodriver	INFO	Listening on 127.0.0.1:30229
+1640876776816	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "30230" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileZyKmaC"
+1640876782201	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileZyKmaC\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+DevTools listening on ws://localhost:30230/devtools/browser/9efd8ee4-a9c4-478f-b980-33d82718b01a
+1640876812523	Marionette	INFO	Listening on port 30237
+1640876813261	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640876821926	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640876856183	Marionette	INFO	Stopped listening on port 30237
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 446))
+1640876880218	geckodriver	INFO	Listening on 127.0.0.1:30352
+1640876883305	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "30353" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile30JXo6"
+1640876883887	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile30JXo6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:30353/devtools/browser/ea36a74d-5176-43e7-8be0-9ae6d280b5c5
+1640876891093	Marionette	INFO	Listening on port 30360
+1640876892516	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640876897285	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640876909009	Marionette	INFO	Stopped listening on port 30360
+1640876916693	geckodriver	INFO	Listening on 127.0.0.1:30439
+1640876919847	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "30440" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilearbhhG"
+1640876920437	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilearbhhG\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:30440/devtools/browser/b6947d74-8b69-49ec-bffc-73c50bbc6ccf
+1640876927652	Marionette	INFO	Listening on port 30445
+1640876928611	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1640876933146	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640876948098	Marionette	INFO	Stopped listening on port 30445
+1640876955192	geckodriver	INFO	Listening on 127.0.0.1:30520
+1640876958276	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "30521" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilecImC6q"
+1640876959091	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilecImC6q\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:30521/devtools/browser/8305d2e6-254b-41f5-a3e0-bb5a10e2562b
+1640876966706	Marionette	INFO	Listening on port 30528
+1640876967538	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640876973303	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640876990659	Marionette	INFO	Stopped listening on port 30528
+1640876994761	geckodriver	INFO	Listening on 127.0.0.1:30605
+1640876997924	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "30606" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileGNyoMY"
+1640876998465	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileGNyoMY\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+DevTools listening on ws://localhost:30606/devtools/browser/e99af04f-ea4b-4421-96a5-2c4885210edf
+1640877009213	Marionette	INFO	Listening on port 30613
+1640877011510	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640877019402	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640877038341	Marionette	INFO	Stopped listening on port 30613
+1640877052487	geckodriver	INFO	Listening on 127.0.0.1:30700
+1640877055549	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "30701" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileMCngdz"
+1640877056619	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileMCngdz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:30701/devtools/browser/ff33d7ea-93a3-43ed-b5ac-00d3c51ef7ed
+1640877068028	Marionette	INFO	Listening on port 30706
+1640877069925	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640877074820	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640877089726	Marionette	INFO	Stopped listening on port 30706
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1640877097941	geckodriver	INFO	Listening on 127.0.0.1:17566
+1640877101016	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "17567" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile2Z8tE7"
+1640877101844	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile2Z8tE7\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:17567/devtools/browser/7e2c9f92-fefd-4ede-98b5-79dab654481f
+1640877108691	Marionette	INFO	Listening on port 17572
+1640877110775	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640877116877	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640877127652	Marionette	INFO	Stopped listening on port 17572
+1640877135428	geckodriver	INFO	Listening on 127.0.0.1:17651
+1640877138510	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "17652" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofiledMWFuo"
+1640877140450	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofiledMWFuo\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:17652/devtools/browser/5cb98e95-2cf7-49b4-b73a-14fa2d00bb8f
+1640877147597	Marionette	INFO	Listening on port 17659
+1640877148913	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1640877154633	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJJxUQpsgwPL9Z0aaC7WTcRMFE.js line 1 > eval line 1977 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 29916, MediaDecoderStateMachine #1] WARNING: 1e4d2fd4740 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJJxUQpsgwPL9Z0aaC7WTcRMFE.js line 1 > eval line 6160 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1640877177371	Marionette	INFO	Stopped listening on port 17659
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x230030,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1640877183911	geckodriver	INFO	Listening on 127.0.0.1:17749
+1640877186935	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "17750" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileJogwky"
+1640877187909	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileJogwky\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:17750/devtools/browser/e131c748-f024-46a4-a722-27404d537bc4
+1640877194910	Marionette	INFO	Listening on port 17758
+1640877196633	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640877201398	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640877224398	Marionette	INFO	Stopped listening on port 17758
+1640877230255	geckodriver	INFO	Listening on 127.0.0.1:17838
+1640877233318	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "17839" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilewKvGQJ"
+1640877233905	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilewKvGQJ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:17839/devtools/browser/bfd1018e-d07a-4a12-b683-8b5160d27e8e
+1640877241647	Marionette	INFO	Listening on port 17846
+1640877242342	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640877248147	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640877262260	Marionette	INFO	Stopped listening on port 17846
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: IOUtils: Shutting down and refusing additional I/O tasks
+1640877269860	geckodriver	INFO	Listening on 127.0.0.1:17918
+1640877272908	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "17919" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileAzaeWL"
+1640877273465	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileAzaeWL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:17919/devtools/browser/24e8022b-42f3-4506-91e5-ed43c58396c1
+1640877282884	Marionette	INFO	Listening on port 17926
+1640877283074	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640877287501	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640877305298	Marionette	INFO	Stopped listening on port 17926
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1640877309752	geckodriver	INFO	Listening on 127.0.0.1:18007
+1640877312858	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "18008" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileThKggu"
+1640877314233	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileThKggu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:18008/devtools/browser/af2cb45f-2024-47c2-8c95-654249c4d669
+1640877323103	Marionette	INFO	Listening on port 18015
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1640877324601	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640877329333	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640877339007	Marionette	INFO	Stopped listening on port 18015
+1640877345471	geckodriver	INFO	Listening on 127.0.0.1:18094
+1640877348604	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "18095" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileACjyUf"
+1640877349310	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileACjyUf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:18095/devtools/browser/67db2ad1-7fe1-452e-8ab7-93f79ea59443
+1640877356008	Marionette	INFO	Listening on port 18102
+1640877357018	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640877362583	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJJxUQpsgwPL9Z0aaC7WTcRMFE.js line 1 > eval line 4584 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 4060, MediaDecoderStateMachine #1] WARNING: 16321dc7040 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+1640877373337	Marionette	INFO	Stopped listening on port 18102
+[Parent 9504, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6A0023,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x230030,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1640877378745	geckodriver	INFO	Listening on 127.0.0.1:18180
+1640877381817	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "18181" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilePTUyIs"
+1640877382695	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilePTUyIs\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:18181/devtools/browser/9904c1f7-e6a4-470e-9ad7-6e7d8942c184
+1640877389956	Marionette	INFO	Listening on port 18188
+1640877390781	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640877397208	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640877415033	Marionette	INFO	Stopped listening on port 18188
+1640877418357	geckodriver	INFO	Listening on 127.0.0.1:1069
+1640877421430	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "1070" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile5Uodwb"
+1640877422018	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile5Uodwb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1070/devtools/browser/8d80fae1-3f42-4879-b68d-fcb3c63db479
+1640877430054	Marionette	INFO	Listening on port 1075
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1640877431411	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640877438170	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640877445582	Marionette	INFO	Stopped listening on port 1075
+1640877451809	geckodriver	INFO	Listening on 127.0.0.1:1161
+1640877454904	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "1162" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileQZNV29"
+1640877455753	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileQZNV29\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1162/devtools/browser/a04c28d2-5fdf-4501-8208-f02357a6bc53
+1640877463213	Marionette	INFO	Listening on port 1168
+1640877464870	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640877470120	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640877487699	Marionette	INFO	Stopped listening on port 1168
+1640877491173	geckodriver	INFO	Listening on 127.0.0.1:1251
+1640877494251	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "1252" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilebZbmep"
+1640877495134	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilebZbmep\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1252/devtools/browser/370edc05-1016-4c36-b9a5-c4c35e570797
+1640877502039	Marionette	INFO	Listening on port 1259
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1640877504475	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640877510886	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640877521774	Marionette	INFO	Stopped listening on port 1259
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1640877526133	geckodriver	INFO	Listening on 127.0.0.1:1345
+1640877529225	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "1346" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileeKDjOv"
+1640877530026	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileeKDjOv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1346/devtools/browser/e19017a6-83ef-4ad0-aa70-cdd49bbf46ed
+1640877537194	Marionette	INFO	Listening on port 1354
+1640877537887	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640877545227	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640877556757	Marionette	INFO	Stopped listening on port 1354
+1640877562680	geckodriver	INFO	Listening on 127.0.0.1:1435
+1640877565746	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "1436" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile93Vjp8"
+1640877566355	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile93Vjp8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1436/devtools/browser/436783d9-8dc5-44fd-950a-23c86d0ab2d0
+1640877572713	Marionette	INFO	Listening on port 1441
+1640877573581	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640877578344	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640877590519	Marionette	INFO	Stopped listening on port 1441
+1640877595075	geckodriver	INFO	Listening on 127.0.0.1:1513
+1640877598148	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "1514" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileeZQewf"
+1640877598874	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileeZQewf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1514/devtools/browser/fbdf16f5-b778-41ed-a5bf-b49e6d2a657b
+1640877608159	Marionette	INFO	Listening on port 1521
+1640877609987	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640877616931	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640877632257	Marionette	INFO	Stopped listening on port 1521
+1640877641016	geckodriver	INFO	Listening on 127.0.0.1:1611
+1640877644051	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "1612" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilejQ5o3T"
+1640877646464	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilejQ5o3T\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1612/devtools/browser/f8b0b44d-b878-43e2-b794-9a84e1e4dcca
+1640877654790	Marionette	INFO	Listening on port 1620
+1640877655613	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640877661373	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640877683704	Marionette	INFO	Stopped listening on port 1620
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1640877688190	geckodriver	INFO	Listening on 127.0.0.1:1036
+1640877691232	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "1037" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileWb0xE9"
+1640877692403	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileWb0xE9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1037/devtools/browser/11c8839b-8285-4fc1-9428-2d6ce3f5507a
+1640877699419	Marionette	INFO	Listening on port 1044
+1640877701040	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640877706013	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640877721116	Marionette	INFO	Stopped listening on port 1044
+1640877729179	geckodriver	INFO	Listening on 127.0.0.1:1126
+1640877732268	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "1127" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileuAqHC4"
+1640877732989	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileuAqHC4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1127/devtools/browser/d601eba6-361a-4f6a-a2ca-dc743029038a
+1640877740799	Marionette	INFO	Listening on port 1135
+1640877742009	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640877747109	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640877767136	Marionette	INFO	Stopped listening on port 1135
+1640877770221	geckodriver	INFO	Listening on 127.0.0.1:1219
+1640877773375	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "1220" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile5WUDVS"
+1640877774087	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile5WUDVS\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1220/devtools/browser/6c32432b-301e-4722-9c2f-a33d6f423f94
+1640877780728	Marionette	INFO	Listening on port 1228
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1640877782656	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640877787396	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640877798727	Marionette	INFO	Stopped listening on port 1228
+1640877802752	geckodriver	INFO	Listening on 127.0.0.1:1323
+1640877805781	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "1324" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileBpreMb"
+1640877806452	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileBpreMb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1324/devtools/browser/20f6753f-5191-4a45-8580-9ef380c007ea
+1640877812888	Marionette	INFO	Listening on port 1330
+1640877813479	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640877819049	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640877829846	Marionette	INFO	Stopped listening on port 1330
+1640877834842	geckodriver	INFO	Listening on 127.0.0.1:1408
+1640877837923	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "1409" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile1XRuev"
+1640877838563	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile1XRuev\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1409/devtools/browser/4bea8b48-6839-4fea-a7ad-92a8e62fc60e
+1640877845667	Marionette	INFO	Listening on port 1417
+1640877846115	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640877850953	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640877863779	Marionette	INFO	Stopped listening on port 1417
+1640877867392	geckodriver	INFO	Listening on 127.0.0.1:1493
+1640877870496	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "1494" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilewW8lJM"
+1640877871070	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilewW8lJM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1494/devtools/browser/3e5c2e3c-b1aa-4122-bfe9-f46f1d84f5d6
+1640877877986	Marionette	INFO	Listening on port 1501
+1640877879353	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640877884647	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640877898294	Marionette	INFO	Stopped listening on port 1501
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1640877902949	geckodriver	INFO	Listening on 127.0.0.1:1592
+1640877906025	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "1593" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilezir0MK"
+1640877906616	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilezir0MK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1593/devtools/browser/52edffd7-63a4-41f8-b5b7-102dc3ecd327
+1640877914810	Marionette	INFO	Listening on port 1598
+1640877915551	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640877920717	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640877930510	Marionette	INFO	Stopped listening on port 1598
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1640877937076	geckodriver	INFO	Listening on 127.0.0.1:1679
+1640877940159	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "1680" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileZx2ZK3"
+1640877940723	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileZx2ZK3\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1680/devtools/browser/66ee3a95-3a78-4f42-af7f-68fbf28ffe0d
+1640877947264	Marionette	INFO	Listening on port 1687
+1640877948452	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640877954171	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640877968304	Marionette	INFO	Stopped listening on port 1687
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1640877971440	geckodriver	INFO	Listening on 127.0.0.1:1765
+1640877974519	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "1766" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilefK9gvd"
+1640877975120	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilefK9gvd\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1766/devtools/browser/d502f2b6-32ee-4577-91ff-d9accf907256
+1640877984894	Marionette	INFO	Listening on port 1773
+1640877985464	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640877991493	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640878007147	Marionette	INFO	Stopped listening on port 1773
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1640878010702	geckodriver	INFO	Listening on 127.0.0.1:1037
+1640878013793	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "1038" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile6bgBPb"
+1640878014372	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile6bgBPb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1038/devtools/browser/d24bfc64-2c4c-4583-abc7-0fad3b885648
+1640878021995	Marionette	INFO	Listening on port 1048
+1640878022677	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640878028380	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640878037503	Marionette	INFO	Stopped listening on port 1048
+1640878043843	geckodriver	INFO	Listening on 127.0.0.1:1134
+1640878046946	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "1135" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofiles1C4Kg"
+1640878047745	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofiles1C4Kg\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1135/devtools/browser/da8ae7ea-30eb-4c03-ac5d-466f61385350
+1640878055953	Marionette	INFO	Listening on port 1140
+1640878057015	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640878062062	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640878075240	Marionette	INFO	Stopped listening on port 1140
+1640878080095	geckodriver	INFO	Listening on 127.0.0.1:1234
+1640878083168	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "1235" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile6hIuBj"
+1640878083725	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile6hIuBj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1235/devtools/browser/50708ed4-0c70-4913-bccf-9924b80cfbc5
+1640878091570	Marionette	INFO	Listening on port 1242
+1640878092987	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640878097467	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640878115349	Marionette	INFO	Stopped listening on port 1242
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1640878121176	geckodriver	INFO	Listening on 127.0.0.1:1328
+1640878124538	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "1329" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileKFeZla"
+1640878125257	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileKFeZla\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+DevTools listening on ws://localhost:1329/devtools/browser/6bead252-f206-472c-b5a2-6c8a0831be8c
+1640878135470	Marionette	INFO	Listening on port 1337
+1640878135846	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640878143371	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640878154944	Marionette	INFO	Stopped listening on port 1337
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6A0023,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+1640878160954	geckodriver	INFO	Listening on 127.0.0.1:1417
+1640878164024	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "1418" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilecOJBG0"
+1640878164839	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilecOJBG0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1418/devtools/browser/1dd766ee-7cc1-4cca-88c9-d878c8cb813e
+1640878173793	Marionette	INFO	Listening on port 1425
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1640878175424	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640878181579	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640878195341	Marionette	INFO	Stopped listening on port 1425
+!!! error running onStopped callback: TypeError: callback is not a function
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  TypeError
+[Parent 15976, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1640878200510	geckodriver	INFO	Listening on 127.0.0.1:1504
+1640878203590	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "1505" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilea0fS7y"
+1640878204229	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilea0fS7y\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1505/devtools/browser/afca6d2a-2908-4490-906f-f0ffd47d59e9
+1640878211965	Marionette	INFO	Listening on port 1512
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1640878213808	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640878219076	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJJxUQpsgwPL9Z0aaC7WTcRMFE.js line 1 > eval line 3734 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1640878227942	Marionette	INFO	Stopped listening on port 1512
+1640878234564	geckodriver	INFO	Listening on 127.0.0.1:13098
+1640878237654	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "13099" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileAN6MBZ"
+1640878238319	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileAN6MBZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:13099/devtools/browser/a120330d-80e9-4b69-bc55-def91d10b812
+1640878246293	Marionette	INFO	Listening on port 13104
+1640878246771	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640878252214	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640878261483	Marionette	INFO	Stopped listening on port 13104
+1640878267492	geckodriver	INFO	Listening on 127.0.0.1:13179
+1640878270581	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "13180" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile5tXa1R"
+1640878271135	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile5tXa1R\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:13180/devtools/browser/27a36fdb-944d-4f9d-9e97-52d474ff38fd
+1640878277962	Marionette	INFO	Listening on port 13187
+1640878280086	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640878284487	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640878298067	Marionette	INFO	Stopped listening on port 13187
+[Parent 1044, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1640878303334	geckodriver	INFO	Listening on 127.0.0.1:13265
+1640878306452	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "13266" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileV1YhDt"
+1640878307000	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileV1YhDt\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:13266/devtools/browser/fdb9a8bb-95a9-4266-95c6-f5244a3db8b9
+1640878313657	Marionette	INFO	Listening on port 13271
+1640878315068	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640878317825	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640878329481	Marionette	INFO	Stopped listening on port 13271
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1640879816085	geckodriver	INFO	Listening on 127.0.0.1:24083
+1640879819091	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "24084" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile7oyfpx"
+1640879820427	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile7oyfpx\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:24084/devtools/browser/a6e25ce4-3d3b-4c34-9f69-9c380d17d4e7
+1640879828240	Marionette	INFO	Listening on port 24089
+1640879830347	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640879835883	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640879862587	Marionette	INFO	Stopped listening on port 24089
+1640879871801	geckodriver	INFO	Listening on 127.0.0.1:1029
+1640879874849	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "1030" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile1Yq7Xl"
+1640879876939	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile1Yq7Xl\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1030/devtools/browser/ec2bf209-3e80-4123-a345-0cf748491824
+1640879885496	Marionette	INFO	Listening on port 1036
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1640879887208	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640879894234	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640879919056	Marionette	INFO	Stopped listening on port 1036
+[Parent 27132, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1640879927149	geckodriver	INFO	Listening on 127.0.0.1:1143
+1640879930162	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "1144" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileA3Sml1"
+1640879931647	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileA3Sml1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1144/devtools/browser/261c10f5-f988-434f-ad78-7c5a2fbaa290
+1640879940911	Marionette	INFO	Listening on port 1151
+1640879941459	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640879950248	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640879968863	geckodriver	INFO	Listening on 127.0.0.1:1271
+1640879971937	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "1272" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileC2Ctz0"
+1640879973758	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileC2Ctz0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1272/devtools/browser/2b7b3edb-3dfa-4631-abbc-7b4ec401fd22
+1640879982401	Marionette	INFO	Listening on port 1281
+1640879983039	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1640879987904	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640880011958	Marionette	INFO	Stopped listening on port 1281
+[Parent 22864, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1640880020927	geckodriver	INFO	Listening on 127.0.0.1:1031
+1640880023967	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "1032" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile324kt2"
+1640880025290	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile324kt2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1032/devtools/browser/4d18fa51-4664-4cf9-a33d-4e4de336136b
+1640880034856	Marionette	INFO	Listening on port 1037
+1640880036803	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640880041962	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640880063072	Marionette	INFO	Stopped listening on port 1037
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+[Parent 22352, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1640880069489	geckodriver	INFO	Listening on 127.0.0.1:1144
+1640880072567	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "1145" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileqKSyEa"
+1640880073905	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileqKSyEa\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1145/devtools/browser/9f211371-58ce-4d79-a111-a365234feaab
+1640880082035	Marionette	INFO	Listening on port 1154
+1640880082258	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640880089337	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640880107814	Marionette	INFO	Stopped listening on port 1154
+1640880112535	geckodriver	INFO	Listening on 127.0.0.1:1239
+1640880115616	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "1240" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile45tGgc"
+1640880116669	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile45tGgc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1240/devtools/browser/2e959a8c-70d7-4c94-afbd-1256ebe1a9d6
+1640880124848	Marionette	INFO	Listening on port 1245
+1640880125489	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640880239889	geckodriver	INFO	Listening on 127.0.0.1:1404
+1640880242977	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "1405" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilekmmwjK"
+1640880243784	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofilekmmwjK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1405/devtools/browser/c642002b-bee6-47b4-b1d9-69df1f37feeb
+1640880251315	Marionette	INFO	Listening on port 1412
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1640880253853	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640880258845	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640880544614	geckodriver	INFO	Listening on 127.0.0.1:4429
+1640880547579	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "4430" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileoLjPqR"
+1640880548533	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileoLjPqR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:4430/devtools/browser/0191334c-a472-45a6-bee2-c2db37973f1f
+1640880557135	Marionette	INFO	Listening on port 4437
+1640880559047	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640880563414	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJJxUQpsgwPL9Z0aaC7WTcRMFE.js line 1 > eval line 1684 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1640880577552	Marionette	INFO	Stopped listening on port 4437
+[Child 30544, MediaDecoderStateMachine #1] WARNING: 1c5e7ad1ac0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+1640880583629	geckodriver	INFO	Listening on 127.0.0.1:1048
+1640880586688	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "1051" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofiley09415"
+1640880588003	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofiley09415\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1051/devtools/browser/22329145-1881-419a-82ed-85f2a73c3880
+1640880595966	Marionette	INFO	Listening on port 1065
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1640880597900	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640880602204	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640880624267	Marionette	INFO	Stopped listening on port 1065
+1640880635203	geckodriver	INFO	Listening on 127.0.0.1:1156
+1640880638288	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "1157" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile2duh3w"
+1640880639264	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofile2duh3w\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1157/devtools/browser/807f97df-e8d4-4923-8dae-e8f0bc22cf62
+1640880649342	Marionette	INFO	Listening on port 1164
+1640880649615	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640880653961	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640880683248	Marionette	INFO	Stopped listening on port 1164
+1640880695635	geckodriver	INFO	Listening on 127.0.0.1:1259
+1640880698707	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "1260" "-no-remote" "-profile" "C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileIG7xfa"
+1640880699529	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Efraim\\AppData\\Local\\Temp\\rust_mozprofileIG7xfa\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1260/devtools/browser/9c82291d-c1ac-4811-8145-84535230f1f1
+1640880710822	Marionette	INFO	Listening on port 1268
+1640880710913	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640880716470	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1640880733391	Marionette	INFO	Stopped listening on port 1268

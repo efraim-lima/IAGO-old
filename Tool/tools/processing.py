@@ -30,5 +30,14 @@ def processing(text, *args, **kwargs):
         text = re.sub(r'Um', '1', text)
         text = re.sub(r' mil', '00', text)
         text = re.sub(r' mi de', '00000', text)
-        text = re.sub('[^A-Za-z0-9]+', ' ', text)
+        text = re.sub('/[.,\/#!$%\^&\*;:{}=\-_`~()]/g',"", text)
+        text = re.sub('/\s{2,}/g', "", text)
+        #text = re.sub('[^A-Za-z0-9]+', ' ', text)
+        return text
+
+def processing2(text, *args, **kwargs):
+    while True:
+        text = re.sub("/[.,\/#!$%\^&\*;:{}=\-_`~()]/g","", text)
+        text = re.sub('/\s{2,}/g', "", text)
+        #text = re.sub('[^A-Za-z0-9]+', ' ', text)
         return text

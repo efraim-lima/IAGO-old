@@ -11,9 +11,9 @@ from time import sleep
 def webDriver():
     options = Options()
     #options.headless = True
-    options.add_argument("--headless")
+    #options.add_argument("--headless")
     options.add_argument(
-        'disable-gpu'
+        '--disable-gpu'
     )
     global driver
 
@@ -53,3 +53,7 @@ def pauseVideo():
 def quit():
     quit = driver.quit()
     return quit
+
+def close():
+    close = driver.close()
+    return close

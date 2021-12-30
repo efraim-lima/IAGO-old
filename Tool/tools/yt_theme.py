@@ -28,7 +28,7 @@ from selenium.webdriver.common.by import By
 
 def theme(link):
         YT_Category = link
-        print(f'OLHA O LINK!!!!\n\n\n{link}\n\n\n')
+        print(f'OLHA O Nome do tema!!!!\n\n\n{link}\n\n\n')
         driver = config.webDriver()
         driver.get(
             f'https://www.youtube.com/results?search_query={link}&sp=CAASAhAC'
@@ -105,6 +105,8 @@ def theme(link):
             )
 
         df = pd.DataFrame(theme_data)
+        
+        driver.quit()
 
         saving.theme(YT_Category, df)
         return YT_Category, df

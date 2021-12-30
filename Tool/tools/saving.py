@@ -1,6 +1,6 @@
 import pandas as pd
 import os.path
-import os.path
+import urllib
 
 if not os.path.exists('./content'):
         os.mkdir('./content')
@@ -46,13 +46,21 @@ def theme(name, df, *args, **kwargs):
             index=False
         )
         YT.to_json(
-            f'./content/{name}/{name}.jsonto_json',
+            f'./content/{name}/{name}.json',
             index=True
         )
         print('\nTema já existe')
         print(f'\n{YT}\n\n')
         
 def channel(YT_Theme, df, CH, *args, **kwargs):
+    """[Estamos recebendo os dados do yt_channel e processando para salvar
+    no banco de dados]
+
+    Args:
+        YT_Theme ([string]): [tema selecionado pelo user]
+        df ([object]): [um dataframe contendo informações]
+        CH ([string]): [contém o nome do canal, que será usado aqui]
+    """
     if not os.path.exists(f'./content/{YT_Theme}/canais_{YT_Theme}'):
         os.mkdir(f'./content/{YT_Theme}/canais_{YT_Theme}')
     elif os.path.exists(f'./content/{YT_Theme}/canais_{YT_Theme}/{CH}.csv'):
@@ -123,3 +131,53 @@ def channel(YT_Theme, df, CH, *args, **kwargs):
 
     #df2.to_csv(f'{YT_Theme}/canais_{YT_Theme}/{CH}_df_l.csv')
     #print(f'\n\n {df2} \n\n')
+    
+def video(YT_Theme, df, channel, *args, **kwargs):
+    """[aqui estamos salvando os vídeos, por hora acredito que tenha bastante coisa
+    errada, as estou tentando alinhar todos os processos para que fique melhor salvo
+    no banco de dados..]
+
+    Args:
+        YT_Theme ([string]): [é o tema gerado no yt_theme]
+        df ([object]): [conjunto de dados, um dataframe]
+        channel ([string]): [nome do canal, que vamos usar aqui]
+        title([string]): [título do vídeo, para a thubnail]
+        thumb([object]): [é um array, se não me engano...gera a imagem da thumnail]
+    """
+    
+    if not os.path.exists(f'./content/{YT_Theme}/descricoes_{YT_Theme}'):
+        os.mkdir(f'./content/{YT_Theme}/descricoes_{YT_Theme}')
+        df.to_csv(f'./content/{YT_Theme}/descricoes_{YT_Theme}/{channel}.csv', index=False)
+        df.to_json(f'./content/{YT_Theme}/descricoes_{YT_Theme}/{channel}.json', index=True)
+    else:
+        df.to_csv(f'./content/{YT_Theme}/descricoes_{YT_Theme}/{channel}.csv', index=False)
+        df.to_json(f'./content/{YT_Theme}/descricoes_{YT_Theme}/{channel}.json', index=True)
+        #df2.to_csv(f'{YT_Theme}/descricoes_{YT_Theme}/{Canal}_df_l.csv')
+        print(f'\n\n {df} \n\n')
+
+        print('\n Canal já existe \n')
+
+    
+def thumbnail(YT_Theme, channel, title, thumb, *args, **khwargs):
+    """[aqui estamos salvando as thumbnails no lugar correto]
+
+    Args:
+        title([string]): [título do vídeo, para a thubnail]
+        thumb([object]): [é um array, se não me engano...gera a imagem da thumnail]
+    """
+
+    if not os.path.exists(f'./content/{YT_Theme}/canais_{YT_Theme}/img'):
+        os.mkdir(f'./content/{YT_Theme}/canais_{YT_Theme}/img')
+        os.mkdir(f'./content/{YT_Theme}/canais_{YT_Theme}/img/{channel}')
+        path2 = f'./content/{YT_Theme}/canais_{YT_Theme}/img/{channel}/{title}.jpg'
+    elif not os.path.exists(f'./content/{YT_Theme}/canais_{YT_Theme}/img/{channel}'):
+        os.mkdir(f'./content/{YT_Theme}/canais_{YT_Theme}/img/{channel}')
+        path2 = f'./content/{YT_Theme}/canais_{YT_Theme}/img/{channel}/{title}.jpg'
+        urllib.request.urlretrieve(thumb, path2)
+    else: 
+        path3 = f'./content/{YT_Theme}/canais_{YT_Theme}/img/{channel}/{title}.jpg'
+        urllib.request.urlretrieve(thumb, path3)
+        print('\n Canal já existe \n')
+    #df2.to_csv(f'{YT_Theme}/descricoes_{YT_Theme}/{Canal}_df_l.csv')
+    
+    

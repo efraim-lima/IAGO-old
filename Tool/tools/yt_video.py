@@ -1,9 +1,11 @@
 import pandas as pd
 import config
-import processing
 import datetime
+import processing
+import saving
 from time import sleep
 import urllib
+from selenium.webdriver.common.by import By
 
 # print('\n\nTemas disponíveis: \n \n')
 # arquivos = os.listdir('.')
@@ -14,69 +16,63 @@ import urllib
 # canais_1 = os.listdir(f'{YT_Theme}/canais_{YT_Theme}/')
 # print(canais_1)
 
+#theme--->tema
+#CH--->canal
 
-def video_details(df, name, CH, *args, **kwargs):
-    driver = config.webDriver()
-    for item in df:
-        print(name)
-        print(df)
-       
-        print(links)
-        #ch_name = df['Nome'][1].split('\n')
-
-
-        ch_dados = {}
-        dados_no = 0
-        #browser = webdriver.Chrome('C:/Users/efrai/Downloads/chromedriver88_win32/chromedriver.exe') #precisa ser onde está instalado o Chromedriver
-        videos = []
-        for links in links:
-            links = df['Video_URL']
+def video(theme, df, channel, *args, **kwargs):
+    print(f'OLHA o DF \n\n\n\n\n{df}')
+    videos = []
+    links = df['Video_URL']
+    print(links)
+    while True:
+        for link in links:
+            driver = config.webDriver()
+            print(theme)
+            #ch_theme = df['Nome'][1].split('\n')     
             driver.get(
-                f'{links}'
+                f'{link}'
             ) ## estudando 
             config.pauseVideo()
             
-            title = []
+            titles = []
             try:
-                ti =  driver.find_element_by_xpath(
+                title =  driver.find_element(
+                    By.XPATH,
                     '//[@id="container"]/h1/yt-formatted-string'
-                                                    ).text
-                title.append(ti)
-                #print(title)
+                    ).text
             except:
                 driver.implicitly_wait(1)
-                ti = driver.find_element_by_css_selector(
+                title = driver.find_element(
+                    By.CSS_SELECTOR,
                     ".title > .ytd-video-primary-info-renderer"
                     ).text
-                title.append(ti)
             finally:
                 pass
+            
+            titles.append(title)
 
             views = []
-            vi = driver.find_element_by_xpath(
+            vi = driver.find_element(
+                By.XPATH,
                 "//div[@id='count']/ytd-video-view-count-renderer/span"
-                ).text
-            vie = vi.replace(
-                ' visualização',''
                 )
-            vie = vie.replace(
-                '.', ''
-            )
-            view = vie.replace(
-                ' visualizações', ''
-            ) #soup.find('span', {'class':'view-count style-scope ytd-video-view-count-renderer'})
+            vi = vi.text
+            view = processing.processing(vi)
             views.append(view)
             #print(views)
 
             captions = []
             try:
-                driver.find_element_by_xpath(
+                driver.find_element(
+                    By.XPATH,
                     "//div[3]/div/ytd-menu-renderer/yt-icon-button/button/yt-icon" #este caminho está TOTALMENTE certo
                     ).click()
-                icon = driver.find_element_by_xpath(
+                icon = driver.find_element(
+                    By.XPATH,
                     "/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-menu-popup-renderer/tp-yt-paper-listbox"
                     )
-                icon = icon.find_element_by_xpath(
+                icon = icon.find_element(
+                    By.XPATH,
                     "//yt-formatted-string[contains(text(),'Abrir transcrição')]"
                 ).click()
 
@@ -84,10 +80,13 @@ def video_details(df, name, CH, *args, **kwargs):
                 #box = WebDriverWait(driver, 2).until(
                 #EC.presence_of_element_located((By.XPATH, '//*[@id="body"]/ytd-transcript-body-renderer')))
                 sleep(1)
-                transcriptions = driver.find_element_by_xpath(
+                transcriptions = driver.find_element(
+                    By.XPATH,
                     '//*[@id="body"]/ytd-transcript-body-renderer'
                 )
-                captions.append(transcriptions.text)
+                transcriptions = transcriptions.text
+                transcriptions = processing.processing2(transcriptions)
+                captions.append(transcriptions)
             except:
                 captions.append('No captions')
 
@@ -99,20 +98,23 @@ def video_details(df, name, CH, *args, **kwargs):
             driver.execute_script(
                 "window.scrollTo(0, window.scrollY + 500)"
                 )
-            driver.implicitly_wait(5)
+            driver.implicitly_wait(1)
             try:
-                comment = driver.find_element_by_css_selector(
+                comment = driver.find_element(
+                    By.CSS_SELECTOR,
                     'ytd-comments div h2 yt-formatted-string > span'
-                    ).text
+                    )
             except Exception as error:
                 #print(f'O Erro encontrado foi {error.__cause__}')
                 comment = '0'
             finally:
                 pass
-
-            comment = comment.replace(
-                '.', ''
-            )
+            
+            try:
+                comment = comment.text
+            except:
+                pass
+            comment = processing.processing2(comment)
             comments.append(comment)
 
             #print(comments)
@@ -120,39 +122,50 @@ def video_details(df, name, CH, *args, **kwargs):
 
             likes = []
             try:
-                like = soup.find(
-                    'yt-formatted-string',
-                    id = 'text',
-                    class_='style-scope ytd-toggle-button-renderer style-text'
+                like = driver.find_element(
+                    By.CSS_SELECTOR,
+                    'div.style-scope.ytd-app:nth-child(13) ytd-page-manager.style-scope.ytd-app:nth-child(4) ytd-watch-flexy.style-scope.ytd-page-manager.hide-skeleton div.style-scope.ytd-watch-flexy:nth-child(8) div.style-scope.ytd-watch-flexy:nth-child(1) div.style-scope.ytd-watch-flexy div.style-scope.ytd-watch-flexy:nth-child(11) div.style-scope.ytd-watch-flexy ytd-video-primary-info-renderer.style-scope.ytd-watch-flexy div.style-scope.ytd-video-primary-info-renderer div.style-scope.ytd-video-primary-info-renderer:nth-child(6) div.style-scope.ytd-video-primary-info-renderer:nth-child(4) div.style-scope.ytd-video-primary-info-renderer:nth-child(1) ytd-menu-renderer.style-scope.ytd-video-primary-info-renderer div.top-level-buttons.style-scope.ytd-menu-renderer > ytd-toggle-button-renderer.style-scope.ytd-menu-renderer.force-icon-button.style-text:nth-child(2)'
                     )
-                likes.append(like.text)
                 #print(likes)
             except:
-                like = driver.find_element_by_css_selector(
+                like = driver.find_element(
+                    By.CSS_SELECTOR,
                     'ytd-menu-renderer div ytd-toggle-button-renderer a yt-formatted-string'
                     )
-                likes.append(like.text)
             else:
-                like = driver.find_element_by_css_selector(
+                like = driver.find_element(
+                    By.CSS_SELECTOR,
                     '.ytd-video-primary-info-renderer > #top-level-buttons-computed > .style-scope:nth-child(1) #button > #button > .style-scope'
                 )
-                likes.append(like.text)
+            
+            like = like.text
+            like = processing.processing(like)
+            likes.append(like)
 
-            thumb = driver.find_element_by_xpath('//*[@id="watch7-content"]/link[2]').get_attribute("href")
+            thumbs = []
+            thumb = driver.find_element(
+                By.XPATH,
+                '//*[@id="watch7-content"]/link[2]').get_attribute("href")
             print(f'\n\nOlha a Thumb aqui!!\n\n{thumb}')
-            path = "{}.jpg".format(title)
-            urllib.request.urlretrieve(thumb, path)
+            path = f"../../content/{theme}/{channel}/{title}.jpg"
+            thumbs.append(path)
+            saving.thumbnail(theme, channel, title, thumb)
+            
 
 
             descriptions = []
-            description = driver.find_element_by_xpath(
+            description = driver.find_element(
+                By.XPATH,
                 '//*[@id="description"]/yt-formatted-string'
-            ).text
+            )
+            
+            description = description.text
             #for items in description:
             descriptions.append(description)
             #print(f'Descr.: {description}')
 
-            #icon = driver.find_element_by_css_selector('div.style-scope.ytd-app:nth-child(12) ytd-page-manager.style-scope.ytd-app:nth-child(4) ytd-watch-flexy.style-scope.ytd-page-manager.hide-skeleton div.style-scope.ytd-watch-flexy:nth-child(8) div.style-scope.ytd-watch-flexy:nth-child(1) div.style-scope.ytd-watch-flexy div.style-scope.ytd-watch-flexy:nth-child(11) div.style-scope.ytd-watch-flexy ytd-video-primary-info-renderer.style-scope.ytd-watch-flexy div.style-scope.ytd-video-primary-info-renderer:nth-child(3) div.style-scope.ytd-video-primary-info-renderer:nth-child(6) div.style-scope.ytd-video-primary-info-renderer:nth-child(4) div.style-scope.ytd-video-primary-info-renderer:nth-child(1) ytd-menu-renderer.style-scope.ytd-video-primary-info-renderer yt-icon-button.dropdown-trigger.style-scope.ytd-menu-renderer button.style-scope.yt-icon-button > yt-icon.style-scope.ytd-menu-renderer')
+            #icon = driver.find_element(
+            # By.CSS_SELECTOR,'div.style-scope.ytd-app:nth-child(12) ytd-page-manager.style-scope.ytd-app:nth-child(4) ytd-watch-flexy.style-scope.ytd-page-manager.hide-skeleton div.style-scope.ytd-watch-flexy:nth-child(8) div.style-scope.ytd-watch-flexy:nth-child(1) div.style-scope.ytd-watch-flexy div.style-scope.ytd-watch-flexy:nth-child(11) div.style-scope.ytd-watch-flexy ytd-video-primary-info-renderer.style-scope.ytd-watch-flexy div.style-scope.ytd-video-primary-info-renderer:nth-child(3) div.style-scope.ytd-video-primary-info-renderer:nth-child(6) div.style-scope.ytd-video-primary-info-renderer:nth-child(4) div.style-scope.ytd-video-primary-info-renderer:nth-child(1) ytd-menu-renderer.style-scope.ytd-video-primary-info-renderer yt-icon-button.dropdown-trigger.style-scope.ytd-menu-renderer button.style-scope.yt-icon-button > yt-icon.style-scope.ytd-menu-renderer')
             #icon.click()
             #try:
             #    views = soup.findAll('s%pan', class_='view-count style-scope ytd-video-view-count-renderer')
@@ -164,45 +177,65 @@ def video_details(df, name, CH, *args, **kwargs):
             #videos = []
 
             keywords = []
-            key = driver.find_element_by_xpath(
+            key = driver.find_element(
+                By.XPATH,
                 '/html/head/meta[5]'
             ).get_attribute(
                 'content'
             )
             keywords.append(key)
             #print(keywords)
-
-            for title, views, comments, likes, descriptions, transcriptions, keywords in zip(
-                title, views, comments, likes, descriptions, captions, keywords
+            
+            channels = []
+            channels.append(channel)
+            
+            themes = []
+            themes.append(theme)
+            
+            previa = []
+            
+            driver.close()
+            
+            for theme, title, channel, view, comments, like, descriptions, transcriptions, key, path in zip(
+                themes, title, channels, views, comments, likes, descriptions, captions, keywords, thumbs
             ):
                 videos.append(
                     {
+                    'Theme': theme,
                     'Title': title,
-                    'Views': views,
+                    'Channel': channel,
+                    'Views': view,
                     'Comments': comment,
-                    'Likes': likes,
-                    'Description': descriptions,
+                    'Likes': like,
+                    'Description': description,
                     'Captions': transcriptions,
-                    'Tags': keywords
-                    }
-                    )
-
-            df2 = pd.DataFrame(videos)
-            print(f'\n\n {df2} \n\n')
-
-            if not os.path.exists(f'./content/{YT_Theme}/descricoes_{YT_Theme}'):
-                os.mkdir(f'./content/{YT_Theme}/descricoes_{YT_Theme}')
-            else:
-                print('\n Canal já existe \n')
-
-            df2 = pd.DataFrame(videos)
-            pontuacao = ['(',')',';',':','[',']',',', '"', '|', '"']
-            for i in name:
-                if i in pontuacao in name:
-                    name.replace(i in pontuacao, ' ')
-            
-            df2.to_csv(f'./content/{YT_Theme}/descricoes_{YT_Theme}/{name}', index=False)
-            #df2.to_csv(f'{YT_Theme}/descricoes_{YT_Theme}/{Canal}_df_l.csv')
-            print(f'\n\n {df2} \n\n')
-
+                    'Tags': key,
+                    'Thumbs':path
+                    })
+                previa.append(
+                    {
+                    'Theme': theme,
+                    'Title': title,
+                    'Channel': channel,
+                    'Views': view,
+                    'Comments': comment,
+                    'Likes': like,
+                    'Description': description,
+                    'Captions': transcriptions,
+                    'Tags': key,
+                    'Thumbs':path
+                    })
+                
+            print(previa)
         driver.quit()
+        df = pd.DataFrame(videos)
+        print(f'\n\n {df} \n\n')
+        
+        saving.video(theme, df, channel)
+        return theme, df, channel
+
+df1 = pd.read_csv("C:/Users/Efraim/Documents/IAGO/IAGO/content/pastel/canais_pastel/Aninha Santos Pastel.csv")
+#df1 = df1['Video_URL']
+channel1 = 'Aninha Santos Pastel'
+thee = 'pastel'
+video(thee, df1, channel1)

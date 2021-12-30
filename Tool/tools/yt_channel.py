@@ -5,21 +5,21 @@ import datetime
 import saving
 from selenium.webdriver.common.by import By
 
-def channel(name, df, *args, **kwargs):
-    #if not os.path.exists(f'{name}/{name}.csv'):
+def channel(theme, df, *args, **kwargs):
+    #if not os.path.exists(f'{theme}/{theme}.csv'):
     #    import yt_theme
-    #    yt_theme(name)
+    #    yt_theme(theme)
     #else:
     #    arquivos = os.listdir('.')
     #    print( arquivos )
-    #    name = input('\n\n\nQual o seu tema de interesse?   \nR: ')
+    #    theme = input('\n\n\nQual o seu tema de interesse?   \nR: ')
     #
-    #    df = pd.read_csv('{}/{}.csv'.format(name, name))
+    #    df = pd.read_csv('{}/{}.csv'.format(theme, theme))
     #    print(df)
     #    links = df['Ch_URL']
     #    print(links)
 
-    #pd.read_csv(f'{name}/{name}.csv')
+    #pd.read_csv(f'{theme}/{theme}.csv')
 
     links = df['Ch_URL']
     print(links)
@@ -37,7 +37,7 @@ def channel(name, df, *args, **kwargs):
 
             theme_in = []
             for i in links:
-                theme_in.append(name)
+                theme_in.append(theme)
             Links = []
             Links.append(links)
 
@@ -46,12 +46,12 @@ def channel(name, df, *args, **kwargs):
             #        'Channels', i+2, 100, 'Better Videos','Decrypting the better\n videos in the Channels'
             #        ) #apenas um progress bar genérico (ainda não sei fazer um progress bar realmente útil)
 
-            CH = driver.find_element(
+            name = driver.find_element(
                 By.XPATH,
                 "//div[@id='inner-header-container']//div[@id='meta']//ytd-channel-name[@id='channel-name']//div[@id='container']//div[@id='text-container']//yt-formatted-string[@id='text']"
                 ).text
-            #print(f'\n{CH}\n')
-            CH = processing.processing(CH)
+            #print(f'\n{name}\n')
+            name = processing.processing(name)
             
             subscribers = driver.find_element(
                 By.XPATH,
@@ -107,7 +107,7 @@ def channel(name, df, *args, **kwargs):
             today = str(today)
 
             channels = []
-            for name, titles, views, dates, urls in zip(
+            for theme, titles, views, dates, urls in zip(
                 theme_in,
                 video_titles,
                 video_views,
@@ -116,8 +116,8 @@ def channel(name, df, *args, **kwargs):
             ):#titles, views, URLs, tags, keywords
                 channels.append(
                     {
-                        'Category':name,
-                        'Channel': CH,
+                        'Category':theme,
+                        'Channel': name,
                         'Ch_URL': links,
                         'Titles': titles,
                         'Video_URL': urls,
@@ -131,11 +131,12 @@ def channel(name, df, *args, **kwargs):
 
             df = pd.DataFrame(channels)
             print(df)
-            saving.channel(name, df, CH)
+            saving.channel(theme, df, name)
             
             # if link == len(links):
             #     break
             # if link < len(links):
-        return name, df, CH
+            driver.quit()
+        return theme, df, name
             
 #channel('pastel', pd.read_csv('/home/efraim/Documentos/IAGO/IAGO/pastel/pastel.csv'))
