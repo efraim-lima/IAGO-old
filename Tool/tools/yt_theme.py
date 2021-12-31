@@ -16,6 +16,8 @@ from selenium.webdriver.common.by import By
 #webdriver-manager
 #PySimpleGUI
 #lxml
+#opencv-python
+#tesseract
 
 # YT_Category = layout.sgLayout()
 # links = [

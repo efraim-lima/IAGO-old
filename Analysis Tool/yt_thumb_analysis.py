@@ -35,15 +35,15 @@ def prep_image(raw_img):
     return modified_img
 
 def text_extractor(img):
-    #pytesseract.pytesseract.tesseract_cmd = r'__YT__/Lib/site-packages/Tesseract-OCR/tesseract.exe'
+    pytesseract.pytesseract.tesseract_cmd = r'./tesseract.exe'
     #if getattr(sys, 'frozen', False):
-    #    _path = os.path.join(sys._MEIPASS, r'__YT__/Lib/site-packages/Tesseract-OCR/tesseract.exe')
+    #    _path = os.path.join(sys._MEIPASS, r'./tesseract.exe')
     #    print(_path)
     #    pytesseract.pytesseract.tesseract_cmd =_path
     #    # the .exe will look here
     #else:
     #    #print('limit _path')
-    #    pytesseract.pytesseract.tesseract_cmd = r"__YT__/Lib/site-packages/Tesseract-OCR/tesseract.exe"
+    #    pytesseract.pytesseract.tesseract_cmd = r"./tesseract.exe"
     ##ruta donde se encuentre su tresseract
     config = r'--oem 3 --psm 6'
     
