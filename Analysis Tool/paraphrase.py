@@ -1,7 +1,6 @@
 import re
 import os
 import os.path
-import spacy
 from spacy.lang.pt.stop_words import STOP_WORDS
 from sklearn.feature_extraction.text import CountVectorizer
 import pt_core_news_sm
@@ -13,14 +12,14 @@ from time import sleep
 
 nlp = pt_core_news_sm.load()
 
-pasta_mãe = os.listdir('.')
+pasta_mãe = os.listdir('./content')
 #print( pasta_mãe )
 YT_Theme = input('Qual tema voce tem interesse em analizar? \nR:  ')
 archives = os.listdir(f'{YT_Theme}/descricoes_{YT_Theme}/')
 
 def TextAnalyzer():
     for archive in archives:
-        df=pd.read_csv(f'C:/Users/efrai/Desktop/YT/{YT_Theme}/descricoes_{YT_Theme}/{archive}')
+        df=pd.read_csv(f'./content/{YT_Theme}/descricoes_{YT_Theme}/{archive}')
         df = df['Captions']
         print(df)
 

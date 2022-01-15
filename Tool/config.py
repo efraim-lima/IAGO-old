@@ -11,7 +11,7 @@ from time import sleep
 def webDriver():
     options = Options()
     #options.headless = True
-    #options.add_argument("--headless")
+    options.add_argument("--headless")
     options.add_argument(
         '--disable-gpu'
     )

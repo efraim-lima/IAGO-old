@@ -19,10 +19,10 @@ import urlmarker
 #nltk.download('punkt')
 #nltk.download('stopwords')
 #nltk.download('rslp')
-pasta_mãe = os.listdir('.')
+pasta_mãe = os.listdir('./content')
 #print( pasta_mãe )
 YT_Theme = input('Qual tema voce tem interesse em analizar? \nR:  ')
-archives = os.listdir(f'{YT_Theme}/descricoes_{YT_Theme}/')
+archives = os.listdir(f'./content/{YT_Theme}/descricoes_{YT_Theme}/')
 #print (archives)
 
 #sleep(4)
@@ -33,7 +33,7 @@ def TextAnalyzer():
 
         #print(archive)
 
-        df=pd.read_csv(f'C:/Users/efrai/Desktop/YT/{YT_Theme}/descricoes_{YT_Theme}/{archive}')
+        df=pd.read_csv(f'./content/{YT_Theme}/descricoes_{YT_Theme}/{archive}')
 
         df[['polarity', 'subjectivity']] = df['Title'].apply(lambda Text: pd.Series(TextBlob(Text).sentiment))
         #print(df)

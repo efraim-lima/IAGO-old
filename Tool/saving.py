@@ -180,4 +180,52 @@ def thumbnail(YT_Theme, channel, title, thumb, *args, **khwargs):
         print('\n Canal já existe \n')
     #df2.to_csv(f'{YT_Theme}/descricoes_{YT_Theme}/{Canal}_df_l.csv')
     
-    
+def tweet(name, df, *args, **kwargs):
+    if not os.path.exists(f'./content/tweets/{name}'):
+        try:
+            os.mkdir(f'./content/tweets/{name}')
+        except:
+            os.makedirs(f'./content/tweets/{name}')
+        #df.to_csv(f'{name}/{name}_data_leitura.csv')
+        df.to_csv(
+            f'./content/tweets/{name}/{name}.csv',
+            index=False
+        )
+        df.to_json(
+            f'./content/tweets/{name}/{name}.json',
+            index=True
+        )
+
+        print(f'\n\n{df}\n\n')
+    elif os.path.exists(f'./content/tweets/{name}') and not os.path.exists(f'./content/tweets/{name}/{name}.csv'):
+        #YT.to_csv(f'{name}/{name}_data_leitura.csv')
+        df.to_csv(
+            f'./content/tweets/{name}/{name}.csv',
+            index=False
+        )
+        df.to_json(
+            f'./content/tweets/{name}/{name}.json',
+            index=True
+        )
+        print('\n\nTema já existe\n Resumo não existe \n\n')
+
+        print(f'\n\n{df}\n\n')
+    elif os.path.exists(f'./content/tweets/{name}') & os.path.exists(f'./content/tweets/{name}/{name}.csv'):
+        YT = pd.read_csv(f'./content/tweets/{name}/{name}.csv')
+        # for row in YT:
+        #     if row == row in df:
+        #         pass
+        #     else:
+        #         YT.loc(row)
+        # df = pd.merge(YT, df,how = "left", on = ["Tweet"])
+        #YT.to_csv(f'{name}/{name}_data_leitura.csv')
+        YT.to_csv(
+            f'./content/tweets/{name}/{name}.csv',
+            index=False
+        )
+        YT.to_json(
+            f'./content/tweets/{name}/{name}.json',
+            index=True
+        )
+        print('\nTema já existe')
+        print(f'\n{YT}\n\n')

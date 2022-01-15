@@ -69,11 +69,33 @@ def video(theme, df, channel, *args, **kwargs):
                     ).click()
                 icon = driver.find_element(
                     By.XPATH,
-                    "/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-menu-popup-renderer/tp-yt-paper-listbox"
+                    "/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-menu-popup-renderer/tp-yt-paper-listbox" #Seria o ícone do elemento acima do botão
+                    #"/html[1]/body[1]/ytd-app[1]/ytd-popup-container[1]/tp-yt-iron-dropdown[1]/div[1]/ytd-menu-popup-renderer[1]/tp-yt-paper-listbox[1]/ytd-menu-service-item-renderer[2]/tp-yt-paper-item[1]"
                     )
-                icon = icon.find_element(
+                try:
+                    icon = icon.find_element(
+                        By.XPATH,
+                        "//yt-formatted-string[contains(text(),'Abrir transcrição')]" #aqui sim é a parte do botão
+                    ).click()
+                except:
+                    icon = icon.find_element(
                     By.XPATH,
-                    "//yt-formatted-string[contains(text(),'Abrir transcrição')]"
+                        "//yt-formatted-string[contains(text(),'Open transcript')]" #aqui sim é a parte do botão
+                    ).click()
+                    
+                new_icon = driver.find_element(
+                    By.XPATH,
+                    "//ytd-menu-renderer[@class='style-scope ytd-engagement-panel-title-header-renderer']//yt-icon-button[@id='button']//button[@id='button']//yt-icon[@class='style-scope ytd-menu-renderer']"
+                ).click()
+                
+                new_icon = driver.find_element(
+                    By.XPATH,
+                    "//tp-yt-paper-item[@class='style-scope ytd-menu-service-item-renderer']"
+                )
+                
+                new_icon = new_icon.find_element(
+                    By.XPATH,
+                    "//yt-formatted-string[@class='style-scope ytd-menu-service-item-renderer']"
                 ).click()
 
                 #ESPERANDO APARECER A JANELA DE LEGENDA
@@ -197,7 +219,7 @@ def video(theme, df, channel, *args, **kwargs):
             driver.close()
             
             for theme, title, channel, view, comments, like, descriptions, transcriptions, key, path in zip(
-                themes, title, channels, views, comments, likes, descriptions, captions, keywords, thumbs
+                themes, titles, channels, views, comments, likes, descriptions, captions, keywords, thumbs
             ):
                 videos.append(
                     {
@@ -234,8 +256,8 @@ def video(theme, df, channel, *args, **kwargs):
         saving.video(theme, df, channel)
         return theme, df, channel
 
-df1 = pd.read_csv("C:/Users/Efraim/Documents/IAGO/IAGO/content/pastel/canais_pastel/Aninha Santos Pastel.csv")
+df1 = pd.read_csv("/home/efraim/Documentos/IAGO/IAGO/content/pastel/canais_pastel/Alessandra Santos Pastel.csv")
 #df1 = df1['Video_URL']
-channel1 = 'Aninha Santos Pastel'
+channel1 = 'Alessandra Santos Pastel'
 thee = 'pastel'
 video(thee, df1, channel1)

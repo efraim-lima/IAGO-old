@@ -37,6 +37,7 @@ def processing(text, *args, **kwargs):
 
 def processing2(text, *args, **kwargs):
     while True:
+        text = re.sub('\\n', ' ', text)
         text = re.sub("/[.,\/#!$%\^&\*;:{}=\-_`~()]/g","", text)
         text = re.sub('/\s{2,}/g', "", text)
         #text = re.sub('[^A-Za-z0-9]+', ' ', text)

@@ -3,7 +3,7 @@ import layout
 from celery import Celery
 import yt_theme
 import yt_channel
-import yt_video
+# import yt_video
 
 # word = layout.call()
 # yt = yt_theme.theme()
