@@ -1,7 +1,6 @@
 import tweepy
 import pandas as pd
 import sentiment_analysis
-from tweepy import Stream
 import datetime
 import saving
 
@@ -39,7 +38,7 @@ def get_tweets(q):
     whatFeels2 = []
     Emoji = []
     Tweets = []
-    i=1
+    i=1  
     for tweet in posts[0:50000]:
         tweet = tweet.text
         sentiment, sentiment2, translate, emoji = sentiment_analysis.sentiment(tweet)

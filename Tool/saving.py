@@ -63,6 +63,7 @@ def channel(YT_Theme, df, CH, *args, **kwargs):
     """
     if not os.path.exists(f'./content/{YT_Theme}/canais_{YT_Theme}'):
         os.mkdir(f'./content/{YT_Theme}/canais_{YT_Theme}')
+        os.mkdir(f'./content/{YT_Theme}/canais_{YT_Theme}/client')
     elif os.path.exists(f'./content/{YT_Theme}/canais_{YT_Theme}/{CH}.csv'):
         try:
             YT = pd.read_csv(f'./content/{YT_Theme}/canais_{YT_Theme}/{CH}.csv')
@@ -119,9 +120,18 @@ def channel(YT_Theme, df, CH, *args, **kwargs):
         df.to_csv(
             f'./content/{YT_Theme}/canais_{YT_Theme}/{CH}.csv', 
             index=False
+        )
+        coisa = ['Channel','Titles']
+        df.to_csv(
+            f'./content/{YT_Theme}/canais_{YT_Theme}/client/client_{CH}.csv', 
+            index=False, columns = coisa
             )
         df.to_json(
             f'./content/{YT_Theme}/canais_{YT_Theme}/{CH}.json', 
+            index=True
+            )
+        df[['Channel','Titles']].to_json(
+            f'./content/{YT_Theme}/canais_{YT_Theme}/client/client_{CH}.json', 
             index=True
             )
         #df[f'Subs{today}'] = subscribers
