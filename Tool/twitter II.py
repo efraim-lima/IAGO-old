@@ -4,6 +4,7 @@ import sentiment_analysis
 import datetime
 import saving
 import nltk
+import sentiment
 
 
 # consumer_key = 'dG9VUEhTZUJyNkJaNDhUUlZxWjQ6MTpjaQ'
@@ -74,6 +75,8 @@ def get_tweets(q):
     
     name = f'Arthur {now}'
     df = pd.DataFrame(whatSays)
+    df2 = df['Tweet']
+    sentiment.fillings(df2)
     saving.tweet(name, df)
     print (f'\n\n{df}\n\n')
     return df

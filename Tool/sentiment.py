@@ -1,4 +1,5 @@
 import re
+from typing import final
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
@@ -12,12 +13,18 @@ from sklearn import metrics
 from sklearn.model_selection import cross_val_predict
 import datetime
 import saving
+import emojis
 
 nltk.download('stopwords')
 nltk.download('rslp')
 nltk.download('punkt')
 nltk.download('wordnet')
 
+# testes = pd.read_csv('content/tweets/Arthur Aguiar 2022-01-19 11:54:08.106170/Arthur Aguiar 2022-01-19 11:54:08.106170.csv', on_bad_lines='skip')
+# testes = testes['Tweet']
+# defina instâncias de teste dentro de uma lista
+
+  
 texto = pd.read_csv('./Tool/Tweets_Mg.csv', encoding='UTF-8')
 texto = texto.drop_duplicates()
 exemplo_base = pd.DataFrame(texto)
@@ -38,7 +45,7 @@ exemplo_base_teste.columns = ['Frase', 'Sentimento']
 tweets = texto['Frase']
 classes = texto['Sentimento']
 
-print((exemplo_base.Sentimento.value_counts() / exemplo_base.shape[0])*100)
+#print((exemplo_base.Sentimento.value_counts() / exemplo_base.shape[0])*100)
 
 lista_stop = nltk.corpus.stopwords.words('portuguese')
 np.transpose(lista_stop)
@@ -88,20 +95,20 @@ def Preprocessing(instancia):
 
 # Aplica a função em todos os dados:
 tweets = [Preprocessing(i) for i in tweets]
-print(tweets)
+#print(tweets)
 
 frase = 'A live do @blogminerando é show! :) :-) ;) =D'
 from nltk.tokenize import word_tokenize
 from nltk.tokenize import TweetTokenizer
 word_tokenize(frase)
 tweet_tokenizer = TweetTokenizer()
-print(tweet_tokenizer.tokenize(frase))
+#print(tweet_tokenizer.tokenize(frase))
 
 #vectorizer = CountVectorizer(analyzer="word", tokenizer=tweet_tokenizer.tokenize)
 vectorizer = CountVectorizer(analyzer="word", tokenizer=tweet_tokenizer.tokenize, max_features=1000)   #<-- bases muito grandes
 
 freq_tweets = vectorizer.fit_transform(tweets)
-print(type(freq_tweets))
+#print(type(freq_tweets))
 print(freq_tweets.shape)
 
 ########################################### Treino do Modelo ###############################################################
@@ -111,34 +118,69 @@ modelo.fit(freq_tweets,classes)
 freq_tweets.A
 
 
-# defina instâncias de teste dentro de uma lista
-testes = pd.read_csv('./Arthur Aguiar 2022-01-17 23:33:10.277352/Arthur Aguiar 2022-01-17 23:33:10.277352.csv', on_bad_lines='skip')
-testes = testes['Tweet']
-
-testes = [Preprocessing(i) for i in testes]
-
-# Transforma os dados de teste em vetores de palavras.
-freq_testes = vectorizer.transform(testes)
-
-whatSays = []
-# Fazendo a classificação com o modelo treinado.
-for t, c in zip (testes,modelo.predict(freq_testes)):
-  whatSays.append({
-    'Tweet':t,
-    'SentimentML':c
-  })
+def fillings(df, *args, **kwargs):
+  testes1 = df
+  testes = [Preprocessing(i) for i in testes1]
   
+
+  # Transforma os dados de teste em vetores de palavras.
+  freq_testes = vectorizer.transform(testes)
+
+  print (modelo.classes_)
+  modelitoC = modelo.predict(freq_testes)
+  modelitoP = modelo.predict_proba(freq_testes).round(2)
+
+  whatSays = []
+  # Fazendo a classificação com o modelo treinado.
+  for it1, it2, it3 in zip (testes1,modelitoC, modelitoP):
+    
+    try:
+        emoji = emojis.get(it1)
+    except:
+        emoji = "null"
+        
+    t = it1
+    c = it2
+    al = [it3[index] for index in [0]]
+    me = [it3[index] for index in [1]]
+    ne = [it3[index] for index in [2]]
+    no = [it3[index] for index in [3]]
+    ra = [it3[index] for index in [4]]
+    tr = [it3[index] for index in [5]]
+    z  = [it3[index] for index in [6]]
+    # Probabilidades de cada classe
+  print(f'''
+        
+        
+        Testes
+        {modelitoP}
+        
+        
+        
+        ''')  
+    #print(modelo)
+    whatSays.append({
+      'Tweet':t,
+      'Emojis':emoji,
+      'SentimentML':c,
+      'Alegria': al,
+      'Medo': me,
+      'Neutro': ne,
+      'Nojo': no,
+      'Raiva': ra,
+      'Tristeza': tr,
+      'Alias': z
+    })
+    
+    # print (t +", "+ c)
+
   now = datetime.datetime.now()
   name = f'SentimentAnalisysBBB{now}'
-  df = pd.DataFrame(whatSays)
+  df = pd.DataFrame()
   saving.tweet(name, df)
-  print (f'\n\n{df}\n\n')
-  
-  print (t +", "+ c)
+  print(f'\n\n{df}\n\n')
+  return df
 
-# Probabilidades de cada classe
-print (modelo.classes_)
-modelo.predict_proba(freq_testes).round(2)
 
 
 ######################################### Tags de Negações ##############################################################
@@ -198,17 +240,19 @@ def Metricas(modelo, tweets, classes):
   resultados = cross_val_predict(modelo, tweets, classes, cv=10)
   return 'Acurácia do modelo: {}'.format(metrics.accuracy_score(classes,resultados))
 
-# naive bayes simples
-Metricas(pipeline_simples,tweets,classes)
+####################################### entendendo as métricas #################################################################
 
-# naive bayes com tag de negacoes
-Metricas(pipeline_negacoes,tweets,classes)
+# # naive bayes simples
+# Metricas(pipeline_simples,tweets,classes)
 
-# svm linear simples
-Metricas(pipeline_svm_simples,tweets,classes)
+# # naive bayes com tag de negacoes
+# Metricas(pipeline_negacoes,tweets,classes)
 
-# svm linear com tag de negacoes
-Metricas(pipeline_svm_negacoes,tweets,classes)
+# # svm linear simples
+# Metricas(pipeline_svm_simples,tweets,classes)
+
+# # svm linear com tag de negacoes
+# Metricas(pipeline_svm_negacoes,tweets,classes)
 
 ######################################## modelo com tag de negações ############################################################
 

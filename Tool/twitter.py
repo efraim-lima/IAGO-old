@@ -1,7 +1,7 @@
 import datetime
 from TwitterSearch import *
 import pandas as pd
-import sentiment_analysis
+import sentiment
 import json
 import saving
 
@@ -31,7 +31,8 @@ def tweet_anal():
         tso = TwitterSearchOrder()
         tso.set_keywords([f'{name}', f'@Aguiarthur'], or_operator = True)
         # tso.set_language('pt')
-        # tso.set_since(datetime.date.today()) #(datetime.date(2021,12,1))
+        # tso.set_since(datetime.date.today())
+        tso.set_since(datetime.date(2021,12,31))
         # tso.set_until(datetime.date.today())
         # tso.set_result_type('mixed') #{mixed, recent, popular}
         # tso.set_positive_attitude_filter() #atitudes positivas --- opcional
@@ -64,25 +65,24 @@ def tweet_anal():
             Source.append(source)
             photo_profile = tweet['user']['profile_image_url']
             Photo.append(photo_profile)
-            sentiment, sentiment2, translate, emoji = sentiment_analysis.sentiment(text)
+            #sentiment, sentiment2, translate, emoji = sentiment_analysis.sentiment(text)
             # i = i+1
             #print(type(sentiment))
-            Sentiment.append(sentiment2)
-            Translate.append(translate)
-            whatFeels.append(sentiment)
-            Emoji.append(emoji)
+            # Sentiment.append(sentiment2)
+            # Translate.append(translate)
+            # whatFeels.append(sentiment)
+            # Emoji.append(emoji)
             i+=1
             
             print(f'''
                 {text}
-                {sentiment}
-                {sentiment2}''')
+                ''')
             
-            if i > 1000:
+            if i > 10000:
                 break
             
-        for user, text, date, source, photo_profile, translate, emoji, sentiment, sentiment2 in zip(
-            User, Tweets, Date, Source, Photo, Translate, Emoji, whatFeels, Sentiment
+        for user, text, date, source, photo_profile in zip(
+            User, Tweets, Date, Source, Photo
         ):
             Posts.append({
                 'User': user,
@@ -90,15 +90,13 @@ def tweet_anal():
                 'Date': date,
                 'Source': source,
                 'Profile Photo': photo_profile,
-                'Translate': translate,
-                'Emoji': emoji,
-                'Sentiment1': sentiment,
-                'Sentiment2': sentiment2
                 })
         df = pd.DataFrame(Posts)
         saving.tweet(name, df)
         
         print (df)
+        df2 = df['Tweet']
+        sentiment.fillings(df2)
         return df
             #dataframe = dataframe.append(text)
             #print(text)
