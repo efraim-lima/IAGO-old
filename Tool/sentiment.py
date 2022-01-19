@@ -1,118 +1,237 @@
+import re
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 import nltk
 import base_texto
 import base_teste
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.naive_bayes import MultinomialNB
+from sklearn import svm
+from sklearn import metrics
+from sklearn.model_selection import cross_val_predict
+import datetime
+import saving
 
+nltk.download('stopwords')
+nltk.download('rslp')
+nltk.download('punkt')
+nltk.download('wordnet')
 
-texto = pd.read_csv('./Tool/Tweets_Mg.csv')
+texto = pd.read_csv('./Tool/Tweets_Mg.csv', encoding='UTF-8')
+texto = texto.drop_duplicates()
 exemplo_base = pd.DataFrame(texto)
-print(f'''
+
+# print(f'''
       
-      Base do conhecimento
-      {exemplo_base}
+#       Base do conhecimento
+#       {exemplo_base}
       
       
-      ''')
+#       ''')
+
+
 #exemplo_base = pd.DataFrame(base_texto.base)
 exemplo_base.columns = ['Frase', 'Sentimento']
 exemplo_base_teste = pd.DataFrame(base_texto.base)
 exemplo_base_teste.columns = ['Frase', 'Sentimento']
-# print("Tamanho da base de Treinamento {}".format(exemplo_base.shape[0]))
-# print(exemplo_base.Sentimento.value_counts())
+tweets = texto['Frase']
+classes = texto['Sentimento']
+
 print((exemplo_base.Sentimento.value_counts() / exemplo_base.shape[0])*100)
 
 lista_stop = nltk.corpus.stopwords.words('portuguese')
 np.transpose(lista_stop)
 #lista_stop.append('palavra')
 
-def removeStopWords(texto):
-    frases = []
-    for (palavras, sentimento) in texto:
-        semStop = [p for p  in palavras.split() if p not in lista_stop]
-        frases.append((semStop, sentimento))
-    return frasesgit 
 
-def aplica_Stemmer(texto):
+###################################### Stopwords ######################################
+
+def RemoveStopWords(instancia):
+    stopwords = set(nltk.corpus.stopwords.words('portuguese'))
+    palavras = [i for i in instancia.split() if not i in stopwords]
+    return (" ".join(palavras))
+
+
+###################################### Stemmeer ######################################
+
+def Stemming(instancia):
     stemmer = nltk.stem.RSLPStemmer()
-    frases_sem_Stemming = []
-    for (palavras, sentimento) in texto:
-        com_Stemming = [str(stemmer.stem(p)) for p in palavras.split() if p in lista_stop]
-        frases_sem_Stemming.append((com_Stemming, sentimento))
-    return frases_sem_Stemming
+    palavras = []
+    for w in instancia.split():
+        palavras.append(stemmer.stem(w))
+    return (" ".join(palavras))
 
-frases_com_Stem_treinamento = aplica_Stemmer(texto)
-print(pd.DataFrame(frases_com_Stem_treinamento, columns=['Frase', 'Sentimento']).sample(10))
-frases_com_Stem_teste = aplica_Stemmer(base_texto.base)
-print(pd.DataFrame(frases_com_Stem_treinamento, columns=['Frase', 'Sentimento']).sample(10))
+##################################### Limpeza ######################################
 
-def busca_Palavras(frases):
-    todas_Palavras = []
-    for (palavras, sentimento) in frases:
-        todas_Palavras.extend(palavras)
-    return todas_Palavras
+def Limpeza_dados(instancia):
+    # remove links, pontos, virgulas,ponto e virgulas dos tweets
+    instancia = re.sub(r"http\S+", "", instancia).lower().replace('.','').replace(';','').replace('-','').replace(':','').replace(')','')
+    return (instancia)
+from nltk.stem import WordNetLemmatizer
+wordnet_lemmatizer = WordNetLemmatizer()
 
-palavras_treinamento = busca_Palavras(frases_com_Stem_treinamento)
-palavras_teste = busca_Palavras(frases_com_Stem_teste)
-print("Quantidade de palavras na basae de Treinamento {}".format(pd.DataFrame(palavras_treinamento).count()))
-print("Quantidade de palavras na basae de Teste {}".format(pd.DataFrame(palavras_teste).count()))
+def Lemmatization(instancia):
+  palavras = []
+  for w in instancia.split():
+    palavras.append(wordnet_lemmatizer.lemmatize(w))
+  return (" ".join(palavras))
 
-def busca_frequencia(palavras):
-    palavras = nltk.FreqDist(palavras)
-    return palavras
+##################################### preprocessing ######################################
 
-frequencia_treinamento = busca_frequencia(palavras_treinamento)
-frequencia_teste = busca_frequencia(palavras_teste)
-print(frequencia_treinamento.most_common(10))
+def Preprocessing(instancia):
+    stemmer = nltk.stem.RSLPStemmer()
+    instancia = re.sub(r"http\S+", "", instancia).lower().replace('.','').replace(';','').replace('-','').replace(':','').replace(')','')
+    stopwords = set(nltk.corpus.stopwords.words('portuguese'))
+    palavras = [stemmer.stem(i) for i in instancia.split() if not i in stopwords]
+    return (" ".join(palavras))
 
-def busca_palavras_unicas(frequencia):
-    freq = frequencia.keys()
-    return freq
+# Aplica a função em todos os dados:
+tweets = [Preprocessing(i) for i in tweets]
+print(tweets)
 
-palavras_unicas_treinamento = busca_palavras_unicas(frequencia_treinamento)
-palavras_unicas_teste = busca_palavras_unicas(frequencia_teste)
+frase = 'A live do @blogminerando é show! :) :-) ;) =D'
+from nltk.tokenize import word_tokenize
+from nltk.tokenize import TweetTokenizer
+word_tokenize(frase)
+tweet_tokenizer = TweetTokenizer()
+print(tweet_tokenizer.tokenize(frase))
 
-def extrator_palavras(documento):
-    doc = set(documento)
-    características = {}
-    for palavras in palavras_unicas_treinamento:
-        características['%s' % palavras] = (palavras in doc)
-    return características
+#vectorizer = CountVectorizer(analyzer="word", tokenizer=tweet_tokenizer.tokenize)
+vectorizer = CountVectorizer(analyzer="word", tokenizer=tweet_tokenizer.tokenize, max_features=1000)   #<-- bases muito grandes
 
-def extrator_palavras_teste(documento):
-    doc = set(documento)
-    características = {}
-    for palavras in palavras_unicas_teste:
-        características['%s' % palavras] = (palavras in doc)
-    return características
+freq_tweets = vectorizer.fit_transform(tweets)
+print(type(freq_tweets))
+print(freq_tweets.shape)
 
-base_completa_treinamento = nltk.classify.apply_features(extrator_palavras, frases_com_Stem_treinamento)
-base_completa_teste = nltk.classify.apply_features(extrator_palavras, frases_com_Stem_teste)
+########################################### Treino do Modelo ###############################################################
 
-classificador = nltk.NaiveBayesClassifier.train(base_completa_treinamento)
-print(classificador.labels())
-print(classificador.show_most_informative_features(10))
-print(nltk.classify.accuracy(classificador, base_completa_teste))
+modelo = MultinomialNB()
+modelo.fit(freq_tweets,classes)
+freq_tweets.A
 
-################# matriz de confusão #############################
 
-erros = []
-for (frase, classe) in base_completa_teste:
-    resultado = classificador.classify(frase)
-    if resultado != classe:
-        erros.append((classe, resultado))
-        
-from nltk.metrics import ConfusionMatrix
+# defina instâncias de teste dentro de uma lista
+testes = pd.read_csv('./Arthur Aguiar 2022-01-17 23:33:10.277352/Arthur Aguiar 2022-01-17 23:33:10.277352.csv', on_bad_lines='skip')
+testes = testes['Tweet']
 
-esperado = []
-previsto = []
-for (frase, classe) in base_completa_teste:
-    resultado = classificador.classify(frase)
-    previsto.append(resultado)
-    esperado.append(classe)
-    
-matriz = ConfusionMatrix(esperado, previsto)
-print(matriz)
+testes = [Preprocessing(i) for i in testes]
 
-##################################################################
+# Transforma os dados de teste em vetores de palavras.
+freq_testes = vectorizer.transform(testes)
+
+whatSays = []
+# Fazendo a classificação com o modelo treinado.
+for t, c in zip (testes,modelo.predict(freq_testes)):
+  whatSays.append({
+    'Tweet':t,
+    'SentimentML':c
+  })
+  
+  now = datetime.datetime.now()
+  name = f'SentimentAnalisysBBB{now}'
+  df = pd.DataFrame(whatSays)
+  saving.tweet(name, df)
+  print (f'\n\n{df}\n\n')
+  
+  print (t +", "+ c)
+
+# Probabilidades de cada classe
+print (modelo.classes_)
+modelo.predict_proba(freq_testes).round(2)
+
+
+######################################### Tags de Negações ##############################################################
+
+def marque_negacao(texto):
+    negacoes = ['não','not']
+    negacao_detectada = False
+    resultado = []
+    palavras = texto.split()
+    for p in palavras:
+        p = p.lower()
+        if negacao_detectada == True:
+            p = p + '_NEG'
+        if p in negacoes:
+            negacao_detectada = True
+        resultado.append(p)
+    return (" ".join(resultado))
+
+
+from sklearn.pipeline import Pipeline
+
+pipeline_simples = Pipeline([
+  ('counts', CountVectorizer()),
+  ('classifier', MultinomialNB())
+])
+
+pipeline_negacoes = Pipeline([
+  ('counts', CountVectorizer(tokenizer=lambda text: marque_negacao(text))),
+  ('classifier', MultinomialNB())
+])
+
+pipeline_simples.fit(tweets,classes)
+pipeline_simples.steps
+pipeline_negacoes.fit(tweets,classes)
+pipeline_negacoes.steps
+
+pipeline_svm_simples = Pipeline([
+  ('counts', CountVectorizer()),
+  ('classifier', svm.SVC(kernel='linear'))
+])
+
+pipeline_svm_negacoes = Pipeline([
+  ('counts', CountVectorizer(tokenizer=lambda text: marque_negacao(text))),
+  ('classifier', svm.SVC(kernel='linear'))
+])
+
+resultados = cross_val_predict(pipeline_simples, tweets, classes, cv=10)
+metrics.accuracy_score(classes,resultados)
+
+sentimento=['Positivo','Negativo','Neutro']
+print (metrics.classification_report(classes,resultados)) #removi sentimento
+
+Tabii = pd.crosstab(classes, resultados, rownames=['Real'], colnames=['Predito'], margins=True)
+print(Tabii)
+
+def Metricas(modelo, tweets, classes):
+  resultados = cross_val_predict(modelo, tweets, classes, cv=10)
+  return 'Acurácia do modelo: {}'.format(metrics.accuracy_score(classes,resultados))
+
+# naive bayes simples
+Metricas(pipeline_simples,tweets,classes)
+
+# naive bayes com tag de negacoes
+Metricas(pipeline_negacoes,tweets,classes)
+
+# svm linear simples
+Metricas(pipeline_svm_simples,tweets,classes)
+
+# svm linear com tag de negacoes
+Metricas(pipeline_svm_negacoes,tweets,classes)
+
+######################################## modelo com tag de negações ############################################################
+
+resultados = cross_val_predict(pipeline_negacoes, tweets, classes, cv=10)
+metrics.accuracy_score(classes,resultados)
+
+sentimento=['Positivo','Negativo','Neutro']
+print (metrics.classification_report(classes,resultados)) #removi sentimento
+
+
+###################################### Matriz de Confusão ###########################################################
+
+matrix = pd.crosstab(classes, resultados, rownames=['Real'], colnames=['Predito'], margins=True)
+print(matrix)
+
+# Bigrams
+vectorizer = CountVectorizer(ngram_range=(2,2))
+freq_tweets = vectorizer.fit_transform(tweets)
+modelo = MultinomialNB()
+modelo.fit(freq_tweets,classes)
+
+resultados = cross_val_predict(modelo, freq_tweets, classes, cv=10)
+metrics.accuracy_score(classes,resultados)
+sentimento=['Positivo','Negativo','Neutro']
+metricas = metrics.classification_report(classes,resultados) #removi sentimento
+print(metricas)

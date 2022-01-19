@@ -3,12 +3,17 @@ import pandas as pd
 import sentiment_analysis
 import datetime
 import saving
+import nltk
 
 
 # consumer_key = 'dG9VUEhTZUJyNkJaNDhUUlZxWjQ6MTpjaQ'
 # consumer_secret = 'T7m6PAOycOvgq_TuDcZ60SholK3Q0MhqMaPFFLaTYIY_Gk8Qs2'
 # access_token = '226815872-bx8C7lUGS95xTqmPE2IpAmB1xk6T0lhNguUO09zx'
 # access_token_secret = 'VYbxiUfpTRrGUs88RKImJ2xGcduy6tqGMb5sKpLWFjKBG'
+
+
+
+nltk.download('punkt')
 
 consumer_key = 'LqztBo1V1vc0naC5Dam9rtYqU'
 consumer_secret = 'ERePUqG3c5qgJDkh4Bfy3tlYkiF0DIiImZjBYgBfBWFuhwsg6C'
@@ -30,7 +35,7 @@ def get_tweets(q):
     now = datetime.datetime.now()
     
     #until=datetime.date.today()
-    posts = api.search_tweets(q={q}, lang = 'pt', count=50000)
+    posts = api.search_tweets(q={q}, lang = 'en', count=50000)
     
     whatSays = []
     Translate = []
@@ -39,16 +44,22 @@ def get_tweets(q):
     Emoji = []
     Tweets = []
     i=1  
-    for tweet in posts[0:50000]:
+    for tweet in posts[0:500]:
         tweet = tweet.text
+        print(f'''
+              
+              Tweet
+              {tweet}
+              
+              ''')
         sentiment, sentiment2, translate, emoji = sentiment_analysis.sentiment(tweet)
         #print(sentiment)
         i = i+1
-        Tweets.append(tweet)
-        Translate.append(translate)
-        whatFeels.append(sentiment)
-        whatFeels2.append(sentiment2)
-        Emoji.append(emoji)
+    Tweets.append(tweet)
+    Translate.append(translate)
+    whatFeels.append(sentiment)
+    whatFeels2.append(sentiment2)
+    Emoji.append(emoji)
         
     for tweet, sentiment, sentiment2, translate, emoji in zip(
         Tweets, whatFeels, whatFeels2, Translate, Emoji
