@@ -25,8 +25,8 @@ def tweet_anal():
             access_token = access_token,
             access_token_secret = access_token_secret
         )
-        now = datetime.datetime.now()
-        name = f'Arthur Aguiar {now}'
+        now = datetime.datetime.now().isoformat(timespec='hours')
+        name = input('Nome da busca: ')
         arroba = 'Aguiarthur'
         tso = TwitterSearchOrder()
         tso.set_keywords([f'{name}', f'@Aguiarthur'], or_operator = True)
@@ -92,6 +92,7 @@ def tweet_anal():
                 'Profile Photo': photo_profile,
                 })
         df = pd.DataFrame(Posts)
+        name += f'{now}'
         saving.tweet(name, df)
         
         print (df)

@@ -6,6 +6,7 @@ import numpy as np
 import nltk
 import base_texto
 import base_teste
+import quickstart
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn import svm
@@ -109,7 +110,7 @@ vectorizer = CountVectorizer(analyzer="word", tokenizer=tweet_tokenizer.tokenize
 
 freq_tweets = vectorizer.fit_transform(tweets)
 #print(type(freq_tweets))
-print(freq_tweets.shape)
+#print(freq_tweets.shape)
 
 ########################################### Treino do Modelo ###############################################################
 
@@ -139,6 +140,7 @@ def fillings(df, *args, **kwargs):
     except:
         emoji = "null"
         
+    # Probabilidades de cada classe
     t = it1
     c = it2
     al = [it3[index] for index in [0]]
@@ -148,16 +150,6 @@ def fillings(df, *args, **kwargs):
     ra = [it3[index] for index in [4]]
     tr = [it3[index] for index in [5]]
     z  = [it3[index] for index in [6]]
-    # Probabilidades de cada classe
-  print(f'''
-        
-        
-        Testes
-        {modelitoP}
-        
-        
-        
-        ''')  
     #print(modelo)
     whatSays.append({
       'Tweet':t,
@@ -174,12 +166,13 @@ def fillings(df, *args, **kwargs):
     
     # print (t +", "+ c)
 
-  now = datetime.datetime.now()
-  name = f'SentimentAnalisysBBB{now}'
-  df = pd.DataFrame()
-  saving.tweet(name, df)
-  print(f'\n\n{df}\n\n')
-  return df
+  now = datetime.datetime.now().isoformat(timespec='hours')
+  names = f'SentimentAnalisysBBB{now}'
+  df = pd.DataFrame(whatSays)
+  saving.tweet(names, df)
+  print(f'\n\n{names}\n\n')
+  quickstart.main(names, df)
+  return names, df
 
 
 

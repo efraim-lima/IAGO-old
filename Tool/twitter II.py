@@ -33,7 +33,7 @@ def get_tweets(q):
     print('########################## O que dizem sobre ######################################')
     data = datetime.date.today()
     
-    now = datetime.datetime.now()
+    now = datetime.datetime.now().isoformat(timespec='hours')
     
     #until=datetime.date.today()
     posts = api.search_tweets(q={q}, lang = 'en', count=50000)
@@ -53,24 +53,20 @@ def get_tweets(q):
               {tweet}
               
               ''')
-        sentiment, sentiment2, translate, emoji = sentiment_analysis.sentiment(tweet)
+        #sentiment, sentiment2, translate, emoji = sentiment_analysis.sentiment(tweet)
         #print(sentiment)
         i = i+1
     Tweets.append(tweet)
-    Translate.append(translate)
-    whatFeels.append(sentiment)
-    whatFeels2.append(sentiment2)
-    Emoji.append(emoji)
+    # Translate.append(translate)
+    # whatFeels.append(sentiment)
+    # whatFeels2.append(sentiment2)
+    # Emoji.append(emoji)
         
-    for tweet, sentiment, sentiment2, translate, emoji in zip(
-        Tweets, whatFeels, whatFeels2, Translate, Emoji
+    for tweet in zip(
+        Tweets
     ):
         whatSays.append({
             'Tweet': tweet,
-            'Translate': translate,
-            'Emoji': emoji,
-            'Sentiment': sentiment,
-            'Sentiment2': sentiment2
         })
     
     name = f'Arthur {now}'
