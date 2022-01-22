@@ -15,6 +15,7 @@ from sklearn.model_selection import cross_val_predict
 import datetime
 import saving
 import emojis
+from collections import Counter
 
 nltk.download('stopwords')
 nltk.download('rslp')
@@ -118,9 +119,34 @@ modelo = MultinomialNB()
 modelo.fit(freq_tweets,classes)
 freq_tweets.A
 
+def countWords(df):
+  container = []
+  container2 = []
+  size = len(df)
+  words = [i for i in df]
+  flat_list = []
+  for sublist in words:
+      for item in sublist:
+          flat_list.append(item)
+  flat_list = ' '.join([str(elem) for elem in flat_list])
+  flat_list = nltk.word_tokenize(flat_list)
+  flat_list = [flat_list.lower() for flat_list in flat_list if flat_list.isalpha()]
+  #flat_list = [Preprocessing(i) for i in flat_list]
+  frequent_ = nltk.FreqDist(flat_list)
+  for key in frequent_:
+    container2.append(f'{key}: {frequent_[key]}')
+  
+  #flat_list = flat_list.split()
+  #dict = Counter(flat_list)
+  
+  return container2, size
+
 
 def fillings(df, *args, **kwargs):
   testes1 = df
+  size = []
+  lign = len(df) 
+  size.append(lign)
   testes = [Preprocessing(i) for i in testes1]
   
 
@@ -133,7 +159,14 @@ def fillings(df, *args, **kwargs):
 
   whatSays = []
   # Fazendo a classificação com o modelo treinado.
-  for it1, it2, it3 in zip (testes1,modelitoC, modelitoP):
+  for it1, it2, it3, it4 in zip (testes1,modelitoC, modelitoP, size):
+    frequent = nltk.word_tokenize(it1)
+    frequent = [frequent.lower() for frequent in frequent if frequent.isalpha()]
+    frequent_ = nltk.FreqDist(frequent)
+    frequencias = []
+    for key in frequent_:
+      frequencias.append(key)#+ ' - ' + str(frequent_[key]
+      #print(key + ' - ' + str(frequent_[key]))
     
     try:
         emoji = emojis.get(it1)
@@ -155,20 +188,48 @@ def fillings(df, *args, **kwargs):
       'Tweet':t,
       'Emojis':emoji,
       'SentimentML':c,
+      'Quantidade': it4,
       'Alegria': al,
       'Medo': me,
       'Neutro': ne,
       'Nojo': no,
       'Raiva': ra,
       'Tristeza': tr,
-      'Alias': z
+      'Alias': z,
+      'Frequencias': frequencias
     })
     
     # print (t +", "+ c)
 
-  now = datetime.datetime.now().isoformat(timespec='hours')
+  now = datetime.datetime.now().isoformat(timespec='minutes')
   names = f'SentimentAnalisysBBB{now}'
   df = pd.DataFrame(whatSays)
+  df2 = df['Frequencias']
+  
+  frequencias = []
+  frequency, size_df = countWords(df2)
+  for item1, row in zip(frequency, df2):
+    frequencias.append({
+      'Frequency': item1,
+      'Frequencias2':row,
+    })
+  print(f'''
+        
+        
+        ITEM
+        {frequencias}
+        
+        
+        
+        ''')
+
+  
+  df2 = pd.DataFrame(frequencias)
+  df = df.reset_index(drop=True)
+  df2 = df2.reset_index(drop=True)
+  df = df.join(df2)
+  
+  
   saving.tweet(names, df)
   print(f'\n\n{names}\n\n')
   quickstart.main(names, df)

@@ -1,0 +1,2 @@
+Tweet,Emojis,SentimentML,Quantidade,Alegria,Medo,Neutro,Nojo,Raiva,Tristeza,Alias,Frequencias,Frequency
+"RT @cariocaaa33: Douglas simplesmente tirou todos os homens e deixou Arthur Aguiar com 10 mulheres, mais uma prova de resistência pro nosso…",set(),'alegria',21,[0.5],[0.01],[0.32],[0.0],[0.16],[0.01],[0.0],"['rt', 'douglas', 'simplesmente', 'tirou', 'todos', 'os', 'homens', 'e', 'deixou', 'arthur', 'aguiar', 'com', 'mulheres', 'mais', 'uma', 'prova', 'de', 'resistência', 'pro']","('rt: 1',)"

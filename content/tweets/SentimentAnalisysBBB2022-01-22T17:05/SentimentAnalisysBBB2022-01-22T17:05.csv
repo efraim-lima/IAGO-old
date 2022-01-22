@@ -1,0 +1,2 @@
+Tweet,Emojis,SentimentML,Quantidade,Alegria,Medo,Neutro,Nojo,Raiva,Tristeza,Alias,Frequencias,Frequency
+RT @InesBrasilTV: Rodrigo um tesao mais fofoqueiro e não é fofoqueiro do amor como eu ele ouviu as menina falando do marido da maira cardi…,set(),'alegria',21,[0.5],[0.01],[0.32],[0.0],[0.16],[0.01],[0.0],"['fofoqueiro', 'do', 'rt', 'inesbrasiltv', 'rodrigo', 'um', 'tesao', 'mais', 'e', 'não', 'é', 'amor', 'como', 'eu', 'ele', 'ouviu', 'as', 'menina', 'falando', 'marido', 'da', 'maira']","('fofoqueiro: 1',)"

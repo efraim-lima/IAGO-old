@@ -13,8 +13,8 @@ SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']
 
 # The ID and range of a sample spreadsheet.
-SAMPLE_SPREADSHEET_ID = "1uTdaVQzmpw6Bma4PpFgZ-fsFDUfnoMLJeIxJqqaOPl8"
-SAMPLE_RANGE_NAME = 'SentimentAnalisysBBB2022-01-19 11:43:31.802855'
+SAMPLE_SPREADSHEET_ID = "17fAKneLGiBPwK6i7oMMYYt63a4B4n1_sgkQR3ej_DDc"
+SAMPLE_RANGE_NAME = 'Entrada_na_Casa2022-01-20T12'
 
 
 def main(arth, lista, *args, **kwargs):
@@ -70,10 +70,12 @@ def main(arth, lista, *args, **kwargs):
               ''')
         
         
-        result = sheet.batchUpdate(spreadsheetId=SAMPLE_SPREADSHEET_ID,
+        result = service.spreadsheets().values().batchUpdate(spreadsheetId=SAMPLE_SPREADSHEET_ID,
                                     range=f'{arth}!A:J',
                                     valueInputOptions = "USER_ENTERED",
-                                    body={"values":lista}).execute()
+                                    body={"values":lista}
+                                    ).execute()
+        
 
         if not values:
             print('No data found.')

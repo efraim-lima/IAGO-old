@@ -39,15 +39,10 @@ def tweet_anal():
         # tso.set_negative_attitude_filter() #atitudes negativas --- opcional
         # tso.set_question_filter() # resultados que contem perguntas
         
-        ListaFull = []
         User = []
         Posts = []
-        Translate = []
-        whatFeels = []
         Tweets = []
-        Emoji = []
         Date = []
-        Sentiment = []
         Source = []
         Photo = []
         
@@ -74,11 +69,7 @@ def tweet_anal():
             # Emoji.append(emoji)
             i+=1
             
-            print(f'''
-                {text}
-                ''')
-            
-            if i > 10000:
+            if i > 20:
                 break
             
         for user, text, date, source, photo_profile in zip(
@@ -93,7 +84,7 @@ def tweet_anal():
                 })
         df = pd.DataFrame(Posts)
         name += f'{now}'
-        saving.tweet(name, df)
+        #saving.tweet(name, df)
         
         print (df)
         df2 = df['Tweet']
