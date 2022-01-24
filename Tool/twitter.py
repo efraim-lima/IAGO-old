@@ -29,10 +29,10 @@ def tweet_anal():
         name = input('Nome da busca: ')
         arroba = 'Aguiarthur'
         tso = TwitterSearchOrder()
-        tso.set_keywords([f'{name}', f'@Aguiarthur'], or_operator = True)
+        tso.set_keywords([f'{name}', f'Naiara'], or_operator = False)
         # tso.set_language('pt')
-        # tso.set_since(datetime.date.today())
-        tso.set_since(datetime.date(2021,12,31))
+        tso.set_since(datetime.date.today())
+        #tso.set_since(datetime.date(2022,1,21))
         # tso.set_until(datetime.date.today())
         # tso.set_result_type('mixed') #{mixed, recent, popular}
         # tso.set_positive_attitude_filter() #atitudes positivas --- opcional
@@ -69,7 +69,7 @@ def tweet_anal():
             # Emoji.append(emoji)
             i+=1
             
-            if i > 20:
+            if i > 6000:
                 break
             
         for user, text, date, source, photo_profile in zip(

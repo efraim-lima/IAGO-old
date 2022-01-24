@@ -122,6 +122,7 @@ freq_tweets.A
 def countWords(df):
   container = []
   container2 = []
+  container3 = []
   size = len(df)
   words = [i for i in df]
   flat_list = []
@@ -134,33 +135,31 @@ def countWords(df):
   #flat_list = [Preprocessing(i) for i in flat_list]
   frequent_ = nltk.FreqDist(flat_list)
   for key in frequent_:
-    container2.append(f'{key}: {frequent_[key]}')
+    key2 = f'{frequent_[key]}'
+    container2.append(f'{key}')
+    container3.append(f'{frequent_[key]}')
   
   #flat_list = flat_list.split()
   #dict = Counter(flat_list)
   
-  return container2, size
+  return container2, container3, size
 
 
 def fillings(df, *args, **kwargs):
-  testes1 = df
-  size = []
-  lign = len(df) 
-  size.append(lign)
-  testes = [Preprocessing(i) for i in testes1]
-  
-
+  testes1 = df.values.tolist()
+  #testes1 = str(testes1)
+  testes = [Preprocessing(teste) for teste in testes1]
   # Transforma os dados de teste em vetores de palavras.
   freq_testes = vectorizer.transform(testes)
-
   print (modelo.classes_)
   modelitoC = modelo.predict(freq_testes)
   modelitoP = modelo.predict_proba(freq_testes).round(2)
 
   whatSays = []
   # Fazendo a classificação com o modelo treinado.
-  for it1, it2, it3, it4 in zip (testes1,modelitoC, modelitoP, size):
-    frequent = nltk.word_tokenize(it1)
+  for it1, it2, it3 in zip (testes1,modelitoC, modelitoP):
+    frequent = tweet_tokenizer.tokenize(it1)
+    #frequent = nltk.word_tokenize(it1)
     frequent = [frequent.lower() for frequent in frequent if frequent.isalpha()]
     frequent_ = nltk.FreqDist(frequent)
     frequencias = []
@@ -188,7 +187,7 @@ def fillings(df, *args, **kwargs):
       'Tweet':t,
       'Emojis':emoji,
       'SentimentML':c,
-      'Quantidade': it4,
+      'Quantidade': len(df),
       'Alegria': al,
       'Medo': me,
       'Neutro': ne,
@@ -207,21 +206,14 @@ def fillings(df, *args, **kwargs):
   df2 = df['Frequencias']
   
   frequencias = []
-  frequency, size_df = countWords(df2)
-  for item1, row in zip(frequency, df2):
+  frequency, fr_k, size_df = countWords(df2)
+  for item1, item2, item3 in zip(frequency, fr_k, df2):
     frequencias.append({
-      'Frequency': item1,
-      'Frequencias2':row,
+      'Phrase': item3,
+      'Words': item1,
+      'Frequency': item2
     })
-  print(f'''
-        
-        
-        ITEM
-        {frequencias}
-        
-        
-        
-        ''')
+    
 
   
   df2 = pd.DataFrame(frequencias)
@@ -333,3 +325,8 @@ metrics.accuracy_score(classes,resultados)
 sentimento=['Positivo','Negativo','Neutro']
 metricas = metrics.classification_report(classes,resultados) #removi sentimento
 print(metricas)
+
+
+# df4 = pd.read_csv('./content/tweets/Arthur 2022-01-14 18:44:09.416726/Arthur 2022-01-14 18:44:09.416726.csv')
+# df4 = df4['Tweet']
+# fillings(df4)

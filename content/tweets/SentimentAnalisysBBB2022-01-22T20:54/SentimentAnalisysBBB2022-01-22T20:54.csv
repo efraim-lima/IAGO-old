@@ -1,0 +1,5 @@
+Tweet,Emojis,SentimentML,Alegria,Medo,Neutro,Nojo,Raiva,Tristeza,Alias,Frequencias,Frequency,Frequencias2
+Tweet,set(),'alegria',[0.5],[0.01],[0.32],[0.0],[0.16],[0.01],[0.0],['tweet'],"(['tweet: 1'], 1)",4
+Translate,set(),'alegria',[0.5],[0.01],[0.32],[0.0],[0.16],[0.01],[0.0],['translate'],"(['translate: 1'], 1)",4
+Emoji,set(),'alegria',[0.5],[0.01],[0.32],[0.0],[0.16],[0.01],[0.0],['emoji'],"(['emoji: 1'], 1)",4
+Sentiment,set(),'alegria',[0.5],[0.01],[0.32],[0.0],[0.16],[0.01],[0.0],['sentiment'],"(['sentiment: 1'], 1)",4

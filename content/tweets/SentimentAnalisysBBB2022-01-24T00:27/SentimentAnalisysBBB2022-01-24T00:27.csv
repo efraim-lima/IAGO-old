@@ -1,0 +1,4 @@
+Tweet,Emojis,SentimentML,Quantidade,Alegria,Medo,Neutro,Nojo,Raiva,Tristeza,Alias,Frequencias,Phrase,Words,Frequency
+"RT @dlimathais: VALEUUUU ACEROLAAAAAAA 
+
+arthur aguiar o que tenho a ver",set(),'alegria',1,[0.5],[0.01],[0.32],[0.0],[0.16],[0.01],[0.0],"['rt', 'valeuuuu', 'acerolaaaaaaa', 'arthur', 'aguiar', 'o', 'que', 'tenho', 'a', 'ver']","['rt', 'valeuuuu', 'acerolaaaaaaa', 'arthur', 'aguiar', 'o', 'que', 'tenho', 'a', 'ver']",rt,1

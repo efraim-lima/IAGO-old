@@ -1,0 +1,2 @@
+Tweet,Emojis,SentimentML,Quantidade,Alegria,Medo,Neutro,Nojo,Raiva,Tristeza,Alias,Frequencias,Frequency,Frequencias2
+Tweet,set(),'alegria',100,[0.5],[0.01],[0.32],[0.0],[0.16],[0.01],[0.0],"['a', 'live', 'do', 'é', 'show']",a: 1,"['a', 'live', 'do', 'é', 'show']"
