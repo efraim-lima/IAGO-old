@@ -7553,3 +7553,223 @@ console.log: "RemoteSettingsWorker error: Error: Can't import when we've started
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1643035768130	geckodriver	INFO	Listening on 127.0.0.1:58793
+1643035768134	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-gpu" "--remote-debugging-port" "50387" "-no-remote" "-profile" "/tmp/rust_mozprofiledbl4US"
+*** You are running in headless mode.
+1643035768510	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiledbl4US/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50387/devtools/browser/fc44aad8-2dd3-4a2d-aa4a-ec692a88ac15
+1643035770034	Marionette	INFO	Listening on port 33393
+1643035770069	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1643036540848	geckodriver	INFO	Listening on 127.0.0.1:33285
+1643036540855	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-gpu" "--remote-debugging-port" "56549" "-no-remote" "-profile" "/tmp/rust_mozprofilepR7jJ8"
+*** You are running in headless mode.
+1643036541346	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilepR7jJ8/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56549/devtools/browser/d93fd957-e047-422a-b893-f121b2241ffe
+1643036543797	Marionette	INFO	Listening on port 37349
+1643036544770	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1643039597237	geckodriver	INFO	Listening on 127.0.0.1:53659
+1643039597739	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-gpu" "--remote-debugging-port" "33203" "-no-remote" "-profile" "/tmp/rust_mozprofileGnSIct"
+*** You are running in headless mode.
+1643039598294	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGnSIct/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:33203/devtools/browser/e931832b-694a-4793-8788-24054c367b04
+1643039600287	Marionette	INFO	Listening on port 45205
+1643039600388	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1643039814665	geckodriver	INFO	Listening on 127.0.0.1:53763
+1643039815158	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-gpu" "--remote-debugging-port" "46471" "-no-remote" "-profile" "/tmp/rust_mozprofilezjZofM"
+*** You are running in headless mode.
+1643039815864	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezjZofM/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:46471/devtools/browser/503a2204-48b2-45b9-853d-039ccb61f4e7
+1643039818072	Marionette	INFO	Listening on port 45147
+1643039818194	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1643155717773	geckodriver	INFO	Listening on 127.0.0.1:50187
+1643155717777	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" "--headless" "--disable-gpu" "--no-sandbox" "--mute-audio" "--remote-debugging-port" "43781" "-no-remote" "-profile" "/tmp/rust_mozprofileLEj0vJ"
+*** You are running in headless mode.
+1643155718144	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLEj0vJ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:43781/devtools/browser/2337b2a8-6f48-411c-a3ad-9901dab7a4cd
+1643155719853	Marionette	INFO	Listening on port 37135
+1643155719918	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1643157095322	geckodriver	INFO	Listening on 127.0.0.1:50103
+1643157095837	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" "--headless" "--disable-gpu" "--no-sandbox" "--mute-audio" "--remote-debugging-port" "60809" "-no-remote" "-profile" "/tmp/rust_mozprofileVojmYZ"
+*** You are running in headless mode.
+1643157096592	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVojmYZ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60809/devtools/browser/ef68034f-9d4b-4519-a8f2-088500985a61
+1643157099158	Marionette	INFO	Listening on port 44081
+1643157099208	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1643157130894	geckodriver	INFO	Listening on 127.0.0.1:43403
+1643157131401	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0" "--headless" "--disable-gpu" "--no-sandbox" "--mute-audio" "--remote-debugging-port" "57317" "-no-remote" "-profile" "/tmp/rust_mozprofileD4HHnu"
+*** You are running in headless mode.
+1643157132138	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileD4HHnu/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57317/devtools/browser/4303eaf9-09e5-4021-948d-8c6ceb0f786b
+1643157134867	Marionette	INFO	Listening on port 36879
+1643157134951	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1643157151248	geckodriver	INFO	Listening on 127.0.0.1:37403
+1643157151753	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" "--headless" "--disable-gpu" "--no-sandbox" "--mute-audio" "--remote-debugging-port" "39751" "-no-remote" "-profile" "/tmp/rust_mozprofileueVHh9"
+*** You are running in headless mode.
+1643157152231	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileueVHh9/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:39751/devtools/browser/dc1a7344-c8fe-4dfd-9766-f84fd3c38659
+1643157155124	Marionette	INFO	Listening on port 44203
+1643157155194	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1643165578123	Marionette	INFO	Stopped listening on port 44081
+1643165578124	Marionette	INFO	Stopped listening on port 36879
+1643165578132	Marionette	INFO	Stopped listening on port 44203
+1643165578144	Marionette	INFO	Stopped listening on port 37135
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C000B,name=PHttpChannel::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6D0025,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1643207692162	geckodriver	INFO	Listening on 127.0.0.1:42657
+1643207692168	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:63.0) Gecko/20100101 Firefox/63.0" "--headless" "--disable-gpu" "--no-sandbox" "--mute-audio" "--remote-debugging-port" "52709" "-no-remote" "-profile" "/tmp/rust_mozprofileWG3RU8"
+*** You are running in headless mode.
+1643207692660	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWG3RU8/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52709/devtools/browser/a5cfe56f-d1e8-4498-a672-7b007b899657
+1643207694013	Marionette	INFO	Listening on port 37607
+1643207694092	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1643208038238	geckodriver	INFO	Listening on 127.0.0.1:47833
+1643208038753	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36" "--headless" "--disable-gpu" "--no-sandbox" "--mute-audio" "--remote-debugging-port" "48825" "-no-remote" "-profile" "/tmp/rust_mozprofile2Xvic3"
+*** You are running in headless mode.
+1643208039055	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2Xvic3/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:48825/devtools/browser/b94bea55-c5fc-40ad-956e-f0915954e948
+1643208040215	Marionette	INFO	Listening on port 42173
+1643208040271	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1643208179753	geckodriver	INFO	Listening on 127.0.0.1:38395
+1643208179771	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36 OPR/68.0.3618.63" "--headless" "--disable-gpu" "--no-sandbox" "--mute-audio" "--remote-debugging-port" "42641" "-no-remote" "-profile" "/tmp/rust_mozprofileFfyKHr"
+*** You are running in headless mode.
+1643208180093	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFfyKHr/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:42641/devtools/browser/c8b3c148-f9b2-46af-a2bd-3a49647a72e5
+1643208181190	Marionette	INFO	Listening on port 38499
+1643208181314	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1643208249385	geckodriver	INFO	Listening on 127.0.0.1:57187
+1643208249401	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" "--headless" "--disable-gpu" "--no-sandbox" "--mute-audio" "--remote-debugging-port" "33499" "-no-remote" "-profile" "/tmp/rust_mozprofilejh2gj6"
+*** You are running in headless mode.
+1643208249708	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilejh2gj6/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:33499/devtools/browser/ad7fe2f0-0bf6-44b1-bee6-195bdb0716ec
+1643208250741	Marionette	INFO	Listening on port 39291
+1643208250824	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1643208654276	geckodriver	INFO	Listening on 127.0.0.1:40729
+1643208654294	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" "--headless" "--disable-gpu" "--no-sandbox" "--mute-audio" "--remote-debugging-port" "36753" "-no-remote" "-profile" "/tmp/rust_mozprofileuwRCdx"
+*** You are running in headless mode.
+1643208654601	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileuwRCdx/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:36753/devtools/browser/d2b07050-5dc9-426c-ab12-bee20cd3525b
+1643208655864	Marionette	INFO	Listening on port 40773
+1643208655921	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1643208975651	geckodriver	INFO	Listening on 127.0.0.1:49851
+1643208975664	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36" "--headless" "--disable-gpu" "--no-sandbox" "--mute-audio" "--remote-debugging-port" "60015" "-no-remote" "-profile" "/tmp/rust_mozprofileQnlkPq"
+*** You are running in headless mode.
+1643208975947	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQnlkPq/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60015/devtools/browser/6eaafbd3-8504-47a7-bbae-cc2fda67ae18
+1643208977484	Marionette	INFO	Listening on port 42683
+1643208977625	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1643209165954	geckodriver	INFO	Listening on 127.0.0.1:46741
+1643209165967	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" "--disable-gpu" "--no-sandbox" "--mute-audio" "--remote-debugging-port" "46553" "-no-remote" "-profile" "/tmp/rust_mozprofileP3C0mr"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1643209166671	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileP3C0mr/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:46553/devtools/browser/111559af-4601-4699-ab9b-6ee933e666ae
+1643209168018	Marionette	INFO	Listening on port 35255
+1643209168084	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 335))
+InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment: _createTargetActor/<@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:335:12
+newListener@resource://devtools/shared/event-emitter.js:173:27
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+destroy@resource://devtools/server/actors/targets/window-global.js:733:10
+module.exports/proto.destroy@resource://devtools/server/actors/targets/target-actor-mixin.js:242:30
+instantiate@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:242:26
+handleEvent@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:650:12
+
+console.error: (new Error("Connection closed, pending request to server0.conn0.windowGlobal2147483651/inspectorActor4, type supportsHighlighters failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nsupportsEyeDropper@resource://devtools/client/inspector/inspector.js:1361:40\nsetupToolbar@resource://devtools/client/inspector/inspector.js:1379:42\nonRootNodeAvailable@resource://devtools/client/inspector/inspector.js:375:12\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: (new Error("Connection closed, pending request to server0.conn0.windowGlobal2147483651/domnode27, type getUniqueSelector failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetNodeFrontSelectorsFromTopDocument@resource://devtools/shared/commands/inspector/inspector-command.js:325:42\nupdateSelectionCssSelectors@resource://devtools/client/inspector/inspector.js:1474:8\nonNewSelection@resource://devtools/client/inspector/inspector.js:1548:10\ninit@resource://devtools/client/inspector/inspector.js:239:10\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: (new Error("Connection closed, pending request to server0.conn0.windowGlobal2147483651/pagestyle24, type getLayout failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nupdateBoxModel/lastRequest<@resource://devtools/client/inspector/boxmodel/box-model.js:183:36\nupdateBoxModel@resource://devtools/client/inspector/boxmodel/box-model.js:223:18\nonSidebarSelect@resource://devtools/client/inspector/boxmodel/box-model.js:398:10\n_emit@resource://devtools/shared/event-emitter.js:244:34\nemit@resource://devtools/shared/event-emitter.js:190:18\nemit@resource://devtools/shared/event-emitter.js:342:18\nhandleSelectionChange@resource://devtools/client/inspector/toolsidebar.js:216:10\naddAllQueuedTabs/<@resource://devtools/client/shared/components/tabs/TabBar.js:181:20\ncallCallback@resource://devtools/client/shared/vendor/react-dom.js:12127:12\ncommitUpdateEffects@resource://devtools/client/shared/vendor/react-dom.js:12166:19\ncommitUpdateQueue@resource://devtools/client/shared/vendor/react-dom.js:12154:22\ncommitLifeCycles@resource://devtools/client/shared/vendor/react-dom.js:12964:28\ncommitAllLifeCycles@resource://devtools/client/shared/vendor/react-dom.js:14174:23\ncommitRoot@resource://devtools/client/shared/vendor/react-dom.js:14380:28\ncompleteRoot/<@resource://devtools/client/shared/vendor/react-dom.js:15731:15\nunstable_runWithPriority@resource://devtools/client/shared/vendor/react.js:617:12\ncompleteRoot@resource://devtools/client/shared/vendor/react-dom.js:15730:27\nperformWorkOnRoot@resource://devtools/client/shared/vendor/react-dom.js:15659:21\nperformWork@resource://devtools/client/shared/vendor/react-dom.js:15567:24\nperformSyncWork@resource://devtools/client/shared/vendor/react-dom.js:15541:14\nrequestWork@resource://devtools/client/shared/vendor/react-dom.js:15410:5\nscheduleWork@resource://devtools/client/shared/vendor/react-dom.js:15224:16\nenqueueSetState@resource://devtools/client/shared/vendor/react-dom.js:8192:17\nComponent.prototype.setState@resource://devtools/client/shared/vendor/react.js:328:16\naddAllQueuedTabs@resource://devtools/client/shared/components/tabs/TabBar.js:179:10\naddAllQueuedTabs@resource://devtools/client/inspector/toolsidebar.js:78:18\nsetupSidebar@resource://devtools/client/inspector/inspector.js:1260:18\ninit@resource://devtools/client/inspector/inspector.js:234:10\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: (new Error("Connection closed, pending request to server0.conn0.windowGlobal2147483651/pagestyle24, type getApplied failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetApplied@resource://devtools/client/fronts/page-style.js:59:29\npopulate@resource://devtools/client/inspector/rules/models/element-style.js:124:8\n_populate@resource://devtools/client/inspector/rules/rules.js:1099:8\nrefreshPanel/<@resource://devtools/client/inspector/rules/rules.js:1034:19\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: (new Error("Connection closed, pending request to server0.conn0.windowGlobal2147483651/pagestyle24, type getApplied failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetApplied@resource://devtools/client/fronts/page-style.js:59:29\npopulate@resource://devtools/client/inspector/rules/models/element-style.js:124:8\n_populate@resource://devtools/client/inspector/rules/rules.js:1099:8\nselectElement/<@resource://devtools/client/inspector/rules/rules.js:992:23\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: (new Error("Connection closed, pending request to server0.conn0.windowGlobal2147483651/pagestyle24, type getApplied failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetApplied@resource://devtools/client/fronts/page-style.js:59:29\npopulate@resource://devtools/client/inspector/rules/models/element-style.js:124:8\n_populate@resource://devtools/client/inspector/rules/rules.js:1099:8\nrefreshPanel/<@resource://devtools/client/inspector/rules/rules.js:1034:19\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: (new Error("Connection closed, pending request to server0.conn0.windowGlobal2147483651/pagestyle24, type getApplied failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetApplied@resource://devtools/client/fronts/page-style.js:59:29\npopulate@resource://devtools/client/inspector/rules/models/element-style.js:124:8\n_populate@resource://devtools/client/inspector/rules/rules.js:1099:8\nselectElement/<@resource://devtools/client/inspector/rules/rules.js:992:23\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: (new Error("Connection closed, pending request to server0.conn0.windowGlobal2147483651/pagestyle24, type getApplied failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ngetApplied@resource://devtools/client/fronts/page-style.js:59:29\npopulate@resource://devtools/client/inspector/rules/models/element-style.js:124:8\n_populate@resource://devtools/client/inspector/rules/rules.js:1099:8\nselectElement/<@resource://devtools/client/inspector/rules/rules.js:992:23\n", "resource://devtools/shared/protocol/Front.js", 106))
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 106: Error: Connection closed, pending request to server0.conn0.windowGlobal2147483651/pagestyle24, type getApplied failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:292:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19
+getApplied@resource://devtools/client/fronts/page-style.js:59:29
+populate@resource://devtools/client/inspector/rules/models/element-style.js:124:8
+_populate@resource://devtools/client/inspector/rules/rules.js:1099:8
+refreshPanel/<@resource://devtools/client/inspector/rules/rules.js:1034:19
+
+1643209281544	geckodriver	INFO	Listening on 127.0.0.1:34759
+1643209282058	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36 OPR/68.0.3618.63" "--disable-gpu" "--no-sandbox" "--mute-audio" "--remote-debugging-port" "39721" "-no-remote" "-profile" "/tmp/rust_mozprofileE9cQgp"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1643209282811	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileE9cQgp/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:39721/devtools/browser/b219c371-1542-48ad-8127-b12ba9897426
+1643209284336	Marionette	INFO	Listening on port 39695
+1643209284377	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1643209301887	Marionette	INFO	Stopped listening on port 39695
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1643209490947	geckodriver	INFO	Listening on 127.0.0.1:40637
+1643209491462	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" "--disable-gpu" "--no-sandbox" "--mute-audio" "--remote-debugging-port" "41553" "-no-remote" "-profile" "/tmp/rust_mozprofilePciLiJ"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1643209492180	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePciLiJ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:41553/devtools/browser/897fadc6-03a1-4ad3-b8a9-77e837b56217
+1643209493572	Marionette	INFO	Listening on port 44925
+1643209493680	RemoteAgent	WARN	TLS certificate errors will be ignored for this session

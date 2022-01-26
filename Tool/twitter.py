@@ -2,8 +2,6 @@ import datetime
 from TwitterSearch import *
 import pandas as pd
 import sentiment
-import json
-import saving
 
 
 # consumer_key = 'dG9VUEhTZUJyNkJaNDhUUlZxWjQ6MTpjaQ'
@@ -29,10 +27,10 @@ def tweet_anal():
         name = input('Nome da busca: ')
         arroba = 'Aguiarthur'
         tso = TwitterSearchOrder()
-        tso.set_keywords([f'{name}', f'Naiara'], or_operator = False)
+        tso.set_keywords([f'{name}', f'Maira Cardi'], or_operator = False)
         # tso.set_language('pt')
         tso.set_since(datetime.date.today())
-        #tso.set_since(datetime.date(2022,1,21))
+        # tso.set_since(datetime.date(2021,12,15))
         # tso.set_until(datetime.date.today())
         # tso.set_result_type('mixed') #{mixed, recent, popular}
         # tso.set_positive_attitude_filter() #atitudes positivas --- opcional
