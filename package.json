@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "gltf-webpack-loader": "^1.0.6",
-    "three": "^0.134.0",
+    "three": "^0.137.0",
     "webpack": "^5.64.1"
   },
   "scripts": {
