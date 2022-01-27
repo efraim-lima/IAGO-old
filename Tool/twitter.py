@@ -27,7 +27,7 @@ def tweet_anal():
         name = input('Nome da busca: ')
         arroba = 'Aguiarthur'
         tso = TwitterSearchOrder()
-        tso.set_keywords([f'{name}', f'Maira Cardi'], or_operator = False)
+        tso.set_keywords([f'{name}', f'BBB'], or_operator = False)
         # tso.set_language('pt')
         tso.set_since(datetime.date.today())
         # tso.set_since(datetime.date(2021,12,15))

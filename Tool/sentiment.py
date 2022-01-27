@@ -27,7 +27,7 @@ nltk.download('wordnet')
 # defina instâncias de teste dentro de uma lista
 
   
-texto = pd.read_csv('./Tool/Tweets_Mg.csv', encoding='UTF-8')
+texto = pd.read_csv('./Tool/Tweets_Mg.csv', encoding='latin-1')
 texto = texto.drop_duplicates()
 exemplo_base = pd.DataFrame(texto)
 

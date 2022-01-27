@@ -25,7 +25,6 @@ def SearchContent(theme):
             '//*[@id="xjs"]/table/tbody/tr/td[3]/a'
         ).get_attribute('href')
         
-        print(url_page)
         
         actually_page = 0
         start = 10
@@ -43,6 +42,13 @@ def SearchContent(theme):
                 By.XPATH,
                 '//div[@class="g"]'
             )
+            print(f'''
+                
+                
+                {notices}
+                
+                
+                ''')
             
             print(notices)
             
@@ -51,11 +57,14 @@ def SearchContent(theme):
                     By.TAG_NAME,
                     'a'
                 )
-                for linkNotice in linkNotice:
-                     texto = driver.find_element(
-                        By.TAG_NAME,
-                        'h3'
-                    )
+        
+                texto = driver.find_element(
+                By.TAG_NAME,
+                'h3'
+                )
+                
+                print(texto.text)
+                
                 noticesLink = linkNotice.get_attribute('href')
                 listNotice.append(texto.text)
                 listLink.append(noticesLink)
@@ -71,6 +80,7 @@ def SearchContent(theme):
         
         df = pd.DataFrame(dfList)
         print (df)
+        config.quit()
         
         return df, theme
         

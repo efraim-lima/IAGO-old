@@ -18,7 +18,7 @@ const response = fetch('../../../content/pastel/pastel.json')
         }
     })
     .then(data => {
-        console.log(data)
+        console.table(data)
     })
     .catch(error => {
         console.log(error)
@@ -40,7 +40,7 @@ const functionB = async () => {
     var waiting = await functionA
     var waitingJSON = await fetch('../../../content/pastel/pastel.json')
         .then(data => {
-            console.log(data)
+            console.table(data)
             var pastel = data.json()
             console.log(pastel)
             return pastel
@@ -55,7 +55,7 @@ const functionB = async () => {
 
 functionB()
     .then(data =>{
-        console.log(data)
+        console.table(data)
     })
     .catch(error => {
         console.log(error)
