@@ -1,0 +1,33 @@
+{
+  "name": "micro-authenticatior",
+  "version": "1.0.0",
+  "description": "Micro authentication service for login in website",
+  "main": "./HTML/dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./",
+    "build": "tsc -p ./",
+    "dev": "ts-node-dev tsconfig-paths/register --respawn --transpile-only --ignore-watch node_modules --no-notify src/index.ts"
+  },
+  "keywords": [
+    "microservice",
+    "atuthentication",
+    "api",
+    "node",
+    "js",
+    "web",
+    "dev"
+  ],
+  "author": "Efraim Lima",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.13",
+    "ts-node-dev": "^1.1.8",
+    "tsconfig-paths": "^3.12.0",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
