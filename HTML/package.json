@@ -2,7 +2,7 @@
   "name": "micro-authenticatior",
   "version": "1.0.0",
   "description": "Micro authentication service for login in website",
-  "main": "./HTML/dist/index.js",
+  "main": "HTML/dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./",
@@ -23,11 +23,34 @@
   "devDependencies": {
     "@types/express": "^4.17.13",
     "@types/node": "^17.0.13",
+    "browsermob-proxy-client": "^0.1.0",
+    "chai": "^4.3.6",
+    "chromedriver": "^97.0.2",
+    "geckodriver": "^3.0.1",
+    "gltf-webpack-loader": "^1.0.6",
+    "iedriver": "^3.150.1",
+    "nodemon": "^2.0.15",
+    "selenium-webdriver": "^4.1.1",
+    "three": "^0.134.0",
     "ts-node-dev": "^1.1.8",
     "tsconfig-paths": "^3.12.0",
-    "typescript": "^4.5.5"
+    "typescript": "^4.5.5",
+    "webpack": "^5.64.1"
   },
   "dependencies": {
-    "express": "^4.17.2"
+    "capture-har": "^1.1.1",
+    "cross-fetch": "^3.1.5",
+    "express": "^4.17.2",
+    "http-status-codes": "^2.2.0",
+    "node-fetch": "^3.2.0",
+    "node-fetch-har": "^1.0.1",
+    "node-horseman": "^3.3.0",
+    "normalize.css": "^8.0.1",
+    "open": "^8.4.0",
+    "parcel-bundler": "^1.12.5",
+    "reset.css": "^2.0.2",
+    "save": "^2.4.0",
+    "style.css": "^1.0.1",
+    "time-stamp": "^2.2.0"
   }
 }

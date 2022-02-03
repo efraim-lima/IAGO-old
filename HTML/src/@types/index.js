@@ -1,33 +1,21 @@
+"use strict";
 // npm init
 // npm i parcel-bundler
 // npm install typescript
 // sudo apt install node-typescript
 // tsc
-
-
-function soma(a:number, b:number){
-    return a + b
+function soma(a, b) {
+    return a + b;
 }
-console.log(soma(2,4))
-
-interface Animal {
-    nome: string
-    tipo: 'terrestre'|'aquatico'
-    executarRugido(alturaDb: number): void
-}
-interface Felino extends Animal {
-    visaoNoturna: boolean
-}
-
-const animal : Animal = {
+console.log(soma(2, 4));
+const animal = {
     nome: 'Elefante',
     tipo: 'terrestre',
     executarRugido: (alturaDb) => (`${alturaDb}`)
-}
-
-const felino: Felino = {
+};
+const felino = {
     nome: 'Gato',
     tipo: 'terrestre',
     visaoNoturna: true,
     executarRugido: (alturaDb) => (`${alturaDb}`)
-}
+};
