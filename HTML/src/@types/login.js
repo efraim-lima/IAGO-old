@@ -11,16 +11,36 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 // program
 const puppeteer = require('puppeteer');
 (() => __awaiter(void 0, void 0, void 0, function* () {
-    const url = 'https://instagram.com/';
-    const browser = yield puppeteer.launch({ headless: false });
+    const url = 'https://instagram.com/jadepicon';
+    const browser = yield puppeteer.launch({
+        headless: false,
+        args: ['--no-sandbox']
+    });
     const page = yield browser.newPage();
-    yield page.goto(url);
+    yield page.goto(url, { waitUntil: "networkidle0" });
+    yield page.waitFor(2500);
     const REQUIRED_ARGS = ['iago.develop', 'pasteldefrango'];
-    // Login
-    yield page.type("input[name='username']", REQUIRED_ARGS[0]);
-    yield page.type("input[name='password']", REQUIRED_ARGS[1]);
-    yield page.click('#loginbutton input');
+    yield page.click(`input[type="text"]`); // Da um click falso no input de login
+    yield page.keyboard.type(REQUIRED_ARGS[0]); // digita uma string no input
+    yield page.click('input[type="password"]'); //Da um click falso no input de sennha
+    yield page.keyboard.type(REQUIRED_ARGS[1]); // digita uma string no input
+    yield page.click(".L3NKy");
+    yield page.waitFor(2500);
+    yield page.click("button.aOOlW");
+    yield page.click("nav a._2dbep.qNELH.kIKUG");
     yield page.waitForNavigation();
+    let data = yield page.evaluate(() => {
+        const infos = document.querySelectorAll(".g47SY");
+        const posts = infos[0].textContent;
+        const followers = infos[1].textContent;
+        const following = infos[2].textContent;
+        return {
+            posts,
+            followers,
+            following,
+        };
+    });
+    console.log(data);
     // Get cookies
     const cookies = yield page.cookies();
     console.log(JSON.stringify(cookies));
