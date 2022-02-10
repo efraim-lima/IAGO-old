@@ -1,8 +1,14 @@
+from datetime import datetime
 from re import I
 from pytrends.request import TrendReq
+import pandas as pd
 
 
-def trends(search, timing, g):
+def trends(search):
+    
+    time = datetime.today()
+    timming = 'today 7-d'
+    g = 'BR'
     pytrends = TrendReq(hl='pt-BR', tz=360)
 
     kw_list = [f"{search}"]
@@ -19,7 +25,7 @@ def trends(search, timing, g):
     
     pytrends.build_payload(kw_list, 
                         cat=0, 
-                        timeframe = f'{timeframes[0]}', 
+                        timeframe = f'{timeframes[2]}', 
                         geo='', 
                         gprop='')
     
@@ -53,4 +59,14 @@ def trends(search, timing, g):
         stability = 'Relatively Stable and Decreasing'
     
     print(stability)
-trends('pastel', 'today 7-d', 'BR')
+    dataset = []
+    dataset.append({
+        f'Stability_{time}': stability,
+        f'Tending_{time}': trend,
+    })
+    
+    dataset = pd.Dataframe(dataset)
+    dataset = dataset.to_json()
+    
+    return dataset
+# trends()

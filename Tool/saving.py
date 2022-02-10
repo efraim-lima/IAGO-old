@@ -2,11 +2,11 @@ import pandas as pd
 import os.path
 import urllib
 
-if not os.path.exists('./content'):
-        os.mkdir('./content')
 
 def theme(name, df, *args, **kwargs):
-    if not os.path.exists(f'./content/{name}'):
+    if not os.path.exists('./content'):
+            os.mkdir('./content')
+    elif not os.path.exists(f'./content/{name}'):
         os.mkdir(f'./content/{name}')
         #df.to_csv(f'{name}/{name}_data_leitura.csv')
         df.to_csv(
@@ -17,8 +17,8 @@ def theme(name, df, *args, **kwargs):
             f'./content/{name}/{name}.json',
             index=True
         )
-
         print(f'\n\n{df}\n\n')
+        
     elif os.path.exists(f'./content/{name}') and not os.path.exists(f'./content/{name}/{name}.csv'):
         #YT.to_csv(f'{name}/{name}_data_leitura.csv')
         df.to_csv(
@@ -32,20 +32,24 @@ def theme(name, df, *args, **kwargs):
         print('\n\nTema já existe\n Resumo não existe \n\n')
 
         print(f'\n\n{df}\n\n')
-    if os.path.exists(f'./content/{name}') & os.path.exists(f'./content/{name}/{name}.csv'):
+    
+    elif os.path.exists(f'./content/{name}') & os.path.exists(f'./content/{name}/{name}.csv'):
         YT = pd.read_csv(f'./content/{name}/{name}.csv')
         # for row in YT:
         #     if row == row in df:
         #         pass
         #     else:
         #         YT.loc(row)
-        df = pd.merge(YT, df,how = "left", on = ["Channel","Ch_URL"])
+        df = df.reset_index(drop=True)
+        df2 = YT.reset_index(drop=True)
+        df = df.join(df2)
+        df = df.loc[:,~df.columns.duplicated()]
         #YT.to_csv(f'{name}/{name}_data_leitura.csv')
-        YT.to_csv(
+        df.to_csv(
             f'./content/{name}/{name}.csv',
             index=False
         )
-        YT.to_json(
+        df.to_json(
             f'./content/{name}/{name}.json',
             index=True
         )
@@ -71,45 +75,51 @@ def channel(YT_Theme, df, CH, *args, **kwargs):
             #YT = YT.astype(str)
             #df2 = YT.merge(df2, how = 'outer')
             #YT = pd.concat([YT, df2]).drop_duplicates().reset_index(drop=True)
-            YT = YT.astype(str) #tentando contornar erro que não permite o merge entre dataframes
-            df = df.astype(str) #tentando contornar erro que não permite o merge entre dataframes
-            YT = pd.merge(
-                YT,
-                df,
-                how='outer',
+            # YT = YT.astype(str) #tentando contornar erro que não permite o merge entre dataframes
+            # df = df.astype(str) #tentando contornar erro que não permite o merge entre dataframes
+            # YT = pd.merge(
+            #     YT,
+            #     df,
+            #     how='outer',
 
-                on=[
-                    'Category',
-                    'Channel',
-                    'Ch_URL',
-                    'Video_URL',
-                    'Videos',
-                    'Date'
-                ],
-                # right_on=[
-                #     'Category',
-                #     'Channel',
-                #     'Ch_URL',
-                #     'Video_URL',
-                #     'Videos',
-                #     'Date'
-                # ],
-                suffixes=(
-                    '',
-                    '_drop'
-                )
-            )
-            YT.drop([col for col in YT if 'drop' in col], axis=1, inplace=True)
-            YT = YT.drop_duplicates()
-            #YT.to_csv(f'{YT_Theme}/canais_{YT_Theme}'_data_leitura.csv')
-            YT.to_csv(
+            #     on=[
+            #         'Category',
+            #         'Channel',
+            #         'Ch_URL',
+            #         'Video_URL',
+            #         'Videos',
+            #         'Date'
+            #     ],
+            #     # right_on=[
+            #     #     'Category',
+            #     #     'Channel',
+            #     #     'Ch_URL',
+            #     #     'Video_URL',
+            #     #     'Videos',
+            #     #     'Date'
+            #     # ],
+            #     suffixes=(
+            #         '',
+            #         '_drop'
+            #     )
+            # )
+            # YT.drop([col for col in YT if 'drop' in col], axis=1, inplace=True)
+            # YT = YT.drop_duplicates()
+            # #YT.to_csv(f'{YT_Theme}/canais_{YT_Theme}'_data_leitura.csv')
+            
+            df = df.reset_index(drop=True)
+            df2 = YT.reset_index(drop=True)
+            df = df.join(df2)
+            df = df.loc[:,~df.columns.duplicated()]
+            
+            df.to_csv(
                 f'./content/{YT_Theme}/canais_{YT_Theme}/{CH}.csv', 
                 index=False
                 )
-            YT.to_json(
+            df.to_json(
                 f'./content/{YT_Theme}/canais_{YT_Theme}/{CH}.json', 
                 index=True
-                       )
+                )
             print('\n\nCanal já existe')
             print(f'\n{YT}\n\n')
         except:
@@ -160,13 +170,15 @@ def video(YT_Theme, df, channel, *args, **kwargs):
         df.to_csv(f'./content/{YT_Theme}/descricoes_{YT_Theme}/{channel}.csv', index=False)
         df.to_json(f'./content/{YT_Theme}/descricoes_{YT_Theme}/{channel}.json', index=True)
     else:
+        YT = pd.read_csv(f'./content/{YT_Theme}/descricoes_{YT_Theme}/{channel}.csv')
+        df = df.reset_index(drop=True)
+        df2 = YT.reset_index(drop=True)
+        df = df.join(df2)
+        df = df.loc[:,~df.columns.duplicated()]
+        print(f'\n\n {df} \n\n')
         df.to_csv(f'./content/{YT_Theme}/descricoes_{YT_Theme}/{channel}.csv', index=False)
         df.to_json(f'./content/{YT_Theme}/descricoes_{YT_Theme}/{channel}.json', index=True)
         #df2.to_csv(f'{YT_Theme}/descricoes_{YT_Theme}/{Canal}_df_l.csv')
-        print(f'\n\n {df} \n\n')
-
-        print('\n Canal já existe \n')
-
     
 def thumbnail(YT_Theme, channel, title, thumb, *args, **khwargs):
     """[aqui estamos salvando as thumbnails no lugar correto]
@@ -191,37 +203,39 @@ def thumbnail(YT_Theme, channel, title, thumb, *args, **khwargs):
     #df2.to_csv(f'{YT_Theme}/descricoes_{YT_Theme}/{Canal}_df_l.csv')
     
 def tweet(name, df, *args, **kwargs):
-    if not os.path.exists(f'./content/tweets/{name}'):
+    if not os.path.exists(f'./content/{name}/tweets'):
         try:
-            os.mkdir(f'./content/tweets/{name}')
+            os.mkdir(f'./content/{name}/tweets/')
         except:
-            os.makedirs(f'./content/tweets/{name}')
+            os.makedirs(f'./content/{name}/tweets')
         #df.to_csv(f'{name}/{name}_data_leitura.csv')
         df.to_csv(
-            f'./content/tweets/{name}/{name}.csv',
+            f'./content/{name}/tweets/{name}.csv',
             index=False
         )
         df.to_json(
-            f'./content/tweets/{name}/{name}.json',
+            f'./content/{name}/tweets/{name}.json',
             index=True
         )
 
         print(f'\n\n{df}\n\n')
-    elif os.path.exists(f'./content/tweets/{name}') and not os.path.exists(f'./content/tweets/{name}/{name}.csv'):
+    
+    elif os.path.exists(f'./content/{name}/tweets') and not os.path.exists(f'./content/{name}/tweets/{name}.csv'):
         #YT.to_csv(f'{name}/{name}_data_leitura.csv')
         df.to_csv(
-            f'./content/tweets/{name}/{name}.csv',
+            f'./content/{name}/tweets/{name}.csv',
             index=False
         )
         df.to_json(
-            f'./content/tweets/{name}/{name}.json',
+            f'./content/{name}/tweets/{name}.json',
             index=True
         )
         print('\n\nTema já existe\n Resumo não existe \n\n')
 
         print(f'\n\n{df}\n\n')
-    elif os.path.exists(f'./content/tweets/{name}') & os.path.exists(f'./content/tweets/{name}/{name}.csv'):
-        YT = pd.read_csv(f'./content/tweets/{name}/{name}.csv')
+    
+    elif os.path.exists(f'./content/{name}/tweets') & os.path.exists(f'./content/{name}/tweets/{name}.csv'):
+        YT = pd.read_csv(f'./content/{name}/tweets/{name}.csv')
         # for row in YT:
         #     if row == row in df:
         #         pass
@@ -230,12 +244,16 @@ def tweet(name, df, *args, **kwargs):
         # df = pd.merge(YT, df,how = "left", on = ["Tweet"])
         #YT.to_csv(f'{name}/{name}_data_leitura.csv')
         YT.to_csv(
-            f'./content/tweets/{name}/{name}.csv',
+            f'./content/{name}/tweets/{name}.csv',
             index=False
         )
         YT.to_json(
-            f'./content/tweets/{name}/{name}.json',
+            f'./content/{name}/tweets/{name}.json',
             index=True
         )
         print('\nTema já existe')
-        print(f'\n{YT}\n\n')
+        print(f'''
+              
+              {YT}
+              
+              ''')

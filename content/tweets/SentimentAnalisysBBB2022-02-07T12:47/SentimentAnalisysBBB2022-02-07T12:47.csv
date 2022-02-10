@@ -1,0 +1,976 @@
+Tweet,Emojis,SentimentML,Quantidade,Alegria,Medo,Neutro,Nojo,Raiva,Tristeza,Alias,Frequencias,Phrase,Words,Frequency
+"🐩 Parciais do Cachorrão 🐩
+
+1° Parcial
+12:30h
+
+🎲 • #ForaDouglas - 45.7%
+💸 • #ForaNaiara - 44.8%
+✨ • #ForaArthur - 9.… https://t.co/dkNoZhPyd7","{'💸', '✨', '🐩', '🎲'}",'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['parciais', 'do', 'cachorrão', 'parcial', 'h']","['parciais', 'do', 'cachorrão', 'parcial', 'h']",bbb,164
+"Se não joga reclama, se joga reclama !
+Twitter é um limbo mesmo hein slc!
+
+Se o DG #JadeBBB #BBBFOIENCERRADO… https://t.co/x7AUaQPVTk",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['se', 'joga', 'reclama', 'não', 'twitter', 'é', 'um', 'limbo', 'mesmo', 'hein', 'slc', 'o', 'dg']","['se', 'joga', 'reclama', 'não', 'twitter', 'é', 'um', 'limbo', 'mesmo', 'hein', 'slc', 'o', 'dg']",o,160
+"Eu sou #ForaArthur pq ele não agrega muito, é mal humorado, chato e quero ver quem a galera vai ter que perseguir agora.@bbb",set(),'neutro',391,[0.05],[0.03],[0.65],[0.0],[0.26],[0.0],[0.01],"['eu', 'sou', 'pq', 'ele', 'não', 'agrega', 'muito', 'é', 'mal', 'humorado', 'chato', 'e', 'quero', 'ver', 'quem', 'a', 'galera', 'vai', 'ter', 'que', 'perseguir', 'agora']","['eu', 'sou', 'pq', 'ele', 'não', 'agrega', 'muito', 'é', 'mal', 'humorado', 'chato', 'e', 'quero', 'ver', 'quem', 'a', 'galera', 'vai', 'ter', 'que', 'perseguir', 'agora']",arthur,142
+"RT @iamlucasmarins: 🔥BORA DE ENQUETE RAPAZIADA🔥
+Quem vocês querem fora do bbb??
+
+Tags: #foranaiara #foradouglas #foraarthur #bbb22 #redebbb",{'🔥'},'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['rt', 'bora', 'de', 'enquete', 'rapaziada', 'quem', 'vocês', 'querem', 'fora', 'do', 'bbb', 'tags']","['rt', 'bora', 'de', 'enquete', 'rapaziada', 'quem', 'vocês', 'querem', 'fora', 'do', 'bbb', 'tags']",rt,131
+Já pensou transar com a Aline Barros cantando REMOVE A MINHA PEDRAAAAAAAA ME CHAMA PELO NOME... Embora que no caso… https://t.co/KQPAvSttY3,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['a', 'já', 'pensou', 'transar', 'com', 'aline', 'barros', 'cantando', 'remove', 'minha', 'pedraaaaaaaa', 'me', 'chama', 'pelo', 'nome', 'embora', 'que', 'no', 'caso']","['a', 'já', 'pensou', 'transar', 'com', 'aline', 'barros', 'cantando', 'remove', 'minha', 'pedraaaaaaaa', 'me', 'chama', 'pelo', 'nome', 'embora', 'que', 'no', 'caso']",quem,128
+"RT @emaltao: A mesma cara que convenceu a mulher perdoa ele 16 vezes, obv que vai convencer o Brasil a acreditar que ele joga muito, super…",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['a', 'que', 'ele', 'rt', 'mesma', 'cara', 'convenceu', 'mulher', 'perdoa', 'vezes', 'obv', 'vai', 'convencer', 'o', 'brasil', 'acreditar', 'joga', 'muito', 'super']","['a', 'que', 'ele', 'rt', 'mesma', 'cara', 'convenceu', 'mulher', 'perdoa', 'vezes', 'obv', 'vai', 'convencer', 'o', 'brasil', 'acreditar', 'joga', 'muito', 'super']",a,128
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",no,109
+quem vc elimina? #bbb #redebbb #ForaArthur #ForaDouglas #ForaNaiara,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['quem', 'vc', 'elimina']","['quem', 'vc', 'elimina']",e,102
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",que,90
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",naiara,83
+Vocês estão votando pra quem sair? #BBB22 #FicaArthur #FicaDouglas #FicaNaiara #ForaArthur #ForaDouglas #ForaNaiara… https://t.co/in79K2UfNF,set(),'neutro',391,[0.26],[0.06],[0.52],[0.0],[0.14],[0.0],[0.01],"['vocês', 'estão', 'votando', 'pra', 'quem', 'sair']","['vocês', 'estão', 'votando', 'pra', 'quem', 'sair']",douglas,82
+@bbb #ForaArthur,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],[],[],de,81
+"#ForaNaiara 
+Ou
+#ForaArthur ? https://t.co/MhUFMkR425",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],['ou'],['ou'],ou,77
+"nome: F
+idade: o
+sexualidade: r
+signo: a
+
+time: a
+crush: r
+melhor amigo: t
+melhor amiga: h
+música fav: u
+cor favori… https://t.co/HZJymQ6waF",set(),'neutro',391,[0.05],[0.03],[0.87],[0.0],[0.04],[0.0],[0.0],"['r', 'a', 'melhor', 'nome', 'f', 'idade', 'o', 'sexualidade', 'signo', 'time', 'crush', 'amigo', 't', 'amiga', 'h', 'música', 'fav', 'u', 'cor', 'favori']","['r', 'a', 'melhor', 'nome', 'f', 'idade', 'o', 'sexualidade', 'signo', 'time', 'crush', 'amigo', 't', 'amiga', 'h', 'música', 'fav', 'u', 'cor', 'favori']",vocês,75
+"RT @emaltao: A mesma cara que convenceu a mulher perdoa ele 16 vezes, obv que vai convencer o Brasil a acreditar que ele joga muito, super…",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['a', 'que', 'ele', 'rt', 'mesma', 'cara', 'convenceu', 'mulher', 'perdoa', 'vezes', 'obv', 'vai', 'convencer', 'o', 'brasil', 'acreditar', 'joga', 'muito', 'super']","['a', 'que', 'ele', 'rt', 'mesma', 'cara', 'convenceu', 'mulher', 'perdoa', 'vezes', 'obv', 'vai', 'convencer', 'o', 'brasil', 'acreditar', 'joga', 'muito', 'super']",eliminar,69
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",querem,68
+"RT @titto_ferreira: E mais uma vez, o Arthur já foi confrontar a Jade pelo voto dela nele, O CARA NÃO ACEITA VOTO, NÃO ENTRA NO BBB!!🗣🗣 #Fo…",set(),'neutro',391,[0.12],[0.06],[0.72],[0.0],[0.09],[0.0],[0.01],"['o', 'voto', 'não', 'rt', 'e', 'mais', 'uma', 'vez', 'arthur', 'já', 'foi', 'confrontar', 'a', 'jade', 'pelo', 'dela', 'nele', 'cara', 'aceita', 'entra', 'no', 'bbb']","['o', 'voto', 'não', 'rt', 'e', 'mais', 'uma', 'vez', 'arthur', 'já', 'foi', 'confrontar', 'a', 'jade', 'pelo', 'dela', 'nele', 'cara', 'aceita', 'entra', 'no', 'bbb']",nanacita,68
+"RT @emaltao: A mesma cara que convenceu a mulher perdoa ele 16 vezes, obv que vai convencer o Brasil a acreditar que ele joga muito, super…",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['a', 'que', 'ele', 'rt', 'mesma', 'cara', 'convenceu', 'mulher', 'perdoa', 'vezes', 'obv', 'vai', 'convencer', 'o', 'brasil', 'acreditar', 'joga', 'muito', 'super']","['a', 'que', 'ele', 'rt', 'mesma', 'cara', 'convenceu', 'mulher', 'perdoa', 'vezes', 'obv', 'vai', 'convencer', 'o', 'brasil', 'acreditar', 'joga', 'muito', 'super']",do,60
+"RT @DetetiveOf: Parcial 'OFICIAL DO DETETIVE'🕵🏻
+
+#ForaDouglas..............55%
+
+#ForaNayara................33%
+
+#ForaArthur................…",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['rt', 'parcial', 'oficial', 'do', 'detetive']","['rt', 'parcial', 'oficial', 'do', 'detetive']",não,45
+"Quero saber vcs quem sair?
+#BBB22 
+#SeoDG 
+#arthuraguiar 
+#naiaraazevedo 
+#mamacita 
+#bbb
+#ParedaoBBB 
+#RedeBBB… https://t.co/NQsVE7QOlW",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['quero', 'saber', 'vcs', 'quem', 'sair']","['quero', 'saber', 'vcs', 'quem', 'sair']",paredão,40
+@bbb #ForaArthur,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],[],[],é,36
+"Quem vocês acham que vai ser o terceiro (a) eliminado (a)? 
+#BBB22
+#ForaArthur #ForaDouglas #ForaNaiara",set(),'neutro',391,[0.4],[0.07],[0.4],[0.0],[0.13],[0.0],[0.0],"['a', 'quem', 'vocês', 'acham', 'que', 'vai', 'ser', 'o', 'terceiro', 'eliminado']","['a', 'quem', 'vocês', 'acham', 'que', 'vai', 'ser', 'o', 'terceiro', 'eliminado']",chega,35
+"Arthur Aguiar traiu a esposa 16 vezes, agora se sente traído dentro do jogo.
+Imaginem se fosse uma mulher trair pub… https://t.co/1blgx5NqOy",set(),'raiva',391,[0.11],[0.1],[0.23],[0.0],[0.53],[0.0],[0.01],"['se', 'arthur', 'aguiar', 'traiu', 'a', 'esposa', 'vezes', 'agora', 'sente', 'traído', 'dentro', 'do', 'jogo', 'imaginem', 'fosse', 'uma', 'mulher', 'trair', 'pub']","['se', 'arthur', 'aguiar', 'traiu', 'a', 'esposa', 'vezes', 'agora', 'sente', 'traído', 'dentro', 'do', 'jogo', 'imaginem', 'fosse', 'uma', 'mulher', 'trair', 'pub']",escrotos,34
+"Eu tava sem assistir o bbb agora que vi q Arthur tá no paredão 😈
+Vamos tirar ele meu povoooo 😍
+#ForaArthur ninguem… https://t.co/T3UC5v39Ph","{'😈', '😍'}",'alegria',391,[0.53],[0.06],[0.26],[0.0],[0.14],[0.0],[0.01],"['eu', 'tava', 'sem', 'assistir', 'o', 'bbb', 'agora', 'que', 'vi', 'q', 'arthur', 'tá', 'no', 'paredão', 'vamos', 'tirar', 'ele', 'meu', 'povoooo', 'ninguem']","['eu', 'tava', 'sem', 'assistir', 'o', 'bbb', 'agora', 'que', 'vi', 'q', 'arthur', 'tá', 'no', 'paredão', 'vamos', 'tirar', 'ele', 'meu', 'povoooo', 'ninguem']",machos,33
+@bbb #ForaArthur,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],[],[],dissimulados,33
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",ganhando,33
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",eu,31
+"RT @iamfranzinha: Quem sai nesse paredão?
+
+#bbb22 #teamdouglas #TeamArthur #TeamNaiara #foradouglas #foraarthur #foranaiara #bbb",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['rt', 'quem', 'sai', 'nesse', 'paredão']","['rt', 'quem', 'sai', 'nesse', 'paredão']",cara,30
+"Arthur entrou no BBB com o roteiro de ""coitado"" embaixo do braço. Está se fazendo de santo, mas vira e mexe se perd… https://t.co/pwlIA1XHuv",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['de', 'se', 'arthur', 'entrou', 'no', 'bbb', 'com', 'o', 'roteiro', 'coitado', 'embaixo', 'do', 'braço', 'está', 'fazendo', 'santo', 'mas', 'vira', 'e', 'mexe', 'perd']","['de', 'se', 'arthur', 'entrou', 'no', 'bbb', 'com', 'o', 'roteiro', 'coitado', 'embaixo', 'do', 'braço', 'está', 'fazendo', 'santo', 'mas', 'vira', 'e', 'mexe', 'perd']",vai,29
+"#segundou #ForaJade #ForaNaiara #ForaArthur #ForaLucas 
+Lucas PA BBB jade Naiara Azevedo Arthur Lucas juliette foll… https://t.co/6uynnp0zoW",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['lucas', 'pa', 'bbb', 'jade', 'naiara', 'azevedo', 'arthur', 'juliette', 'foll']","['lucas', 'pa', 'bbb', 'jade', 'naiara', 'azevedo', 'arthur', 'juliette', 'foll']",jade,28
+"bora time nao desiste, ainda da tempo, eu to confiante que ele vai sair!!! #ForaArthur #BBB22 
+
+Votei na Opção 'Art… https://t.co/dzebQwLWDR",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['bora', 'time', 'nao', 'desiste', 'ainda', 'da', 'tempo', 'eu', 'to', 'confiante', 'que', 'ele', 'vai', 'sair', 'votei', 'na', 'opção', 'art']","['bora', 'time', 'nao', 'desiste', 'ainda', 'da', 'tempo', 'eu', 'to', 'confiante', 'que', 'ele', 'vai', 'sair', 'votei', 'na', 'opção', 'art']",ele,27
+O Arthur é tão bom de lábia que convenceu a mulher dele das 16 traições e agora tá convencendo o público a não vota… https://t.co/lwImmiNYNb,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['o', 'a', 'arthur', 'é', 'tão', 'bom', 'de', 'lábia', 'que', 'convenceu', 'mulher', 'dele', 'das', 'traições', 'e', 'agora', 'tá', 'convencendo', 'público', 'não', 'vota']","['o', 'a', 'arthur', 'é', 'tão', 'bom', 'de', 'lábia', 'que', 'convenceu', 'mulher', 'dele', 'das', 'traições', 'e', 'agora', 'tá', 'convencendo', 'público', 'não', 'vota']",com,24
+"Não assisto mais, mas vim p Twitter e vi que o Arthur manja mesmo da arte da enganação! Excelente ator #BBB vai ganhar o #BBB22 #ForaArthur",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['o', 'da', 'não', 'assisto', 'mais', 'mas', 'vim', 'p', 'twitter', 'e', 'vi', 'que', 'arthur', 'manja', 'mesmo', 'arte', 'enganação', 'excelente', 'ator', 'vai', 'ganhar']","['o', 'da', 'não', 'assisto', 'mais', 'mas', 'vim', 'p', 'twitter', 'e', 'vi', 'que', 'arthur', 'manja', 'mesmo', 'arte', 'enganação', 'excelente', 'ator', 'vai', 'ganhar']",da,24
+🔥BBB22 - JADE INDICA ARTHUR e DG vai pro paredão pela casa; Dinâmica expõe votos da “Disney” 🔥 Veja:… https://t.co/MeXXUV0pg5,{'🔥'},'neutro',391,[0.26],[0.06],[0.52],[0.0],[0.14],[0.0],[0.01],"['bbb', 'jade', 'indica', 'arthur', 'e', 'dg', 'vai', 'pro', 'paredão', 'pela', 'casa', 'dinâmica', 'expõe', 'votos', 'da', 'disney', 'veja']","['bbb', 'jade', 'indica', 'arthur', 'e', 'dg', 'vai', 'pro', 'paredão', 'pela', 'casa', 'dinâmica', 'expõe', 'votos', 'da', 'disney', 'veja']",parcial,22
+"Parciais bbb 22 | Horário 09:24
+
+#ForaArthur ....... 06.82%
+
+#ForaDouglas ....... 53.18%
+
+#ForaNaiara....... 40.00%",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['parciais', 'bbb', 'horário']","['parciais', 'bbb', 'horário']",muito,22
+"RT @DetetiveOf: Parcial 'OFICIAL DO DETETIVE'🕵🏻
+
+#ForaDouglas..............55%
+
+#ForaNayara................33%
+
+#ForaArthur................…",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['rt', 'parcial', 'oficial', 'do', 'detetive']","['rt', 'parcial', 'oficial', 'do', 'detetive']",mais,21
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",sai,20
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",esse,20
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",sair,19
+"Rapaziada indo em peso no nosso Acerola...
+
+Será que ele sai mesmo?
+
+#bbb #bbb22 #RedeBBB #ForaNaiara #ForaArthur… https://t.co/f13STHy9eb",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['rapaziada', 'indo', 'em', 'peso', 'no', 'nosso', 'acerola', 'será', 'que', 'ele', 'sai', 'mesmo']","['rapaziada', 'indo', 'em', 'peso', 'no', 'nosso', 'acerola', 'será', 'que', 'ele', 'sai', 'mesmo']",agora,18
+so gostaria de saber se e proibido se posicionar e votar em um jogo ta ficando muito chato esse publico do BBB na c… https://t.co/isRmHEOara,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['se', 'e', 'so', 'gostaria', 'de', 'saber', 'proibido', 'posicionar', 'votar', 'em', 'um', 'jogo', 'ta', 'ficando', 'muito', 'chato', 'esse', 'publico', 'do', 'bbb', 'na', 'c']","['se', 'e', 'so', 'gostaria', 'de', 'saber', 'proibido', 'posicionar', 'votar', 'em', 'um', 'jogo', 'ta', 'ficando', 'muito', 'chato', 'esse', 'publico', 'do', 'bbb', 'na', 'c']",mulher,18
+"::::::::::::::::::::::::::::::::::::::::::::::::::::
+    🛑🛑🛑PAREDÃO 3🛑🛑🛑
+
+🚧QUEM VOCÊ QUER QUE SAIA @bbb ???🚧
+
+🟦… https://t.co/7Dhb7ErfO9","{'🛑', '🟦', '🚧'}",'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['paredão', 'quem', 'você', 'quer', 'que', 'saia']","['paredão', 'quem', 'você', 'quer', 'que', 'saia']",pra,18
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",se,17
+"RT @Altereg21303862: Gente, fico impressionado o tanto que tentam endeusar o Arthur. Surreal.  Fandon dele deveria chamar ""Maira"", pq nunca…",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['o', 'rt', 'gente', 'fico', 'impressionado', 'tanto', 'que', 'tentam', 'endeusar', 'arthur', 'surreal', 'fandon', 'dele', 'deveria', 'chamar', 'maira', 'pq', 'nunca']","['o', 'rt', 'gente', 'fico', 'impressionado', 'tanto', 'que', 'tentam', 'endeusar', 'arthur', 'surreal', 'fandon', 'dele', 'deveria', 'chamar', 'maira', 'pq', 'nunca']",já,17
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",por,17
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",só,17
+DG votou no vyni com a justificativa de que ninguém votaria nele. Oq o vyni fez? VOTOU NO DG E ELE FOI PRO PAREDÃO!… https://t.co/37LYLGRCs2,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['dg', 'votou', 'no', 'vyni', 'com', 'a', 'justificativa', 'de', 'que', 'ninguém', 'votaria', 'nele', 'oq', 'o', 'fez', 'e', 'ele', 'foi', 'pro', 'paredão']","['dg', 'votou', 'no', 'vyni', 'com', 'a', 'justificativa', 'de', 'que', 'ninguém', 'votaria', 'nele', 'oq', 'o', 'fez', 'e', 'ele', 'foi', 'pro', 'paredão']",joga,16
+"RT @leticia_cng: Esse ano eu tô meio q mais do contra, comparado à grande parte de votantes no BBB. Eu queria q o Arthur saísse. Pra mim, e…",set(),'neutro',391,[0.11],[0.03],[0.79],[0.0],[0.06],[0.0],[0.0],"['eu', 'q', 'rt', 'esse', 'ano', 'tô', 'meio', 'mais', 'do', 'contra', 'comparado', 'à', 'grande', 'parte', 'de', 'votantes', 'no', 'bbb', 'queria', 'o', 'arthur', 'saísse', 'pra', 'mim', 'e']","['eu', 'q', 'rt', 'esse', 'ano', 'tô', 'meio', 'mais', 'do', 'contra', 'comparado', 'à', 'grande', 'parte', 'de', 'votantes', 'no', 'bbb', 'queria', 'o', 'arthur', 'saísse', 'pra', 'mim', 'e']",vezes,16
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",para,16
+"@Cicerabritt @jadearchive_ @jadepicon Gustavo Lima, Lucas Viana e Arthur Aguiar, mas quer ter moral para atacar a J… https://t.co/pF8E4008cb",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['gustavo', 'lima', 'lucas', 'viana', 'e', 'arthur', 'aguiar', 'mas', 'quer', 'ter', 'moral', 'para', 'atacar', 'a', 'j']","['gustavo', 'lima', 'lucas', 'viana', 'e', 'arthur', 'aguiar', 'mas', 'quer', 'ter', 'moral', 'para', 'atacar', 'a', 'j']",convenceu,15
+"Esse ano eu tô meio q mais do contra, comparado à grande parte de votantes no BBB. Eu queria q o Arthur saísse. Pra… https://t.co/tPUYESsNeg",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['eu', 'q', 'esse', 'ano', 'tô', 'meio', 'mais', 'do', 'contra', 'comparado', 'à', 'grande', 'parte', 'de', 'votantes', 'no', 'bbb', 'queria', 'o', 'arthur', 'saísse', 'pra']","['eu', 'q', 'esse', 'ano', 'tô', 'meio', 'mais', 'do', 'contra', 'comparado', 'à', 'grande', 'parte', 'de', 'votantes', 'no', 'bbb', 'queria', 'o', 'arthur', 'saísse', 'pra']",brasil,15
+"@jadepicon Os adms precisam jogar junto com Jade, mesmo que ela tenha indicado a pessoa errada.
+Parecem que vocês n… https://t.co/KKj8PzmExb",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['que', 'os', 'adms', 'precisam', 'jogar', 'junto', 'com', 'jade', 'mesmo', 'ela', 'tenha', 'indicado', 'a', 'pessoa', 'errada', 'parecem', 'vocês', 'n']","['que', 'os', 'adms', 'precisam', 'jogar', 'junto', 'com', 'jade', 'mesmo', 'ela', 'tenha', 'indicado', 'a', 'pessoa', 'errada', 'parecem', 'vocês', 'n']",acreditar,15
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",uma,15
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",oficial,15
+"RT @DetetiveOf: Parcial 'OFICIAL DO DETETIVE'🕵🏻
+
+#ForaDouglas..............55%
+
+#ForaNayara................33%
+
+#ForaArthur................…",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['rt', 'parcial', 'oficial', 'do', 'detetive']","['rt', 'parcial', 'oficial', 'do', 'detetive']",detetive,15
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",você,15
+"Votem!
+Quem vc quer Eliminar nesse paredão???
+#ForaNaiara #ForaArthur #foraDG 
+#bbb #ParedaoBBB #BBB22 https://t.co/MqIC9zkcbI",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['votem', 'quem', 'vc', 'quer', 'eliminar', 'nesse', 'paredão']","['votem', 'quem', 'vc', 'quer', 'eliminar', 'nesse', 'paredão']",um,14
+"o pouco que eu acompanhei desse BBB me faz ser, nessa sequência:
+#ForaNaiara 
+#ForaDouglas 
+#ForaArthur 
+
+por mim poderiam sair todos.",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['o', 'pouco', 'que', 'eu', 'acompanhei', 'desse', 'bbb', 'me', 'faz', 'ser', 'nessa', 'sequência', 'por', 'mim', 'poderiam', 'sair', 'todos']","['o', 'pouco', 'que', 'eu', 'acompanhei', 'desse', 'bbb', 'me', 'faz', 'ser', 'nessa', 'sequência', 'por', 'mim', 'poderiam', 'sair', 'todos']",mesma,14
+@bbb Exatamente o Arthur criticou o Rodrigo e fez igual. E as mesmas pessoas que fuzilaram o Rodrigo são os que est… https://t.co/3vrUcUkqt7,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['o', 'rodrigo', 'e', 'que', 'exatamente', 'arthur', 'criticou', 'fez', 'igual', 'as', 'mesmas', 'pessoas', 'fuzilaram', 'são', 'os', 'est']","['o', 'rodrigo', 'e', 'que', 'exatamente', 'arthur', 'criticou', 'fez', 'igual', 'as', 'mesmas', 'pessoas', 'fuzilaram', 'são', 'os', 'est']",perdoa,14
+"arthur só tá sendo ator mesmo no bbb, e tem gente que cai #ForaArthur",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['arthur', 'só', 'tá', 'sendo', 'ator', 'mesmo', 'no', 'bbb', 'e', 'tem', 'gente', 'que', 'cai']","['arthur', 'só', 'tá', 'sendo', 'ator', 'mesmo', 'no', 'bbb', 'e', 'tem', 'gente', 'que', 'cai']",obv,14
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",convencer,14
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",tá,14
+"@bbb Não entendo, o mesmos que tiraram o @oficialmussi por querer jogar , são os mesmos que estão defendendo o… https://t.co/QnfPVt08jI",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['o', 'mesmos', 'que', 'não', 'entendo', 'tiraram', 'por', 'querer', 'jogar', 'são', 'os', 'estão', 'defendendo']","['o', 'mesmos', 'que', 'não', 'entendo', 'tiraram', 'por', 'querer', 'jogar', 'são', 'os', 'estão', 'defendendo']",em,14
+"Quem sai nesse paredão galera
+#RedeBBB #BBB22 #bbb #ForaNaiara #ForaArthur #ForaDouglas",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['quem', 'sai', 'nesse', 'paredão', 'galera']","['quem', 'sai', 'nesse', 'paredão', 'galera']",quer,14
+Alguém viu posicionamento das cantoras quanto a quem deve sair neste paredão ou só vale opinar quando é pipoca? Por… https://t.co/3sJ4S1hRZY,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['alguém', 'viu', 'posicionamento', 'das', 'cantoras', 'quanto', 'a', 'quem', 'deve', 'sair', 'neste', 'paredão', 'ou', 'só', 'vale', 'opinar', 'quando', 'é', 'pipoca', 'por']","['alguém', 'viu', 'posicionamento', 'das', 'cantoras', 'quanto', 'a', 'quem', 'deve', 'sair', 'neste', 'paredão', 'ou', 'só', 'vale', 'opinar', 'quando', 'é', 'pipoca', 'por']",dg,13
+"RT @DetetiveOf: Parcial 'OFICIAL DO DETETIVE'🕵🏻
+
+#ForaDouglas..............55%
+
+#ForaNayara................33%
+
+#ForaArthur................…",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['rt', 'parcial', 'oficial', 'do', 'detetive']","['rt', 'parcial', 'oficial', 'do', 'detetive']",super,13
+"fiquei 3 dias sem acompanhar o BBB e quando eu volto a jade esta sendo cancelada, cara a internet é mt bipolar kkkk… https://t.co/Wox0xf9y8b",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['a', 'fiquei', 'dias', 'sem', 'acompanhar', 'o', 'bbb', 'e', 'quando', 'eu', 'volto', 'jade', 'esta', 'sendo', 'cancelada', 'cara', 'internet', 'é', 'mt', 'bipolar', 'kkkk']","['a', 'fiquei', 'dias', 'sem', 'acompanhar', 'o', 'bbb', 'e', 'quando', 'eu', 'volto', 'jade', 'esta', 'sendo', 'cancelada', 'cara', 'internet', 'é', 'mt', 'bipolar', 'kkkk']",na,13
+"E o pior é o povo querendo deixar ele porque ""ele está jogando""... E o @oficialmussi estava fazendo o que? E tirara… https://t.co/COPLJeeLN3",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['o', 'e', 'ele', 'pior', 'é', 'povo', 'querendo', 'deixar', 'porque', 'está', 'jogando', 'estava', 'fazendo', 'que', 'tirara']","['o', 'e', 'ele', 'pior', 'é', 'povo', 'querendo', 'deixar', 'porque', 'está', 'jogando', 'estava', 'fazendo', 'que', 'tirara']",foi,12
+"RT @joniIson: 🔮 PARCIAL 00:22 #BBB22 🔮
+
+#ForaNaiara- 00.00%
+
+#ForaDouglas- 100.00%
+
+#ForaArthur- 0.00%
+
+MARGEM DE ERRO 0%
+
+2000 RTS PARA PR…",{'🔮'},'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['rt', 'parcial', 'margem', 'de', 'erro', 'rts', 'para', 'pr']","['rt', 'parcial', 'margem', 'de', 'erro', 'rts', 'para', 'pr']",nesse,12
+"Em quem você está votando para SAIR ???
+#BBB22 #bbb2022 #BBB 
+#ForaArthur #ForaDouglas  #ForaNaiara",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['em', 'quem', 'você', 'está', 'votando', 'para', 'sair']","['em', 'quem', 'você', 'está', 'votando', 'para', 'sair']",está,12
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",mas,12
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",povo,12
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",quero,11
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",fora,11
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",voto,11
+Somos TODOS #ForaArthur  #BBB #BBB22 #bbb22 #RedeBBB #FalandoDeBBB,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['somos', 'todos']","['somos', 'todos']",ser,11
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",mesmo,10
+@bbb #ForaArthur  ou  #ForaDouglas  está ótimo!!!!,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['ou', 'está', 'ótimo']","['ou', 'está', 'ótimo']",pelo,10
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",estão,10
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",eliminado,10
+"Bunito, que bunito #FicaNaiara  #ForaDouglas #ForaArthur #RedeBBB #BBB",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['bunito', 'que']","['bunito', 'que']",lucas,10
+RT @tvenquetesof: O escroto do Arthur Aguiar tá desolado depois da treta com o Scooby. O papel de bom moço já caiu por terra. Que seja o pr…,set(),'neutro',391,[0.26],[0.06],[0.52],[0.0],[0.14],[0.0],[0.01],"['o', 'rt', 'escroto', 'do', 'arthur', 'aguiar', 'tá', 'desolado', 'depois', 'da', 'treta', 'com', 'scooby', 'papel', 'de', 'bom', 'moço', 'já', 'caiu', 'por', 'terra', 'que', 'seja', 'pr']","['o', 'rt', 'escroto', 'do', 'arthur', 'aguiar', 'tá', 'desolado', 'depois', 'da', 'treta', 'com', 'scooby', 'papel', 'de', 'bom', 'moço', 'já', 'caiu', 'por', 'terra', 'que', 'seja', 'pr']",sou,9
+"RT @Tvcomentp: Pra quem está votando neste PAREDÃO??? 
+OBS: Está em ordem alfabética. 
+
+#ForaArthur #ForaArthurAguiar
+#ForaDouglas #ForaDG…",set(),'raiva',391,[0.3],[0.07],[0.29],[0.0],[0.32],[0.0],[0.01],"['está', 'rt', 'pra', 'quem', 'votando', 'neste', 'paredão', 'obs', 'em', 'ordem', 'alfabética']","['está', 'rt', 'pra', 'quem', 'votando', 'neste', 'paredão', 'obs', 'em', 'ordem', 'alfabética']",pq,9
+RT @tvenquetesof: @portalaguiarofc O escroto do Arthur Aguiar tá desolado depois da treta com o Scooby. O papel de bom moço já caiu por ter…,set(),'neutro',391,[0.26],[0.06],[0.52],[0.0],[0.14],[0.0],[0.01],"['o', 'rt', 'escroto', 'do', 'arthur', 'aguiar', 'tá', 'desolado', 'depois', 'da', 'treta', 'com', 'scooby', 'papel', 'de', 'bom', 'moço', 'já', 'caiu', 'por', 'ter']","['o', 'rt', 'escroto', 'do', 'arthur', 'aguiar', 'tá', 'desolado', 'depois', 'da', 'treta', 'com', 'scooby', 'papel', 'de', 'bom', 'moço', 'já', 'caiu', 'por', 'ter']",minha,9
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",vez,9
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",nele,9
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",aguiar,9
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",votar,9
+"RT @EnquetesAL: Quem você quer eliminar nesse #ParedaoBBB ?
+Arthur , Douglas , Naiara Azevedo ?
+
+Esse BBB Lucas Nanacita Que BBB 2022 Globo…",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['bbb', 'rt', 'quem', 'você', 'quer', 'eliminar', 'nesse', 'arthur', 'douglas', 'naiara', 'azevedo', 'esse', 'lucas', 'nanacita', 'que', 'globo']","['bbb', 'rt', 'quem', 'você', 'quer', 'eliminar', 'nesse', 'arthur', 'douglas', 'naiara', 'azevedo', 'esse', 'lucas', 'nanacita', 'que', 'globo']",gente,9
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",são,9
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",deve,9
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",aí,9
+"Eu sou #ForaArthur !
+
+#BBB22 #BBBFOIENCERRADO #BBBNoGloboplay #bbb",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['eu', 'sou']","['eu', 'sou']",torcida,9
+Exatamente isso!!! Arthur não estava nem aí para a Jade ser líder! Estava mais preocupado consigo próprio do que co… https://t.co/7oX5uBiHWq,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['estava', 'exatamente', 'isso', 'arthur', 'não', 'nem', 'aí', 'para', 'a', 'jade', 'ser', 'líder', 'mais', 'preocupado', 'consigo', 'próprio', 'do', 'que', 'co']","['estava', 'exatamente', 'isso', 'arthur', 'não', 'nem', 'aí', 'para', 'a', 'jade', 'ser', 'líder', 'mais', 'preocupado', 'consigo', 'próprio', 'do', 'que', 'co']",enquete,8
+BBB e. Um jogo de posiconamento jade nao teve medo algun entao pra mim ela foi a que mais se expos no jogo e nao ac… https://t.co/FAW2I5kCYm,set(),'neutro',391,[0.11],[0.03],[0.79],[0.0],[0.06],[0.0],[0.0],"['e', 'jogo', 'nao', 'bbb', 'um', 'de', 'posiconamento', 'jade', 'teve', 'medo', 'algun', 'entao', 'pra', 'mim', 'ela', 'foi', 'a', 'que', 'mais', 'se', 'expos', 'no', 'ac']","['e', 'jogo', 'nao', 'bbb', 'um', 'de', 'posiconamento', 'jade', 'teve', 'medo', 'algun', 'entao', 'pra', 'mim', 'ela', 'foi', 'a', 'que', 'mais', 'se', 'expos', 'no', 'ac']",confrontar,8
+"RT @titto_ferreira: E mais uma vez, o Arthur já foi confrontar a Jade pelo voto dela nele, O CARA NÃO ACEITA VOTO, NÃO ENTRA NO BBB!!🗣🗣 #Fo…",set(),'neutro',391,[0.12],[0.06],[0.72],[0.0],[0.09],[0.0],[0.01],"['o', 'voto', 'não', 'rt', 'e', 'mais', 'uma', 'vez', 'arthur', 'já', 'foi', 'confrontar', 'a', 'jade', 'pelo', 'dela', 'nele', 'cara', 'aceita', 'entra', 'no', 'bbb']","['o', 'voto', 'não', 'rt', 'e', 'mais', 'uma', 'vez', 'arthur', 'já', 'foi', 'confrontar', 'a', 'jade', 'pelo', 'dela', 'nele', 'cara', 'aceita', 'entra', 'no', 'bbb']",dela,8
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",aceita,8
+"Quem vocês querem que fica?
+#foradouglas #FORADG #ForaJade #ForaArthur #ForaNaiara #FicaArthur #FicaNanacita #FicaNaiara #BBB22 @bbb",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['quem', 'vocês', 'querem', 'que', 'fica']","['quem', 'vocês', 'querem', 'que', 'fica']",entra,8
+"RT @gratavsperling: Esse é o coitadinho que tá sofrendo ""bullying"" no BBB kkkkk kkkkkkkk
+#BBB22 #ForaArthur",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['rt', 'esse', 'é', 'o', 'coitadinho', 'que', 'tá', 'sofrendo', 'bullying', 'no', 'bbb', 'kkkkk', 'kkkkkkkk']","['rt', 'esse', 'é', 'o', 'coitadinho', 'que', 'tá', 'sofrendo', 'bullying', 'no', 'bbb', 'kkkkk', 'kkkkkkkk']",vcs,8
+RT @Vanessa06642987: Voto computado. Voto estratégico.  Quero deixar avisado  pros aďms do @Aguiarthur  que ganharam votos para o próximos…,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['voto', 'rt', 'computado', 'estratégico', 'quero', 'deixar', 'avisado', 'pros', 'aďms', 'do', 'que', 'ganharam', 'votos', 'para', 'o', 'próximos']","['voto', 'rt', 'computado', 'estratégico', 'quero', 'deixar', 'avisado', 'pros', 'aďms', 'do', 'que', 'ganharam', 'votos', 'para', 'o', 'próximos']",os,8
+#ParedaoBBB #ForaNaiara #ForaArthur #FicaDouglas #bbb #BBB22   ❤️ https://t.co/YWUMRhhC8x,{'❤️'},'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],[],[],tem,8
+Voto computado. Voto estratégico.  Quero deixar avisado  pros aďms do @Aguiarthur  que ganharam votos para o próxim… https://t.co/ZHDgPcvUwZ,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['voto', 'computado', 'estratégico', 'quero', 'deixar', 'avisado', 'pros', 'aďms', 'do', 'que', 'ganharam', 'votos', 'para', 'o', 'próxim']","['voto', 'computado', 'estratégico', 'quero', 'deixar', 'avisado', 'pros', 'aďms', 'do', 'que', 'ganharam', 'votos', 'para', 'o', 'próxim']",formado,8
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",votando,7
+"RT @DetetiveOf: Parcial 'OFICIAL DO DETETIVE'🕵🏻
+
+#ForaDouglas..............55%
+
+#ForaNayara................33%
+
+#ForaArthur................…",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['rt', 'parcial', 'oficial', 'do', 'detetive']","['rt', 'parcial', 'oficial', 'do', 'detetive']",q,7
+"Quem vc elimina?
+
+#ParedaoBBB | #RedeBBB | #bbb | #bbb22 | #ForaNaiara | #foradouglas | #ForaArthur | Lucas | Nanac… https://t.co/MDRUjhVGIX",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['quem', 'vc', 'elimina', 'lucas', 'nanac']","['quem', 'vc', 'elimina', 'lucas', 'nanac']",vamos,7
+@bbb #ForaArthur,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],[],[],tão,7
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",casa,7
+@sincera_bbb Vamos de #ForaArthur entre vários motivos não aguento mais a mulher dele aqui fora com estratégia de m… https://t.co/yF3oaIwFaM,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['de', 'vamos', 'entre', 'vários', 'motivos', 'não', 'aguento', 'mais', 'a', 'mulher', 'dele', 'aqui', 'fora', 'com', 'estratégia', 'm']","['de', 'vamos', 'entre', 'vários', 'motivos', 'não', 'aguento', 'mais', 'a', 'mulher', 'dele', 'aqui', 'fora', 'com', 'estratégia', 'm']",chato,6
+"RT @gratavsperling: Esse é o coitadinho que tá sofrendo ""bullying"" no BBB kkkkk kkkkkkkk
+#BBB22 #ForaArthur",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['rt', 'esse', 'é', 'o', 'coitadinho', 'que', 'tá', 'sofrendo', 'bullying', 'no', 'bbb', 'kkkkk', 'kkkkkkkk']","['rt', 'esse', 'é', 'o', 'coitadinho', 'que', 'tá', 'sofrendo', 'bullying', 'no', 'bbb', 'kkkkk', 'kkkkkkkk']",ter,6
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",melhor,6
+"Enquete BBB 22: Arthur, Douglas e Naiara estão no paredão; quem sai? #ForaNaiaraAzevedo #ForaArthur #foradouglas",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['enquete', 'bbb', 'arthur', 'douglas', 'e', 'naiara', 'estão', 'no', 'paredão', 'quem', 'sai']","['enquete', 'bbb', 'arthur', 'douglas', 'e', 'naiara', 'estão', 'no', 'paredão', 'quem', 'sai']",jogo,6
+"RT @Oliviawildeb: Esse BBB JÁ TA TÃO FLOPADO, AÍ O POVO ELEGE O ARTHUR AGUIAR DE COITADINHO??? PRONTO, NÃO TEM MAIS VOLTA🤮🤮🤮🤮🤮
+essa Jade
+No…",{'🤮'},'neutro',391,[0.26],[0.06],[0.52],[0.0],[0.14],[0.0],[0.01],"['o', 'rt', 'esse', 'bbb', 'já', 'ta', 'tão', 'flopado', 'aí', 'povo', 'elege', 'arthur', 'aguiar', 'de', 'coitadinho', 'pronto', 'não', 'tem', 'mais', 'volta', 'essa', 'jade', 'no']","['o', 'rt', 'esse', 'bbb', 'já', 'ta', 'tão', 'flopado', 'aí', 'povo', 'elege', 'arthur', 'aguiar', 'de', 'coitadinho', 'pronto', 'não', 'tem', 'mais', 'volta', 'essa', 'jade', 'no']",saia,6
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",queria,6
+"RT @EnquetesBBB_22: 🧱 3° PAREDÃO 🧱
+
+❌ QUEM DEVE SAIR? ❌
+
+ARTHUR ✖️ DOUGLAS ✖️ NAIARA 
+
+#ForaArthur
+#ForaDouglas 
+#ForaNaiara 
+
+#BBB #BBB22…","{'❌', '🧱', '✖️'}",'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['rt', 'paredão', 'quem', 'deve', 'sair', 'arthur', 'douglas', 'naiara']","['rt', 'paredão', 'quem', 'deve', 'sair', 'arthur', 'douglas', 'naiara']",rodrigo,6
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",as,6
+"RT @emaltao: A mesma cara que convenceu a mulher perdoa ele 16 vezes, obv que vai convencer o Brasil a acreditar que ele joga muito, super…",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['a', 'que', 'ele', 'rt', 'mesma', 'cara', 'convenceu', 'mulher', 'perdoa', 'vezes', 'obv', 'vai', 'convencer', 'o', 'brasil', 'acreditar', 'joga', 'muito', 'super']","['a', 'que', 'ele', 'rt', 'mesma', 'cara', 'convenceu', 'mulher', 'perdoa', 'vezes', 'obv', 'vai', 'convencer', 'o', 'brasil', 'acreditar', 'joga', 'muito', 'super']",deixar,6
+Arthur é meu dedo mindinho sem unha. Não fode! #BBB #ForaArthur #BBB20 #FORABONINHO,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['arthur', 'é', 'meu', 'dedo', 'mindinho', 'sem', 'unha', 'não', 'fode']","['arthur', 'é', 'meu', 'dedo', 'mindinho', 'sem', 'unha', 'não', 'fode']",margem,6
+"Esse povo das redes sociais babam o ovo do Arthur, cara chato da porra. Por mim sai.#ForaArthur  #BBB22  #bbb",set(),'alegria',391,[0.41],[0.05],[0.2],[0.0],[0.33],[0.0],[0.01],"['esse', 'povo', 'das', 'redes', 'sociais', 'babam', 'o', 'ovo', 'do', 'arthur', 'cara', 'chato', 'da', 'porra', 'por', 'mim', 'sai']","['esse', 'povo', 'das', 'redes', 'sociais', 'babam', 'o', 'ovo', 'do', 'arthur', 'cara', 'chato', 'da', 'porra', 'por', 'mim', 'sai']",erro,6
+É SERIO ISSO? O Público precisa entender que bbb não é jogo sobre quem sofre mais. Ninguém merece Naiara e Arthur n… https://t.co/kfkJoHVMnv,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['é', 'serio', 'isso', 'o', 'público', 'precisa', 'entender', 'que', 'bbb', 'não', 'jogo', 'sobre', 'quem', 'sofre', 'mais', 'ninguém', 'merece', 'naiara', 'e', 'arthur', 'n']","['é', 'serio', 'isso', 'o', 'público', 'precisa', 'entender', 'que', 'bbb', 'não', 'jogo', 'sobre', 'quem', 'sofre', 'mais', 'ninguém', 'merece', 'naiara', 'e', 'arthur', 'n']",pr,6
+"@MariCeli Graças a deusa, alguém sensato!
+Eu na verdade nem sei se sou #ForaArthur, mas o povo tá defendendo o cara… https://t.co/BGIiohUM43",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['o', 'graças', 'a', 'deusa', 'alguém', 'sensato', 'eu', 'na', 'verdade', 'nem', 'sei', 'se', 'sou', 'mas', 'povo', 'tá', 'defendendo', 'cara']","['o', 'graças', 'a', 'deusa', 'alguém', 'sensato', 'eu', 'na', 'verdade', 'nem', 'sei', 'se', 'sou', 'mas', 'povo', 'tá', 'defendendo', 'cara']",isso,6
+"Ai eu quero que esse #BBB se foda, eu em, povo flopado edição flopada e publico flopado q n sabe votar direito, ate… https://t.co/edOvNIj7bf",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['eu', 'flopado', 'ai', 'quero', 'que', 'esse', 'se', 'foda', 'em', 'povo', 'edição', 'flopada', 'e', 'publico', 'q', 'n', 'sabe', 'votar', 'direito', 'ate']","['eu', 'flopado', 'ai', 'quero', 'que', 'esse', 'se', 'foda', 'em', 'povo', 'edição', 'flopada', 'e', 'publico', 'q', 'n', 'sabe', 'votar', 'direito', 'ate']",nem,6
+"RT @DanielMeirelesz: QUEM VAI SAIR NESSE PAREDÃO?
+#ForaNaiaraAzevedo 
+#FORADG 
+#Foraarthur
+Naiara | Arthur | Douglas Silva | DG
+#bbb #BBB22",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['rt', 'quem', 'vai', 'sair', 'nesse', 'paredão', 'naiara', 'arthur', 'douglas', 'silva', 'dg']","['rt', 'quem', 'vai', 'sair', 'nesse', 'paredão', 'naiara', 'arthur', 'douglas', 'silva', 'dg']",essa,6
+Não entendo esse povo falava tão mal do Arthur e agora só ficam defedendo ele. Entrou no bbb e se redimiu muito ráp… https://t.co/wu9soe8Ewj,set(),'neutro',391,[0.12],[0.06],[0.72],[0.0],[0.09],[0.0],[0.01],"['e', 'não', 'entendo', 'esse', 'povo', 'falava', 'tão', 'mal', 'do', 'arthur', 'agora', 'só', 'ficam', 'defedendo', 'ele', 'entrou', 'no', 'bbb', 'se', 'redimiu', 'muito', 'ráp']","['e', 'não', 'entendo', 'esse', 'povo', 'falava', 'tão', 'mal', 'do', 'arthur', 'agora', 'só', 'ficam', 'defedendo', 'ele', 'entrou', 'no', 'bbb', 'se', 'redimiu', 'muito', 'ráp']",como,6
+"RT @emaltao: A mesma cara que convenceu a mulher perdoa ele 16 vezes, obv que vai convencer o Brasil a acreditar que ele joga muito, super…",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['a', 'que', 'ele', 'rt', 'mesma', 'cara', 'convenceu', 'mulher', 'perdoa', 'vezes', 'obv', 'vai', 'convencer', 'o', 'brasil', 'acreditar', 'joga', 'muito', 'super']","['a', 'que', 'ele', 'rt', 'mesma', 'cara', 'convenceu', 'mulher', 'perdoa', 'vezes', 'obv', 'vai', 'convencer', 'o', 'brasil', 'acreditar', 'joga', 'muito', 'super']",twitter,5
+"#FORADOUGLAS
+
+E sigam a @jadepicon
+PARABENS JADE / PITON/ 
+#ForaNaiaraAzevedo
+#ForaArthur #BBB #BBB22… https://t.co/InFEB58CrG",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['e', 'sigam', 'a', 'parabens', 'jade', 'piton']","['e', 'sigam', 'a', 'parabens', 'jade', 'piton']",ver,5
+@sincera_bbb Estou odiando. Quero #foraarthur,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['estou', 'odiando', 'quero']","['estou', 'odiando', 'quero']",me,5
+"DE TODAS AS ELIMINAÇÕES DA HISTÓRIA DO BBB, QUAL VOCÊ CONSIDERA QUE FOI A MAIS INJUSTA?
+.
+.
+.
+.
+.
+#BBB22… https://t.co/AfrmDH8OuU",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['de', 'todas', 'as', 'eliminações', 'da', 'história', 'do', 'bbb', 'qual', 'você', 'considera', 'que', 'foi', 'a', 'mais', 'injusta']","['de', 'todas', 'as', 'eliminações', 'da', 'história', 'do', 'bbb', 'qual', 'você', 'considera', 'que', 'foi', 'a', 'mais', 'injusta']",vc,5
+"a real é que vcs não querem jogo, querem briga! Aconselho vcs assistirem A Fazenda (+ bônus são todos subcelebridad… https://t.co/3DyL708INS",set(),'alegria',391,[0.53],[0.06],[0.26],[0.0],[0.14],[0.0],[0.01],"['a', 'vcs', 'querem', 'real', 'é', 'que', 'não', 'jogo', 'briga', 'aconselho', 'assistirem', 'fazenda', 'bônus', 'são', 'todos', 'subcelebridad']","['a', 'vcs', 'querem', 'real', 'é', 'que', 'não', 'jogo', 'briga', 'aconselho', 'assistirem', 'fazenda', 'bônus', 'são', 'todos', 'subcelebridad']",bom,5
+Gente os haters da Jade são essas retardados que eram fãs do Arthur no RBD e uma galera que adora levar chifre 🤣🤣🤣… https://t.co/k2ZNcpcBZU,{'🤣'},'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['que', 'gente', 'os', 'haters', 'da', 'jade', 'são', 'essas', 'retardados', 'eram', 'fãs', 'do', 'arthur', 'no', 'rbd', 'e', 'uma', 'galera', 'adora', 'levar', 'chifre']","['que', 'gente', 'os', 'haters', 'da', 'jade', 'são', 'essas', 'retardados', 'eram', 'fãs', 'do', 'arthur', 'no', 'rbd', 'e', 'uma', 'galera', 'adora', 'levar', 'chifre']",dele,5
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",das,5
+"Vcs querem um BBB muito chato e só com os favoritos de vcs que não querem nada, pq se líder põem alguém que vcs gos… https://t.co/Nr3YwEEEyy",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['vcs', 'querem', 'que', 'um', 'bbb', 'muito', 'chato', 'e', 'só', 'com', 'os', 'favoritos', 'de', 'não', 'nada', 'pq', 'se', 'líder', 'põem', 'alguém', 'gos']","['vcs', 'querem', 'que', 'um', 'bbb', 'muito', 'chato', 'e', 'só', 'com', 'os', 'favoritos', 'de', 'não', 'nada', 'pq', 'se', 'líder', 'põem', 'alguém', 'gos']",pro,5
+"RT @titto_ferreira: E mais uma vez, o Arthur já foi confrontar a Jade pelo voto dela nele, O CARA NÃO ACEITA VOTO, NÃO ENTRA NO BBB!!🗣🗣 #Fo…",set(),'neutro',391,[0.12],[0.06],[0.72],[0.0],[0.09],[0.0],[0.01],"['o', 'voto', 'não', 'rt', 'e', 'mais', 'uma', 'vez', 'arthur', 'já', 'foi', 'confrontar', 'a', 'jade', 'pelo', 'dela', 'nele', 'cara', 'aceita', 'entra', 'no', 'bbb']","['o', 'voto', 'não', 'rt', 'e', 'mais', 'uma', 'vez', 'arthur', 'já', 'foi', 'confrontar', 'a', 'jade', 'pelo', 'dela', 'nele', 'cara', 'aceita', 'entra', 'no', 'bbb']",tô,5
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",mim,5
+"RT @emaltao: A mesma cara que convenceu a mulher perdoa ele 16 vezes, obv que vai convencer o Brasil a acreditar que ele joga muito, super…",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['a', 'que', 'ele', 'rt', 'mesma', 'cara', 'convenceu', 'mulher', 'perdoa', 'vezes', 'obv', 'vai', 'convencer', 'o', 'brasil', 'acreditar', 'joga', 'muito', 'super']","['a', 'que', 'ele', 'rt', 'mesma', 'cara', 'convenceu', 'mulher', 'perdoa', 'vezes', 'obv', 'vai', 'convencer', 'o', 'brasil', 'acreditar', 'joga', 'muito', 'super']",pessoas,5
+#foraArthur mano não é possível que as pessoas estão vendo o mesmo bbb que eu...,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['que', 'mano', 'não', 'é', 'possível', 'as', 'pessoas', 'estão', 'vendo', 'o', 'mesmo', 'bbb', 'eu']","['que', 'mano', 'não', 'é', 'possível', 'as', 'pessoas', 'estão', 'vendo', 'o', 'mesmo', 'bbb', 'eu']",rts,5
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",escroto,5
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",seja,5
+"RT @EaDonaOficial: Rodrigo sobre o Douglas:
+O que vocês acharam?
+@oficialmussi
+@Silva_DG
+#BBB22 #ForaNaiaraAzevedo #FORADG #ForaDouglas #Fo…",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['o', 'rt', 'rodrigo', 'sobre', 'douglas', 'que', 'vocês', 'acharam']","['o', 'rt', 'rodrigo', 'sobre', 'douglas', 'que', 'vocês', 'acharam']",fica,5
+INVENTARAM que o Arthur é jogador. O cara não ganha nem em maquina de bichinho. A verdadeira jogadora foi a MARIA.… https://t.co/yctqQ7CWRJ,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['o', 'a', 'inventaram', 'que', 'arthur', 'é', 'jogador', 'cara', 'não', 'ganha', 'nem', 'em', 'maquina', 'de', 'bichinho', 'verdadeira', 'jogadora', 'foi', 'maria']","['o', 'a', 'inventaram', 'que', 'arthur', 'é', 'jogador', 'cara', 'não', 'ganha', 'nem', 'em', 'maquina', 'de', 'bichinho', 'verdadeira', 'jogadora', 'foi', 'maria']",coitadinho,5
+"Sigam @jadepicon 
+Perder seguidor de macho escroto não é ruim, mas sim LIVRAMENTO 
+
+Vai JADE, parabéns JADE… https://t.co/fjW8gf9sXd",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['jade', 'sigam', 'perder', 'seguidor', 'de', 'macho', 'escroto', 'não', 'é', 'ruim', 'mas', 'sim', 'livramento', 'vai', 'parabéns']","['jade', 'sigam', 'perder', 'seguidor', 'de', 'macho', 'escroto', 'não', 'é', 'ruim', 'mas', 'sim', 'livramento', 'vai', 'parabéns']",aqui,5
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",amor,5
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",parciais,4
+Eu só quero deixar claro que eu sou #ForaArthur não dá pra continuar sustentando as cenas dele lá dentro e da mulher dele aqui fora né #BBB,set(),'alegria',391,[0.63],[0.05],[0.2],[0.0],[0.11],[0.0],[0.01],"['eu', 'dele', 'só', 'quero', 'deixar', 'claro', 'que', 'sou', 'não', 'dá', 'pra', 'continuar', 'sustentando', 'as', 'cenas', 'lá', 'dentro', 'e', 'da', 'mulher', 'aqui', 'fora', 'né']","['eu', 'dele', 'só', 'quero', 'deixar', 'claro', 'que', 'sou', 'não', 'dá', 'pra', 'continuar', 'sustentando', 'as', 'cenas', 'lá', 'dentro', 'e', 'da', 'mulher', 'aqui', 'fora', 'né']",mal,4
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",bora,4
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",terceiro,4
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",meu,4
+"RT @DetetiveOf: Parcial 'OFICIAL DO DETETIVE'🕵🏻
+
+#ForaDouglas..............55%
+
+#ForaNayara................33%
+
+#ForaArthur................…",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['rt', 'parcial', 'oficial', 'do', 'detetive']","['rt', 'parcial', 'oficial', 'do', 'detetive']",azevedo,4
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",ainda,4
+Assesoria acabou de queima o cara.  No próximo paredão o dedo cai . Mas ele saí. Esqueceram de não arrumar confusão… https://t.co/O5QDp5XxDa,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['de', 'o', 'assesoria', 'acabou', 'queima', 'cara', 'no', 'próximo', 'paredão', 'dedo', 'cai', 'mas', 'ele', 'saí', 'esqueceram', 'não', 'arrumar', 'confusão']","['de', 'o', 'assesoria', 'acabou', 'queima', 'cara', 'no', 'próximo', 'paredão', 'dedo', 'cai', 'mas', 'ele', 'saí', 'esqueceram', 'não', 'arrumar', 'confusão']",peso,4
+"Gente quem acompanha o bbb durante o dia , sabe o quanto o Arthur é chato e insuportável!!!!!!
+#ForaArthur",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['o', 'gente', 'quem', 'acompanha', 'bbb', 'durante', 'dia', 'sabe', 'quanto', 'arthur', 'é', 'chato', 'e', 'insuportável']","['o', 'gente', 'quem', 'acompanha', 'bbb', 'durante', 'dia', 'sabe', 'quanto', 'arthur', 'é', 'chato', 'e', 'insuportável']",ta,4
+"RT @DetetiveOf: Parcial 'OFICIAL DO DETETIVE'🕵🏻
+
+#ForaDouglas..............55%
+
+#ForaNayara................33%
+
+#ForaArthur................…",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['rt', 'parcial', 'oficial', 'do', 'detetive']","['rt', 'parcial', 'oficial', 'do', 'detetive']",fez,4
+"Esse BBB JÁ TA TÃO FLOPADO, AÍ O POVO ELEGE O ARTHUR AGUIAR DE COITADINHO??? PRONTO, NÃO TEM MAIS VOLTA🤮🤮🤮🤮🤮
+essa J… https://t.co/WiEQvlGyAQ",{'🤮'},'neutro',391,[0.26],[0.06],[0.52],[0.0],[0.14],[0.0],[0.01],"['o', 'esse', 'bbb', 'já', 'ta', 'tão', 'flopado', 'aí', 'povo', 'elege', 'arthur', 'aguiar', 'de', 'coitadinho', 'pronto', 'não', 'tem', 'mais', 'volta', 'essa', 'j']","['o', 'esse', 'bbb', 'já', 'ta', 'tão', 'flopado', 'aí', 'povo', 'elege', 'arthur', 'aguiar', 'de', 'coitadinho', 'pronto', 'não', 'tem', 'mais', 'volta', 'essa', 'j']",faz,4
+"RT @Tvcomentp: Pra quem está votando neste PAREDÃO??? 
+OBS: Está em ordem alfabética. 
+
+#ForaArthur #ForaArthurAguiar
+#ForaDouglas #ForaDG…",set(),'raiva',391,[0.3],[0.07],[0.29],[0.0],[0.32],[0.0],[0.01],"['está', 'rt', 'pra', 'quem', 'votando', 'neste', 'paredão', 'obs', 'em', 'ordem', 'alfabética']","['está', 'rt', 'pra', 'quem', 'votando', 'neste', 'paredão', 'obs', 'em', 'ordem', 'alfabética']",todos,4
+"RT @emaltao: A mesma cara que convenceu a mulher perdoa ele 16 vezes, obv que vai convencer o Brasil a acreditar que ele joga muito, super…",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['a', 'que', 'ele', 'rt', 'mesma', 'cara', 'convenceu', 'mulher', 'perdoa', 'vezes', 'obv', 'vai', 'convencer', 'o', 'brasil', 'acreditar', 'joga', 'muito', 'super']","['a', 'que', 'ele', 'rt', 'mesma', 'cara', 'convenceu', 'mulher', 'perdoa', 'vezes', 'obv', 'vai', 'convencer', 'o', 'brasil', 'acreditar', 'joga', 'muito', 'super']",alguém,4
+"06 de Fevereiro
+
+Impressionante como fui do hate à torcida por Naiara.
+Por mim eliminaria todos esses homens dessas… https://t.co/4zOCFX7Ypn",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['por', 'de', 'fevereiro', 'impressionante', 'como', 'fui', 'do', 'hate', 'à', 'torcida', 'naiara', 'mim', 'eliminaria', 'todos', 'esses', 'homens', 'dessas']","['por', 'de', 'fevereiro', 'impressionante', 'como', 'fui', 'do', 'hate', 'à', 'torcida', 'naiara', 'mim', 'eliminaria', 'todos', 'esses', 'homens', 'dessas']",neste,4
+"O primeiro chifre do Arthur e já estão falando mal, ainda faltam 15! #ForaNaiaraAzevedo #ForaArthur #ForaDouglas A… https://t.co/M5qDaDk3Nj",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['o', 'primeiro', 'chifre', 'do', 'arthur', 'e', 'já', 'estão', 'falando', 'mal', 'ainda', 'faltam', 'a']","['o', 'primeiro', 'chifre', 'do', 'arthur', 'e', 'já', 'estão', 'falando', 'mal', 'ainda', 'faltam', 'a']",porque,4
+"QUEM VAI SAIR NESSE PAREDÃO?
+#ForaNaiaraAzevedo 
+#FORADG 
+#Foraarthur
+Naiara | Arthur | Douglas Silva | DG
+#bbb #BBB22",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['quem', 'vai', 'sair', 'nesse', 'paredão', 'naiara', 'arthur', 'douglas', 'silva', 'dg']","['quem', 'vai', 'sair', 'nesse', 'paredão', 'naiara', 'arthur', 'douglas', 'silva', 'dg']",entender,4
+"RT @DetetiveOf: Parcial 'OFICIAL DO DETETIVE'🕵🏻
+
+#ForaDouglas..............55%
+
+#ForaNayara................33%
+
+#ForaArthur................…",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['rt', 'parcial', 'oficial', 'do', 'detetive']","['rt', 'parcial', 'oficial', 'do', 'detetive']",nada,4
+"Parciais bbb 22 | Horário 00:51
+
+#ForaArthur ....... 07.95%
+
+#ForaDouglas ....... 49.71%
+
+#ForaNaiara....... 42.34%
+
+#BBB22",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['parciais', 'bbb', 'horário']","['parciais', 'bbb', 'horário']",humilde,4
+"RT @emaltao: A mesma cara que convenceu a mulher perdoa ele 16 vezes, obv que vai convencer o Brasil a acreditar que ele joga muito, super…",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['a', 'que', 'ele', 'rt', 'mesma', 'cara', 'convenceu', 'mulher', 'perdoa', 'vezes', 'obv', 'vai', 'convencer', 'o', 'brasil', 'acreditar', 'joga', 'muito', 'super']","['a', 'que', 'ele', 'rt', 'mesma', 'cara', 'convenceu', 'mulher', 'perdoa', 'vezes', 'obv', 'vai', 'convencer', 'o', 'brasil', 'acreditar', 'joga', 'muito', 'super']",opinião,4
+"RT @titto_ferreira: E mais uma vez, o Arthur já foi confrontar a Jade pelo voto dela nele, O CARA NÃO ACEITA VOTO, NÃO ENTRA NO BBB!!🗣🗣 #Fo…",set(),'neutro',391,[0.12],[0.06],[0.72],[0.0],[0.09],[0.0],[0.01],"['o', 'voto', 'não', 'rt', 'e', 'mais', 'uma', 'vez', 'arthur', 'já', 'foi', 'confrontar', 'a', 'jade', 'pelo', 'dela', 'nele', 'cara', 'aceita', 'entra', 'no', 'bbb']","['o', 'voto', 'não', 'rt', 'e', 'mais', 'uma', 'vez', 'arthur', 'já', 'foi', 'confrontar', 'a', 'jade', 'pelo', 'dela', 'nele', 'cara', 'aceita', 'entra', 'no', 'bbb']",irônico,4
+"Parciais do @Parcial_bbb_22
+
+💪🏻#ForaArthur  07.95%
+
+💪🏻#foradouglas  49.71%
+
+💪🏻#ForaNaiara. 42.34%
+
+#BBB22   #BigBrother",{'💪'},'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['parciais', 'do']","['parciais', 'do']",ácido,4
+"#ForaNaiaraAzevedo = Votante do Bolsonaro
+#ForaArthur = Eleitor do Bolsonaro
+#foradouglas = Bolsominion
+BBB É REFLEXÃO DA SOCIEDADE 
+😔🙏","{'😔', '🙏'}",'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['do', 'bolsonaro', 'votante', 'eleitor', 'bolsominion', 'bbb', 'é', 'reflexão', 'da', 'sociedade']","['do', 'bolsonaro', 'votante', 'eleitor', 'bolsominion', 'bbb', 'é', 'reflexão', 'da', 'sociedade']",intimidador,4
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",vou,4
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",galera,3
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",rapaziada,3
+"Pra quem está votando neste PAREDÃO??? 
+OBS: Está em ordem alfabética. 
+
+#ForaArthur #ForaArthurAguiar
+#ForaDouglas… https://t.co/VtvtXss15V",set(),'raiva',391,[0.3],[0.07],[0.29],[0.0],[0.32],[0.0],[0.01],"['está', 'pra', 'quem', 'votando', 'neste', 'paredão', 'obs', 'em', 'ordem', 'alfabética']","['está', 'pra', 'quem', 'votando', 'neste', 'paredão', 'obs', 'em', 'ordem', 'alfabética']",tags,3
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",sem,3
+"O TT em desespero falando: NÃO ELIMINEM QUEM ESTÁ DISPOSTA A JOGAR! 
+ 
+Postou a pessoa que votou fora Rodrigo! 
+
+#BBB #BBB22 #ForaArthur",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['a', 'o', 'tt', 'em', 'desespero', 'falando', 'não', 'eliminem', 'quem', 'está', 'disposta', 'jogar', 'postou', 'pessoa', 'que', 'votou', 'fora', 'rodrigo']","['a', 'o', 'tt', 'em', 'desespero', 'falando', 'não', 'eliminem', 'quem', 'está', 'disposta', 'jogar', 'postou', 'pessoa', 'que', 'votou', 'fora', 'rodrigo']",tirar,3
+@muitohumildee #ForaArthur chega de machos escrotos e dissimulados ganhando BBB #BBB22,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']","['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']",entrou,3
+@bicmuller #ForaArthur chega de machos escrotos e dissimulados ganhando BBB #BBB22,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']","['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']",fazendo,3
+"RT @DetetiveOf: Parcial 'OFICIAL DO DETETIVE'🕵🏻
+
+#ForaDouglas..............55%
+
+#ForaNayara................33%
+
+#ForaArthur................…",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['rt', 'parcial', 'oficial', 'do', 'detetive']","['rt', 'parcial', 'oficial', 'do', 'detetive']",público,3
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",ator,3
+"RT @emaltao: A mesma cara que convenceu a mulher perdoa ele 16 vezes, obv que vai convencer o Brasil a acreditar que ele joga muito, super…",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['a', 'que', 'ele', 'rt', 'mesma', 'cara', 'convenceu', 'mulher', 'perdoa', 'vezes', 'obv', 'vai', 'convencer', 'o', 'brasil', 'acreditar', 'joga', 'muito', 'super']","['a', 'que', 'ele', 'rt', 'mesma', 'cara', 'convenceu', 'mulher', 'perdoa', 'vezes', 'obv', 'vai', 'convencer', 'o', 'brasil', 'acreditar', 'joga', 'muito', 'super']",votos,3
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",será,3
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",tanto,3
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",nunca,3
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",ninguém,3
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",à,3
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",parte,3
+Será que tem como agilizar o pessoal da casa de vidro antes da eliminação para a gente não ter que ver eles cantand… https://t.co/bjmoq6NLN8,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['que', 'da', 'será', 'tem', 'como', 'agilizar', 'o', 'pessoal', 'casa', 'de', 'vidro', 'antes', 'eliminação', 'para', 'a', 'gente', 'não', 'ter', 'ver', 'eles', 'cantand']","['que', 'da', 'será', 'tem', 'como', 'agilizar', 'o', 'pessoal', 'casa', 'de', 'vidro', 'antes', 'eliminação', 'para', 'a', 'gente', 'não', 'ter', 'ver', 'eles', 'cantand']",saísse,3
+"@bbb #ForaArthur
+Fora @Aguiarthur",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],['fora'],['fora'],jogar,3
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",ela,3
+"Enquete #BBB22 quem deve sair no paredão? Você é #ForaNaiaraAzevedo #ForaArthur ou #ForaDouglas ? 
+
+Vote no site.
+https://t.co/ptRMI91n3e",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['no', 'enquete', 'quem', 'deve', 'sair', 'paredão', 'você', 'é', 'ou', 'vote', 'site']","['no', 'enquete', 'quem', 'deve', 'sair', 'paredão', 'você', 'é', 'ou', 'vote', 'site']",pessoa,3
+@bbb #ForaArthur,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],[],[],n,3
+"RT @jonathanwsg: Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB #FicaNaiara #Fica…",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'rt', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",desse,3
+"Quem vocês querem ""ELIMINAR"" no BBB 22 o Douglas, a Naiara (nanacita) ou o Arthur???
+
+#BBB22 #ParedaoBBB… https://t.co/SnjRa8H5eh",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']","['o', 'quem', 'vocês', 'querem', 'eliminar', 'no', 'bbb', 'douglas', 'a', 'naiara', 'nanacita', 'ou', 'arthur']",igual,3
+Se Arthur ficar a gente percebe bem que brasileiro é bem burro e acreditar no conto da carochinha #RedeBBB #BBB #BBB22 #ForaArthur,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['bem', 'se', 'arthur', 'ficar', 'a', 'gente', 'percebe', 'que', 'brasileiro', 'é', 'burro', 'e', 'acreditar', 'no', 'conto', 'da', 'carochinha']","['bem', 'se', 'arthur', 'ficar', 'a', 'gente', 'percebe', 'que', 'brasileiro', 'é', 'burro', 'e', 'acreditar', 'no', 'conto', 'da', 'carochinha']",sendo,3
+"RT @DetetiveOf: Parcial 'OFICIAL DO DETETIVE'🕵🏻
+
+#ForaDouglas..............55%
+
+#ForaNayara................33%
+
+#ForaArthur................…",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['rt', 'parcial', 'oficial', 'do', 'detetive']","['rt', 'parcial', 'oficial', 'do', 'detetive']",jogando,3
+@RealitysVip #ForaArthur #ForaNaiaraAzevedo ! Já chega de deixar gnt escrota no BBB! E ainda escrotos chatos,set(),'alegria',391,[0.42],[0.05],[0.41],[0.0],[0.11],[0.0],[0.01],"['já', 'chega', 'de', 'deixar', 'gnt', 'escrota', 'no', 'bbb', 'e', 'ainda', 'escrotos', 'chatos']","['já', 'chega', 'de', 'deixar', 'gnt', 'escrota', 'no', 'bbb', 'e', 'ainda', 'escrotos', 'chatos']",treta,3
+"Pela primeira vez eu não odeio totalmente alguém no big brother, mas tbm não amo ninguém! É sobre isso, venha casa… https://t.co/bqEke1c3Ap",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['não', 'pela', 'primeira', 'vez', 'eu', 'odeio', 'totalmente', 'alguém', 'no', 'big', 'brother', 'mas', 'tbm', 'amo', 'ninguém', 'é', 'sobre', 'isso', 'venha', 'casa']","['não', 'pela', 'primeira', 'vez', 'eu', 'odeio', 'totalmente', 'alguém', 'no', 'big', 'brother', 'mas', 'tbm', 'amo', 'ninguém', 'é', 'sobre', 'isso', 'venha', 'casa']",obs,3
+"RT @DetetiveOf: Parcial 'OFICIAL DO DETETIVE'🕵🏻
+
+#ForaDouglas..............55%
+
+#ForaNayara................33%
+
+#ForaArthur................…",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['rt', 'parcial', 'oficial', 'do', 'detetive']","['rt', 'parcial', 'oficial', 'do', 'detetive']",ordem,3
+Uma das coisas mais hilárias do BBB está sendo ver boa mano arte do twitter cair no personagem do Arthur Aguiar 🤣🤣🤣… https://t.co/bKFxsH8zgZ,{'🤣'},'neutro',391,[0.26],[0.06],[0.52],[0.0],[0.14],[0.0],[0.01],"['do', 'uma', 'das', 'coisas', 'mais', 'hilárias', 'bbb', 'está', 'sendo', 'ver', 'boa', 'mano', 'arte', 'twitter', 'cair', 'no', 'personagem', 'arthur', 'aguiar']","['do', 'uma', 'das', 'coisas', 'mais', 'hilárias', 'bbb', 'está', 'sendo', 'ver', 'boa', 'mano', 'arte', 'twitter', 'cair', 'no', 'personagem', 'arthur', 'aguiar']",alfabética,3
+"RT @DetetiveOf: Parcial 'OFICIAL DO DETETIVE'🕵🏻
+
+#ForaDouglas..............55%
+
+#ForaNayara................33%
+
+#ForaArthur................…",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['rt', 'parcial', 'oficial', 'do', 'detetive']","['rt', 'parcial', 'oficial', 'do', 'detetive']",kkkkk,3
+"Eu vendo as ""Chifrudas"" protegendo o Arthur por pena dele, sério isso?  @CentralReaIity @bbb #ForaArthur",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['eu', 'vendo', 'as', 'chifrudas', 'protegendo', 'o', 'arthur', 'por', 'pena', 'dele', 'sério', 'isso']","['eu', 'vendo', 'as', 'chifrudas', 'protegendo', 'o', 'arthur', 'por', 'pena', 'dele', 'sério', 'isso']",entre,3
+"RT @DetetiveOf: Parcial 'OFICIAL DO DETETIVE'🕵🏻
+
+#ForaDouglas..............55%
+
+#ForaNayara................33%
+
+#ForaArthur................…",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['rt', 'parcial', 'oficial', 'do', 'detetive']","['rt', 'parcial', 'oficial', 'do', 'detetive']",flopado,3
+"RT @Diego57969110: Vcs tão maluco, que fora Douglas o que o homem só dança e fica com uma cara estranha pras pessoas, o legoso é #ForaArthu…",set(),'neutro',391,[0.13],[0.03],[0.76],[0.0],[0.07],[0.0],[0.0],"['o', 'que', 'rt', 'vcs', 'tão', 'maluco', 'fora', 'douglas', 'homem', 'só', 'dança', 'e', 'fica', 'com', 'uma', 'cara', 'estranha', 'pras', 'pessoas', 'legoso', 'é']","['o', 'que', 'rt', 'vcs', 'tão', 'maluco', 'fora', 'douglas', 'homem', 'só', 'dança', 'e', 'fica', 'com', 'uma', 'cara', 'estranha', 'pras', 'pessoas', 'legoso', 'é']",sobre,3
+"A gente vai pagar caro demais pelos memes com pão.
+
+#bbb #ParedaoBBB #ForaArthur",set(),'neutro',391,[0.08],[0.04],[0.76],[0.0],[0.12],[0.0],[0.0],"['a', 'gente', 'vai', 'pagar', 'caro', 'demais', 'pelos', 'memes', 'com', 'pão']","['a', 'gente', 'vai', 'pagar', 'caro', 'demais', 'pelos', 'memes', 'com', 'pão']",mano,3
+"RT @Beatriz96055615: Vcs idolatram muito o Arthur sério, ele está jogando igual o Rodrigo mas vcs estão cegos
+#ParedaoBBB #ForaArthur #bbb",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['vcs', 'o', 'rt', 'idolatram', 'muito', 'arthur', 'sério', 'ele', 'está', 'jogando', 'igual', 'rodrigo', 'mas', 'estão', 'cegos']","['vcs', 'o', 'rt', 'idolatram', 'muito', 'arthur', 'sério', 'ele', 'está', 'jogando', 'igual', 'rodrigo', 'mas', 'estão', 'cegos']",macho,3
+"RT @DetetiveOf: Parcial 'OFICIAL DO DETETIVE'🕵🏻
+
+#ForaDouglas..............55%
+
+#ForaNayara................33%
+
+#ForaArthur................…",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['rt', 'parcial', 'oficial', 'do', 'detetive']","['rt', 'parcial', 'oficial', 'do', 'detetive']",sim,3
+"Vcs idolatram muito o Arthur sério, ele está jogando igual o Rodrigo mas vcs estão cegos
+#ParedaoBBB #ForaArthur #bbb",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['vcs', 'o', 'idolatram', 'muito', 'arthur', 'sério', 'ele', 'está', 'jogando', 'igual', 'rodrigo', 'mas', 'estão', 'cegos']","['vcs', 'o', 'idolatram', 'muito', 'arthur', 'sério', 'ele', 'está', 'jogando', 'igual', 'rodrigo', 'mas', 'estão', 'cegos']",né,3
+"Parcial 'OFICIAL DO DETETIVE'🕵🏻
+
+#ForaDouglas..............55%
+
+#ForaNayara................33%
+
+#ForaArthur........… https://t.co/uz3poRNdnE",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['parcial', 'oficial', 'do', 'detetive']","['parcial', 'oficial', 'do', 'detetive']",tbm,3
+"UOL: QUEM VOCÊ QUER QUE SEJA ELIMINADO DO #BBB22: ARTHUR, DOUGLAS OU NAIARA?
+
+1º Douglas: 42,47%
+2º Naiara: 41,24%… https://t.co/1C10Eq07K4",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['douglas', 'naiara', 'uol', 'quem', 'você', 'quer', 'que', 'seja', 'eliminado', 'do', 'arthur', 'ou']","['douglas', 'naiara', 'uol', 'quem', 'você', 'quer', 'que', 'seja', 'eliminado', 'do', 'arthur', 'ou']",sério,3
+"QUEM SAI? 🧱 
+
+#BBB22 #REDEBBB #BBB #FORAARTHUR #FORADOUGLAS #FORANAIARA",{'🧱'},'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['quem', 'sai']","['quem', 'sai']",homem,3
+"Vcs tão maluco, que fora Douglas o que o homem só dança e fica com uma cara estranha pras pessoas, o legoso é #ForaArthur #bbb",set(),'neutro',391,[0.13],[0.03],[0.76],[0.0],[0.07],[0.0],[0.0],"['o', 'que', 'vcs', 'tão', 'maluco', 'fora', 'douglas', 'homem', 'só', 'dança', 'e', 'fica', 'com', 'uma', 'cara', 'estranha', 'pras', 'pessoas', 'legoso', 'é']","['o', 'que', 'vcs', 'tão', 'maluco', 'fora', 'douglas', 'homem', 'só', 'dança', 'e', 'fica', 'com', 'uma', 'cara', 'estranha', 'pras', 'pessoas', 'legoso', 'é']",idolatram,3
+"RT @emaltao: A mesma cara que convenceu a mulher perdoa ele 16 vezes, obv que vai convencer o Brasil a acreditar que ele joga muito, super…",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['a', 'que', 'ele', 'rt', 'mesma', 'cara', 'convenceu', 'mulher', 'perdoa', 'vezes', 'obv', 'vai', 'convencer', 'o', 'brasil', 'acreditar', 'joga', 'muito', 'super']","['a', 'que', 'ele', 'rt', 'mesma', 'cara', 'convenceu', 'mulher', 'perdoa', 'vezes', 'obv', 'vai', 'convencer', 'o', 'brasil', 'acreditar', 'joga', 'muito', 'super']",tchau,3
+"Mesmo sabendo que é quase impossível o Arthur sair, eu sou #ForaArthur! Só assim o Thiago vai acordar, e parar com… https://t.co/BdKj6DzvAo",set(),'alegria',391,[0.53],[0.06],[0.26],[0.0],[0.14],[0.0],[0.01],"['o', 'mesmo', 'sabendo', 'que', 'é', 'quase', 'impossível', 'arthur', 'sair', 'eu', 'sou', 'só', 'assim', 'thiago', 'vai', 'acordar', 'e', 'parar', 'com']","['o', 'mesmo', 'sabendo', 'que', 'é', 'quase', 'impossível', 'arthur', 'sair', 'eu', 'sou', 'só', 'assim', 'thiago', 'vai', 'acordar', 'e', 'parar', 'com']",d,3
+"Esse é um dos 1°s BBBs q eu vejo q boa parte do público tbm está estragando o BBB, pq pedir a permanência do Dougla… https://t.co/cUVt0OK8vt",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['q', 'do', 'esse', 'é', 'um', 'dos', 's', 'bbbs', 'eu', 'vejo', 'boa', 'parte', 'público', 'tbm', 'está', 'estragando', 'o', 'bbb', 'pq', 'pedir', 'a', 'permanência', 'dougla']","['q', 'do', 'esse', 'é', 'um', 'dos', 's', 'bbbs', 'eu', 'vejo', 'boa', 'parte', 'público', 'tbm', 'está', 'estragando', 'o', 'bbb', 'pq', 'pedir', 'a', 'permanência', 'dougla']",chamando,3
+Pq tão querendo tirar o DG????? #BBB #arthuraguiar #ForaNaiaraAzevedo #foradouglas #ForaArthur,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['pq', 'tão', 'querendo', 'tirar', 'o', 'dg']","['pq', 'tão', 'querendo', 'tirar', 'o', 'dg']",falsa,3
+"RT @WDIVATULLALUANA: NA MINHA HUMILDE OPINIÃO #ForaArthur POR SER IRÔNICO, ÁCIDO, INTIMIDADOR... #BBB22 @bbb https://t.co/IMSsmNwNIE",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['rt', 'na', 'minha', 'humilde', 'opinião', 'por', 'ser', 'irônico', 'ácido', 'intimidador']","['rt', 'na', 'minha', 'humilde', 'opinião', 'por', 'ser', 'irônico', 'ácido', 'intimidador']",kkkkkk,3
+"Quem deve ser eliminado no terceiro paredão do BBB 2022?
+#BBB22
+Nanacita Lucas Arthur Tchau Dg
+Se o Douglas Que BBB… https://t.co/zi3JJw5AMq",set(),'raiva',391,[0.17],[0.04],[0.33],[0.0],[0.45],[0.0],[0.0],"['bbb', 'quem', 'deve', 'ser', 'eliminado', 'no', 'terceiro', 'paredão', 'do', 'nanacita', 'lucas', 'arthur', 'tchau', 'dg', 'se', 'o', 'douglas', 'que']","['bbb', 'quem', 'deve', 'ser', 'eliminado', 'no', 'terceiro', 'paredão', 'do', 'nanacita', 'lucas', 'arthur', 'tchau', 'dg', 'se', 'o', 'douglas', 'que']",então,3
+"O Arthur é riquíssimo, mora na beira mar da barra, ganha muito com publi, entrou no BBB pra desconstruir a imagem d… https://t.co/6740j3kgnT",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['o', 'arthur', 'é', 'riquíssimo', 'mora', 'na', 'beira', 'mar', 'da', 'barra', 'ganha', 'muito', 'com', 'publi', 'entrou', 'no', 'bbb', 'pra', 'desconstruir', 'a', 'imagem', 'd']","['o', 'arthur', 'é', 'riquíssimo', 'mora', 'na', 'beira', 'mar', 'da', 'barra', 'ganha', 'muito', 'com', 'publi', 'entrou', 'no', 'bbb', 'pra', 'desconstruir', 'a', 'imagem', 'd']",camarote,3
+"RT @titto_ferreira: E mais uma vez, o Arthur já foi confrontar a Jade pelo voto dela nele, O CARA NÃO ACEITA VOTO, NÃO ENTRA NO BBB!!🗣🗣 #Fo…",set(),'neutro',391,[0.12],[0.06],[0.72],[0.0],[0.09],[0.0],[0.01],"['o', 'voto', 'não', 'rt', 'e', 'mais', 'uma', 'vez', 'arthur', 'já', 'foi', 'confrontar', 'a', 'jade', 'pelo', 'dela', 'nele', 'cara', 'aceita', 'entra', 'no', 'bbb']","['o', 'voto', 'não', 'rt', 'e', 'mais', 'uma', 'vez', 'arthur', 'já', 'foi', 'confrontar', 'a', 'jade', 'pelo', 'dela', 'nele', 'cara', 'aceita', 'entra', 'no', 'bbb']",h,2
+@bbb #RedeBBB #BBB22 #ForaDouglas #ForaArthur https://t.co/Jq7dAabwyE,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],[],[],humorado,2
+#ForaArthur #BBB22 #RedeBBB @bbb #BBB https://t.co/bPWPvy7Lvt,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],[],[],nome,2
+Quem será o eliminado da semana no BBB?  #bbb #ParedaoBBB #BBB22 #foradouglas #ForaArthur #ForaNaiaraAzevedo,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['quem', 'será', 'o', 'eliminado', 'da', 'semana', 'no', 'bbb']","['quem', 'será', 'o', 'eliminado', 'da', 'semana', 'no', 'bbb']",elimina,2
+Fazer torcida pra Jade e votar no DG é burrice viu! 😂😂😂😂😂 #BBB #BBB22 #ForaArthur,{'😂'},'neutro',391,[0.23],[0.06],[0.46],[0.0],[0.25],[0.0],[0.01],"['fazer', 'torcida', 'pra', 'jade', 'e', 'votar', 'no', 'dg', 'é', 'burrice', 'viu']","['fazer', 'torcida', 'pra', 'jade', 'e', 'votar', 'no', 'dg', 'é', 'burrice', 'viu']",r,2
+"RT @emaltao: A mesma cara que convenceu a mulher perdoa ele 16 vezes, obv que vai convencer o Brasil a acreditar que ele joga muito, super…",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['a', 'que', 'ele', 'rt', 'mesma', 'cara', 'convenceu', 'mulher', 'perdoa', 'vezes', 'obv', 'vai', 'convencer', 'o', 'brasil', 'acreditar', 'joga', 'muito', 'super']","['a', 'que', 'ele', 'rt', 'mesma', 'cara', 'convenceu', 'mulher', 'perdoa', 'vezes', 'obv', 'vai', 'convencer', 'o', 'brasil', 'acreditar', 'joga', 'muito', 'super']",f,2
+"RT @analfarbeto: Paredão formado e aí, quem sai?
+
+#FicaArthur #ficadg #ficananacita #ForaArthur #foradg #foranaiara #bbb #bbb22 #redebbb #P…",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['rt', 'paredão', 'formado', 'e', 'aí', 'quem', 'sai', 'p']","['rt', 'paredão', 'formado', 'e', 'aí', 'quem', 'sai', 'p']",time,2
+"Aproveitar q esse BBB ta uma merda, bora tirar o arthur pra acabar com isso logo 🙏🏻 #ForaArthur",{'🙏'},'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['aproveitar', 'q', 'esse', 'bbb', 'ta', 'uma', 'merda', 'bora', 'tirar', 'o', 'arthur', 'pra', 'acabar', 'com', 'isso', 'logo']","['aproveitar', 'q', 'esse', 'bbb', 'ta', 'uma', 'merda', 'bora', 'tirar', 'o', 'arthur', 'pra', 'acabar', 'com', 'isso', 'logo']",saber,2
+"E aí, quem sai? #bbb #bbb22 #ForaNaiara #foradouglas #ForaArthur",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['e', 'aí', 'quem', 'sai']","['e', 'aí', 'quem', 'sai']",traiu,2
+RT @cesarbaracho: Eu queria entender esse amor  no Arthur. Agora estão chamando a Jade de falsa! Kkkkkk…. A torcida da Jade tem OBRIGAÇÃO d…,set(),'neutro',391,[0.26],[0.06],[0.52],[0.0],[0.14],[0.0],[0.01],"['a', 'jade', 'rt', 'eu', 'queria', 'entender', 'esse', 'amor', 'no', 'arthur', 'agora', 'estão', 'chamando', 'de', 'falsa', 'kkkkkk', 'torcida', 'da', 'tem', 'obrigação', 'd']","['a', 'jade', 'rt', 'eu', 'queria', 'entender', 'esse', 'amor', 'no', 'arthur', 'agora', 'estão', 'chamando', 'de', 'falsa', 'kkkkkk', 'torcida', 'da', 'tem', 'obrigação', 'd']",esposa,2
+"Enquete BBB #EnqueteBBB #BBB22 #JacksonJunior #foradouglas #foranaiara #foraarthur
+
+QUE ÓDIO Caralho Jade Judas Meu… https://t.co/NY2aAIUJHp",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['enquete', 'bbb', 'que', 'ódio', 'caralho', 'jade', 'judas', 'meu']","['enquete', 'bbb', 'que', 'ódio', 'caralho', 'jade', 'judas', 'meu']",dentro,2
+"Bom, pensando no BBB, que eu amo, entre #ForaArthur e #ForaDouglas sou Fora Douglas, e o pq? Não gosto de nenhum, m… https://t.co/qHp81mucYB",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['e', 'bom', 'pensando', 'no', 'bbb', 'que', 'eu', 'amo', 'entre', 'sou', 'fora', 'douglas', 'o', 'pq', 'não', 'gosto', 'de', 'nenhum', 'm']","['e', 'bom', 'pensando', 'no', 'bbb', 'que', 'eu', 'amo', 'entre', 'sou', 'fora', 'douglas', 'o', 'pq', 'não', 'gosto', 'de', 'nenhum', 'm']",vi,2
+RT @cesarbaracho: Eu queria entender esse amor  no Arthur. Agora estão chamando a Jade de falsa! Kkkkkk…. A torcida da Jade tem OBRIGAÇÃO d…,set(),'neutro',391,[0.26],[0.06],[0.52],[0.0],[0.14],[0.0],[0.01],"['a', 'jade', 'rt', 'eu', 'queria', 'entender', 'esse', 'amor', 'no', 'arthur', 'agora', 'estão', 'chamando', 'de', 'falsa', 'kkkkkk', 'torcida', 'da', 'tem', 'obrigação', 'd']","['a', 'jade', 'rt', 'eu', 'queria', 'entender', 'esse', 'amor', 'no', 'arthur', 'agora', 'estão', 'chamando', 'de', 'falsa', 'kkkkkk', 'torcida', 'da', 'tem', 'obrigação', 'd']",nao,2
+"pessoas que são #ForaArthur , vcs assistem o mesmo bbb que eu?",set(),'alegria',391,[0.63],[0.07],[0.16],[0.0],[0.13],[0.0],[0.01],"['que', 'pessoas', 'são', 'vcs', 'assistem', 'o', 'mesmo', 'bbb', 'eu']","['que', 'pessoas', 'são', 'vcs', 'assistem', 'o', 'mesmo', 'bbb', 'eu']",tempo,2
+"RT @GuilhermSobral_: Quem vocês eliminam: 
+
+#BBB #RedeBBB #BBB22 #enquetebbb #eliminacaobbb #ForaArthur #ForaDouglas #ForaNaiara",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['rt', 'quem', 'vocês', 'eliminam']","['rt', 'quem', 'vocês', 'eliminam']",vota,2
+Eu queria entender esse amor  no Arthur. Agora estão chamando a Jade de falsa! Kkkkkk…. A torcida da Jade tem OBRIG… https://t.co/FQWyiugy43,set(),'neutro',391,[0.26],[0.06],[0.52],[0.0],[0.14],[0.0],[0.01],"['a', 'jade', 'eu', 'queria', 'entender', 'esse', 'amor', 'no', 'arthur', 'agora', 'estão', 'chamando', 'de', 'falsa', 'kkkkkk', 'torcida', 'da', 'tem', 'obrig']","['a', 'jade', 'eu', 'queria', 'entender', 'esse', 'amor', 'no', 'arthur', 'agora', 'estão', 'chamando', 'de', 'falsa', 'kkkkkk', 'torcida', 'da', 'tem', 'obrig']",p,2
+@pedrocertezas #ForaArthur chega de machos escrotos e dissimulados ganhando BBB #BBB22,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']","['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']",arte,2
+Nunca fui muito fã de bbb em geral mas tô acompanhando esse melhor e não tô entendendo o pq de não estarem pedindo… https://t.co/4WScAhlZms,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['de', 'tô', 'não', 'nunca', 'fui', 'muito', 'fã', 'bbb', 'em', 'geral', 'mas', 'acompanhando', 'esse', 'melhor', 'e', 'entendendo', 'o', 'pq', 'estarem', 'pedindo']","['de', 'tô', 'não', 'nunca', 'fui', 'muito', 'fã', 'bbb', 'em', 'geral', 'mas', 'acompanhando', 'esse', 'melhor', 'e', 'entendendo', 'o', 'pq', 'estarem', 'pedindo']",excelente,2
+@viniciusbuk @bbb #ForaArthur,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],[],[],indica,2
+"paredão essa semana tem DG que provoca todo mundo e causa treta, Naiara que irrita a casa e tem potencial pra treta… https://t.co/80cYH7F9n5",set(),'neutro',391,[0.08],[0.02],[0.81],[0.0],[0.09],[0.0],[0.0],"['tem', 'que', 'e', 'treta', 'paredão', 'essa', 'semana', 'dg', 'provoca', 'todo', 'mundo', 'causa', 'naiara', 'irrita', 'a', 'casa', 'potencial', 'pra']","['tem', 'que', 'e', 'treta', 'paredão', 'essa', 'semana', 'dg', 'provoca', 'todo', 'mundo', 'causa', 'naiara', 'irrita', 'a', 'casa', 'potencial', 'pra']",pela,2
+"Quem sai? 
+
+Tags: #foradouglas / tchau naiara / #foraarthur / #Se a Naiara / #Naiara e Arthu / #ParedaoBBB / #bbb22 / #bbb / douglas",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['naiara', 'quem', 'sai', 'tags', 'tchau', 'a', 'e', 'arthu', 'douglas']","['naiara', 'quem', 'sai', 'tags', 'tchau', 'a', 'e', 'arthu', 'douglas']",horário,2
+"RT @joniIson: 🔮 PARCIAL 00:22 #BBB22 🔮
+
+#ForaNaiara- 00.00%
+
+#ForaDouglas- 100.00%
+
+#ForaArthur- 0.00%
+
+MARGEM DE ERRO 0%
+
+2000 RTS PARA PR…",{'🔮'},'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['rt', 'parcial', 'margem', 'de', 'erro', 'rts', 'para', 'pr']","['rt', 'parcial', 'margem', 'de', 'erro', 'rts', 'para', 'pr']",publico,2
+Fora Arthur #bbb22 #ForaArthur  https://t.co/MCK9RyhI0n,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['fora', 'arthur']","['fora', 'arthur']",fico,2
+"Quem você quer eliminar do BBB?
+#BBB22 #foradouglas #ForaNaiaraAzevedo #ForaArthur #FicaArthur #FicaNaiara #FicaDg #FicaDouglas #ForaNaiara",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['quem', 'você', 'quer', 'eliminar', 'do', 'bbb']","['quem', 'você', 'quer', 'eliminar', 'do', 'bbb']",maira,2
+"RT @joniIson: 🔮 PARCIAL 00:22 #BBB22 🔮
+
+#ForaNaiara- 00.00%
+
+#ForaDouglas- 100.00%
+
+#ForaArthur- 0.00%
+
+MARGEM DE ERRO 0%
+
+2000 RTS PARA PR…",{'🔮'},'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['rt', 'parcial', 'margem', 'de', 'erro', 'rts', 'para', 'pr']","['rt', 'parcial', 'margem', 'de', 'erro', 'rts', 'para', 'pr']",votou,2
+"UOL: QUEM VOCÊ QUER QUE SEJA ELIMINADO DO #BBB22: ARTHUR, DOUGLAS OU NAIARA?
+
+1º Douglas: 42,84%
+2º Naiara: 41,28%… https://t.co/C6V2wHmUmK",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['douglas', 'naiara', 'uol', 'quem', 'você', 'quer', 'que', 'seja', 'eliminado', 'do', 'arthur', 'ou']","['douglas', 'naiara', 'uol', 'quem', 'você', 'quer', 'que', 'seja', 'eliminado', 'do', 'arthur', 'ou']",ano,2
+@euleodias #ForaArthur chega de machos escrotos e dissimulados ganhando BBB #BBB22,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']","['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']",meio,2
+"RT @joniIson: 🔮 PARCIAL 00:22 #BBB22 🔮
+
+#ForaNaiara- 00.00%
+
+#ForaDouglas- 100.00%
+
+#ForaArthur- 0.00%
+
+MARGEM DE ERRO 0%
+
+2000 RTS PARA PR…",{'🔮'},'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['rt', 'parcial', 'margem', 'de', 'erro', 'rts', 'para', 'pr']","['rt', 'parcial', 'margem', 'de', 'erro', 'rts', 'para', 'pr']",contra,2
+"RT @emaltao: A mesma cara que convenceu a mulher perdoa ele 16 vezes, obv que vai convencer o Brasil a acreditar que ele joga muito, super…",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['a', 'que', 'ele', 'rt', 'mesma', 'cara', 'convenceu', 'mulher', 'perdoa', 'vezes', 'obv', 'vai', 'convencer', 'o', 'brasil', 'acreditar', 'joga', 'muito', 'super']","['a', 'que', 'ele', 'rt', 'mesma', 'cara', 'convenceu', 'mulher', 'perdoa', 'vezes', 'obv', 'vai', 'convencer', 'o', 'brasil', 'acreditar', 'joga', 'muito', 'super']",comparado,2
+"RT @titto_ferreira: E mais uma vez, o Arthur já foi confrontar a Jade pelo voto dela nele, O CARA NÃO ACEITA VOTO, NÃO ENTRA NO BBB!!🗣🗣 #Fo…",set(),'neutro',391,[0.12],[0.06],[0.72],[0.0],[0.09],[0.0],[0.01],"['o', 'voto', 'não', 'rt', 'e', 'mais', 'uma', 'vez', 'arthur', 'já', 'foi', 'confrontar', 'a', 'jade', 'pelo', 'dela', 'nele', 'cara', 'aceita', 'entra', 'no', 'bbb']","['o', 'voto', 'não', 'rt', 'e', 'mais', 'uma', 'vez', 'arthur', 'já', 'foi', 'confrontar', 'a', 'jade', 'pelo', 'dela', 'nele', 'cara', 'aceita', 'entra', 'no', 'bbb']",grande,2
+"RT @joniIson: 🔮 PARCIAL 00:22 #BBB22 🔮
+
+#ForaNaiara- 00.00%
+
+#ForaDouglas- 100.00%
+
+#ForaArthur- 0.00%
+
+MARGEM DE ERRO 0%
+
+2000 RTS PARA PR…",{'🔮'},'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['rt', 'parcial', 'margem', 'de', 'erro', 'rts', 'para', 'pr']","['rt', 'parcial', 'margem', 'de', 'erro', 'rts', 'para', 'pr']",votantes,2
+#BBB22 #enquetebbb #enquete #foradg #foradouglas #ForaNaiara #ForaArthur / Que BBB /Lucas / Tchau Naiara / Tchau DG… https://t.co/BJqmfpjeGC,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['tchau', 'que', 'bbb', 'lucas', 'naiara', 'dg']","['tchau', 'que', 'bbb', 'lucas', 'naiara', 'dg']",j,2
+"ESSE ARTHUR É  BANANA, PELO AMOR. VAMOS ELIMINAR ESSE BANANA QUE NÃO FALA NADA. JOGADOR É O CARAMBA. JOGA NADA ESSE… https://t.co/fidvxsPAQO",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['esse', 'é', 'banana', 'nada', 'arthur', 'pelo', 'amor', 'vamos', 'eliminar', 'que', 'não', 'fala', 'jogador', 'o', 'caramba', 'joga']","['esse', 'é', 'banana', 'nada', 'arthur', 'pelo', 'amor', 'vamos', 'eliminar', 'que', 'não', 'fala', 'jogador', 'o', 'caramba', 'joga']",errada,2
+"🔥BORA DE ENQUETE RAPAZIADA🔥
+Quem vocês querem fora do bbb??
+
+Tags: #foranaiara #foradouglas #foraarthur #bbb22 #redebbb",{'🔥'},'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['bora', 'de', 'enquete', 'rapaziada', 'quem', 'vocês', 'querem', 'fora', 'do', 'bbb', 'tags']","['bora', 'de', 'enquete', 'rapaziada', 'quem', 'vocês', 'querem', 'fora', 'do', 'bbb', 'tags']",exatamente,2
+"SE O BRASIL TÁ TRISTE, EU TÔ FELIZ ✌🏻🤣🤣🤣🤣🤝🏻
+
+MELHOR PAREDÃO FORMADO
+
+#ParedaoBBB | #RedeBBB | #bbb | #bbb22 |… https://t.co/4qcGyxypY8","{'🤝', '🤣'}",'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['se', 'o', 'brasil', 'tá', 'triste', 'eu', 'tô', 'feliz', 'melhor', 'paredão', 'formado']","['se', 'o', 'brasil', 'tá', 'triste', 'eu', 'tô', 'feliz', 'melhor', 'paredão', 'formado']",cai,2
+@RealitysVip #ForaArthur chega de machos escrotos e dissimulados ganhando BBB #BBB22,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']","['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']",entendo,2
+"Aí gente, tô cansado desse #BBB 
+O POVO só vota errado. Só isso que digo.
+E desde então #ForaArthur 
+E tá bom també… https://t.co/qVPhVyAM8b",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['só', 'e', 'aí', 'gente', 'tô', 'cansado', 'desse', 'o', 'povo', 'vota', 'errado', 'isso', 'que', 'digo', 'desde', 'então', 'tá', 'bom', 'també']","['só', 'e', 'aí', 'gente', 'tô', 'cansado', 'desse', 'o', 'povo', 'vota', 'errado', 'isso', 'que', 'digo', 'desde', 'então', 'tá', 'bom', 'també']",tiraram,2
+"Quem sai do BBB? 
+#BBB22 #foradouglas #ForaNaiara #ForaArthur",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['quem', 'sai', 'do', 'bbb']","['quem', 'sai', 'do', 'bbb']",defendendo,2
+"Quem ficar?
+Naiara
+DG
+Arthur
+Lucas / #foradouglas / nanacita / Que BBB / tuty / Naiara e Arthur / BIGBANG / Vai Nai… https://t.co/Hvy0NUISAh",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['naiara', 'arthur', 'quem', 'ficar', 'dg', 'lucas', 'nanacita', 'que', 'bbb', 'tuty', 'e', 'bigbang', 'vai', 'nai']","['naiara', 'arthur', 'quem', 'ficar', 'dg', 'lucas', 'nanacita', 'que', 'bbb', 'tuty', 'e', 'bigbang', 'vai', 'nai']",viu,2
+"Quem sai do #BBB22 ?
+ #ForaDouglas #FicaDouglas #FicaArthur #ForaArthur    #FicaNaiara #ForaNaiara
+#BBB Me: #ForaDouglas",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['quem', 'sai', 'do', 'me']","['quem', 'sai', 'do', 'me']",quanto,2
+@vaidesmaiar #ForaArthur chega de machos escrotos e dissimulados ganhando BBB #BBB22,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']","['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']",quando,2
+"RT @titto_ferreira: E mais uma vez, o Arthur já foi confrontar a Jade pelo voto dela nele, O CARA NÃO ACEITA VOTO, NÃO ENTRA NO BBB!!🗣🗣 #Fo…",set(),'neutro',391,[0.12],[0.06],[0.72],[0.0],[0.09],[0.0],[0.01],"['o', 'voto', 'não', 'rt', 'e', 'mais', 'uma', 'vez', 'arthur', 'já', 'foi', 'confrontar', 'a', 'jade', 'pelo', 'dela', 'nele', 'cara', 'aceita', 'entra', 'no', 'bbb']","['o', 'voto', 'não', 'rt', 'e', 'mais', 'uma', 'vez', 'arthur', 'já', 'foi', 'confrontar', 'a', 'jade', 'pelo', 'dela', 'nele', 'cara', 'aceita', 'entra', 'no', 'bbb']",pipoca,2
+"RT @caioo_1972: QUEM VC QUER QUE SAIA?🔥
+
+#RedeBBB #BBB22 #BigBrotherBrasil #Reality #RealityShow #Enquete #Votação #AFazenda #AFazenda14 #F…",{'🔥'},'alegria',391,[0.49],[0.12],[0.24],[0.0],[0.13],[0.0],[0.01],"['rt', 'quem', 'vc', 'quer', 'que', 'saia', 'f']","['rt', 'quem', 'vc', 'quer', 'que', 'saia', 'f']",querendo,2
+"Quem sai mores?
+
+#ForaNaiara 
+#foradouglas 
+#ForaArthur 
+#bbb22
+#bbb",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['quem', 'sai', 'mores']","['quem', 'sai', 'mores']",estava,2
+"RT @WDIVATULLALUANA: NA MINHA HUMILDE OPINIÃO #ForaArthur POR SER IRÔNICO, ÁCIDO, INTIMIDADOR... #BBB22 @bbb https://t.co/IMSsmNwNIE",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['rt', 'na', 'minha', 'humilde', 'opinião', 'por', 'ser', 'irônico', 'ácido', 'intimidador']","['rt', 'na', 'minha', 'humilde', 'opinião', 'por', 'ser', 'irônico', 'ácido', 'intimidador']",desolado,2
+"Se é o #bbb das relações, por questões de afinidade eu iria no #foraarthur  mas analisando o cenario para salvar a… https://t.co/YR1ga9A55G",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['o', 'se', 'é', 'das', 'relações', 'por', 'questões', 'de', 'afinidade', 'eu', 'iria', 'no', 'mas', 'analisando', 'cenario', 'para', 'salvar', 'a']","['o', 'se', 'é', 'das', 'relações', 'por', 'questões', 'de', 'afinidade', 'eu', 'iria', 'no', 'mas', 'analisando', 'cenario', 'para', 'salvar', 'a']",depois,2
+"QUEM VC QUER QUE SAIA?🔥
+
+#RedeBBB #BBB22 #BigBrotherBrasil #Reality #RealityShow #Enquete #Votação #AFazenda… https://t.co/6sL34MF5UG",{'🔥'},'alegria',391,[0.49],[0.12],[0.24],[0.0],[0.13],[0.0],[0.01],"['quem', 'vc', 'quer', 'que', 'saia']","['quem', 'vc', 'quer', 'que', 'saia']",scooby,2
+"Aeeeee
+Melhor paredão formado! Agora o povo q assiste vai ter q decidir se quer bbb do amor ou não! Kkkkk… https://t.co/BG0VXt9tE5",set(),'neutro',391,[0.23],[0.06],[0.46],[0.0],[0.25],[0.0],[0.01],"['q', 'aeeeee', 'melhor', 'paredão', 'formado', 'agora', 'o', 'povo', 'assiste', 'vai', 'ter', 'decidir', 'se', 'quer', 'bbb', 'do', 'amor', 'ou', 'não', 'kkkkk']","['q', 'aeeeee', 'melhor', 'paredão', 'formado', 'agora', 'o', 'povo', 'assiste', 'vai', 'ter', 'decidir', 'se', 'quer', 'bbb', 'do', 'amor', 'ou', 'não', 'kkkkk']",papel,2
+quem for #foraarthur merece esse bbb horrível,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['quem', 'for', 'merece', 'esse', 'bbb', 'horrível']","['quem', 'for', 'merece', 'esse', 'bbb', 'horrível']",moço,2
+@RealitysVip #ForaArthur chega de machos escrotos e dissimulados ganhando BBB #BBB22,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']","['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']",caiu,2
+"Paredão formado e aí, quem sai?
+
+#FicaArthur #ficadg #ficananacita #ForaArthur #foradg #foranaiara #bbb #bbb22… https://t.co/3ryZXp9NMg",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['paredão', 'formado', 'e', 'aí', 'quem', 'sai']","['paredão', 'formado', 'e', 'aí', 'quem', 'sai']",líder,2
+@choquei #ForaArthur chega de machos escrotos e dissimulados ganhando BBB #BBB22,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']","['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']",próprio,2
+"Quem deve ser eliminado?
+
+#bbb #BBB22 #foradouglas #ForaNaiaraAzevedo #ForaArthur #FicaArthur #FicaNaiara",set(),'raiva',391,[0.17],[0.04],[0.33],[0.0],[0.45],[0.0],[0.0],"['quem', 'deve', 'ser', 'eliminado']","['quem', 'deve', 'ser', 'eliminado']",teve,2
+@paiva #ForaArthur chega de machos escrotos e dissimulados ganhando BBB #BBB22,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']","['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']",sofrendo,2
+"#ForaArthur já chega, já comeu muito pão. Tá na hora do Arthur sair do BBB e voltar pra dieta.",set(),'neutro',391,[0.31],[0.07],[0.47],[0.0],[0.13],[0.0],[0.01],"['já', 'do', 'chega', 'comeu', 'muito', 'pão', 'tá', 'na', 'hora', 'arthur', 'sair', 'bbb', 'e', 'voltar', 'pra', 'dieta']","['já', 'do', 'chega', 'comeu', 'muito', 'pão', 'tá', 'na', 'hora', 'arthur', 'sair', 'bbb', 'e', 'voltar', 'pra', 'dieta']",bullying,2
+"RT @WDIVATULLALUANA: NA MINHA HUMILDE OPINIÃO #ForaArthur POR SER IRÔNICO, ÁCIDO, INTIMIDADOR... #BBB22 @bbb https://t.co/IMSsmNwNIE",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['rt', 'na', 'minha', 'humilde', 'opinião', 'por', 'ser', 'irônico', 'ácido', 'intimidador']","['rt', 'na', 'minha', 'humilde', 'opinião', 'por', 'ser', 'irônico', 'ácido', 'intimidador']",kkkkkkkk,2
+"NA MINHA HUMILDE OPINIÃO #ForaArthur POR SER IRÔNICO, ÁCIDO, INTIMIDADOR... #BBB22 @bbb https://t.co/IMSsmNwNIE",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['na', 'minha', 'humilde', 'opinião', 'por', 'ser', 'irônico', 'ácido', 'intimidador']","['na', 'minha', 'humilde', 'opinião', 'por', 'ser', 'irônico', 'ácido', 'intimidador']",computado,2
+@bbb #ForaArthur,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],[],[],estratégico,2
+A Jade sai como errada e o Arthur só pensa no próprio nariz e sai certo VAI TOMAR NO CU!!! #bbb22 #bbb #ForaArthur,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['sai', 'e', 'no', 'a', 'jade', 'como', 'errada', 'o', 'arthur', 'só', 'pensa', 'próprio', 'nariz', 'certo', 'vai', 'tomar', 'cu']","['sai', 'e', 'no', 'a', 'jade', 'como', 'errada', 'o', 'arthur', 'só', 'pensa', 'próprio', 'nariz', 'certo', 'vai', 'tomar', 'cu']",avisado,2
+"E mais uma vez, o Arthur já foi confrontar a Jade pelo voto dela nele, O CARA NÃO ACEITA VOTO, NÃO ENTRA NO BBB!!🗣🗣… https://t.co/svbjzVpqga",set(),'neutro',391,[0.12],[0.06],[0.72],[0.0],[0.09],[0.0],[0.01],"['o', 'voto', 'não', 'e', 'mais', 'uma', 'vez', 'arthur', 'já', 'foi', 'confrontar', 'a', 'jade', 'pelo', 'dela', 'nele', 'cara', 'aceita', 'entra', 'no', 'bbb']","['o', 'voto', 'não', 'e', 'mais', 'uma', 'vez', 'arthur', 'já', 'foi', 'confrontar', 'a', 'jade', 'pelo', 'dela', 'nele', 'cara', 'aceita', 'entra', 'no', 'bbb']",pros,2
+"🔮 PARCIAL 00:22 #BBB22 🔮
+
+#ForaNaiara- 00.00%
+
+#ForaDouglas- 100.00%
+
+#ForaArthur- 0.00%
+
+MARGEM DE ERRO 0%
+
+2000 R… https://t.co/Uj4LzUqTvV",{'🔮'},'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['parcial', 'margem', 'de', 'erro', 'r']","['parcial', 'margem', 'de', 'erro', 'r']",aďms,2
+@bbb #foradouglas com força #ForaArthur  tbm mamacita fica com louvor as comadres são td #BBB22,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['com', 'força', 'tbm', 'mamacita', 'fica', 'louvor', 'as', 'comadres', 'são', 'td']","['com', 'força', 'tbm', 'mamacita', 'fica', 'louvor', 'as', 'comadres', 'são', 'td']",ganharam,2
+@bbb #ForaArthur chega de machos escrotos e dissimulados ganhando BBB #BBB22,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']","['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']",m,2
+@bbb #ForaArthur ✓✓,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],[],[],elege,2
+"Como essa enquete nunca erra, vamos com a pergunta:
+Quem sai nesse paredão?
+#BBB22 #ForaNaiaraAzevedo #foradg… https://t.co/plZcEGpReK",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['como', 'essa', 'enquete', 'nunca', 'erra', 'vamos', 'com', 'a', 'pergunta', 'quem', 'sai', 'nesse', 'paredão']","['como', 'essa', 'enquete', 'nunca', 'erra', 'vamos', 'com', 'a', 'pergunta', 'quem', 'sai', 'nesse', 'paredão']",pronto,2
+"#ForaArthur 👊🏽
+@bbb em Setor Leste Universitario https://t.co/UViADXGX0D",{'👊'},'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['em', 'setor', 'leste', 'universitario']","['em', 'setor', 'leste', 'universitario']",volta,2
+"O melhor paredão até agora. Que seja!
+
+Arthur pedindo satisfação pra Jade. #ForaArthur você não me engana!
+
+#bbb #bbb22",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['o', 'melhor', 'paredão', 'até', 'agora', 'que', 'seja', 'arthur', 'pedindo', 'satisfação', 'pra', 'jade', 'você', 'não', 'me', 'engana']","['o', 'melhor', 'paredão', 'até', 'agora', 'que', 'seja', 'arthur', 'pedindo', 'satisfação', 'pra', 'jade', 'você', 'não', 'me', 'engana']",dedo,2
+Quem sai? #BBB #Big22 #bbb22 #ForaNaiara #ForaArthur #ForaDouglas,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['quem', 'sai']","['quem', 'sai']",merece,2
+votar no gshow eu não voto declaro minha torcida no twitter e é essa minha participação #BBB #BBB22 #FORAArthur,set(),'alegria',391,[0.47],[0.07],[0.32],[0.0],[0.13],[0.0],[0.01],"['no', 'minha', 'votar', 'gshow', 'eu', 'não', 'voto', 'declaro', 'torcida', 'twitter', 'e', 'é', 'essa', 'participação']","['no', 'minha', 'votar', 'gshow', 'eu', 'não', 'voto', 'declaro', 'torcida', 'twitter', 'e', 'é', 'essa', 'participação']",sei,2
+"#ForaDouglas ou #ForaArthur um misto de tanto faz 🖐🏻 bye bye 
+#ParedaoBBB  #BBB #RedeBBB",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['bye', 'ou', 'um', 'misto', 'de', 'tanto', 'faz']","['bye', 'ou', 'um', 'misto', 'de', 'tanto', 'faz']",edição,2
+@bbb @neosaldina #ForaArthur,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],[],[],sabe,2
+"3º PAREDÃO FORMADO !!! Quem você quer que seja eliminado do bbb? Arthur Aguiar , Douglas ou Naiara Azevedo ?… https://t.co/bdG0uKtntC",set(),'neutro',391,[0.26],[0.06],[0.52],[0.0],[0.14],[0.0],[0.01],"['paredão', 'formado', 'quem', 'você', 'quer', 'que', 'seja', 'eliminado', 'do', 'bbb', 'arthur', 'aguiar', 'douglas', 'ou', 'naiara', 'azevedo']","['paredão', 'formado', 'quem', 'você', 'quer', 'que', 'seja', 'eliminado', 'do', 'bbb', 'arthur', 'aguiar', 'douglas', 'ou', 'naiara', 'azevedo']",silva,2
+@NazareAmarga #ForaArthur chega de machos escrotos e dissimulados ganhando BBB #BBB22,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']","['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']",sigam,2
+"Paredão formado, quem é o próximo eliminado ??? @bbb #BBB22 #RedeBBB 
+
+#ForaArthur #ForaDouglas #ForaNaiara… https://t.co/gf5mEEQAVf",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['paredão', 'formado', 'quem', 'é', 'o', 'próximo', 'eliminado']","['paredão', 'formado', 'quem', 'é', 'o', 'próximo', 'eliminado']",qual,2
+Quem deve deixar a casa do #BBB na próxima terça? #ForaArthur #ForaDouglas #ForaNaiara #BigBrotherBrasil… https://t.co/HMt28YCbDU,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['quem', 'deve', 'deixar', 'a', 'casa', 'do', 'na', 'próxima', 'terça']","['quem', 'deve', 'deixar', 'a', 'casa', 'do', 'na', 'próxima', 'terça']",levar,2
+Td mundo é #ForaArthur né? #RedeBBB #BBB #BBB22,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['td', 'mundo', 'é', 'né']","['td', 'mundo', 'é', 'né']",chifre,2
+@_larabcunha eu queria que Arthur saísse #ForaArthur #saiarthur #bbb #bbb22,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['eu', 'queria', 'que', 'arthur', 'saísse']","['eu', 'queria', 'que', 'arthur', 'saísse']",vendo,2
+"Quem você quer eliminar nesse #ParedaoBBB ?
+Arthur , Douglas , Naiara Azevedo ?
+
+Esse BBB Lucas Nanacita Que BBB 20… https://t.co/7fRrhRm7Jh",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['bbb', 'quem', 'você', 'quer', 'eliminar', 'nesse', 'arthur', 'douglas', 'naiara', 'azevedo', 'esse', 'lucas', 'nanacita', 'que']","['bbb', 'quem', 'você', 'quer', 'eliminar', 'nesse', 'arthur', 'douglas', 'naiara', 'azevedo', 'esse', 'lucas', 'nanacita', 'que']",jogador,2
+"RT @dribittencour: Uiiii delícia, agora vou votar com goXto pro Arthur sair 😂 #foradouglas #ForaNaiara #ForaArthur  #ParedaoBBB #bbb22 #bbb…",{'😂'},'alegria',391,[0.53],[0.06],[0.26],[0.0],[0.14],[0.0],[0.01],"['rt', 'uiiii', 'delícia', 'agora', 'vou', 'votar', 'com', 'goxto', 'pro', 'arthur', 'sair']","['rt', 'uiiii', 'delícia', 'agora', 'vou', 'votar', 'com', 'goxto', 'pro', 'arthur', 'sair']",ganha,2
+"Quem você quer que saia do #BBB22?
+
+#RedeBBB #BBB
+#ForaArthur #ForaDouglas #ForaNaiara",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['quem', 'você', 'quer', 'que', 'saia', 'do']","['quem', 'você', 'quer', 'que', 'saia', 'do']",maria,2
+"Entre um homem ""padrão"" que traiu a esposa 16 vezes e um ""preto"" que é excelente pai e esposo, adivinha qual o Bras… https://t.co/ngLzTyEWw4",set(),'raiva',391,[0.08],[0.07],[0.08],[0.0],[0.75],[0.0],[0.01],"['um', 'que', 'e', 'entre', 'homem', 'padrão', 'traiu', 'a', 'esposa', 'vezes', 'preto', 'é', 'excelente', 'pai', 'esposo', 'adivinha', 'qual', 'o', 'bras']","['um', 'que', 'e', 'entre', 'homem', 'padrão', 'traiu', 'a', 'esposa', 'vezes', 'preto', 'é', 'excelente', 'pai', 'esposo', 'adivinha', 'qual', 'o', 'bras']",lá,2
+"PAREDÃO FORMADO!
+ARTHUR, DOUGLAS E NAIARA.
+
+QUE VOCÊ QUER QUE SAIA?
+
+#ParedaoBBB #ForaNaiaraAzevedo #ForaNaiara… https://t.co/heojtpN6dx",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['que', 'paredão', 'formado', 'arthur', 'douglas', 'e', 'naiara', 'você', 'quer', 'saia']","['que', 'paredão', 'formado', 'arthur', 'douglas', 'e', 'naiara', 'você', 'quer', 'saia']",próximo,2
+"Ainda sou #foradouglas e #ForaArthur qualquer um deles que saia, no problem #RedeBBB #BBB22 @bbb",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['ainda', 'sou', 'e', 'qualquer', 'um', 'deles', 'que', 'saia', 'no', 'problem']","['ainda', 'sou', 'e', 'qualquer', 'um', 'deles', 'que', 'saia', 'no', 'problem']",fui,2
+Quem sai?? #BBB22 | Errou | BURRA | #ParedaoBBB | #FicaArthur | Nanacita | Lucas | Que bbb | MARIA JADE | NEM JUDAS… https://t.co/sJFPs1QNIi,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['quem', 'sai', 'errou', 'burra', 'nanacita', 'lucas', 'que', 'bbb', 'maria', 'jade', 'nem', 'judas']","['quem', 'sai', 'errou', 'burra', 'nanacita', 'lucas', 'que', 'bbb', 'maria', 'jade', 'nem', 'judas']",eliminaria,2
+Eai gente? #BBB22 #ForaNaiara #foradouglas #ForaArthur #BBB,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['eai', 'gente']","['eai', 'gente']",falando,2
+@RealitysVip #ForaArthur chega de machos escrotos e dissimulados ganhando BBB #BBB22,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']","['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']",bem,2
+"Uiiii delícia, agora vou votar com goXto pro Arthur sair 😂 #foradouglas #ForaNaiara #ForaArthur  #ParedaoBBB #bbb22 #bbb2022 #bbb",{'😂'},'alegria',391,[0.53],[0.06],[0.26],[0.0],[0.14],[0.0],[0.01],"['uiiii', 'delícia', 'agora', 'vou', 'votar', 'com', 'goxto', 'pro', 'arthur', 'sair']","['uiiii', 'delícia', 'agora', 'vou', 'votar', 'com', 'goxto', 'pro', 'arthur', 'sair']",ficar,2
+@felipeneto #ForaArthur chega de machos escrotos e dissimulados ganhando BBB #BBB22,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']","['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']",amo,2
+@RobertaNFer Eu vou de #ForaDG pq sei que Arthur tá com um monte de perfil que comenta BBB fazendo campanha a favor… https://t.co/exEBBi3d37,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['de', 'que', 'eu', 'vou', 'pq', 'sei', 'arthur', 'tá', 'com', 'um', 'monte', 'perfil', 'comenta', 'bbb', 'fazendo', 'campanha', 'a', 'favor']","['de', 'que', 'eu', 'vou', 'pq', 'sei', 'arthur', 'tá', 'com', 'um', 'monte', 'perfil', 'comenta', 'bbb', 'fazendo', 'campanha', 'a', 'favor']",boa,2
+"Cadelinha da Elizabeth Taylor tupiniquim! #jadepicao  #jadepicon
+
+ um paredão tanto faz.. mas por vingança,… https://t.co/XGqL2PrT0L",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['cadelinha', 'da', 'elizabeth', 'taylor', 'tupiniquim', 'um', 'paredão', 'tanto', 'faz', 'mas', 'por', 'vingança']","['cadelinha', 'da', 'elizabeth', 'taylor', 'tupiniquim', 'um', 'paredão', 'tanto', 'faz', 'mas', 'por', 'vingança']",personagem,2
+"Minha única razão nesse BBB é a Bru. Então SEMPRE irei votar com o critério do que seria melhor pra Brunna.
+
+Então #ForaArthur",set(),'neutro',391,[0.26],[0.06],[0.52],[0.0],[0.14],[0.0],[0.01],"['então', 'minha', 'única', 'razão', 'nesse', 'bbb', 'é', 'a', 'bru', 'sempre', 'irei', 'votar', 'com', 'o', 'critério', 'do', 'que', 'seria', 'melhor', 'pra', 'brunna']","['então', 'minha', 'única', 'razão', 'nesse', 'bbb', 'é', 'a', 'bru', 'sempre', 'irei', 'votar', 'com', 'o', 'critério', 'do', 'que', 'seria', 'melhor', 'pra', 'brunna']",maluco,2
+"Lucas se salvou.
+E agora, quem você  deseja eliminar do jogo?
+#enquetebbb #enquetebbb22 #BBB22 #BBB #votobbb… https://t.co/mgleCwAkTj",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['lucas', 'se', 'salvou', 'e', 'agora', 'quem', 'você', 'deseja', 'eliminar', 'do', 'jogo']","['lucas', 'se', 'salvou', 'e', 'agora', 'quem', 'você', 'deseja', 'eliminar', 'do', 'jogo']",dança,2
+@bbb #ForaArthur mal humorado,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['mal', 'humorado']","['mal', 'humorado']",estranha,2
+e vamos de enquete para o paredão do bbb vocês são o que? #ForaDouglas #ForaArthur ou #ForaNaiara ?,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['o', 'e', 'vamos', 'de', 'enquete', 'para', 'paredão', 'do', 'bbb', 'vocês', 'são', 'que', 'ou']","['o', 'e', 'vamos', 'de', 'enquete', 'para', 'paredão', 'do', 'bbb', 'vocês', 'são', 'que', 'ou']",pras,2
+@vaidesmaiar #ForaArthur chega de machos escrotos e dissimulados ganhando BBB #BBB22,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']","['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']",legoso,2
+"RT @OMMaatheus: #ForaArthur ou #ForaDouglas ??? 
+#BBB",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['rt', 'ou']","['rt', 'ou']",pão,2
+@bbb #FORADOUGLAS #FORAARTHUR,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],[],[],cegos,2
+#ForaArthur logoooo #bbb #bbb22 #RedeBBB,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],['logoooo'],['logoooo'],uol,2
+"✨ 3° PAREDÃO ✨
+
+❌ QUEM DEVE SAIR? ❌
+
+ARTHUR ✖️ DOUGLAS ✖️ NAIARA 
+
+#ForaArthur
+#ForaDouglas 
+#ForaNaiara 
+
+#BBB… https://t.co/4KjOowcARk","{'❌', '✨', '✖️'}",'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['paredão', 'quem', 'deve', 'sair', 'arthur', 'douglas', 'naiara']","['paredão', 'quem', 'deve', 'sair', 'arthur', 'douglas', 'naiara']",semana,2
+"Agora sim, temos um paredão digno de BBB... Só camarote!!
+#ParedaoBBB 
+#ForaArthur",set(),'neutro',391,[0.26],[0.06],[0.52],[0.0],[0.14],[0.0],[0.01],"['agora', 'sim', 'temos', 'um', 'paredão', 'digno', 'de', 'bbb', 'só', 'camarote']","['agora', 'sim', 'temos', 'um', 'paredão', 'digno', 'de', 'bbb', 'só', 'camarote']",merda,2
+"Caraca, só faltou o Tiago Abravanel para ser perfeito rsrsrsrsrs
+Se poder sair os dois aí, Arthur e DG agradeço!!!… https://t.co/O873Mlc5Jk",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['caraca', 'só', 'faltou', 'o', 'tiago', 'abravanel', 'para', 'ser', 'perfeito', 'rsrsrsrsrs', 'se', 'poder', 'sair', 'os', 'dois', 'aí', 'arthur', 'e', 'dg', 'agradeço']","['caraca', 'só', 'faltou', 'o', 'tiago', 'abravanel', 'para', 'ser', 'perfeito', 'rsrsrsrsrs', 'se', 'poder', 'sair', 'os', 'dois', 'aí', 'arthur', 'e', 'dg', 'agradeço']",obrigação,2
+@bbb #ForaArthur,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],[],[],judas,2
+#foraDG #foradouglas #bbb22 #bbb ou #ForaArthur,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],['ou'],['ou'],gosto,2
+@anapaularenault #ForaArthur chega de machos escrotos e dissimulados ganhando BBB #BBB22,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']","['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']",eliminam,2
+"🧱 3° PAREDÃO 🧱
+
+❌ QUEM DEVE SAIR? ❌
+
+ARTHUR ✖️ DOUGLAS ✖️ NAIARA 
+
+#ForaArthur
+#ForaDouglas 
+#ForaNaiara 
+
+#BBB… https://t.co/dEAb35T7w6","{'❌', '🧱', '✖️'}",'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['paredão', 'quem', 'deve', 'sair', 'arthur', 'douglas', 'naiara']","['paredão', 'quem', 'deve', 'sair', 'arthur', 'douglas', 'naiara']",pedindo,2
+"Enquete BBB 2022: Arthur, Naiara ou Douglas? Quem sai no terceiro paredão? #ForaDouglas #ForaArthur ou #ForaNaiara?… https://t.co/O23KN1nruU",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['ou', 'enquete', 'bbb', 'arthur', 'naiara', 'douglas', 'quem', 'sai', 'no', 'terceiro', 'paredão']","['ou', 'enquete', 'bbb', 'arthur', 'naiara', 'douglas', 'quem', 'sai', 'no', 'terceiro', 'paredão']",mundo,2
+"#ForaArthur ou #ForaDouglas ??? 
+#BBB",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],['ou'],['ou'],feliz,2
+"#ForaArthur vem levar tua mijada da Maira aqui fora. 
+
+#bbb #RedeBBB #BBB22",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['vem', 'levar', 'tua', 'mijada', 'da', 'maira', 'aqui', 'fora']","['vem', 'levar', 'tua', 'mijada', 'da', 'maira', 'aqui', 'fora']",força,2
+@crisayonara #ForaArthur chega de machos escrotos e dissimulados ganhando BBB #BBB22,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']","['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']",td,2
+"Então vamos de #ForaArthur né? 
+Sim (☑️)
+Com certeza (☑️) 
+
+🤷🏽‍♀️😁
+
+Finalmente um paredão do camarote 😜🤩
+
+#BBB22 #BBB222 #BBB #GloboPlay","{'🤷', '😁', '♀️', '☑️', '🤩', '😜'}",'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['então', 'vamos', 'de', 'né', 'sim', 'com', 'certeza', 'finalmente', 'um', 'paredão', 'do', 'camarote']","['então', 'vamos', 'de', 'né', 'sim', 'com', 'certeza', 'finalmente', 'um', 'paredão', 'do', 'camarote']",uiiii,2
+"Quem vocês eliminam: 
+
+#BBB #RedeBBB #BBB22 #enquetebbb #eliminacaobbb #ForaArthur #ForaDouglas #ForaNaiara",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['quem', 'vocês', 'eliminam']","['quem', 'vocês', 'eliminam']",delícia,2
+@VictorGiron32 @Ver_memes_ @Casimiro #ForaArthur chega de machos escrotos e dissimulados ganhando BBB #BBB22,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']","['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']",goxto,2
+Amei três camarotes no BBB e eu sou #foradouglas e #ForaArthur https://t.co/OonvcPUlGa,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['e', 'amei', 'três', 'camarotes', 'no', 'bbb', 'eu', 'sou']","['e', 'amei', 'três', 'camarotes', 'no', 'bbb', 'eu', 'sou']",tiago,2
+"Quem sai nesse paredão?
+
+#bbb22 #teamdouglas #TeamArthur #TeamNaiara #foradouglas #foraarthur #foranaiara #bbb",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['quem', 'sai', 'nesse', 'paredão']","['quem', 'sai', 'nesse', 'paredão']",dois,2
+@Ver_memes_ @Casimiro #ForaArthur chega de machos escrotos e dissimulados ganhando BBB #BBB22,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']","['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']",finalmente,2
+"Finalmente teremos um camarote eliminado 
+
+#bbb #bbb22 #ForaArthur",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['finalmente', 'teremos', 'um', 'camarote', 'eliminado']","['finalmente', 'teremos', 'um', 'camarote', 'eliminado']",três,2
+"Quem deve ser eliminado? #BBB22 #foradg
+#foranaiara #foraarthur #FicaArthur #FicaNaiara #FicaDg #BBB",set(),'raiva',391,[0.17],[0.04],[0.33],[0.0],[0.45],[0.0],[0.0],"['quem', 'deve', 'ser', 'eliminado']","['quem', 'deve', 'ser', 'eliminado']",camarotes,2
+O paredão que eu queriaaaa só os camarotes e os três que eu não gosto nesse bbb mesmo #foradouglas #ForaNaiara #ForaArthur,set(),'neutro',391,[0.26],[0.06],[0.52],[0.0],[0.14],[0.0],[0.01],"['que', 'eu', 'os', 'o', 'paredão', 'queriaaaa', 'só', 'camarotes', 'e', 'três', 'não', 'gosto', 'nesse', 'bbb', 'mesmo']","['que', 'eu', 'os', 'o', 'paredão', 'queriaaaa', 'só', 'camarotes', 'e', 'três', 'não', 'gosto', 'nesse', 'bbb', 'mesmo']",era,2
+"RT @emaltao: A mesma cara que convenceu a mulher perdoa ele 16 vezes, obv que vai convencer o Brasil a acreditar que ele joga muito, super…",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['a', 'que', 'ele', 'rt', 'mesma', 'cara', 'convenceu', 'mulher', 'perdoa', 'vezes', 'obv', 'vai', 'convencer', 'o', 'brasil', 'acreditar', 'joga', 'muito', 'super']","['a', 'que', 'ele', 'rt', 'mesma', 'cara', 'convenceu', 'mulher', 'perdoa', 'vezes', 'obv', 'vai', 'convencer', 'o', 'brasil', 'acreditar', 'joga', 'muito', 'super']",puxando,2
+Agora é #ForaArthur com força mano! Não era nem pra ter entrado aí 🤙🏻 #bbb #BigBrotherBrasil #bigbrother,{'🤙'},'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['agora', 'é', 'com', 'força', 'mano', 'não', 'era', 'nem', 'pra', 'ter', 'entrado', 'aí']","['agora', 'é', 'com', 'força', 'mano', 'não', 'era', 'nem', 'pra', 'ter', 'entrado', 'aí']",mutirão,2
+"Envelheceu como leite, só não azedou mais que edição do BBB e vamos de #ForaArthur https://t.co/pOS4RM0pwQ",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['envelheceu', 'como', 'leite', 'só', 'não', 'azedou', 'mais', 'que', 'edição', 'do', 'bbb', 'e', 'vamos', 'de']","['envelheceu', 'como', 'leite', 'só', 'não', 'azedou', 'mais', 'que', 'edição', 'do', 'bbb', 'e', 'vamos', 'de']",entendi,2
+Quem sai? #Redebbb #bbb22 #bbb #ForaDouglas #ForaNaiara #ForaArthur,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['quem', 'sai']","['quem', 'sai']",gosta,2
+uuuuuuu 🔥 no parque de diversões desse bbb #ForaArthur https://t.co/gQfQOzWlDv,{'🔥'},'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['uuuuuuu', 'no', 'parque', 'de', 'diversões', 'desse', 'bbb']","['uuuuuuu', 'no', 'parque', 'de', 'diversões', 'desse', 'bbb']",saiu,2
+"Que BBB! Vocês imaginavam este #ParedãoBBB?
+
+Terceiro paredão do #BBB22 formado por @Aguiarthur, @Silva_DG e… https://t.co/x3aXG6bbOC",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['que', 'bbb', 'vocês', 'imaginavam', 'este', 'terceiro', 'paredão', 'do', 'formado', 'por', 'e']","['que', 'bbb', 'vocês', 'imaginavam', 'este', 'terceiro', 'paredão', 'do', 'formado', 'por', 'e']",deita,2
+RT @TVEOmbudsman: Quero ver a torcida da @jadepicon votando em peso em #ForaArthur e o @LeoPicon puxando mutirão #ForaArthur #BBB #BBB22,set(),'neutro',391,[0.11],[0.03],[0.67],[0.0],[0.18],[0.0],[0.01],"['em', 'rt', 'quero', 'ver', 'a', 'torcida', 'da', 'votando', 'peso', 'e', 'o', 'puxando', 'mutirão']","['em', 'rt', 'quero', 'ver', 'a', 'torcida', 'da', 'votando', 'peso', 'e', 'o', 'puxando', 'mutirão']",relevante,2
+#ForaArthur #BBB22 #BBB,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],[],[],esperar,2
+O mesmo momento que vocês idolatram uma pessoa vocês matam ela!! Vocês são de uma hipocrisia imensa!!!! #bbb22 #bbb #foraarthur,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['vocês', 'uma', 'o', 'mesmo', 'momento', 'que', 'idolatram', 'pessoa', 'matam', 'ela', 'são', 'de', 'hipocrisia', 'imensa']","['vocês', 'uma', 'o', 'mesmo', 'momento', 'que', 'idolatram', 'pessoa', 'matam', 'ela', 'são', 'de', 'hipocrisia', 'imensa']",te,2
+"RT @Falabbb_22: Não entendi porque o povo gosta do Arthur ele na casa do saiu da deita, agora de relevante não fez nada! #BBB22 #bbb #ForaA…",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['não', 'do', 'rt', 'entendi', 'porque', 'o', 'povo', 'gosta', 'arthur', 'ele', 'na', 'casa', 'saiu', 'da', 'deita', 'agora', 'de', 'relevante', 'fez', 'nada']","['não', 'do', 'rt', 'entendi', 'porque', 'o', 'povo', 'gosta', 'arthur', 'ele', 'na', 'casa', 'saiu', 'da', 'deita', 'agora', 'de', 'relevante', 'fez', 'nada']",sua,2
+"A mesma cara que convenceu a mulher perdoa ele 16 vezes, obv que vai convencer o Brasil a acreditar que ele joga mu… https://t.co/WZMLsslEGW",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['a', 'que', 'ele', 'mesma', 'cara', 'convenceu', 'mulher', 'perdoa', 'vezes', 'obv', 'vai', 'convencer', 'o', 'brasil', 'acreditar', 'joga', 'mu']","['a', 'que', 'ele', 'mesma', 'cara', 'convenceu', 'mulher', 'perdoa', 'vezes', 'obv', 'vai', 'convencer', 'o', 'brasil', 'acreditar', 'joga', 'mu']",continua,2
+@Suenny64875198 #ForaArthur chega de machos escrotos e dissimulados ganhando BBB #BBB22,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']","['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']",espumando,2
+"Não entendi porque o povo gosta do Arthur ele na casa do saiu da deita, agora de relevante não fez nada! #BBB22 #bbb #ForaArthur",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['não', 'do', 'entendi', 'porque', 'o', 'povo', 'gosta', 'arthur', 'ele', 'na', 'casa', 'saiu', 'da', 'deita', 'agora', 'de', 'relevante', 'fez', 'nada']","['não', 'do', 'entendi', 'porque', 'o', 'povo', 'gosta', 'arthur', 'ele', 'na', 'casa', 'saiu', 'da', 'deita', 'agora', 'de', 'relevante', 'fez', 'nada']",retardada,2
+@a_camibrito #ForaArthur chega de machos escrotos e dissimulados ganhando BBB #BBB22,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']","['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']",passar,2
+@comentatati #ForaArthur chega de machos escrotos e dissimulados ganhando BBB #BBB22,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']","['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']",pano,2
+@Viibridgerton #ForaArthur chega de machos escrotos e dissimulados ganhando BBB #BBB22,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']","['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']",pode,2
+@thatbasicgirrl #ForaArthur chega de machos escrotos e dissimulados ganhando BBB #BBB22,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']","['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']",veio,2
+@robelaurindo1 #ForaArthur chega de machos escrotos e dissimulados ganhando BBB #BBB22,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']","['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']",quiz,2
+@marigraciolli #ForaArthur chega de machos escrotos e dissimulados ganhando BBB #BBB22,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']","['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']",fingido,2
+@vinicomentx #ForaArthur chega de machos escrotos e dissimulados ganhando BBB #BBB22,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']","['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']",atuando,2
+@PortalBoninho #ForaArthur chega de machos escrotos e dissimulados ganhando BBB #BBB22,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']","['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']",vida,2
+@parciaisnow #ForaArthur chega de machos escrotos e dissimulados ganhando BBB #BBB22,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']","['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']",cachorrão,1
+@brucaixeiro #ForaArthur chega de machos escrotos e dissimulados ganhando BBB #BBB22,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']","['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']",reclama,1
+@JadreMoments #ForaArthur chega de machos escrotos e dissimulados ganhando BBB #BBB22,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']","['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']",limbo,1
+@cumlua #ForaArthur chega de machos escrotos e dissimulados ganhando BBB #BBB22,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']","['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']",hein,1
+@eujessicaaaaaaa #ForaArthur chega de machos escrotos e dissimulados ganhando BBB #BBB22,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']","['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']",slc,1
+@sophispops #ForaArthur chega de machos escrotos e dissimulados ganhando BBB #BBB22,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']","['chega', 'de', 'machos', 'escrotos', 'e', 'dissimulados', 'ganhando', 'bbb']",agrega,1
+@bbb #foraarthur,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],[],[],perseguir,1
+"Quem são ? #foraarthur 
+@bbb",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['quem', 'são']","['quem', 'são']",pensou,1
+@bbb Adorei agora é só esperar abrir votação !!! #foraarthur,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['adorei', 'agora', 'é', 'só', 'esperar', 'abrir', 'votação']","['adorei', 'agora', 'é', 'só', 'esperar', 'abrir', 'votação']",transar,1
+Quem você eliminaria? #ForaNaiara #ForaDouglas #ForaLucas #ForaArthur #BBB #BBB22 #paredao #vote #redebbb #rt,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['quem', 'você', 'eliminaria']","['quem', 'você', 'eliminaria']",aline,1
+"#FORAARTHUR chato, só fica de cara feia, paranoico, protegido da coach gordofobica 
+
+#BBB #BBB22",set(),'neutro',391,[0.13],[0.03],[0.76],[0.0],[0.07],[0.0],[0.0],"['chato', 'só', 'fica', 'de', 'cara', 'feia', 'paranoico', 'protegido', 'da', 'coach', 'gordofobica']","['chato', 'só', 'fica', 'de', 'cara', 'feia', 'paranoico', 'protegido', 'da', 'coach', 'gordofobica']",barros,1
+#BBB22 #FORAARTHUR #FORATIAGO FALSOS!!! #FICALUCAS O ÚNICO QUE TEVE CORAGEM DE VOTAR NESSE FALSO DO TIAGO!!! https://t.co/4lmuYHURBj,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['falsos', 'o', 'único', 'que', 'teve', 'coragem', 'de', 'votar', 'nesse', 'falso', 'do', 'tiago']","['falsos', 'o', 'único', 'que', 'teve', 'coragem', 'de', 'votar', 'nesse', 'falso', 'do', 'tiago']",cantando,1
+"@crvgviick Eu te bloquear? Sua vergonha é a minha alegria, continua espumando que eu quero mais 🤣🤣🤣🤣#ForaArthur… https://t.co/IwbcJ7OEY1",{'🤣'},'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['eu', 'te', 'bloquear', 'sua', 'vergonha', 'é', 'a', 'minha', 'alegria', 'continua', 'espumando', 'que', 'quero', 'mais']","['eu', 'te', 'bloquear', 'sua', 'vergonha', 'é', 'a', 'minha', 'alegria', 'continua', 'espumando', 'que', 'quero', 'mais']",remove,1
+"@crvgviick Não espuma retarda 
+#ForaArthur #BBB #BBB22 #jogodadiscordia #CATBBB #RedeBBB #Redebbb22 #ProvaDoLider… https://t.co/IHrOGplZrm",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['não', 'espuma', 'retarda']","['não', 'espuma', 'retarda']",pedraaaaaaaa,1
+"@crvgviick E continua espumando a retardada, tá perdendo tempo aqui, vai lá passar pano pra macho escroto 🤣🤣🤣🤣… https://t.co/juJxt88XgE",{'🤣'},'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['e', 'continua', 'espumando', 'a', 'retardada', 'tá', 'perdendo', 'tempo', 'aqui', 'vai', 'lá', 'passar', 'pano', 'pra', 'macho', 'escroto']","['e', 'continua', 'espumando', 'a', 'retardada', 'tá', 'perdendo', 'tempo', 'aqui', 'vai', 'lá', 'passar', 'pano', 'pra', 'macho', 'escroto']",chama,1
+"DG e Arthur no paredão 🤣🤣🤣
+Não pode sair os dois? 
+#ForaDG #ForaDouglas #ForaArthur #BBB #BBB22 #jogodadiscordia… https://t.co/eGlZfsl8v1",{'🤣'},'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['dg', 'e', 'arthur', 'no', 'paredão', 'não', 'pode', 'sair', 'os', 'dois']","['dg', 'e', 'arthur', 'no', 'paredão', 'não', 'pode', 'sair', 'os', 'dois']",embora,1
+"@crvgviick Veio falar merda aqui pq quiz 😘😘😘
+#ForaArthur #BBB #BBB22 #jogodadiscordia #CATBBB #RedeBBB #Redebbb22… https://t.co/OjAiebfYGK",{'😘'},'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['veio', 'falar', 'merda', 'aqui', 'pq', 'quiz']","['veio', 'falar', 'merda', 'aqui', 'pq', 'quiz']",caso,1
+"@crvgviick Veio no meu twitter por que quiz retardada, vai passar pano pra macho escroto, fingido e atuando no seu… https://t.co/yjwIN0M6YQ",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['no', 'veio', 'meu', 'twitter', 'por', 'que', 'quiz', 'retardada', 'vai', 'passar', 'pano', 'pra', 'macho', 'escroto', 'fingido', 'e', 'atuando', 'seu']","['no', 'veio', 'meu', 'twitter', 'por', 'que', 'quiz', 'retardada', 'vai', 'passar', 'pano', 'pra', 'macho', 'escroto', 'fingido', 'e', 'atuando', 'seu']",idade,1
+#ForaArthur sou justo tiraram o Rodrigo só porque ele era Pipoca! #BBB22 #RedeBBB @bbb @boninho @tvglobo,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['sou', 'justo', 'tiraram', 'o', 'rodrigo', 'só', 'porque', 'ele', 'era', 'pipoca']","['sou', 'justo', 'tiraram', 'o', 'rodrigo', 'só', 'porque', 'ele', 'era', 'pipoca']",sexualidade,1
+"Torcida do @LucasBissoli_ @jadepicon em peso #ForaArthur 
+
+#ForaArthur #BBB #BBB22 #jogodadiscordia #CATBBB… https://t.co/YfLhx8BEIY",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['torcida', 'do', 'em', 'peso']","['torcida', 'do', 'em', 'peso']",signo,1
+@bbb Eu ameeeeei! #ForaArthur #ForaArthur #ForaArthur,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['eu', 'ameeeeei']","['eu', 'ameeeeei']",crush,1
+"Que elenco ridículo! #Vergonhoso 
+#ForaArthur #BBB #BBB22 #jogodadiscordia #CATBBB #RedeBBB #Redebbb22… https://t.co/oMrJKBVPjo",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['que', 'elenco', 'ridículo']","['que', 'elenco', 'ridículo']",amigo,1
+"Um Arthur na sua vida otária, te traindo e atuando por 16x
+#ForaArthur #BBB #BBB22 #jogodadiscordia #CATBBB… https://t.co/cjjWZSruEz",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['um', 'arthur', 'na', 'sua', 'vida', 'otária', 'te', 'traindo', 'e', 'atuando', 'por']","['um', 'arthur', 'na', 'sua', 'vida', 'otária', 'te', 'traindo', 'e', 'atuando', 'por']",t,1
+@bbb #ForaArthur,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],[],[],amiga,1
+@bbb Tira o ator global fingido #foraarthur,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['tira', 'o', 'ator', 'global', 'fingido']","['tira', 'o', 'ator', 'global', 'fingido']",música,1
+#foraArthur https://t.co/SM6CFsukYy,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],[],[],fav,1
+@bbb #ForaArthur puro personagem e o povo tudo comprando,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['puro', 'personagem', 'e', 'o', 'povo', 'tudo', 'comprando']","['puro', 'personagem', 'e', 'o', 'povo', 'tudo', 'comprando']",u,1
+Quero ver a torcida da @jadepicon votando em peso em #ForaArthur e o @LeoPicon puxando mutirão #ForaArthur #BBB #BBB22,set(),'neutro',391,[0.11],[0.03],[0.67],[0.0],[0.18],[0.0],[0.01],"['em', 'quero', 'ver', 'a', 'torcida', 'da', 'votando', 'peso', 'e', 'o', 'puxando', 'mutirão']","['em', 'quero', 'ver', 'a', 'torcida', 'da', 'votando', 'peso', 'e', 'o', 'puxando', 'mutirão']",cor,1
+Quem tá feliz com essa distância de Jade e Arthur é Mayra Cardi #BBB #BBB22 #FORAarthur,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['quem', 'tá', 'feliz', 'com', 'essa', 'distância', 'de', 'jade', 'e', 'arthur', 'é', 'mayra', 'cardi']","['quem', 'tá', 'feliz', 'com', 'essa', 'distância', 'de', 'jade', 'e', 'arthur', 'é', 'mayra', 'cardi']",favori,1
+"Como atual bem o Arthur, não?! (contém ironias) 😴
+
+#ForaArthur #BBB #BBB22",{'😴'},'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['como', 'atual', 'bem', 'o', 'arthur', 'não', 'contém', 'ironias']","['como', 'atual', 'bem', 'o', 'arthur', 'não', 'contém', 'ironias']",acham,1
+Jade indica Arthur direto pro Paredão! #ForaArthur #BBB #BBB22,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['jade', 'indica', 'arthur', 'direto', 'pro', 'paredão']","['jade', 'indica', 'arthur', 'direto', 'pro', 'paredão']",sente,1
+Já pode votar para o Arthur sair? #ForaArthur #BBB22 #BBB,set(),'alegria',391,[0.53],[0.06],[0.26],[0.0],[0.14],[0.0],[0.01],"['já', 'pode', 'votar', 'para', 'o', 'arthur', 'sair']","['já', 'pode', 'votar', 'para', 'o', 'arthur', 'sair']",traído,1
+"Vou nem esperar finalizar, #FORAARTHUR kkkkkkk #bbb #bbb22",set(),'neutro',391,[0.21],[0.05],[0.62],[0.0],[0.11],[0.0],[0.01],"['vou', 'nem', 'esperar', 'finalizar', 'kkkkkkk']","['vou', 'nem', 'esperar', 'finalizar', 'kkkkkkk']",imaginem,1
+"@Nathlia36759018 @1gor_h Ahhhhhh coitadinho 
+#ForaArthur #BBB #BBB22 #jogodadiscordia #CATBBB #RedeBBB #Redebbb22… https://t.co/vXMzvovLG9",set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],"['ahhhhhh', 'coitadinho']","['ahhhhhh', 'coitadinho']",fosse,1
+"Arthur Aguiar 😴
+#BBB #BBB22 #ForaArthur",{'😴'},'neutro',391,[0.26],[0.06],[0.52],[0.0],[0.14],[0.0],[0.01],"['arthur', 'aguiar']","['arthur', 'aguiar']",trair,1
+@boninho FAZ ALGUMA COISA EU QUERO E PRECISO DO BBB PARA ME ALIENAR SE NÃO FICO LOUCA COM A MINHA VIDA DE BOSTA #BbB22 O Boninho #ForaArthur,set(),'neutro',391,[0.16],[0.07],[0.63],[0.0],[0.12],[0.0],[0.01],"['faz', 'alguma', 'coisa', 'eu', 'quero', 'e', 'preciso', 'do', 'bbb', 'para', 'me', 'alienar', 'se', 'não', 'fico', 'louca', 'com', 'a', 'minha', 'vida', 'de', 'bosta', 'o', 'boninho']","['faz', 'alguma', 'coisa', 'eu', 'quero', 'e', 'preciso', 'do', 'bbb', 'para', 'me', 'alienar', 'se', 'não', 'fico', 'louca', 'com', 'a', 'minha', 'vida', 'de', 'bosta', 'o', 'boninho']",pub,1
+@raytuitou https://t.co/x7VgSKFOok    #ForaArthur,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],[],[],tava,1
+@PauloComenta_ @raytuitou https://t.co/x7VgSKocZK  #ForaArthur  #BBB22,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],[],[],assistir,1
+@Tuka_r @raytuitou https://t.co/x7VgSKGmdS  #ForaArthur,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],[],[],povoooo,1
+https://t.co/x7VgSKFOok  #ForaArthur  #BBB22,set(),'alegria',391,[0.41],[0.05],[0.39],[0.0],[0.15],[0.0],[0.0],[],[],ninguem,1

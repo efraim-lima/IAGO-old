@@ -39,6 +39,7 @@ def theme(link):
         config.inChrome()
 
         theme_in = []
+        tweets = []
 
         channel_name = []
         names = driver.find_elements(
@@ -52,7 +53,8 @@ def theme(link):
                 '#text'
             )
             names = names.text
-            YT_Category = YT_Category
+            tweet_path = f'./content/{YT_Category}/tweets/{YT_Category}.csv'
+            tweets.append(tweet_path)
             theme_in.append(YT_Category)
             name = channel_name.append(processing.processing(names))
 
@@ -89,12 +91,13 @@ def theme(link):
         config.quit()
 
         theme_data = []
-        for YT_Category, name, subscribers, videos, URL in zip(
+        for YT_Category, name, subscribers, videos, URL, tweet_path in zip(
             theme_in,
             channel_name,
             channel_subs,
             channel_videos,
-            channel_URL
+            channel_URL,
+            tweets
         ):
             theme_data.append(
                 {
@@ -102,13 +105,14 @@ def theme(link):
                 'Channel': name,
                 'Inscritos':subscribers,
                 'Videos': videos,
-                'Ch_URL': URL
+                'Ch_URL': URL,
+                'Tweets_Path': tweet_path
             }
             )
 
         df = pd.DataFrame(theme_data)
+        df = df.to_json()
         
         driver.quit()
 
-        saving.theme(YT_Category, df)
-        return YT_Category, df
+        return df

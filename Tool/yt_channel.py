@@ -5,7 +5,7 @@ import datetime
 import saving
 from selenium.webdriver.common.by import By
 
-def channel(theme, df, *args, **kwargs):
+def channel(df, *args, **kwargs):
     #if not os.path.exists(f'{theme}/{theme}.csv'):
     #    import yt_theme
     #    yt_theme(theme)
@@ -35,6 +35,8 @@ def channel(theme, df, *args, **kwargs):
 
             config.inChrome()
 
+            theme = df['Category'].iloc[0]
+            
             theme_in = []
             for i in links:
                 theme_in.append(theme)
@@ -129,7 +131,7 @@ def channel(theme, df, *args, **kwargs):
                     )
             #print(channels)
 
-            df = pd.DataFrame(channels)
+            df = pd.DataFrame.to_json(channels)
             print(df)
             saving.channel(theme, df, name)
             
@@ -137,6 +139,6 @@ def channel(theme, df, *args, **kwargs):
             #     break
             # if link < len(links):
             driver.quit()
-        return theme, df, name
+        return df
             
 #channel('pastel', pd.read_csv('/home/efraim/Documentos/IAGO/IAGO/pastel/pastel.csv'))

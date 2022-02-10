@@ -15,8 +15,9 @@ access_token = '226815872-rWfczDtae2MtXb2xcEyGJGHxmnF2PyGuFJsG5tcg'
 access_token_secret = 'PsbJWgfeEuVutQUGgcXUvWoCoYKdJ6hfoU9YKyBplBKHx'
 
 from TwitterSearch import *
-def tweet_anal():
-    #try:
+
+def tweet_anal(name):
+    try:
         ts = TwitterSearch(
             consumer_key = consumer_key,
             consumer_secret = consumer_secret,
@@ -24,14 +25,13 @@ def tweet_anal():
             access_token_secret = access_token_secret
         )
         now = datetime.datetime.now().isoformat(timespec='hours')
-        name = input('Nome da busca: ')
         arroba = 'Aguiarthur'
         tso = TwitterSearchOrder()
         tso.set_keywords([f'{name}', f'BBB'], or_operator = False)
         # tso.set_language('pt')
         tso.set_since(datetime.date.today())
         # tso.set_since(datetime.date(2021,12,15))
-        # tso.set_until(datetime.date.today())
+        #tso.set_until(datetime.date.today())
         # tso.set_result_type('mixed') #{mixed, recent, popular}
         # tso.set_positive_attitude_filter() #atitudes positivas --- opcional
         # tso.set_negative_attitude_filter() #atitudes negativas --- opcional
@@ -66,7 +66,7 @@ def tweet_anal():
             # whatFeels.append(sentiment)
             # Emoji.append(emoji)
             i+=1
-            
+           
             if i > 6000:
                 break
             
@@ -80,17 +80,21 @@ def tweet_anal():
                 'Source': source,
                 'Profile Photo': photo_profile,
                 })
-        df = pd.DataFrame(Posts)
+        df = pd.DataFrame.to_json(Posts)
         name += f'{now}'
         #saving.tweet(name, df)
         
         print (df)
         df2 = df['Tweet']
-        sentiment.fillings(df2)
+        names, df, name = sentiment.fillings(name, df2)
+        df = df.to_json()
         return df
             #dataframe = dataframe.append(text)
             #print(text)
             
-    # except TwitterSearchException as e:
-    #     print(e)
-tweet_anal()
+    except TwitterSearchException as e:
+        print(e)
+# tweet_anal()
+
+# name = input('Nome da busca: ')
+# tweet_anal(name)

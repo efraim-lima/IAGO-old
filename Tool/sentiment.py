@@ -99,6 +99,13 @@ def Preprocessing(instancia):
 tweets = [Preprocessing(i) for i in tweets]
 #print(tweets)
 
+def Preprocessing2(instancia):
+    stemmer = nltk.stem.RSLPStemmer()
+    instancia = re.sub(r"http\S+", "", instancia).lower().replace('.','').replace(';','').replace('-','').replace(':','').replace(')','')
+    stopwords = set(nltk.corpus.stopwords.words('portuguese'))
+    palavras = [i for i in instancia.split() if not i in stopwords]
+    return (" ".join(palavras))
+
 frase = 'A live do @blogminerando é show! :) :-) ;) =D'
 from nltk.tokenize import word_tokenize
 from nltk.tokenize import TweetTokenizer
@@ -132,7 +139,7 @@ def countWords(df):
   flat_list = ' '.join([str(elem) for elem in flat_list])
   flat_list = nltk.word_tokenize(flat_list)
   flat_list = [flat_list.lower() for flat_list in flat_list if flat_list.isalpha()]
-  #flat_list = [Preprocessing(i) for i in flat_list]
+  flat_list = [Preprocessing2(i) for i in flat_list]
   frequent_ = nltk.FreqDist(flat_list)
   for key in frequent_:
     key2 = f'{frequent_[key]}'
@@ -145,7 +152,7 @@ def countWords(df):
   return container2, container3, size
 
 
-def fillings(df, *args, **kwargs):
+def fillings(name, df, *args, **kwargs):
   testes1 = df.values.tolist()
   #testes1 = str(testes1)
   testes = [Preprocessing(teste) for teste in testes1]
@@ -201,7 +208,7 @@ def fillings(df, *args, **kwargs):
     # print (t +", "+ c)
 
   now = datetime.datetime.now().isoformat(timespec='minutes')
-  names = f'SentimentAnalisysBBB{now}'
+  names = f'sentiment_{name}_{now}'
   df = pd.DataFrame(whatSays)
   df2 = df['Frequencias']
   
@@ -213,8 +220,6 @@ def fillings(df, *args, **kwargs):
       'Words': item1,
       'Frequency': item2
     })
-    
-
   
   df2 = pd.DataFrame(frequencias)
   df = df.reset_index(drop=True)
@@ -224,8 +229,8 @@ def fillings(df, *args, **kwargs):
   
   saving.tweet(names, df)
   print(f'\n\n{names}\n\n')
-  quickstart.main(names, df)
-  return names, df
+  #quickstart.main(names, df)
+  return names, df, name
 
 
 
@@ -277,10 +282,10 @@ resultados = cross_val_predict(pipeline_simples, tweets, classes, cv=10)
 metrics.accuracy_score(classes,resultados)
 
 sentimento=['Positivo','Negativo','Neutro']
-print (metrics.classification_report(classes,resultados)) #removi sentimento
+# print (metrics.classification_report(classes,resultados)) #removi sentimento
 
 Tabii = pd.crosstab(classes, resultados, rownames=['Real'], colnames=['Predito'], margins=True)
-print(Tabii)
+# print(Tabii)
 
 def Metricas(modelo, tweets, classes):
   resultados = cross_val_predict(modelo, tweets, classes, cv=10)
@@ -306,13 +311,13 @@ resultados = cross_val_predict(pipeline_negacoes, tweets, classes, cv=10)
 metrics.accuracy_score(classes,resultados)
 
 sentimento=['Positivo','Negativo','Neutro']
-print (metrics.classification_report(classes,resultados)) #removi sentimento
+# print (metrics.classification_report(classes,resultados)) #removi sentimento
 
 
 ###################################### Matriz de Confusão ###########################################################
 
 matrix = pd.crosstab(classes, resultados, rownames=['Real'], colnames=['Predito'], margins=True)
-print(matrix)
+# print(matrix)
 
 # Bigrams
 vectorizer = CountVectorizer(ngram_range=(2,2))
@@ -324,7 +329,7 @@ resultados = cross_val_predict(modelo, freq_tweets, classes, cv=10)
 metrics.accuracy_score(classes,resultados)
 sentimento=['Positivo','Negativo','Neutro']
 metricas = metrics.classification_report(classes,resultados) #removi sentimento
-print(metricas)
+# print(metricas)
 
 
 # df4 = pd.read_csv('./content/tweets/Arthur 2022-01-14 18:44:09.416726/Arthur 2022-01-14 18:44:09.416726.csv')
