@@ -1,13 +1,13 @@
 # from celery.app import autoretry
 # sudo apt-get install rabbitmq-server
-import layout
+# sudo apt install redis-server
 from celery import Celery
 import yt_theme
 import yt_channel
 import twitter
 import trends
 import saving
-import go_SearchQuery
+import google
 from celery.contrib import rdb
 # import yt_video
 
@@ -16,7 +16,9 @@ from celery.contrib import rdb
 
 app = Celery(
     'tasks',
-    broker = 'amqp://guest@localhost//'
+    broker = 'redis://localhost:6379/0'
+    # broker = 'pyamqp://guest@localhost//',
+    # backend = 'amqp://guest@localhost//'
 )
 
 @app.task(
@@ -25,7 +27,7 @@ app = Celery(
     retry_backoff = 2,
     autoretry_for=(TypeError, Exception)
           )
-def take(self, name, *args, **kwargs):
+def themeGe(self, name, *args, **kwargs):
     self.request.retries
     # name = layout.call()
     try:
@@ -44,11 +46,11 @@ def take(self, name, *args, **kwargs):
     retry_backoff = 2,
     autoretry_for=(TypeError, Exception)
           )
-def search(self,theme, *args, **kwargs):
+def google(self,theme, *args, **kwargs):
     self.request.retries
     #name = layout.call()
     try:
-        searchDf = go_SearchQuery.search(theme)
+        searchDf = google.search(theme)
     except:    
         self.retry()
     # rdb.set_trace()
@@ -60,7 +62,7 @@ def search(self,theme, *args, **kwargs):
     retry_backoff = 2,
     autoretry_for=(TypeError, Exception)
     )
-def take_tweet(self, theme, *args, **kwargs):
+def tweet(self, theme, *args, **kwargs):
     ttDf = twitter.tweet_anal(theme)
     self.retry()
     return ttDf
@@ -83,7 +85,7 @@ def trending(self, theme, *args, **kwargs):
     #TimeoutException = 'selenium.common.exceptions.TimeoutException: Message: Connection refused (os error 111)',
     autoretry_for=(TypeError, Exception)
     )
-def take_theme(self, df, *args, **kwargs):
+def channelYt(self, df, *args, **kwargs):
     theme1, chDf, ch = yt_channel.channel(df)
     self.retry()
     # rdb.set_trace()
@@ -97,11 +99,7 @@ def take_theme(self, df, *args, **kwargs):
     autoretry_for=(TypeError, Exception)
     )
 def saving(self, theme, df, ttDf, dataset, *args, **kwargs):
-    df = df.reset_index(drop=True)
-    df2 = ttDf.reset_index(drop=True)
-    df = df.join(df2)
-    df = df.join(dataset)
-    df = df.loc[:,~df.columns.duplicated()]
+    
     saving.theme(theme, df)
     self.retry()
     # rdb.set_trace()

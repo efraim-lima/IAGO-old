@@ -111,7 +111,15 @@ def theme(link):
             )
 
         df = pd.DataFrame(theme_data)
+        print(f'''
+              
+              
+              DF_theme
+              {df}
+              
+              ''')
         df = df.to_json()
+        
         
         driver.quit()
 
